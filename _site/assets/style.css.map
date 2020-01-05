@@ -3,11 +3,11 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_theme-black.scss",
-		"../../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_variables.scss",
-		"../../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_base.scss",
-		"../../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_components.scss",
-		"../../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_utilities.scss"
+		"../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_theme-black.scss",
+		"../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_variables.scss",
+		"../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_base.scss",
+		"../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_components.scss",
+		"../../../.rvm/gems/ruby-2.6.4/gems/jekyll-swiss-1.0.0/_sass/_utilities.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n// Import partials from `sass_dir` and set theme here\n@import\n        \"theme-black.scss\"\n;\n",
