@@ -1,0 +1,13 @@
+I"7<p><code class="highlighter-rouge">{r, echo=FALSE, include=FALSE, warning=FALSE}
+knitr::opts_chunk$set(out.extra = 'class="plot"')
+library(dplyr)
+library(ggplot2)
+library(caret)
+library(stringr)
+library(tidyverse)
+library(quanteda)
+library(syuzhet)
+library(kableExtra)
+source("miniProjFunctions.R")
+</code></p>
+:ET
