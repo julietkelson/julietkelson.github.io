@@ -12,7 +12,7 @@ Want to know more about me?
 
 **I am a(n):**
 
-Dog mom. Chicagoan. Data nerd. Computer Science student. Musician. Barista. Bad hockey player. Twin. Event coordinator. Doodler. Portuguese instructor. Coffee drinker. Tea drinker. Math lover. Voter. Enjoyer of well-designed graphs and plots. Detailed thinker. 
+[Dog mom](https://www.instagram.com/bigheadroshi/). Chicagoan. Data nerd. Computer Science student. [Musician](http://thekelsontwins.com/). Barista. [Bad hockey player](https://www.instagram.com/macwomenshockey/). Twin. [Event coordinator](https://themacweekly.com/75980/news/naming-hate-to-tackle-education-awareness-and-action/). Doodler. Portuguese instructor. Coffee drinker. Tea drinker. Math lover. Voter. Enjoyer of well-designed graphs and plots. Detailed thinker. 
 <br><br>
 
 **I aspire to:**
