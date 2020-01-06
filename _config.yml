@@ -21,9 +21,7 @@
 title: Juliet Kelson
 email: kelsonjuliet@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://julietkelson.github.io/
 github_username:  julietkelson
@@ -32,6 +30,8 @@ github_username:  julietkelson
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
+
+permalink: /:categories/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
