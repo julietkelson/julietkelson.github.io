@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DropIn: Web-based Major Planning</title>
+  <meta name="description" content="DropInA web-application that provides a visual interface to help students and advisors plan a major, representing the courses and prerequisite logic as a dir...">
+
+  
+  
+  <link rel="stylesheet" href="http://localhost:4000/assets/style.css">
+
+  <link rel="canonical" href="http://localhost:4000/from%20class/dropin/">
+  <link rel="alternate" type="application/rss+xml" title="Juliet Kelson" href="http://localhost:4000/feed.xml">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="border-bottom-thick px-2 clearfix">
+  <div class="left sm-width-full py-1 mt-1 mt-lg-0">
+    <a class="align-middle link-primary text-accent" href="/">
+      Juliet Kelson
+    </a>
+  </div>
+  <div class="right sm-width-full">
+    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+      
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/about/">
+            About
+          </a>
+        </li>
+        
+      
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/projects/">
+            Projects
+          </a>
+        </li>
+        
+      
+        
+        <li class="inline-block">
+          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/resume/">
+            Resume
+          </a>
+        </li>
+        
+      
+        
+      
+        
+      
+    </ul>
+  </div>
+</header>
+
+
+    <div>
+      <article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">DropIn: Web-based Major Planning</h1>
+  <div class="col-4 sm-width-full mt-1 border-top-thin ">
+    <p class="mb-3 py-2 bold h4"><time datetime="2019-05-08T14:07:47-05:00" itemprop="datePublished">May 8, 2019</time></p>
+  </div>
+
+  <div class="prose" itemprop="articleBody">
+      <h1 id="dropin"><a href="https://kevin-shin.github.io/DropIn/">DropIn</a></h1>
+<h4 id="a-web-application-that-provides-a-visual-interface-to-help-students-and-advisors-plan-a-major-representing-the-courses-and-prerequisite-logic-as-a-directed-graph">A web-application that provides a visual interface to help students and advisors plan a major, representing the courses and prerequisite logic as a directed graph.</h4>
+
+<p>Authors: Kevin Shin, Juliet Kelson, Saloni Daga, David Barrette</p>
+
+<p><strong>Project Statement</strong>: Planning a major is one of the universal, central experiences of every college student, and requires a serious amount of planning and advising. Currently, information sources at Macalester are scattered across course catalogs, websites on the major structure/requirements, distribution requirements, and personal scheduling information.</p>
+
+<p>DropIn provides a user-friendly interface in which these information sources are consolidated into one platform, with the aim of demystifying the process and allowing the user to focus on their personal preferences and considerations. Information about courses is provided alongside a planning grid, and prerequisite classes are automatically populated onto the graph, so the user can visually analyze the commitments of enrolling in a given class. Additionally, a requirements panel is provided to help the user track which requirements they have yet to fulfill.</p>
+
+<h3 id="set-up">Set Up</h3>
+
+<p><strong>Option 1:</strong> Visit https://kevin-shin.github.io/DropIn/</p>
+
+<p><strong>Option 2:</strong> In order to access the web-application directly on your computer, clone this repository using your favorite IDE or by simply typing <code class="highlighter-rouge">git clone [url]</code> in the terminal. Then, run the <code class="highlighter-rouge">index.html</code> file using your IDE. This should create a <code class="highlighter-rouge">localhost</code> that compiles the HTML and runs the application. All necessary libraries are included and linked from inside the repository, or accessed by a CDN.</p>
+
+<h3 id="main-usagefunctionality">Main Usage/Functionality</h3>
+
+<ol>
+  <li>Click on a course to read description.</li>
+  <li>Drag available courses to semester columns where pre-requisites will pop up with arrows following course logic.</li>
+  <li>Delete/Mark as Taken/Mark as UnTaken: Delete/ Mark as taken/un-taken selected courses.</li>
+  <li>Align: Align graph to center courses in semester bins.</li>
+  <li>Requirements Panel indicates missing requirements, and alerts user when graph consists of a full major.</li>
+</ol>
+
+<h3 id="code-architecture">Code Architecture</h3>
+
+<p>The project follows a MVC model, in which user-events trigger data-manipulations which then update the View. Our insight into the problem was to create an intermediary step between the Model and View called the “ViewModel”, which translates user profile data into a convenient format which is readily drawn as a directed graph structure. To give an overview of the process, let’s suppose that a user drags COMP221 from the top-status bar into the graph. Then, the following events are launched:</p>
+<ol>
+  <li>A depth-first search algorithm is run through a catalog, finding all courses that are prerequisites of COMP221, as well as their own prerequisites.</li>
+  <li>Each of these courses are pushed onto a Profile (if not present already), an array of objects representing courses with a status (e.g. <code class="highlighter-rouge">{course: COMP340, status: "taken"}</code>). The original dragged course is pushed with the dropped (x,y) coordinates of the mouse, and prerequisites are given random y values within the graph and x values left of the original (x,y).</li>
+  <li>Algorithms recalculate several features from this new profile. These include information like the courses not taken (available for dragging) and which courses will fulfill which major requirements. Additionally, the profile is used to generate an array of connections between the nodes of the profile, which in our View, will represent a directed arrow from a prerequisite to a course.</li>
+  <li>These model elements are drawn into the UI (courses as nodes, connections as arrows, updated requirements panel).</li>
+</ol>
+
+<p>In general, each user-event triggers some kind of corresponding data-manipulation, thus this pipeline enables us to simply match UI behaviors to the appropriate model algorithms. Additional work is done to make sure these data outputs are successfully able to render the view, but these methods are designed to take arbitrary ViewModels and display them on the screen, and can (and should be) reused and recalled.</p>
+
+<h3 id="libraries">Libraries</h3>
+<ul>
+  <li><a href="https://jquery.com/">jQuery/jQueryUI</a></li>
+  <li><a href="https://jsplumbtoolkit.com/">jsPlumb</a></li>
+  <li><a href="https://d3js.org/">D3.js</a></li>
+  <li><a href="https://github.com/tweenjs/tween.js/">Tween.js</a></li>
+</ul>
+
+<h3 id="tests">Tests</h3>
+<p>To run tests the following steps are necessary:</p>
+<ol>
+  <li>In most files in the “js” directory, there are two types of import statements.  They look like the following:</li>
+</ol>
+
+<ul>
+  <li><code class="highlighter-rouge">import {courseCatalog} from "./prereq_dictionary.js";</code></li>
+  <li><code class="highlighter-rouge">const courseCatalog = require("./prereq_dictionary.js");</code></li>
+</ul>
+
+<p>Comment out <em>all</em> import statements of the <em>first</em> type and uncomment <em>all</em> import statements of the <em>second</em> type.</p>
+
+<p>This will allow Jest to read the import statements.</p>
+
+<ol>
+  <li>Similarly, there are two types of export statements in the same directories:
+    <ul>
+      <li><code class="highlighter-rouge">export {dfs};</code></li>
+      <li><code class="highlighter-rouge">module.exports = dfs;</code></li>
+    </ul>
+  </li>
+</ol>
+
+<p>Comment out <em>all</em> export statements of the <em>first</em> type and uncomment <em>all</em> export statements of the <em>second</em> type.</p>
+
+<p>This will allow Jest to read the export statements.</p>
+
+<ol>
+  <li>Go to the <code class="highlighter-rouge">__tests__ </code>directory in the terminal and run <code class="highlighter-rouge">npm run test</code> to run all tests.</li>
+</ol>
+
+<p>To run a specific test, run <code class="highlighter-rouge">npm run test fileName.test.js</code></p>
+
+<h3 id="future-work">Future Work</h3>
+<ol>
+  <li>Expand to incorporate other majors.</li>
+  <li>Scrape major data from web so as to not have to manually log courses and when they are offered.</li>
+  <li>Incorporate Gen-Ed/Distribution requirements.</li>
+  <li>Allow user to store different plans.</li>
+  <li>Allow user to export major plan in a concise, tabular format.</li>
+  <li>Accomodate exceptions to courses, overrides from professors, etc.</li>
+</ol>
+
+<h3 id="known-bugsissues-missing-features-and-reflections-on-decisions">Known Bugs/Issues, Missing Features, and Reflections on Decisions</h3>
+<ol>
+  <li>CSS features were adapted and tested for a limited number of screens. Sizing and placement of HTML elements may appear different on different screens.</li>
+  <li>Currently, positioning algorithms do not respect whether courses cross.</li>
+  <li>Most UI elements are available across browsers, but may appear different.</li>
+  <li>Currently, positionInitialCourses() is hard-coded in terms of screen location, and based on the specific courses in the comp-major. An immediate next step in achieving Future Work Goal #1 (listed above) would be to remove instances of both hard-coding CSS (to allow for various screen widths to have consistently proportional sizing) and the reliance on course-name identification (so arbitrary courses of any major can still be meaningfully organized).</li>
+  <li>Test suite incomplete–unit tests of some data manipulation algorithms should be implemented in the near future.</li>
+  <li>Full major algorithm does not incorporate a check that some class is a Capstone course, as stated by the Computer Science Major rules. This may vary year by year, but a true “check” of the major should incorporate this feature as well.</li>
+  <li>Some visual information has been left semantically ambiguous–for instance, there is no clear way to differentiate between MATH and COMP courses without clicking and viewing the description.</li>
+</ol>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>This project was completed as the main coursework for COMP225 (Software Design and Development), taught by Paul Cantrell in Spring 2019. We are incredibly grateful for his guidance throughout every step of the process!</p>
+
+
+  </div>
+
+</article>
+
+<div class="container mx-auto px-2 py-2 clearfix">
+  <!-- Use if you want to show previous and next for all posts. -->
+
+
+
+  
+  <div class="col-4 sm-width-full left mt-3">
+    <a class="no-underline border-top-thin py-1 block" href="http://localhost:4000/from%20class/airbnb-price-predicting/">
+      <span class="h5 bold text-accent">Next</span>
+      <p class="bold h3 link-primary mb-1">Predicting Airbnb Price</p>
+      <p>Mini-Project 1 Prompt The ultimate goal of your analysis will be to build a predictive model of price and to...</p>
+    </a>
+  </div>
+
+
+</div>
+
+    </div>
+
+    <div class="border-top-thin clearfix mt-2 mt-lg-4">
+  <div class="container mx-auto px-2">
+    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/julietkelson">julietkelson</a></p>
+    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
+      <li class="inline-block mr-1">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="Juliet Kelson">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li class="inline-block">
+        <a class="github-button" href="https://github.com/julietkelson/" data-icon="octicon-star" data-count-href="julietkelson//stargazers" data-count-api="/repos/julietkelson/#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star julietkelson/ on GitHub">Star</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
