@@ -1,4 +1,4 @@
-I"Þ<h2 id="education-and-skills">EDUCATION AND SKILLS</h2>
+I"0<h2 id="education-and-skills">EDUCATION AND SKILLS</h2>
 <hr />
 <h4 id="macalester-college-st-paul-mn"><a href="https://www.macalester.edu/"><strong>Macalester College</strong></a>, St. Paul, MN</h4>
 <div>
@@ -7,13 +7,6 @@
     <b>Minor:</b> Data Science/Data Driven Journalism<br />
     <b>Current GPA:</b> 3.88
 </div>
-
-<!-- #### Languages
-<div>
-    English<br>
-    Spanish<br>
-    Portuguese
-</div> -->
 
 <h4 id="programming-skills-and-languages">Programming Skills and Languages</h4>
 
@@ -24,13 +17,16 @@
         Machine Learning<br />
         Data Modeling<br />
         Data Visualization<br />
-        Data Analytics
+        Data Analytics<br />
+        DBMS
     </td>
     <td>
         Python<br />
         Java<br />
         R<br />
         SQL<br />
+        Ruby<br />
+        Swift
     </td>
     <td>
         English (Native)<br />
@@ -41,6 +37,15 @@
  </tr>
 </table>
 <p><br /></p>
+
+<h4 id="relevant-courses">Relevant Courses</h4>
+<table border="0">
+ <tr>
+    <td>
+[Algorithm Design/Analysis](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=111712), [Core Concepts in Computer Science](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=111708), Object Oriented Programming and Data Structures, [Software Design and Development](https://catalog.macalester.edu/preview_course_nopop.php?catoid=19&amp;coid=103370), [Statistical Modeling](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=112590), Programming Languages, [Introduction to Database Management Systems](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=111718),  [Discrete Mathematics](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=112587), [Theory of Computation](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=111715), [Computer Systems Organization](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=111714), [Interactive Computer Graphics](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=113700), [Statistical Machine Learning](https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&amp;coid=112595), Data Storytelling (in progress), Causal Inference (in progress)
+    </td>
+ </tr>
+</table>
 
 <h2 id="internships">INTERNSHIPS</h2>
 <hr />

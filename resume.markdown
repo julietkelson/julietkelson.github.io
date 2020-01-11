@@ -13,12 +13,6 @@ permalink: /resume/
     <b>Current GPA:</b> 3.88
 </div>
 
-<!-- #### Languages
-<div>
-    English<br>
-    Spanish<br>
-    Portuguese
-</div> -->
 
 #### Programming Skills and Languages
 
@@ -29,19 +23,48 @@ permalink: /resume/
         Machine Learning<br>
         Data Modeling<br>
         Data Visualization<br>
-        Data Analytics
+        Data Analytics<br>
+        DBMS
     </td>
     <td>
         Python<br>
         Java<br>
         R<br>
         SQL<br>
+        Ruby<br>
+        Swift
     </td>
     <td>
         English (Native)<br>
         Spanish (Fluent)<br>
         Portuguese (Fluent) <br>
         French (Basic)
+    </td>
+ </tr>
+</table>
+<br>
+
+#### Relevant Courses
+<table border="0">
+ <tr>
+    <td>
+        <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=111712"> Algorithm Design/Analysis</a> <br>
+        <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=111708">Core Concepts in Computer Science</a><br>
+        Object Oriented Programming and Data Structures<br>
+        <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=19&coid=103370">Software Design and Development</a><br>
+        Programming Languages<br>
+        <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=111715">Theory of Computation</a><br>
+        <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=111714">Computer Systems Organization</a><br>
+        <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=113700">Interactive Computer Graphics</a><br>
+</td>
+<td>
+    <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=112590">Statistical Modeling</a><br>
+    <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=111718">Introduction to Database Management Systems</a><br>
+    <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=112587">Discrete Mathematics</a><br>
+    <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=112595">
+    Statistical Machine Learning</a><br>
+    Data Storytelling (in progress)<br>
+    Causal Inference (in progress)
     </td>
  </tr>
 </table>
