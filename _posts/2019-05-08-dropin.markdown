@@ -4,6 +4,7 @@ title:  "DropIn: Web-based Major Planning"
 date:   2019-05-08 13:07:47 -0600
 categories: 
   - From Class
+  - From My Brain
 ---
 
 
