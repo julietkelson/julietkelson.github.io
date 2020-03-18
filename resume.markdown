@@ -112,26 +112,27 @@ permalink: /resume/
  <br>
 </div>
 
-### Portuguese Lab Instructor, Macalester College
-<div>
-<i> September 2018 - Present</i> <br>
-● Teach required supplemental classes on Portuguese grammar  <br>
-● Hold office hours for Portuguese students
- <br>
-</div>
 
 ### Shift Supervisor, Caribou Coffee
 <div>
 <i> November 2016 - Present</i> 
 </div>
 
+### Portuguese Lab Instructor, Macalester College
+<div>
+<i> September 2018 - December 2019</i> <br>
+● Teach required supplemental classes on Portuguese grammar  <br>
+● Hold office hours for Portuguese students
+ <br>
+</div>
 
 ### Small Business Owner and Manager, The Kelson Twins Band
 <div>
-<i> 2012 - Present</i> <br>
+<i> 2012 - 2020</i> <br>
 ● Product Creation: Created T-shirts, tote bags, tank tops, and stickers for the band<br>
 ● Sales & Marketing: Marketed and sold products online and at venues. Promoted
 and booked the band in multiple cities including Chicago, Nashville, and Appleton <br>
 ● Fundraising: Raised over $10,000 through crowdfunding to produce and distribute an album <br>
 ● Bookkeeping & Administration: Responsible for financial and day-to-day operations
 </div>
+
