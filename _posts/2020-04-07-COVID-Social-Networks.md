@@ -16,16 +16,16 @@ Some things that changed this week:
 
 - Gillian and I returned to my house.  I returned (semi) permanently.
 - Gillian left my house to drive to her home in North Carolina.
-- Sam adopted a puppy who, like us, pees inside, but unlike us, pees on the floor.
+- Sam adopted a puppy, Diego, who, like us, pees inside, but unlike us, pees on the floor.
 - The temperature reached 70º.
 - My sheets.
 - For two days, not my clothes.
 - Sam turned 22.
 - I turned 22 and 7/12ths.
 
-Mostly, the things that changed around me and about me were the people I was/am living with and the ways I communicated. When quarantine began, I stayed with Gillian for about two weeks.  In part because I wanted to, and in part because I had to.  Being immunocompromised during coronavirus means I have to be extra careful. Considering that some of my regular roommates were still working and we all share a single toilet, I thought it best to stay away until they were two weeks out of work.
+Mostly, the things that changed around me and about me were the people I was/am living with and the ways we communicated. When quarantine began, I stayed with Gillian for about two weeks.  In part because I wanted to, and in part because I had to.  Being immunocompromised during coronavirus means I have to be extra careful. Considering that some of my regular roommates were still working and we all share a single toilet, I thought it best to stay away until they were two weeks out of work.
 
-So, I stayed with Gillian. Until COVID brought more surprises. Two people came in from out of town and needed a place to isolate for two weeks before returning to society because that's the world we live in now. Coincidentally, Gillian's friend was moving out of her apartment for a bit, opening up a room with two people who had also been quarantining for two weeks. So the transition started.
+So, I stayed with Gillian. Until COVID brought more surprises. Two people came in from out of town and needed a place to isolate for two weeks before returning to society because that's the world we live in now. Coincidentally, Gillian's friend was moving out of her apartment for a bit, opening up a room in an apartment with two people who had also been quarantining for two weeks. So the transition started.
 
 ```
 Apartment 1:
@@ -47,16 +47,23 @@ Finally, when all of my roommates had been out of work for two weeks and Paige n
 
 ```
 Apartment 1:
-Gillian & Juliet -> Anael & Elyse
+Gillian & Juliet -> 
+Anael & Elyse
 
 Apartment 2:
-Paige, Osmar, & Jesse -> Gillian, Juliet, Osmar, & Jesse -> Paige, Osmar, & Jesse
+Paige, Osmar, & Jesse -> 
+Gillian, Juliet, Osmar, & Jesse -> 
+Paige, Osmar, & Jesse
 
 House 1:
-Juliet, Sam, Coleen, & Mathea -> Sam Coleen & Mathea -> Gillian, Juliet, Sam, Coleen, & Mathea (and Diego)
+Juliet, Sam, Coleen, & Mathea -> 
+Sam Coleen & Mathea -> 
+Gillian, Juliet, Sam, Coleen, & Mathea (and Diego)
 
 House 2:
-No one -> Paige -> No one
+No one -> 
+Paige -> 
+No one
 ```
 
 But that was not the end. Finally, at the start of week four, Gillian went home to North Carolina and Anael, now officially non-viral, moved to her boyfriend Jack's house.
@@ -96,4 +103,4 @@ So... Here's who I have lived with the past 3+ weeks:
 
 <img src="/assets/images/LivingWith.jpg" alt="Living With..." width="400"/>
 
-If you want to know more about my social networks in quarantine, take a look at [part 2](https://julietkelson.github.io/from%20quarantine/from%20my%20brain/COVID-Social-Networks/).
+If you want to know more about my social networks in quarantine, take a look at [part 2](https://julietkelson.github.io/from%20quarantine/COVID-Social-Networks2/).
