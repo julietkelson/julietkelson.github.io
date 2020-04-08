@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "COVID-19: Social Networks. Part 2"
+title:  "COVID-19: Social Networks. Part 2."
 date:   2020-04-07 13:10:47 -0600
 categories: 
   - From Quarantine
@@ -10,7 +10,7 @@ categories:
 
 <br/>
 
-## Week 4: Social Networks. Part 2
+## Week 4: Social Networks. Part 2.
 
 Thinking about social networks made me realize that my typical social networks are all out of whack right now.  Normally I'd be living at home – either in Chicago with my family, or in St Paul, as I am finally doing now, with my roommates.  When I'm with these people I talk to them in person and don't interact with them as much online.  We communicate mainly with our voices, not our phones or computers.  Since I started quarantining, the people I communicate with has changed a lot.  When I realized this I went right to my phone to look at my texts and had the unsettling realization that I have an obnoxiously unnecessary number of group texts consisting of mainly the same people.
 

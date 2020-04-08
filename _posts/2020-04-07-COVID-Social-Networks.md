@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "COVID-19: Social Networks. Part 1"
+title:  "COVID-19: Social Networks. Part 1."
 date:   2020-04-07 13:07:47 -0600
 categories: 
   - From Quarantine
