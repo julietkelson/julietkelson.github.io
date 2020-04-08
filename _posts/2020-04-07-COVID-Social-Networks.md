@@ -4,7 +4,6 @@ title:  "COVID-19: Social Networks. Part 1"
 date:   2020-04-07 13:07:47 -0600
 categories: 
   - From Quarantine
-  - From My Brain
 ---
 
 *This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/projects/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
@@ -97,4 +96,4 @@ So... Here's who I have lived with the past 3+ weeks:
 
 <img src="/assets/images/LivingWith.jpg" alt="Living With..." width="400"/>
 
-If you want to know more about my social networks in quarantine, take a look at [part 2]().
+If you want to know more about my social networks in quarantine, take a look at [part 2](https://julietkelson.github.io/from%20quarantine/from%20my%20brain/COVID-Social-Networks/).
