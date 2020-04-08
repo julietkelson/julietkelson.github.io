@@ -7,7 +7,7 @@ categories:
   - From My Brain
 ---
 
-*This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/projects/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+*This is the third in a series of posts [From Quarantine](https://julietkelson.github.io/projects/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
 
 <br/>
 
