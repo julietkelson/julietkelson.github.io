@@ -95,6 +95,6 @@ All of us are virus free, practicing responsible social distancing, and Purellin
 
 So... Here's who I have lived with the past 3+ weeks:
 
-<img src="/Users/juju/Desktop/GithubBlog/julietkelson.github.io/_posts/covid-images/LivingWith.jpg" alt="Living With..." width="400"/>
+<img src="/assets/images/LivingWith.jpg" alt="Living With..." width="400"/>
 
 If you want to know more about my social networks in quarantine, take a look at [part 2]().
