@@ -1,0 +1,95 @@
+I"y<p><em>This is the third in a series of posts <a href="https://julietkelson.github.io/projects/">From Quarantine</a>.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.</em></p>
+
+<p><br /></p>
+
+<h2 id="week-4-social-networks-part-2">Week 4: Social Networks. Part 2.</h2>
+
+<p>Thinking about social networks made me realize that my typical social networks are all out of whack right now.  Normally I’d be living at home – either in Chicago with my family, or in St Paul, as I am finally doing now, with my roommates.  When I’m with these people I talk to them in person and don’t interact with them as much online.  We communicate mainly with our voices, not our phones or computers.  Since I started quarantining, the people I communicate with has changed a lot.  When I realized this I went right to my phone to look at my texts and had the unsettling realization that I have an obnoxiously unnecessary number of group texts consisting of mainly the same people.</p>
+
+<p>First, here’s what that looks like.  Next, I’ll go through the upsetting reasons they’re all apparently necessary.</p>
+
+<p><img src="/assets/images/GroupChats.jpg" alt="group chats graph" width="60%" /></p>
+
+<p>Let’s start by taking a look at some basic and disturbing facts about this graph…</p>
+
+<p>I’m going to use some terminology here for networks:</p>
+<ul>
+  <li><strong>Nodes</strong>: each person here is a “node” or, a thing that can be connected to other things to show some sort of meaningful relationship.</li>
+  <li><strong>Edges</strong>: each line is an edge.  These edges show how nodes are connected to each other.  In this case, each edge shows two people who are connected by being in the same group chat.  The color tells which group chat connects them.</li>
+  <li><strong>Degree</strong>: degree measures the number of edges going into or out of a node.  This helps us understand how important or how connected one node is in relation to others in the graph.  For example, the <em>ME</em> node has the highest degree because this is a narcissistic graph about me and I only care about the group chats I am in.</li>
+</ul>
+
+<p>Now some facts:</p>
+
+<ol>
+  <li>There are <strong>9</strong> nodes in this graph.</li>
+  <li>There are <strong>7</strong> distinct edge colors.</li>
+  <li>Unsurprisingly, I have the highest degree. I have more than my sister, Maddie, so this makes me happy.</li>
+  <li>My mom is the least connected one in the family.  Sorry, mom.</li>
+  <li>Sam is the least connected overall, but this will soon change.</li>
+</ol>
+
+<p>So why are these all necessary and why will Sam soon be moved from the bottom? Let’s go through the chats one by one.</p>
+
+<p><br /></p>
+
+<h4 id="samuca-and-the-newts-me-coleen-sam-mathea">Samuca and the Newts: Me, Coleen, Sam, Mathea</h4>
+
+<p>This group must exist because it provides a communication channel among my roommates and me.</p>
+
+<p><br /></p>
+
+<h4 id="nothing-is-important-here-me-coleen-mathea">nothing is important here: Me, Coleen, Mathea</h4>
+
+<p>This group might seem redundant at first glance. Three of the members are already in a different group together.  Why would they need to be in a group without Sam? Because we’re telling <em>~secrets~</em>, that’s why.  Sam’s birthday is April 9th, and this graph was created April 7th.  This group will soon be redundant, but not yet.</p>
+
+<p><br /></p>
+
+<h4 id="stay-yo-ass-at-home-me-maddie-shane-mom-victoria">Stay Yo Ass At Home: Me, Maddie, Shane, Mom, Victoria</h4>
+
+<p>The most juvenile yet semi-appropriately capitalized and most effective name calls upon us to “stay our asses at home” during quarantine. Inspired by Lori Lightfoot memes, this group is a way for the family (and my sister’s girlfriend (but not my mom’s fiance?)) to stay connected and in the loop about the infrequent excitement during the coronavirus.  This group is necessary for family communication.</p>
+
+<p><img src="/assets/images/lightfoot.jpg" alt="Lori Lightfoot" width="500" /></p>
+
+<h4 id="rosh-squad-me-maddie-victoria">Rosh Squad: Me, Maddie, Victoria</h4>
+
+<p>This group seems unnecessary too, right?  While, it’s not.  First reason – it is dedicated exclusively to pictures of my cute dog, Roshi. Now, you’re probably wondering why we can’t send those in the <em>Stay Yo Ass At Home</em> chat.  This is because my brother, Shane, gets bothered by texts that he deems “unnecessary.”  If we remove Shane from the graph, <em>Rosh Squad</em> becomes unnecessary and cute dog pics can stay in <em>Stay Yo Ass At Home.</em></p>
+
+<p><br /></p>
+
+<h4 id="shay-shay--maddie-me-shane-maddie">Shay Shay &amp; Maddie: Me, Shane, Maddie</h4>
+
+<p>This group is for the siblings to talk about our mom without her knowing. It’s necessary.  Next.</p>
+
+<p><br /></p>
+
+<h4 id="-me-maddie-shane-secret-people">???: Me, Maddie, Shane, Secret People</h4>
+
+<p>Why would Maddie, Shane, and I need another group to communicate in? We already have a group to dis our mother in secret and another to dis her in person. You might notice that this group includes other people who are not named on the graph.  This group can be revealed later, but for now it has to remain a secret.  I promise, it’s necessary.</p>
+
+<p><br /></p>
+
+<h4 id="bitch-squadron-me-mom-maddie">Bitch Squadron: Me, Mom, Maddie</h4>
+
+<p><em>Bitch Squadron</em> is the oldest group among the groups.  The OG group chat between a mother and her daughters.  This group exists for the same reason <em>Rosh Squad</em> exists – to appease Shane.  He doesn’t want to be bothered.</p>
+
+<p><br />
+So, all of these edges are necessary in the current setup.  As a person who loves efficiency and optimization, I hate this and have found a solution: remove Shane.</p>
+
+<p>This might seem drastic and barbaric, but hear me out.  Removing Shane eliminates three groups – <em>Rosh Squad</em>, <em>Bitch Squadron</em>, <em>Shay Shay &amp; Maddie</em> – because they no longer need to be distinct to avoid disrupting Shane’s day.  Communication that existed in them previously can now flow through <em>Stay Yo Ass At Home</em>.  Removing Shane also removes <strong>14</strong> edges.</p>
+<ul>
+  <li>The <strong>8</strong> edges that connect to Shane through <em>SYAAH</em>, <em>???</em>, and <em>Shay Shay &amp; Maddie</em></li>
+  <li>The <strong>3</strong> edges that connect <em>Rosh Squad</em></li>
+  <li>The <strong>3</strong> edges that connect <em>Bitch Squadron</em></li>
+</ul>
+
+<p>Considering that <em>nothing important here</em> will also disappear in two days, removing Shane would:</p>
+<ul>
+  <li>bring the group count to <strong>3</strong> (<em>SYAAH</em>, <em>Samuca and the Newts</em>, <em>???</em>)</li>
+  <li>bring the edge count to <strong>14</strong></li>
+  <li>bring the node count to <strong>8</strong></li>
+  <li>tie my mom and Sam for lowest degree (excluding secret)</li>
+</ul>
+
+<p>Sometimes it’s hard to face the facts of science.</p>
+:ET

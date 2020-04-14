@@ -1,96 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-07T22:12:45-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: Social Networks. Part 2</title><link href="http://localhost:4000/from%20quarantine/from%20my%20brain/COVID-Social-Networks2/" rel="alternate" type="text/html" title="COVID-19: Social Networks. Part 2" /><published>2020-04-07T14:10:47-05:00</published><updated>2020-04-07T14:10:47-05:00</updated><id>http://localhost:4000/from%20quarantine/from%20my%20brain/COVID-Social-Networks2</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/from%20my%20brain/COVID-Social-Networks2/">&lt;p&gt;&lt;em&gt;This is the third in a series of posts &lt;a href=&quot;https://julietkelson.github.io/projects/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-14T12:56:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: Social Networks. Part 2.</title><link href="http://localhost:4000/from%20quarantine/COVID-Social-Networks2/" rel="alternate" type="text/html" title="COVID-19: Social Networks. Part 2." /><published>2020-04-07T14:10:47-05:00</published><updated>2020-04-07T14:10:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Social-Networks2</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Social-Networks2/">&lt;p&gt;&lt;em&gt;This is the third in a series of posts &lt;a href=&quot;https://julietkelson.github.io/projects/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;week-4-social-networks-part-2&quot;&gt;Week 4: Social Networks. Part 2&lt;/h2&gt;
+&lt;h2 id=&quot;week-4-social-networks-part-2&quot;&gt;Week 4: Social Networks. Part 2.&lt;/h2&gt;
 
-&lt;p&gt;Thinking about social networks made me realize that my typical social networks are all out of whack right now.  Normally I’d be living at home – either in Chicago with my family, or in St Paul, as I am finally doing now, with my roommates.  When I’m with these people I talk to them in person and don’t interact with them as much online.  We communicate mainly with our voices, not our phones or computers.  Since I started quarantining, the people I communicate with has changed a lot.  When I realized this I went right to my phone to look at my texts and made the unsettling realization that I have an obnoxiously unnecessary number of group texts consisting of mainly the same people.&lt;/p&gt;
+&lt;p&gt;Thinking about social networks made me realize that my typical social networks are all out of whack right now.  Normally I’d be living at home – either in Chicago with my family, or in St Paul, as I am finally doing now, with my roommates.  When I’m with these people I talk to them in person and don’t interact with them as much online.  We communicate mainly with our voices, not our phones or computers.  Since I started quarantining, the people I communicate with has changed a lot.  When I realized this I went right to my phone to look at my texts and had the unsettling realization that I have an obnoxiously unnecessary number of group texts consisting of mainly the same people.&lt;/p&gt;
 
 &lt;p&gt;First, here’s what that looks like.  Next, I’ll go through the upsetting reasons they’re all apparently necessary.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/GroupChats.jpg&quot; alt=&quot;Living With...&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/GroupChats.jpg&quot; alt=&quot;group chats graph&quot; width=&quot;60%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let’s start by taking a look at some basic and disturbing facts about this graph…&lt;/p&gt;
 
 &lt;p&gt;I’m going to use some terminology here for networks:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Nodes: each person here is a “node” or a thing that can be connected to other things to show some sort of meaningful relationship&lt;/li&gt;
-  &lt;li&gt;Edges: each line is an edge.  These edges show how nodes are connected to each other.  In this case, each edge shows two people who are connected by being in the same group chat.  The color tells which group chat connects them.&lt;/li&gt;
-  &lt;li&gt;Degree: degrees measure the number of edges going into or out of a node.  This helps us understand how important or how connected one node is in relation to others in the graph.  For example, the &lt;em&gt;ME&lt;/em&gt; node has the highest degree because this is a narcissistic graph about me and I only care about the group chats I am in.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nodes&lt;/strong&gt;: each person here is a “node” or, a thing that can be connected to other things to show some sort of meaningful relationship.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Edges&lt;/strong&gt;: each line is an edge.  These edges show how nodes are connected to each other.  In this case, each edge shows two people who are connected by being in the same group chat.  The color tells which group chat connects them.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Degree&lt;/strong&gt;: degree measures the number of edges going into or out of a node.  This helps us understand how important or how connected one node is in relation to others in the graph.  For example, the &lt;em&gt;ME&lt;/em&gt; node has the highest degree because this is a narcissistic graph about me and I only care about the group chats I am in.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Now some facts:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;There are 9 nodes in this graph.&lt;/li&gt;
+  &lt;li&gt;There are &lt;strong&gt;9&lt;/strong&gt; nodes in this graph.&lt;/li&gt;
   &lt;li&gt;There are &lt;strong&gt;7&lt;/strong&gt; distinct edge colors.&lt;/li&gt;
-  &lt;li&gt;Unsurprisingly, I have the highest degree. I have more than my sister, Maddie, though so this makes me happy.&lt;/li&gt;
+  &lt;li&gt;Unsurprisingly, I have the highest degree. I have more than my sister, Maddie, so this makes me happy.&lt;/li&gt;
   &lt;li&gt;My mom is the least connected one in the family.  Sorry, mom.&lt;/li&gt;
-  &lt;li&gt;Sam is the least connected, but this will soon change.&lt;/li&gt;
+  &lt;li&gt;Sam is the least connected overall, but this will soon change.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;So why are these all necessary and why will Sam soon be more connected? Let’s go through the chats one by one.&lt;/p&gt;
+&lt;p&gt;So why are these all necessary and why will Sam soon be moved from the bottom? Let’s go through the chats one by one.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Samuca and the Newts: Me, Coleen, Sam, Mathea&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;samuca-and-the-newts-me-coleen-sam-mathea&quot;&gt;Samuca and the Newts: Me, Coleen, Sam, Mathea&lt;/h4&gt;
 
 &lt;p&gt;This group must exist because it provides a communication channel among my roommates and me.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;nothing is important here: Me, Coleen, Mathea&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;nothing-is-important-here-me-coleen-mathea&quot;&gt;nothing is important here: Me, Coleen, Mathea&lt;/h4&gt;
 
-&lt;p&gt;This group might seem redundant at first glance. Three of the members are already in a different group together.  Why would they need to be in a group without Sam? Because we’re telling &lt;em&gt;~secrets~&lt;/em&gt;, that’s why.  Sam’s birthday is April 9th, and this graph was created April 7th.  This group will soon be redundant but not yet.&lt;/p&gt;
+&lt;p&gt;This group might seem redundant at first glance. Three of the members are already in a different group together.  Why would they need to be in a group without Sam? Because we’re telling &lt;em&gt;~secrets~&lt;/em&gt;, that’s why.  Sam’s birthday is April 9th, and this graph was created April 7th.  This group will soon be redundant, but not yet.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Stay Yo Ass At Home: Me, Maddie, Shane, Mom, Victoria&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;stay-yo-ass-at-home-me-maddie-shane-mom-victoria&quot;&gt;Stay Yo Ass At Home: Me, Maddie, Shane, Mom, Victoria&lt;/h4&gt;
 
-&lt;p&gt;The most juvenile yet semi-appropriately capitalized and most effective name calls upon us to “stay our asses at home” during quarantine. Inspired by Lori Lightfoot memes, this group is a way for the family (and my sister’s girlfriend (but not my mom’s fiance?)) to stay connected and in the loop on the infrequent excitement during the coronavirus.  This group is necessary for family communication.&lt;/p&gt;
+&lt;p&gt;The most juvenile yet semi-appropriately capitalized and most effective name calls upon us to “stay our asses at home” during quarantine. Inspired by Lori Lightfoot memes, this group is a way for the family (and my sister’s girlfriend (but not my mom’s fiance?)) to stay connected and in the loop about the infrequent excitement during the coronavirus.  This group is necessary for family communication.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/lightfoot.jpg&quot; alt=&quot;Living With...&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/lightfoot.jpg&quot; alt=&quot;Lori Lightfoot&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Rosh Squad: Me, Maddie, Victoria&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;rosh-squad-me-maddie-victoria&quot;&gt;Rosh Squad: Me, Maddie, Victoria&lt;/h4&gt;
 
 &lt;p&gt;This group seems unnecessary too, right?  While, it’s not.  First reason – it is dedicated exclusively to pictures of my cute dog, Roshi. Now, you’re probably wondering why we can’t send those in the &lt;em&gt;Stay Yo Ass At Home&lt;/em&gt; chat.  This is because my brother, Shane, gets bothered by texts that he deems “unnecessary.”  If we remove Shane from the graph, &lt;em&gt;Rosh Squad&lt;/em&gt; becomes unnecessary and cute dog pics can stay in &lt;em&gt;Stay Yo Ass At Home.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Shay Shay &amp;amp; Maddie: Me, Shane, Maddie&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;shay-shay--maddie-me-shane-maddie&quot;&gt;Shay Shay &amp;amp; Maddie: Me, Shane, Maddie&lt;/h4&gt;
 
 &lt;p&gt;This group is for the siblings to talk about our mom without her knowing. It’s necessary.  Next.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;???: Me, Maddie, Shane, Secret People&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-me-maddie-shane-secret-people&quot;&gt;???: Me, Maddie, Shane, Secret People&lt;/h4&gt;
 
-&lt;p&gt;Why would Maddie, Shane, and I need another group to communicate in? We already have a group to dis our mother in secret and another to dis her in person. You might notice that this group includes other people who are not named on the graph.  This group can be revealed later, but for now it has to remain a secret.&lt;/p&gt;
+&lt;p&gt;Why would Maddie, Shane, and I need another group to communicate in? We already have a group to dis our mother in secret and another to dis her in person. You might notice that this group includes other people who are not named on the graph.  This group can be revealed later, but for now it has to remain a secret.  I promise, it’s necessary.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Bitch Squadron: Me, Mom, Maddie&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;bitch-squadron-me-mom-maddie&quot;&gt;Bitch Squadron: Me, Mom, Maddie&lt;/h4&gt;
 
 &lt;p&gt;&lt;em&gt;Bitch Squadron&lt;/em&gt; is the oldest group among the groups.  The OG group chat between a mother and her daughters.  This group exists for the same reason &lt;em&gt;Rosh Squad&lt;/em&gt; exists – to appease Shane.  He doesn’t want to be bothered.&lt;/p&gt;
 
-&lt;p&gt;So, all of these edges are necessary in the current setup.  As a person who loves efficiency and optimization, I hate this and have found a solution: Remove Shane.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+So, all of these edges are necessary in the current setup.  As a person who loves efficiency and optimization, I hate this and have found a solution: remove Shane.&lt;/p&gt;
 
-&lt;p&gt;This might seem drastic and barbaric, but hear me out.  Removing Shane eliminates three groups – &lt;em&gt;Rosh Squad&lt;/em&gt;, &lt;em&gt;Bitch Squadron&lt;/em&gt;, &lt;em&gt;Shay Shay &amp;amp; Maddie&lt;/em&gt; – because they no longer need to be distinct to avoid disrupting Shane’s day.  Communication that existed in them previously can now flow through &lt;em&gt;Stay Yo Ass At Home&lt;/em&gt;.  Removing Shane also removes &lt;strong&gt;14&lt;/strong&gt; edges&lt;/p&gt;
+&lt;p&gt;This might seem drastic and barbaric, but hear me out.  Removing Shane eliminates three groups – &lt;em&gt;Rosh Squad&lt;/em&gt;, &lt;em&gt;Bitch Squadron&lt;/em&gt;, &lt;em&gt;Shay Shay &amp;amp; Maddie&lt;/em&gt; – because they no longer need to be distinct to avoid disrupting Shane’s day.  Communication that existed in them previously can now flow through &lt;em&gt;Stay Yo Ass At Home&lt;/em&gt;.  Removing Shane also removes &lt;strong&gt;14&lt;/strong&gt; edges.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The 8 edges that connect to Shane through &lt;em&gt;SYAAH&lt;/em&gt;, &lt;em&gt;???&lt;/em&gt;, and &lt;em&gt;Shay Shay &amp;amp; Maddie&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;The 3 edges that connect &lt;em&gt;Rosh Squad&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;The 3 edges that connect &lt;em&gt;Bitch Squadron&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;8&lt;/strong&gt; edges that connect to Shane through &lt;em&gt;SYAAH&lt;/em&gt;, &lt;em&gt;???&lt;/em&gt;, and &lt;em&gt;Shay Shay &amp;amp; Maddie&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;3&lt;/strong&gt; edges that connect &lt;em&gt;Rosh Squad&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;3&lt;/strong&gt; edges that connect &lt;em&gt;Bitch Squadron&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Considering that &lt;em&gt;nothing important here&lt;/em&gt; will also disappear in two days, removing Shane would&lt;/p&gt;
+&lt;p&gt;Considering that &lt;em&gt;nothing important here&lt;/em&gt; will also disappear in two days, removing Shane would:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;bring the group count to 3 (&lt;em&gt;SYAAH&lt;/em&gt;, &lt;em&gt;Samuca and the Newts&lt;/em&gt;, &lt;em&gt;???&lt;/em&gt;)&lt;/li&gt;
-  &lt;li&gt;bring the edge count to 14&lt;/li&gt;
-  &lt;li&gt;bring the node count to 8&lt;/li&gt;
+  &lt;li&gt;bring the group count to &lt;strong&gt;3&lt;/strong&gt; (&lt;em&gt;SYAAH&lt;/em&gt;, &lt;em&gt;Samuca and the Newts&lt;/em&gt;, &lt;em&gt;???&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;bring the edge count to &lt;strong&gt;14&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;bring the node count to &lt;strong&gt;8&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;tie my mom and Sam for lowest degree (excluding secret)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Sometimes it’s hard to face the facts of science.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the third in a series of posts From Quarantine. Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College. This is one of those posts.</summary></entry><entry><title type="html">COVID-19: Social Networks. Part 1</title><link href="http://localhost:4000/from%20quarantine/from%20my%20brain/COVID-Social-Networks/" rel="alternate" type="text/html" title="COVID-19: Social Networks. Part 1" /><published>2020-04-07T14:07:47-05:00</published><updated>2020-04-07T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/from%20my%20brain/COVID-Social-Networks</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/from%20my%20brain/COVID-Social-Networks/">&lt;p&gt;&lt;em&gt;This is the second in a series of posts &lt;a href=&quot;https://julietkelson.github.io/projects/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes it’s hard to face the facts of science.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the third in a series of posts From Quarantine. Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College. This is one of those posts.</summary></entry><entry><title type="html">COVID-19: Social Networks. Part 1.</title><link href="http://localhost:4000/from%20quarantine/COVID-Social-Networks/" rel="alternate" type="text/html" title="COVID-19: Social Networks. Part 1." /><published>2020-04-07T14:07:47-05:00</published><updated>2020-04-07T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Social-Networks</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Social-Networks/">&lt;p&gt;&lt;em&gt;This is the second in a series of posts &lt;a href=&quot;https://julietkelson.github.io/projects/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -101,7 +102,7 @@ Some things that changed this week:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Gillian and I returned to my house.  I returned (semi) permanently.&lt;/li&gt;
   &lt;li&gt;Gillian left my house to drive to her home in North Carolina.&lt;/li&gt;
-  &lt;li&gt;Sam adopted a puppy who, like us, pees inside, but unlike us, pees on the floor.&lt;/li&gt;
+  &lt;li&gt;Sam adopted a puppy, Diego, who, like us, pees inside, but unlike us, pees on the floor.&lt;/li&gt;
   &lt;li&gt;The temperature reached 70º.&lt;/li&gt;
   &lt;li&gt;My sheets.&lt;/li&gt;
   &lt;li&gt;For two days, not my clothes.&lt;/li&gt;
@@ -109,9 +110,9 @@ Some things that changed this week:&lt;/p&gt;
   &lt;li&gt;I turned 22 and 7/12ths.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Mostly, the things that changed around me and about me were the people I was/am living with and the ways I communicated. When quarantine began, I stayed with Gillian for about two weeks.  In part because I wanted to, and in part because I had to.  Being immunocompromised during coronavirus means I have to be extra careful. Considering that some of my regular roommates were still working and we all share a single toilet, I thought it best to stay away until they were two weeks out of work.&lt;/p&gt;
+&lt;p&gt;Mostly, the things that changed around me and about me were the people I was/am living with and the ways we communicated. When quarantine began, I stayed with Gillian for about two weeks.  In part because I wanted to, and in part because I had to.  Being immunocompromised during coronavirus means I have to be extra careful. Considering that some of my regular roommates were still working and we all share a single toilet, I thought it best to stay away until they were two weeks out of work.&lt;/p&gt;
 
-&lt;p&gt;So, I stayed with Gillian. Until COVID brought more surprises. Two people came in from out of town and needed a place to isolate for two weeks before returning to society because that’s the world we live in now. Coincidentally, Gillian’s friend was moving out of her apartment for a bit, opening up a room with two people who had also been quarantining for two weeks. So the transition started.&lt;/p&gt;
+&lt;p&gt;So, I stayed with Gillian. Until COVID brought more surprises. Two people came in from out of town and needed a place to isolate for two weeks before returning to society because that’s the world we live in now. Coincidentally, Gillian’s friend was moving out of her apartment for a bit, opening up a room in an apartment with two people who had also been quarantining for two weeks. So the transition started.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Apartment 1:
 Gillian &amp;amp; Juliet -&amp;gt; Anael &amp;amp; Elyse
@@ -131,16 +132,23 @@ No one -&amp;gt; Paige
 &lt;p&gt;Finally, when all of my roommates had been out of work for two weeks and Paige needed to come home, Gillian and I gave Paige her room back and returned to my house.  This is where Diego, the baby chihuahua comes in.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Apartment 1:
-Gillian &amp;amp; Juliet -&amp;gt; Anael &amp;amp; Elyse
+Gillian &amp;amp; Juliet -&amp;gt; 
+Anael &amp;amp; Elyse
 
 Apartment 2:
-Paige, Osmar, &amp;amp; Jesse -&amp;gt; Gillian, Juliet, Osmar, &amp;amp; Jesse -&amp;gt; Paige, Osmar, &amp;amp; Jesse
+Paige, Osmar, &amp;amp; Jesse -&amp;gt; 
+Gillian, Juliet, Osmar, &amp;amp; Jesse -&amp;gt; 
+Paige, Osmar, &amp;amp; Jesse
 
 House 1:
-Juliet, Sam, Coleen, &amp;amp; Mathea -&amp;gt; Sam Coleen &amp;amp; Mathea -&amp;gt; Gillian, Juliet, Sam, Coleen, &amp;amp; Mathea (and Diego)
+Juliet, Sam, Coleen, &amp;amp; Mathea -&amp;gt; 
+Sam Coleen &amp;amp; Mathea -&amp;gt; 
+Gillian, Juliet, Sam, Coleen, &amp;amp; Mathea (and Diego)
 
 House 2:
-No one -&amp;gt; Paige -&amp;gt; No one
+No one -&amp;gt; 
+Paige -&amp;gt; 
+No one
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;But that was not the end. Finally, at the start of week four, Gillian went home to North Carolina and Anael, now officially non-viral, moved to her boyfriend Jack’s house.&lt;/p&gt;
@@ -179,7 +187,72 @@ Gillian &amp;amp; family
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/LivingWith.jpg&quot; alt=&quot;Living With...&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you want to know more about my social networks in quarantine, take a look at &lt;a href=&quot;&quot;&gt;part 2&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the second in a series of posts From Quarantine. Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College. This is one of those posts.</summary></entry><entry><title type="html">Real vs Fake News</title><link href="http://localhost:4000/from%20class/real-vs-fake-news/" rel="alternate" type="text/html" title="Real vs Fake News" /><published>2019-11-18T13:07:47-06:00</published><updated>2019-11-18T13:07:47-06:00</updated><id>http://localhost:4000/from%20class/real-vs-fake-news</id><content type="html" xml:base="http://localhost:4000/from%20class/real-vs-fake-news/">&lt;head&gt;
+&lt;p&gt;If you want to know more about my social networks in quarantine, take a look at &lt;a href=&quot;https://julietkelson.github.io/from%20quarantine/COVID-Social-Networks2/&quot;&gt;part 2&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the second in a series of posts From Quarantine. Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College. This is one of those posts.</summary></entry><entry><title type="html">COVID-19: Quantified Self.</title><link href="http://localhost:4000/from%20quarantine/COVID-Quantified-Self/" rel="alternate" type="text/html" title="COVID-19: Quantified Self." /><published>2020-04-04T14:07:47-05:00</published><updated>2020-04-04T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Quantified-Self</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Quantified-Self/">&lt;p&gt;&lt;em&gt;This is the first in a series of posts &lt;a href=&quot;https://julietkelson.github.io/projects/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;week-3-quantified-self&quot;&gt;Week 3: Quantified Self&lt;/h2&gt;
+
+&lt;p&gt;This is the first week of Zoom classes.  That also means this is the first week I am touching the homework that I had not one but two weeks of Spring Break to complete.  During this first week “back” in classes, I am being asked to think about the “Quantified Self”.&lt;/p&gt;
+
+&lt;p&gt;While we might think of self-tracking as modern concept with Fitbits, Apple Watches, and the general Internet of Things, the concept of self-tracking reaches much farther back.  My first experience with wearable self-tracking was pulling the Kellog’s-branded plastic pedometers out of a box of Rice Krispies and vigorously shaking it to count more steps than my sister.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/pedometer.jpg&quot; alt=&quot;Rice Krispies pedometer&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My first experiences with self-tracking at all probably goes back to my days in Montessori schools as a child making birthday timelines – long blue strips of paper with a photo for each year, tracking my age. For each year of life, I ran a circle around the classroom as my friends and teachers sang:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Earth goes around the sun tra la la&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Earth goes around the sun&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Earth goes around the sun tra la la&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;And Juliet is 1…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;adding a year for each circle around the class.&lt;/p&gt;
+
+&lt;p&gt;Self tracking is something I think we all do, whether we realize it or not.  But with the concept of the quantified self, I believe a sense of intentionality comes in that separates idle tracking from self quantification.  With the quantified self, we’re trying to pick up on patterns, understand things about ourselves, and in some cases we are looking to change our behaviors.  As someone who loves data, I’ve done a lot of self tracking just for the fun of understanding my behaviors and how they change.  As someone with a chronic illness, self-tracking has also, at times, been important to my health, asking questions of the data such as &lt;em&gt;How do the things I eat affect the way I feel? How does the way I move change my symptoms? Are certain medications making me feel better or worse? Am I sick or did I just eat too much ice cream?&lt;/em&gt;
+Since the start of quarantine, I’ve not found myself doing this as much.  Perhaps (definitely) because I would recognize how little I’m doing (or, contrarily, how &lt;em&gt;much&lt;/em&gt; sitting around I’ve been doing). But much like the little Rice Krispies pedometer, I have a handy little device in my back pocket at all times tracking much of what I do all day – probably more than I know about.&lt;/p&gt;
+
+&lt;p&gt;As I’ve been sitting around in quarantine, my phone/watch has been collecting the following data without me even needing to do a thing:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;steps&lt;/li&gt;
+  &lt;li&gt;screen time&lt;/li&gt;
+  &lt;li&gt;location (sometimes)&lt;/li&gt;
+  &lt;li&gt;notifications received&lt;/li&gt;
+  &lt;li&gt;social media habits&lt;/li&gt;
+  &lt;li&gt;audio levels of my headphones&lt;/li&gt;
+  &lt;li&gt;audio levels of my environment&lt;/li&gt;
+  &lt;li&gt;heart rate&lt;/li&gt;
+  &lt;li&gt;hours spent standing&lt;/li&gt;
+  &lt;li&gt;flights climbed…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The list goes on and on and I’ll probably never know its extent.  The only one I’ve been paying attention to since I began quarantining is my steps.  I find that when I don’t move enough I, like most people, get antsy and generally unpleasant to be around.  Considering that COVID is out there testing relationships and I’m in here living with my girlfriend, I am trying to make sure I am at least moving a little each day. With an app called &lt;a href=&quot;https://apps.apple.com/us/app/qs-access/id920297614&quot;&gt;QS Access&lt;/a&gt;,  I was able to download some of my Apple Health data to look at how I’ve been moving around and compare it to my life of freedom before quarantine.  For simplicity’s sake and fair comparison, I’ve decided to look only at data beginning 09/01/2016 – my first year of college.  Or… at least that’s what I was going to do until I found out that for some reason I don’t have that data.  So we begin in  March of 2017.&lt;/p&gt;
+
+&lt;p&gt;Because there is so much data here, I made these graphs in RStudio instead of by hand.  Let’s look at the first one:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AllSteps.png&quot; alt=&quot;all steps&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this graph we can see how many steps I took each day from the start of 2017 through today.  The vertical line shows the start of quarantine and the horizontal line shows the trend of how my steps increase or decrease over time.&lt;/p&gt;
+
+&lt;p&gt;What I take away from this graph is that I started walking more in college as I moved farther from campus.  Nothing too shocking.  There is a slight downtick toward the start of quarantine.  Let’s take a look at that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Steps2020.png&quot; alt=&quot;Steps 2020&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay.  This graph is more interesting. We can see right before I begin quarantine, there is a slight increase in steps, and right when the quarantine begins, the trend turns downward.  Here’s how I explain that – right before quarantining, Gillian and I went up to northern Minnesota (and Canada for a second because why not?) and were hiking a lot.  Then, suddenly, quarantine begins and although we’re still taking walks, I can tell from this graph that it’s not enough to compare to my walking pre-COVID. Something to work on!&lt;/p&gt;
+
+&lt;p&gt;Finally, I looked at my social media usage.  How much time do I spend on each platform?  Here’s what I found in the Screen Time data from my phone:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/SocialMedia.jpg&quot; alt=&quot;Screen Time&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Keeping in mind that this is the data for an entire week of self-isolation, I’m not too disgusted by my exorbitant use of social media on my phone.&lt;/p&gt;
+
+&lt;p&gt;Here are my takeaways:&lt;/p&gt;
+
+&lt;p&gt;I expect this to change a lot.  Why? Gillian moves back to North Carolina at the start of the week meaning less face-to-face communication.  Given that this graph includes Messages and FaceTime as social media (which I’m not sure I agree with in the modern interpretation of “social media”, but Apple will do what it wants), I imagine that those two will increase significantly as my media of communication change from exclusively in-person, to messaging and FaceTime-ing.  Later, when I return to Chicago, I anticipate Messages to go back down because most of my texting is to my family who I will be trapped in an apartment with.&lt;/p&gt;
+
+&lt;p&gt;I’ll keep track of these because my phone will do it regardless of if I want it to or not, and we’ll see if I’m right.  For now, I think I’ll take a walk.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the first in a series of posts From Quarantine. Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College. This is one of those posts.</summary></entry><entry><title type="html">Real vs Fake News</title><link href="http://localhost:4000/from%20class/real-vs-fake-news/" rel="alternate" type="text/html" title="Real vs Fake News" /><published>2019-11-18T13:07:47-06:00</published><updated>2019-11-18T13:07:47-06:00</updated><id>http://localhost:4000/from%20class/real-vs-fake-news</id><content type="html" xml:base="http://localhost:4000/from%20class/real-vs-fake-news/">&lt;head&gt;
 
   &lt;meta charset=&quot;utf-8&quot; /&gt;
   &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
