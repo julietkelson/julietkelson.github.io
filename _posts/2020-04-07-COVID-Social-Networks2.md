@@ -16,7 +16,7 @@ Thinking about social networks made me realize that my typical social networks a
 
 First, here's what that looks like.  Next, I'll go through the upsetting reasons they're all apparently necessary.
 
-<img src="/assets/images/GroupChats.jpg" alt="Living With..." width="60%"/>
+<img src="/assets/images/GroupChats.jpg" alt="group chats graph" width="60%"/>
 
 Let's start by taking a look at some basic and disturbing facts about this graph...
 
@@ -53,7 +53,7 @@ This group might seem redundant at first glance. Three of the members are alread
 
 The most juvenile yet semi-appropriately capitalized and most effective name calls upon us to "stay our asses at home" during quarantine. Inspired by Lori Lightfoot memes, this group is a way for the family (and my sister's girlfriend (but not my mom's fiance?)) to stay connected and in the loop about the infrequent excitement during the coronavirus.  This group is necessary for family communication.
 
-<img src="/assets/images/lightfoot.jpg" alt="Living With..." width="500"/>
+<img src="/assets/images/lightfoot.jpg" alt="Lori Lightfoot" width="500"/>
 
 #### Rosh Squad: Me, Maddie, Victoria
 
