@@ -8,9 +8,6 @@ themes:
   - COVID Diaries
 ---
 
-*This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
-
-<br/>
 
 ## Week 4: Social Networks. Part 1.
 It's the start of week four in quarantine and things are somehow still not consistent.
@@ -106,3 +103,8 @@ So... Here's who I have lived with the past 3+ weeks:
 <img src="/assets/images/LivingWith.jpg" alt="Living With..." width="400"/>
 
 If you want to know more about my social networks in quarantine, take a look at [part 2](https://julietkelson.github.io/from%20quarantine/COVID-Social-Networks2/).
+
+<br/>
+
+*This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+

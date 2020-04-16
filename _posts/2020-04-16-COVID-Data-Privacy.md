@@ -6,9 +6,6 @@ categories:
   - From Quarantine
 ---
 
-*This is the fourth in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
-
-<br/>
 
 ## Week 4: Data Privacy.
 
@@ -39,3 +36,8 @@ In the Supreme Court case *Carpenter v. United States*, the court decided it was
 My point is, while there are ways to make GPS tracking more accurate, I don't think this would work particularly well and I don't think it's worth the potential panic it could cause.
 
 If you're concerned about your data privacy, take a look again at the New York Times Privacy Project (for which this blog post is quickly becoming an unpaid advertisement).
+
+<br/>
+
+*This is the fourth in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+

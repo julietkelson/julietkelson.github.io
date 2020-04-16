@@ -1,8 +1,4 @@
-I"g<p><em>This is the fourth in a series of posts <a href="https://julietkelson.github.io/covid/">From Quarantine</a>.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.</em></p>
-
-<p><br /></p>
-
-<h2 id="week-4-data-privacy">Week 4: Data Privacy.</h2>
+I"�<h2 id="week-4-data-privacy">Week 4: Data Privacy.</h2>
 
 <p>This week, my class has been asked to contemplate data privacy.  If you have not read it already, take a look at the New York Times’ <a href="https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html"><em>The Privacy Project</em></a>.  This project describes very well why data privacy matters, the scope of personal data collected on individuals, how it can be used, and how to be safer with your own technology.</p>
 
@@ -22,13 +18,18 @@
 
 <p>To which I would reply, <a href="https://www.nytimes.com/interactive/2020/04/02/us/coronavirus-social-distancing.html">you are wrong</a>.  Just ask my sister who FaceTimes me every day to show me the congregations of people drinking coffee below her Nashville apartment.</p>
 
-<p>But let’s pretend that you’re right and all Americans are practicing strict social distancing and only going to stores when essential.  Still, the 16 foot radius causes us an issue.  And with regards to spreading infection, this could cause unnecessary panic. What if two people are next to each other at a stoplight in separate cars? Would we count them as potentially infected? Or maybe your Instacart delivery person drops your groceries at your door while you spy from the window. Are they sent some sort of message telling them to get tested for the virus?  Not to mention the issue of noncompliance; what if you leave your phone at home and go to a party?</p>
+<p>But let’s pretend that you’re right and all Americans are practicing strict social distancing and only going to stores when essential.  Still, the 16 foot radius causes us an issue.  And with regards to spreading infection, this could cause unnecessary panic. What if two people are next to each other at a stoplight in separate cars? Would we count them as potentially infected? Or maybe your Instacart delivery person drops your groceries at your door while you spy from the window. Are they sent some sort of message telling them to get tested for the virus?  Not to mention the issue of noncompliance – what if you leave your phone at home and go to a party?</p>
 
-<p>Sure, there are potential upsides to using cell phone location tracking.  We can look at patterns of movement, see where people congregate, observe migrations in and out of hot spots, etc.  But the government could also attempt to use anonymous data to do things like enforce curfews, track social distancing, or even use identifiable metadata to see who you’re contacting and find out who you have been with.  And not to sound too patriotic, but would this not be a violation of our fourth amendment rights?</p>
+<p>Sure, there are potential upsides to using cell phone location tracking.  We can look at patterns of movement, see where people congregate, observe migrations in and out of hot spots, etc..  But the government could also attempt to use anonymous data to do things like enforce curfews, track social distancing, or even use identifiable metadata about your texts and phone calls to predict who you’re contacting and find out who you have been with.  And not to sound too patriotic, but would this not be a violation of our fourth amendment rights?</p>
 
-<p>In the Supreme Court case <em>Carpenter v. United States</em>, the court deemed cell phone location information as a <a href="https://www.eff.org/document/carpenter-v-united-states-supreme-court-opinion">“detailed chronicle of a person’s physical presence compiled every day, every moment over years.”</a> Police need a warrant to get these records. I suppose this could be deemed within the interest of national security, but I am no constitutional expert and I’m quickly veering out of my domain.</p>
+<p>In the Supreme Court case <em>Carpenter v. United States</em>, the court decided it was, calling cell phone location data a <a href="https://www.eff.org/document/carpenter-v-united-states-supreme-court-opinion">“detailed chronicle of a person’s physical presence compiled every day, every moment over years.”</a> Police need a warrant to get these records. I suppose this could be deemed within the interest of national security, but I am no constitutional expert and I’m quickly veering out of my domain.</p>
 
 <p>My point is, while there are ways to make GPS tracking more accurate, I don’t think this would work particularly well and I don’t think it’s worth the potential panic it could cause.</p>
 
 <p>If you’re concerned about your data privacy, take a look again at the New York Times Privacy Project (for which this blog post is quickly becoming an unpaid advertisement).</p>
+
+<p><br /></p>
+
+<p><em>This is the fourth in a series of posts <a href="https://julietkelson.github.io/covid/">From Quarantine</a>.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.</em></p>
+
 :ET

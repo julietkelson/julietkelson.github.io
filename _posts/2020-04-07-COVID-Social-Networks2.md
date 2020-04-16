@@ -6,9 +6,6 @@ categories:
   - From Quarantine
 ---
 
-*This is the third in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
-
-<br/>
 
 ## Week 4: Social Networks. Part 2.
 
@@ -92,3 +89,8 @@ Considering that *nothing important here* will also disappear in two days, remov
 - tie my mom and Sam for lowest degree (excluding secret)
 
 Sometimes it's hard to face the facts of science.
+
+<br/>
+
+*This is the third in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+

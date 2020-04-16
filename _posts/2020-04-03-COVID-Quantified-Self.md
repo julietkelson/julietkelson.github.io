@@ -6,9 +6,6 @@ categories:
   - From Quarantine
 ---
 
-*This is the first in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
-
-<br/>
 
 ## Week 3: Quantified Self.
 
@@ -70,3 +67,8 @@ Here are my takeaways:
 I expect this to change a lot.  Why? Gillian moves back to North Carolina at the start of the week meaning less face-to-face communication.  Given that this graph includes Messages and FaceTime as social media (which I'm not sure I agree with in the modern interpretation of "social media", but Apple will do what it wants), I imagine that those two will increase significantly as my media of communication change from exclusively in-person, to messaging and FaceTime-ing.  Later, when I return to Chicago, I anticipate Messages to go back down because most of my texting is to my family who I will be trapped in an apartment with.
 
 I'll keep track of these because my phone will do it regardless of if I want it to or not, and we'll see if I'm right.  For now, I think I'll take a walk.
+
+<br/>
+
+*This is the first in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+
