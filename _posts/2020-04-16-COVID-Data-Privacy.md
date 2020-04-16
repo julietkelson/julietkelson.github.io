@@ -7,7 +7,7 @@ categories:
 ---
 
 
-## Week 4: Data Privacy.
+## Week 5: Data Privacy.
 
 This week, my class has been asked to contemplate data privacy.  If you have not read it already, take a look at the New York Times' [*The Privacy Project*](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html).  This project describes very well why data privacy matters, the scope of personal data collected on individuals, how it can be used, and how to be safer with your own technology.
 
