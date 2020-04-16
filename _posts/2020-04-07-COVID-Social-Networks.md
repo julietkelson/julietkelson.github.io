@@ -4,9 +4,11 @@ title:  "COVID-19: Social Networks. Part 1."
 date:   2020-04-07 13:07:47 -0600
 categories: 
   - From Quarantine
+themes:
+  - COVID Diaries
 ---
 
-*This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/projects/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+*This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
 
 <br/>
 
