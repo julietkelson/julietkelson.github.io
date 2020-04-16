@@ -10,7 +10,7 @@ categories:
 
 <br/>
 
-## Week 3: Quantified Self
+## Week 3: Quantified Self.
 
 This is the first week of Zoom classes.  That also means this is the first week I am touching the homework that I had not one but two weeks of Spring Break to complete.  During this first week "back" in classes, I am being asked to think about the "Quantified Self".
 
