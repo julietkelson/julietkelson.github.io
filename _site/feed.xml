@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-22T15:09:44-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: Data Privacy.</title><link href="http://localhost:4000/from%20quarantine/COVID-Data-Privacy/" rel="alternate" type="text/html" title="COVID-19: Data Privacy." /><published>2020-04-16T14:07:47-05:00</published><updated>2020-04-16T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Data-Privacy</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Data-Privacy/">&lt;h2 id=&quot;week-5-data-privacy&quot;&gt;Week 5: Data Privacy.&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-22T18:11:53-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: Text Analysis.</title><link href="http://localhost:4000/from%20quarantine/COVID-Data-Privacy-copy/" rel="alternate" type="text/html" title="COVID-19: Text Analysis." /><published>2020-04-22T14:07:47-05:00</published><updated>2020-04-22T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Data-Privacy%20copy</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Data-Privacy-copy/">&lt;h2 id=&quot;week-6-text-analysis&quot;&gt;Week 6: Text Analysis.&lt;/h2&gt;
+
+&lt;p&gt;This week, we’re focusing on text analysis.  Aisling has asked us to take some of the reflections we’ve done since the start of remote classes and put them into the website &lt;a href=&quot;https://voyant-tools.org/&quot;&gt;Voyant&lt;/a&gt; to see what insights we could gain.  I tried this with all of my blog posts and found that my top 3 words were “data”, “quarantine”, and “group”. Not surprising to me, but still, it is interesting to see that the words that follow those top 3 are the names of the people I’ve been with throughout this quarantine process.&lt;/p&gt;
+
+&lt;p&gt;I find text analysis to be a very interesting topic in data analysis. Although it’s an area I don’t have much experience with, it’s something I’ve been experimenting with on my own time and want to learn more about. I used this week’s assignment as an opportunity to do that.  To start, I did a sentiment analysis of my blog posts using the R package &lt;code class=&quot;highlighter-rouge&quot;&gt;syuzhet&lt;/code&gt;.  This package is very easy to use and because I just wanted to do a simple analysis, I didn’t get too deep into the “behind the scenes” aspects of sentiment analysis for this project.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was get a basic overall understanding of the different sentiments found in my blog posts:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sentiment.png&quot; alt=&quot;sentiments&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay… the highest value that comes back is &lt;code class=&quot;highlighter-rouge&quot;&gt;positive&lt;/code&gt; but that is closely followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;negative&lt;/code&gt;.  What does this mean? How does it work?&lt;/p&gt;
+
+&lt;p&gt;What’s happening here is that there is a dictionary of words for each category.  For example, words like “good”, “happy”, and “smile” might be in the &lt;code class=&quot;highlighter-rouge&quot;&gt;positive&lt;/code&gt; dictionary whereas words like “bad”, “unhappy”, and “frown” might be in the &lt;code class=&quot;highlighter-rouge&quot;&gt;negative&lt;/code&gt; dictionary. The text is read one word at a time and if that word is found in one of the dictionaries, it gets counted.  Here’s an example:&lt;/p&gt;
+
+&lt;p&gt;Sentence: “I smile when I am happy.  I frown when I am sad.  Today I am feeling good.”&lt;/p&gt;
+
+&lt;p&gt;Our dictionaries might look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;positive = 
+[
+  happy: 1,
+  smile: 1,
+  laugh: 0,
+  good: 1
+]
+
+negative = 
+[
+  sad: 1,
+  frown: 1,
+  cry: 0,
+  bad: 0
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;That puts our total count of positive words at 3 and negative words at 2.  We can classify this sentence as slightly positive.&lt;/p&gt;
+
+&lt;p&gt;So this is good.  My blog posts have a lot of words that likely signify positivity, joy, and trust.  They also, however, have a lot of words that signify negativity and sadness.  I wanted to see how this trends over time so I used &lt;code class=&quot;highlighter-rouge&quot;&gt;syuzhet&lt;/code&gt;’s functions to plot how the emotional valence changed.  On this graph, I’m only looking at positivity (above 0) and negativity (below 0) trends.  This does not reflect every sentence of every blog post, but instead looks at overall trends on a scale that has my most negative sentiment at -1 and most positive sentiment at 1. We can think of it as a scale relative only to my blog posts – not positivity and negativity in general.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sentimentPlot.png&quot; alt=&quot;sentiments&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hmmm… I don’t love that, but it makes sense.  My motivation and general positivity have decreased since I began quarantining and this is likely reflected through my activities and thus what I write about.  Again, this does not mean that my most recent posts are extremely negative.  It just means that compared to my personal baseline in these posts, the more recent posts are more negative than the inital posts.  I anticipated this but I was surprised by the severity of the drop and how strictly downward it moves.&lt;/p&gt;
+
+&lt;p&gt;Finally, I wanted to do something completely separate: I wanted to use Markov chains to generate text based on the blog posts I’ve already written.  If you want to understand Markov chains for text generation, &lt;a href=&quot;https://medium.com/analytics-vidhya/making-a-text-generator-using-markov-chains-e17a67225d10&quot;&gt;this post&lt;/a&gt; does a fairly good job of explaining without getting too mathematical. I will admit, I am no expert in Markov chains, but I find them amusing for text generation and they’re something that I want to learn more about. From a very, very, very high level perspective, Markov chains use probabilities to move from state to state.  In this case, each state is a word and we are looking at the probability that a word will follow the previous word. We keep choosing words this way until we reach the desired amount of words.&lt;/p&gt;
+
+&lt;p&gt;I used the R package &lt;code class=&quot;highlighter-rouge&quot;&gt;Markovify&lt;/code&gt; for this quick text generation. I gave the Markov chain model the following rules:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;only replicate &lt;strong&gt;either&lt;/strong&gt; up to 5 words in a row of the original text (my combined blog posts) &lt;strong&gt;OR&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;up to 40% of a &lt;em&gt;generated&lt;/em&gt; sentence can overlap the original text&lt;/li&gt;
+  &lt;li&gt;the maximum sentence length is 150 characters&lt;/li&gt;
+  &lt;li&gt;only give me distinct sentences&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Because my corpus is fairly small, the model did not have a lot of training material.  This means that the output is very limited in possibility and it probably won’t look like something I wrote.  If we gave it the entire Shakespeare corpus, it might be able to replicate his style (to a point), but my ~4,200 words don’t provide much material for the model to learn my writing style. I did it anyway because it’s funny.  Here’s an excerpt from the generated text:&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Let’s say I’m looking at your phone in the same office every day. For now, I think most young people have a safe place to isolate for two weeks. I think most young people have a safe place to isolate for two weeks. Let’s say I’m looking at your door while you spy from the graph, &lt;em&gt;Rosh Squad&lt;/em&gt; exists – to appease Shane. That’s the first week I am in the family. With the quantified self, we’re trying to make GPS tracking more accurate, I don’t have time for that. This is not one but two weeks out of my cute dog, Roshi. This group will soon be moved from the start of quarantine. Mostly, the things that changed around me and I were supposed to go to a party? &lt;br /&gt; So, all of the members are already in a group without Sam? He doesn’t want to be safer with your co-worker. Unsurprisingly, I have an obnoxiously unnecessary number of edges going into or out of hot spots, etc.. Finally, at the first problem. Being as I am in. Two people came in from out of my texting is to my walking pre-COVID. &lt;br /&gt; Samuca and the horizontal line shows the start of week 6. This graph is that I had to. &lt;br /&gt; Unsurprisingly, I have to be in a group to dis her in person. &lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Pretty nonsensical, but entertaining nonetheless.  I wonder how generated text compares sentiment-wise to its training corpus.  A project for another time.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the fifth in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 6: Text Analysis.</summary></entry><entry><title type="html">COVID-19: Data Privacy.</title><link href="http://localhost:4000/from%20quarantine/COVID-Data-Privacy/" rel="alternate" type="text/html" title="COVID-19: Data Privacy." /><published>2020-04-16T14:07:47-05:00</published><updated>2020-04-16T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Data-Privacy</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Data-Privacy/">&lt;h2 id=&quot;week-5-data-privacy&quot;&gt;Week 5: Data Privacy.&lt;/h2&gt;
 
 &lt;p&gt;This week, my class has been asked to contemplate data privacy.  If you have not read it already, take a look at the New York Times’ &lt;a href=&quot;https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html&quot;&gt;&lt;em&gt;The Privacy Project&lt;/em&gt;&lt;/a&gt;.  This project describes very well why data privacy matters, the scope of personal data collected on individuals, how it can be used, and how to be safer with your own technology.&lt;/p&gt;
 
@@ -315,7 +375,7 @@ Since the start of quarantine, I’ve not found myself doing this as much.  Perh
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This is the second in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Written 4/22/20 Weeks 1 &amp;amp; 2: Prologue.</summary></entry><entry><title type="html">Real vs Fake News</title><link href="http://localhost:4000/from%20class/real-vs-fake-news/" rel="alternate" type="text/html" title="Real vs Fake News" /><published>2019-11-18T13:07:47-06:00</published><updated>2019-11-18T13:07:47-06:00</updated><id>http://localhost:4000/from%20class/real-vs-fake-news</id><content type="html" xml:base="http://localhost:4000/from%20class/real-vs-fake-news/">&lt;head&gt;
+&lt;p&gt;&lt;em&gt;This is the prologue for a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Written 4/22/20 Weeks 1 &amp;amp; 2: Prologue.</summary></entry><entry><title type="html">Real vs Fake News</title><link href="http://localhost:4000/from%20class/real-vs-fake-news/" rel="alternate" type="text/html" title="Real vs Fake News" /><published>2019-11-18T13:07:47-06:00</published><updated>2019-11-18T13:07:47-06:00</updated><id>http://localhost:4000/from%20class/real-vs-fake-news</id><content type="html" xml:base="http://localhost:4000/from%20class/real-vs-fake-news/">&lt;head&gt;
 
   &lt;meta charset=&quot;utf-8&quot; /&gt;
   &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;

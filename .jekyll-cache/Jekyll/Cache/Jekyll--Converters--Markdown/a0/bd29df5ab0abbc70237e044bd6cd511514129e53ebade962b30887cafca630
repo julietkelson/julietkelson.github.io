@@ -1,0 +1,15 @@
+I"�<h2 id="week-6-text-analysis">Week 6: Text Analysis.</h2>
+
+<p>This week, we’re focusing on text analysis.  Aisling has asked us to take some of the reflections we’ve done since the start of remote classes and put them into the website <a href="https://voyant-tools.org/">Voyant</a> to see what insights we could gain.  I tried this with all of my blog posts and found that my top 3 words were “data”, “quarantine”, and “group”. Not surprising to me, but still, it is interesting to see that the words that follow those top 3 are the names of the people I’ve been with throughout this quarantine process.</p>
+
+<p>I find text analysis to be a very interesting topic in data analysis. Although it’s an area I don’t have much experience with, it’s something I’ve been experimenting with on my own time and want to learn more about. I used this week’s assignment as an opportunity to do that.  To start, I did a sentiment analysis of my blog posts using the R package <code class="highlighter-rouge">syuzhet</code>.  This package is very easy to use and because I just wanted to do a simple analysis, I didn’t get too deep into the “behind the scenes” aspects of sentiment analysis for this project.</p>
+
+<p>The first thing I did was get a basic overall understanding of the different sentiments found in my blog posts:</p>
+
+<p><img src="assets/images/sentiment.png" alt="sentiments" /></p>
+
+<p><br /></p>
+
+<p><em>This is the fifth in a series of posts <a href="https://julietkelson.github.io/covid/">From Quarantine</a>.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.</em></p>
+
+:ET

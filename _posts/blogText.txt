@@ -1,0 +1,325 @@
+*Written 4/22/20*
+## Weeks 1 & 2: Prologue.
+
+I am writing this post retroactively because my [COVID Diaries](https://julietkelson.github.io/covid/) adventure began during week 3 of my quarantine. Being as I have a strong desire for order and consistency, I could not let these posts start at week 3.  It just felt wrong and has been bothering me, so here we are. As I write this, I am in the middle of week 6.  The only reason I know that is because of these posts.  I thought I'd summarize a bit of what weeks one and two looked like for me and, if I can, provide some visualizations as well.
+
+
+My first week of *quasi-*quarantine coincided with the first anticipated week of Spring Break.  This was, in large part, a week of canceled plans.  My roommates and I were supposed to go to New Orleans and I had St Patrick's Day tickets to a Blackhawks vs. Wild hockey game where I was looking forward to getting beat up for supporting Chicago in my Toews jersey.  But, alas, that was all scrapped and the only plans I did keep were to go "up north" (as they say in Minnesota) with my girlfriend, Gillian. We thought there would be very few people hiking on trails that were either covered in inches of ice and snow and somehow we were right.
+
+Here's our path:
+
+
+
+We went hiking four state parks, spent one night in Grand Marais at a [The Hungry Hippie Hostel](hungryhippiehostel.com/the-hostel/), and then crossed the border into Ontario (because why not?) and hiked some more.  While this wasn't exactly a quarantine, we practiced social distancing and didn't come in contact with others aside from a couple of meals.  At this point, the virus was not as pervasive in the US as it is now.  If it were, this trip likely would not have happened.
+
+When we got back to Minnesota, we made a big trip to Costco which was out of eggs, toilet paper, milk, and other essentials, dropped half of it off at my house (including a 20lb bag of rice), and went back to Gillian's apartment to start the real lock-down of quarantine – the plan being for me to stay with her until my roommates had been done working outside of the house for two weeks.
+
+We watched a lot of Netflix, ate a lot of grilled cheese, and went on a lot of walks, trying to walk around a different lake every day.  Eventually our living situation shifted.  If you're curious about that, I made a [post](https://julietkelson.github.io/from%20quarantine/COVID-Social-Networks/) about it.
+
+Quarantining is a struggle.  It's an abnormal way to live and while it's less than ideal, writing these "diaries" each week has been a useful way for me to reflect on this challenging time and be a little more intentional with my actions.  As I write this, I am weeks away from my virtual "graduation ceremony" and my mom's restructured at-home wedding.  We're ordering groceries online, wearing masks over our faces, and coveting Purell like it's liquid gold.  Times are strange.
+
+I'll leave you with my [co-star](https://www.costarastrology.com/) horoscope of the day: 
+
+*"Your work this month is to understand the difference between feeling truly alive and being constantly in danger."*
+
+I'm not really sure what to do with that.
+
+
+
+*Tettegouche State Park*
+
+
+<br/>
+
+*This is the prologue for a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is not one of those posts.*
+
+## Week 3: Quantified Self.
+
+This is the first week of Zoom classes.  That also means this is the first week I am touching the homework that I had not one but two weeks of Spring Break to complete.  During this first week "back" in classes, I am being asked to think about the "Quantified Self".
+
+While we might think of self-tracking as modern concept with Fitbits, Apple Watches, and the general Internet of Things, the concept of self-tracking reaches much farther back.  My first experience with wearable self-tracking was pulling the Kellog's-branded plastic pedometers out of a box of Rice Krispies and vigorously shaking it to count more steps than my sister.
+
+
+My first experiences with self-tracking at all probably goes back to my days in Montessori schools as a child making birthday timelines – long blue strips of paper with a photo for each year, tracking my age. For each year of life, I ran a circle around the classroom as my friends and teachers sang:
+
+*The Earth goes around the sun tra la la*
+
+*The Earth goes around the sun*
+
+*The Earth goes around the sun tra la la*
+
+*And Juliet is 1...*
+
+adding a year for each circle around the class.
+
+Self tracking is something I think we all do, whether we realize it or not.  But with the concept of the quantified self, I believe a sense of intentionality comes in that separates idle tracking from self quantification.  With the quantified self, we're trying to pick up on patterns, understand things about ourselves, and in some cases we are looking to change our behaviors.  As someone who loves data, I've done a lot of self tracking just for the fun of understanding my behaviors and how they change.  As someone with a chronic illness, self-tracking has also, at times, been important to my health, asking questions of the data such as *How do the things I eat affect the way I feel? How does the way I move change my symptoms? Are certain medications making me feel better or worse? Am I sick or did I just eat too much ice cream?*
+Since the start of quarantine, I've not found myself doing this as much.  Perhaps (definitely) because I would recognize how little I'm doing (or, contrarily, how *much* sitting around I've been doing). But much like the little Rice Krispies pedometer, I have a handy little device in my back pocket at all times tracking much of what I do all day – probably more than I know about.
+
+As I've been sitting around in quarantine, my phone/watch has been collecting the following data without me even needing to do a thing:
+- steps 
+- screen time
+- location (sometimes)
+- notifications received 
+- social media habits
+- audio levels of my headphones
+- audio levels of my environment
+- heart rate 
+- hours spent standing
+- flights climbed...
+
+The list goes on and on and I'll probably never know its extent.  The only one I've been paying attention to since I began quarantining is my steps.  I find that when I don't move enough I, like most people, get antsy and generally unpleasant to be around.  Considering that COVID is out there testing relationships and I'm in here living with my girlfriend, I am trying to make sure I am at least moving a little each day. With an app called [QS Access](https://apps.apple.com/us/app/qs-access/id920297614),  I was able to download some of my Apple Health data to look at how I've been moving around and compare it to my life of freedom before quarantine.  For simplicity's sake and fair comparison, I've decided to look only at data beginning 09/01/2016 – my first year of college.  Or... at least that's what I was going to do until I found out that for some reason I don't have that data.  So we begin in  March of 2017.
+
+Because there is so much data here, I made these graphs in RStudio instead of by hand.  Let's look at the first one:
+
+
+
+In this graph we can see how many steps I took each day from the start of 2017 through today.  The vertical line shows the start of quarantine and the horizontal line shows the trend of how my steps increase or decrease over time. 
+
+What I take away from this graph is that I started walking more in college as I moved farther from campus.  Nothing too shocking.  There is a slight downtick toward the start of quarantine.  Let's take a look at that.
+
+
+
+Okay.  This graph is more interesting. We can see right before I begin quarantine, there is a slight increase in steps, and right when the quarantine begins, the trend turns downward.  Here's how I explain that – right before quarantining, Gillian and I went up to northern Minnesota (and Canada for a second because why not?) and were hiking a lot.  Then, suddenly, quarantine begins and although we're still taking walks, I can tell from this graph that it's not enough to compare to my walking pre-COVID. Something to work on!
+
+Finally, I looked at my social media usage.  How much time do I spend on each platform?  Here's what I found in the Screen Time data from my phone:
+
+
+
+Keeping in mind that this is the data for an entire week of self-isolation, I'm not too disgusted by my exorbitant use of social media on my phone.
+
+Here are my takeaways:
+
+I expect this to change a lot.  Why? Gillian moves back to North Carolina at the start of the week meaning less face-to-face communication.  Given that this graph includes Messages and FaceTime as social media (which I'm not sure I agree with in the modern interpretation of "social media", but Apple will do what it wants), I imagine that those two will increase significantly as my media of communication change from exclusively in-person, to messaging and FaceTime-ing.  Later, when I return to Chicago, I anticipate Messages to go back down because most of my texting is to my family who I will be trapped in an apartment with.
+
+I'll keep track of these because my phone will do it regardless of if I want it to or not, and we'll see if I'm right.  For now, I think I'll take a walk.
+
+
+
+*This is the first in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+
+
+
+
+## Week 4: Social Networks. Part 1.
+It's the start of week four in quarantine and things are somehow still not consistent.
+Some things that changed this week:
+
+- Gillian and I returned to my house.  I returned (semi) permanently.
+- Gillian left my house to drive to her home in North Carolina.
+- Sam adopted a puppy, Diego, who, like us, pees inside, but unlike us, pees on the floor.
+- The temperature reached 70º.
+- My sheets.
+- For two days, not my clothes.
+- Sam turned 22.
+- I turned 22 and 7/12ths.
+
+Mostly, the things that changed around me and about me were the people I was/am living with and the ways we communicated. When quarantine began, I stayed with Gillian for about two weeks.  In part because I wanted to, and in part because I had to.  Being immunocompromised during coronavirus means I have to be extra careful. Considering that some of my regular roommates were still working and we all share a single toilet, I thought it best to stay away until they were two weeks out of work.
+
+So, I stayed with Gillian. Until COVID brought more surprises. Two people came in from out of town and needed a place to isolate for two weeks before returning to society because that's the world we live in now. Coincidentally, Gillian's friend was moving out of her apartment for a bit, opening up a room in an apartment with two people who had also been quarantining for two weeks. So the transition started.
+
+```
+Apartment 1:
+Gillian & Juliet -> Anael & Elyse
+
+Apartment 2:
+Paige, Osmar, & Jesse -> Gillian, Juliet, Osmar, & Jesse
+
+House 1:
+Juliet, Sam, Coleen, & Mathea -> Sam Coleen & Mathea
+
+House 2:
+No one -> Paige
+```
+
+The kindness, care, and generosity of friends allowed everyone to have a safe place to live while keeping potential virus spreading to 0.  
+
+Finally, when all of my roommates had been out of work for two weeks and Paige needed to come home, Gillian and I gave Paige her room back and returned to my house.  This is where Diego, the baby chihuahua comes in.
+
+```
+Apartment 1:
+Gillian & Juliet -> 
+Anael & Elyse
+
+Apartment 2:
+Paige, Osmar, & Jesse -> 
+Gillian, Juliet, Osmar, & Jesse -> 
+Paige, Osmar, & Jesse
+
+House 1:
+Juliet, Sam, Coleen, & Mathea -> 
+Sam Coleen & Mathea -> 
+Gillian, Juliet, Sam, Coleen, & Mathea (and Diego)
+
+House 2:
+No one -> 
+Paige -> 
+No one
+```
+
+But that was not the end. Finally, at the start of week four, Gillian went home to North Carolina and Anael, now officially non-viral, moved to her boyfriend Jack's house.
+
+```
+Apartment 1:
+Gillian & Juliet -> 
+Anael & Elyse -> 
+Elyse
+
+Apartment 2:
+Paige, Osmar, & Jesse -> 
+Gillian, Juliet, Osmar, & Jesse -> 
+Paige, Osmar, & Jesse
+
+House 1:
+Juliet, Sam, Coleen, & Mathea -> 
+Sam Coleen & Mathea -> 
+Gillian, Juliet, Sam, Coleen, & Mathea (and Diego) -> 
+Juliet, Sam, Coleen, & Mathea (and Diego)
+
+House 2:
+No one -> 
+Paige -> 
+No one
+
+House 3:
+Anael, Jack, & others
+
+House 4:
+Gillian & family
+```
+
+All of us are virus free, practicing responsible social distancing, and Purelling the crap out of our hands.
+
+So... Here's who I have lived with the past 3+ weeks:
+
+
+
+If you want to know more about my social networks in quarantine, take a look at [part 2](https://julietkelson.github.io/from%20quarantine/COVID-Social-Networks2/).
+
+
+
+*This is the second in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+
+
+## Week 4: Social Networks. Part 2.
+
+Thinking about social networks made me realize that my typical social networks are all out of whack right now.  Normally I'd be living at home – either in Chicago with my family, or in St Paul, as I am finally doing now, with my roommates.  When I'm with these people I talk to them in person and don't interact with them as much online.  We communicate mainly with our voices, not our phones or computers.  Since I started quarantining, the people I communicate with has changed a lot.  When I realized this I went right to my phone to look at my texts and had the unsettling realization that I have an obnoxiously unnecessary number of group texts consisting of mainly the same people.
+
+First, here's what that looks like.  Next, I'll go through the upsetting reasons they're all apparently necessary.
+
+
+
+Let's start by taking a look at some basic and disturbing facts about this graph...
+
+I'm going to use some terminology here for networks: 
+- **Nodes**: each person here is a "node" or, a thing that can be connected to other things to show some sort of meaningful relationship.
+- **Edges**: each line is an edge.  These edges show how nodes are connected to each other.  In this case, each edge shows two people who are connected by being in the same group chat.  The color tells which group chat connects them.
+- **Degree**: degree measures the number of edges going into or out of a node.  This helps us understand how important or how connected one node is in relation to others in the graph.  For example, the *ME* node has the highest degree because this is a narcissistic graph about me and I only care about the group chats I am in.
+
+Now some facts:
+
+1. There are **9** nodes in this graph.
+2. There are **7** distinct edge colors.
+3. Unsurprisingly, I have the highest degree. I have more than my sister, Maddie, so this makes me happy.
+4. My mom is the least connected one in the family.  Sorry, mom.
+5. Sam is the least connected overall, but this will soon change.
+
+So why are these all necessary and why will Sam soon be moved from the bottom? Let's go through the chats one by one.
+
+<br/>
+
+#### Samuca and the Newts: Me, Coleen, Sam, Mathea
+
+This group must exist because it provides a communication channel among my roommates and me.
+
+<br/>
+
+#### nothing is important here: Me, Coleen, Mathea
+
+This group might seem redundant at first glance. Three of the members are already in a different group together.  Why would they need to be in a group without Sam? Because we're telling *~secrets~*, that's why.  Sam's birthday is April 9th, and this graph was created April 7th.  This group will soon be redundant, but not yet.
+
+<br/>
+
+#### Stay Yo Ass At Home: Me, Maddie, Shane, Mom, Victoria
+
+The most juvenile yet semi-appropriately capitalized and most effective name calls upon us to "stay our asses at home" during quarantine. Inspired by Lori Lightfoot memes, this group is a way for the family (and my sister's girlfriend (but not my mom's fiance?)) to stay connected and in the loop about the infrequent excitement during the coronavirus.  This group is necessary for family communication.
+
+
+
+#### Rosh Squad: Me, Maddie, Victoria
+
+This group seems unnecessary too, right?  While, it's not.  First reason – it is dedicated exclusively to pictures of my cute dog, Roshi. Now, you're probably wondering why we can't send those in the *Stay Yo Ass At Home* chat.  This is because my brother, Shane, gets bothered by texts that he deems "unnecessary."  If we remove Shane from the graph, *Rosh Squad* becomes unnecessary and cute dog pics can stay in *Stay Yo Ass At Home.* 
+
+<br/>
+
+#### Shay Shay & Maddie: Me, Shane, Maddie
+
+This group is for the siblings to talk about our mom without her knowing. It's necessary.  Next.
+
+<br/>
+
+#### ???: Me, Maddie, Shane, Secret People
+
+Why would Maddie, Shane, and I need another group to communicate in? We already have a group to dis our mother in secret and another to dis her in person. You might notice that this group includes other people who are not named on the graph.  This group can be revealed later, but for now it has to remain a secret.  I promise, it's necessary.
+
+<br/>
+
+#### Bitch Squadron: Me, Mom, Maddie
+
+*Bitch Squadron* is the oldest group among the groups.  The OG group chat between a mother and her daughters.  This group exists for the same reason *Rosh Squad* exists – to appease Shane.  He doesn't want to be bothered.
+
+<br/>
+So, all of these edges are necessary in the current setup.  As a person who loves efficiency and optimization, I hate this and have found a solution: remove Shane.
+
+This might seem drastic and barbaric, but hear me out.  Removing Shane eliminates three groups – *Rosh Squad*, *Bitch Squadron*, *Shay Shay & Maddie* – because they no longer need to be distinct to avoid disrupting Shane's day.  Communication that existed in them previously can now flow through *Stay Yo Ass At Home*.  Removing Shane also removes **14** edges.
+- The **8** edges that connect to Shane through *SYAAH*, *???*, and *Shay Shay & Maddie*
+- The **3** edges that connect *Rosh Squad*
+- The **3** edges that connect *Bitch Squadron*
+
+Considering that *nothing important here* will also disappear in two days, removing Shane would: 
+- bring the group count to **3** (*SYAAH*, *Samuca and the Newts*, *???*)
+- bring the edge count to **14**
+- bring the node count to **8**
+- tie my mom and Sam for lowest degree (excluding secret)
+
+Sometimes it's hard to face the facts of science.
+
+
+
+*This is the third in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+
+
+## Week 5: Data Privacy.
+
+This week, my class has been asked to contemplate data privacy.  If you have not read it already, take a look at the New York Times' [*The Privacy Project*](https://www.nytimes.com/interactive/2019/opinion/internet-privacy-project.html).  This project describes very well why data privacy matters, the scope of personal data collected on individuals, how it can be used, and how to be safer with your own technology.
+
+I think most young people have a good understanding that when you buy a smart phone and carry it around, it's collecting data on you.  I looked at this a bit in my post on the [quantified self](https://julietkelson.github.io/from%20quarantine/COVID-Quantified-Self/).  Our phones track information that they share with us (steps, screen time, etc.), but they also collect data that they keep for themselves – or in some cases, sell.  Most notably, GPS data.
+
+In reading this New York Times series, I began to think about how this data might be used to track the Coronavirus and what that would mean for Americans.  This is happening in other countries and is in talks for the US, although we don't know much about the efficacy of using phone data to track social distancing and contamination.  [The Washington Post](https://www.washingtonpost.com/technology/2020/03/24/social-distancing-maps-cellphone-location/) claims that "the U.S. government is in talks with Facebook, Google, and other tech companies about using anonymous location data," but anonymous location data is easily un-anonymized. The New York Times Privacy Project describes this in detail, but I'll explain it quickly here too in case you don't have time for that.
+
+Let's say I'm looking at your phone data. I might pull all of the records that are labeled with your anonymized ID and be able to see your day to day movement.  In a simple case, you sleep in the same house every night and work in the same office every day. A few Google searches and I could find your name.  This data is not *really* anonymous.
+
+That's the first problem.
+
+Now, here's why I don't think cell phone data should be used to track things like social distancing or possible contamination.
+
+GPS data on the average smart phone is only accurate up to about [16 feet](https://www.ion.org/publications/abstract.cfm?articleID=13079).  This is why your Uber parks down the block to pick you up.  It's not their fault. Cut them some slack. While this is remarkable for using softwares like Google Maps, it's not so good when your social distancing radius is six feet.  If you're within six feet of another person, a GPS does not know if you're two feet away or ten. It's also hard to tell if you're on the same floor as someone else or not. GPS is even worse with vertical placement than with horizontal. It might appear that you're giving a piggyback ride to your boss, when in fact she's two floors above you. And God forbid you forget your phone in the bathroom.  Now the government thinks you are sharing a stall with your co-worker.
+
+*But Juliet,* you might say, *every American is quarantining at home.  No one is with their boss and their co-workers.*
+
+To which I would reply, [you are wrong](https://www.nytimes.com/interactive/2020/04/02/us/coronavirus-social-distancing.html).  Just ask my sister who FaceTimes me every day to show me the congregations of people drinking coffee below her Nashville apartment. 
+
+But let's pretend that you're right and all Americans are practicing strict social distancing and only going to stores when essential.  Still, the 16 foot radius causes us an issue.  And with regards to spreading infection, this could cause unnecessary panic. What if two people are next to each other at a stoplight in separate cars? Would we count them as potentially infected? Or maybe your Instacart delivery person drops your groceries at your door while you spy from the window. Are they sent some sort of message telling them to get tested for the virus?  Not to mention the issue of noncompliance – what if you leave your phone at home and go to a party?
+
+Sure, there are potential upsides to using cell phone location tracking.  We can look at patterns of movement, see where people congregate, observe migrations in and out of hot spots, etc..  But the government could also attempt to use anonymous data to do things like enforce curfews, track social distancing, or even use identifiable metadata about your texts and phone calls to predict who you're contacting and find out who you have been with.  And not to sound too patriotic, but would this not be a violation of our fourth amendment rights? 
+
+In the Supreme Court case *Carpenter v. United States*, the court decided it was, calling cell phone location data a ["detailed chronicle of a person’s physical presence compiled every day, every moment over years.”](https://www.eff.org/document/carpenter-v-united-states-supreme-court-opinion) Police need a warrant to get these records. I suppose this could be deemed within the interest of national security, but I am no constitutional expert and I'm quickly veering out of my domain.
+
+My point is, while there are ways to make GPS tracking more accurate, I don't think this would work particularly well and I don't think it's worth the potential panic it could cause.
+
+If you're concerned about your data privacy, take a look again at the New York Times Privacy Project (for which this blog post is quickly becoming an unpaid advertisement).
+
+
+
+*This is the fourth in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+
+
