@@ -23,7 +23,7 @@ Now that that's out of the way, we can get to the juicy... "stuff". As you may h
 
 So, because organization is a part of my day to day life, reflecting on it overall seemed like too broad a brush to paint this post with. I decided instead to focus on my most recent and largest organizational event: packing.
 
-Even though I don't go home for a week and a half, I decided on Sunday that the best use of my time would be productive procrastination which lead me to pack nearly all of my clothes. I packed three bags – one with winter clothes, one with summer clothes, and one with my dog's sweater and his bumble bee Halloween costume that I didn't think he would need while he stays in Nashville with my sister. If you're wondering, yes I did vomit a bit at the fact that I purchased a Halloween costume for my dog, but he looked very cute in it.
+Even though I don't go home for a week and a half, I decided on Sunday that the best use of my time would be productive procrastination which led me to pack nearly all of my clothes. I packed three bags – one with winter clothes, one with summer clothes, and one with my dog's sweater and his bumble bee Halloween costume that I didn't think he would need while he stays in Nashville with my sister. If you're wondering, yes I did vomit a bit at the fact that I purchased a Halloween costume for my dog, but he looked very cute in it.
 
 <img src="/assets/images/roshBee.JPG" alt="Roshi"/>
 
