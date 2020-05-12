@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-29T19:51:16-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: Organization.</title><link href="http://localhost:4000/from%20quarantine/COVID-Organization/" rel="alternate" type="text/html" title="COVID-19: Organization." /><published>2020-04-29T14:07:47-05:00</published><updated>2020-04-29T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Organization</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Organization/">&lt;h2 id=&quot;week-7-organization&quot;&gt;Week 7: Organization.&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-12T14:17:07-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: Music.</title><link href="http://localhost:4000/from%20quarantine/COVID-Music/" rel="alternate" type="text/html" title="COVID-19: Music." /><published>2020-05-11T14:07:47-05:00</published><updated>2020-05-11T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Music</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Music/">&lt;h2 id=&quot;week-8-late-music&quot;&gt;Week 8 (late!): Music.&lt;/h2&gt;
+
+&lt;p&gt;This post is being posted in the middle of week nine because of the following excuses that I find valid but you may not:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Finals&lt;/li&gt;
+  &lt;li&gt;Six hour drive from MN to IL&lt;/li&gt;
+  &lt;li&gt;My mom’s wedding (in quarantine)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Accept it or judge me.  It’s the internet so I’ve prepared myself for both.&lt;/p&gt;
+
+&lt;p&gt;Anyway, this week I analyzed my music habits.  I’ve been thinking a lot about music recently because my band, &lt;a href=&quot;https://www.facebook.com/geysertheband/&quot;&gt;Geyser&lt;/a&gt; is finishing up an album.  I know – shameless self promotion. I wanted to see if my music habits have changed since starting quarantine.  I’ll take you through what I found.&lt;/p&gt;
+
+&lt;p&gt;I started off by requesting my music listening data from Apple because they don’t have a nice public API like Spotify does.  That took about a week to get and they gave me way more data than I needed, but better too much than too little.  My first question was this: &lt;em&gt;How have my top artists changed?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I started off by looking at my all time artists overall (all time being since October, 2015).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/artists.png&quot; alt=&quot;top overall artists&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wasn’t really surprised by this. I go through phases where I find an artist I like and listen nonstop.  That covers Brandi Carlile, Chris Stapleton, and Jade Bird.  Wilco and Gillian Welch are another story.  And I wanted to show you that story so check out the next graph.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/artists_ot.png&quot; alt=&quot;top artists over time&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see what I was talking about with the obsessive listening: Each of the three artists I mentioned begins with a steep incline when I start listening to them and then either continues up with each new album they release, or flattens out.&lt;/p&gt;
+
+&lt;p&gt;Now let’s talk about Gillian Welch.  She’s a long time favorite artist and you see her climbing steadily over time in the graph, but then there’s a sharp uptick in 2020.  That’s because I played her version of Radiohead’s Black Star in a concert and I was trying to learn &lt;a href=&quot;https://www.youtube.com/watch?v=attWLjs5WWs&quot;&gt;Dave Rawlings’ killer guitar&lt;/a&gt; solo note for note.&lt;/p&gt;
+
+&lt;p&gt;And finally Wilco. Wilco is the dark blue line. You can see the same pattern that Gillian Welch took where there is a relatively flat but gradual climb and then a quick increase in plays. This one’s slightly embarrassing but what is the internet for if not sharing embarrassing things with the world.  I really like Wilco and their music.  They were one of my first concerts as a kid.  But for the longest time, I felt weird listening to their music because I was friends with the singer’s son and we played music together. But according to this graph, I realized mid-2018 that this was stupid and I listen to their music a lot now because it’s great music and no one cares.&lt;/p&gt;
+
+&lt;p&gt;Okay. So I know who my top artists are overall, but who are my top artists in quarantine? Take a look:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/artists_q.png&quot; alt=&quot;top artists in quarantine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pretty different.  Brandi Carlile and Wilco still make the cut, but my most listened to artist since quarantining is Sarah Jarosz.  I didn’t expect this, but I have been listening to her music a lot. It’s on the calmer side and the instrumentation is really nice.&lt;/p&gt;
+
+&lt;p&gt;Next new addition – John Prine.  I was pretty sad to hear that John Prine died from the coronavirus. If you haven’t heard his music, I suggest giving it a listen.  He was a hero to songwriters.  As I write this, I’m in an apartment across the street from the Old Town School of Folk Music where he used to take music lessons and where I grew up learning music. So, I’ve been listening to a lot of his music because his lyrics are the epitome of good songrwiting and his chords are simple and easy to follow.  He once said if you play more than three chords you’re showing off.&lt;/p&gt;
+
+&lt;p&gt;Finally The Lone Bellow. I haven’t listened to their music in a long time, but when their new album came out this year, I was reminded of why I used to like them so much.  Their three part harmonies and strong voices are soulful and fun to sing along to.  I had ticket’s to one of their concerts in April.  Hopefully I can see them play the new album in the future.&lt;/p&gt;
+
+&lt;p&gt;Okay.  Artists are covered. What about genres? The other question I had about my music was how the genres I listened to morphed from before quarantine to now.&lt;/p&gt;
+
+&lt;p&gt;I started by looking at seven weeks of music before quarantine, and seven weeks during quarantine so I could compare them responsibly.  My music taste has changed some over time so in order to see if there was a shift. Here’s that information:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/genre_d.png&quot; alt=&quot;genre change&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not really much of a change here in raw numbers, but where there is a change is proportions.  It seems I’m listening to a lot less Alternative music, and I’m listening to a lot more pop, blues, folk-rock, and jazz.  To be honest, I’m not quite sure why that is.  It’s something to think about.&lt;/p&gt;
+
+&lt;p&gt;I thought that perhaps if I looked at genres over time I might gain some new insights:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/genre_ot.png&quot; alt=&quot;genres over time&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It appears that my increase in alternative music started this year. I think I can attribute this to listening to reference tracks for Geyser’s new singles/album (another shameless plug) a lot as we finished up mixing.  I also see that rock overtook pop. I’m not sure why, but I’m happy about it.&lt;/p&gt;
+
+&lt;p&gt;So, I suppose I’ve learned very little from this.  You’ve probably learned more than me but little of value unless you’re very curious about my taste in music.  If you’ve gleaned anything from this post, I hope it’s that there are a lot of reasons to listen to different artists during this time.  While there may not be many new albums coming out, we can find ourselves being drawn to our old favorites for new reasons.  That, and maybe you’ve found some new music to listen to right now.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the seventh in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 8 (late!): Music.</summary></entry><entry><title type="html">COVID-19: Organization.</title><link href="http://localhost:4000/from%20quarantine/COVID-Organization/" rel="alternate" type="text/html" title="COVID-19: Organization." /><published>2020-04-29T14:07:47-05:00</published><updated>2020-04-29T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Organization</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Organization/">&lt;h2 id=&quot;week-7-organization&quot;&gt;Week 7: Organization.&lt;/h2&gt;
 
 &lt;p&gt;I hate clutter. I hate clutter but I like stuff. To make matters worse, I am bad at getting rid of stuff. I also love organizing and you can’t organize if you don’t have stuff.&lt;/p&gt;
 
@@ -15,7 +72,7 @@
 
 &lt;p&gt;So, because organization is a part of my day to day life, reflecting on it overall seemed like too broad a brush to paint this post with. I decided instead to focus on my most recent and largest organizational event: packing.&lt;/p&gt;
 
-&lt;p&gt;Even though I don’t go home for a week and a half, I decided on Sunday that the best use of my time would be productive procrastination which lead me to pack nearly all of my clothes. I packed three bags – one with winter clothes, one with summer clothes, and one with my dog’s sweater and his bumble bee Halloween costume that I didn’t think he would need while he stays in Nashville with my sister. If you’re wondering, yes I did vomit a bit at the fact that I purchased a Halloween costume for my dog, but he looked very cute in it.&lt;/p&gt;
+&lt;p&gt;Even though I don’t go home for a week and a half, I decided on Sunday that the best use of my time would be productive procrastination which led me to pack nearly all of my clothes. I packed three bags – one with winter clothes, one with summer clothes, and one with my dog’s sweater and his bumble bee Halloween costume that I didn’t think he would need while he stays in Nashville with my sister. If you’re wondering, yes I did vomit a bit at the fact that I purchased a Halloween costume for my dog, but he looked very cute in it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/roshBee.JPG&quot; alt=&quot;Roshi&quot; /&gt;&lt;/p&gt;
 
@@ -2267,105 +2324,4 @@ $(document).ready(function () {
 &lt;/script&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">DropIn: Web-based Major Planning</title><link href="http://localhost:4000/from%20class/from%20my%20brain/dropin/" rel="alternate" type="text/html" title="DropIn: Web-based Major Planning" /><published>2019-05-08T14:07:47-05:00</published><updated>2019-05-08T14:07:47-05:00</updated><id>http://localhost:4000/from%20class/from%20my%20brain/dropin</id><content type="html" xml:base="http://localhost:4000/from%20class/from%20my%20brain/dropin/">&lt;h1 id=&quot;dropin&quot;&gt;&lt;a href=&quot;https://kevin-shin.github.io/DropIn/&quot;&gt;DropIn&lt;/a&gt;&lt;/h1&gt;
-&lt;h4 id=&quot;a-web-application-that-provides-a-visual-interface-to-help-students-and-advisors-plan-a-major-representing-the-courses-and-prerequisite-logic-as-a-directed-graph&quot;&gt;A web-application that provides a visual interface to help students and advisors plan a major, representing the courses and prerequisite logic as a directed graph.&lt;/h4&gt;
-
-&lt;p&gt;Authors: Kevin Shin, Juliet Kelson, Saloni Daga, David Barrette&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Project Statement&lt;/strong&gt;: Planning a major is one of the universal, central experiences of every college student, and requires a serious amount of planning and advising. Currently, information sources at Macalester are scattered across course catalogs, websites on the major structure/requirements, distribution requirements, and personal scheduling information.&lt;/p&gt;
-
-&lt;p&gt;DropIn provides a user-friendly interface in which these information sources are consolidated into one platform, with the aim of demystifying the process and allowing the user to focus on their personal preferences and considerations. Information about courses is provided alongside a planning grid, and prerequisite classes are automatically populated onto the graph, so the user can visually analyze the commitments of enrolling in a given class. Additionally, a requirements panel is provided to help the user track which requirements they have yet to fulfill.&lt;/p&gt;
-
-&lt;h3 id=&quot;set-up&quot;&gt;Set Up&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Option 1:&lt;/strong&gt; Visit https://kevin-shin.github.io/DropIn/&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; In order to access the web-application directly on your computer, clone this repository using your favorite IDE or by simply typing &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone [url]&lt;/code&gt; in the terminal. Then, run the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; file using your IDE. This should create a &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost&lt;/code&gt; that compiles the HTML and runs the application. All necessary libraries are included and linked from inside the repository, or accessed by a CDN.&lt;/p&gt;
-
-&lt;h3 id=&quot;main-usagefunctionality&quot;&gt;Main Usage/Functionality&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on a course to read description.&lt;/li&gt;
-  &lt;li&gt;Drag available courses to semester columns where pre-requisites will pop up with arrows following course logic.&lt;/li&gt;
-  &lt;li&gt;Delete/Mark as Taken/Mark as UnTaken: Delete/ Mark as taken/un-taken selected courses.&lt;/li&gt;
-  &lt;li&gt;Align: Align graph to center courses in semester bins.&lt;/li&gt;
-  &lt;li&gt;Requirements Panel indicates missing requirements, and alerts user when graph consists of a full major.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;code-architecture&quot;&gt;Code Architecture&lt;/h3&gt;
-
-&lt;p&gt;The project follows a MVC model, in which user-events trigger data-manipulations which then update the View. Our insight into the problem was to create an intermediary step between the Model and View called the “ViewModel”, which translates user profile data into a convenient format which is readily drawn as a directed graph structure. To give an overview of the process, let’s suppose that a user drags COMP221 from the top-status bar into the graph. Then, the following events are launched:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;A depth-first search algorithm is run through a catalog, finding all courses that are prerequisites of COMP221, as well as their own prerequisites.&lt;/li&gt;
-  &lt;li&gt;Each of these courses are pushed onto a Profile (if not present already), an array of objects representing courses with a status (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;{course: COMP340, status: &quot;taken&quot;}&lt;/code&gt;). The original dragged course is pushed with the dropped (x,y) coordinates of the mouse, and prerequisites are given random y values within the graph and x values left of the original (x,y).&lt;/li&gt;
-  &lt;li&gt;Algorithms recalculate several features from this new profile. These include information like the courses not taken (available for dragging) and which courses will fulfill which major requirements. Additionally, the profile is used to generate an array of connections between the nodes of the profile, which in our View, will represent a directed arrow from a prerequisite to a course.&lt;/li&gt;
-  &lt;li&gt;These model elements are drawn into the UI (courses as nodes, connections as arrows, updated requirements panel).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In general, each user-event triggers some kind of corresponding data-manipulation, thus this pipeline enables us to simply match UI behaviors to the appropriate model algorithms. Additional work is done to make sure these data outputs are successfully able to render the view, but these methods are designed to take arbitrary ViewModels and display them on the screen, and can (and should be) reused and recalled.&lt;/p&gt;
-
-&lt;h3 id=&quot;libraries&quot;&gt;Libraries&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery/jQueryUI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jsplumbtoolkit.com/&quot;&gt;jsPlumb&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://d3js.org/&quot;&gt;D3.js&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/tweenjs/tween.js/&quot;&gt;Tween.js&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;tests&quot;&gt;Tests&lt;/h3&gt;
-&lt;p&gt;To run tests the following steps are necessary:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;In most files in the “js” directory, there are two types of import statements.  They look like the following:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;import {courseCatalog} from &quot;./prereq_dictionary.js&quot;;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;const courseCatalog = require(&quot;./prereq_dictionary.js&quot;);&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Comment out &lt;em&gt;all&lt;/em&gt; import statements of the &lt;em&gt;first&lt;/em&gt; type and uncomment &lt;em&gt;all&lt;/em&gt; import statements of the &lt;em&gt;second&lt;/em&gt; type.&lt;/p&gt;
-
-&lt;p&gt;This will allow Jest to read the import statements.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Similarly, there are two types of export statements in the same directories:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;export {dfs};&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;module.exports = dfs;&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Comment out &lt;em&gt;all&lt;/em&gt; export statements of the &lt;em&gt;first&lt;/em&gt; type and uncomment &lt;em&gt;all&lt;/em&gt; export statements of the &lt;em&gt;second&lt;/em&gt; type.&lt;/p&gt;
-
-&lt;p&gt;This will allow Jest to read the export statements.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Go to the &lt;code class=&quot;highlighter-rouge&quot;&gt;__tests__ &lt;/code&gt;directory in the terminal and run &lt;code class=&quot;highlighter-rouge&quot;&gt;npm run test&lt;/code&gt; to run all tests.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To run a specific test, run &lt;code class=&quot;highlighter-rouge&quot;&gt;npm run test fileName.test.js&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;future-work&quot;&gt;Future Work&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Expand to incorporate other majors.&lt;/li&gt;
-  &lt;li&gt;Scrape major data from web so as to not have to manually log courses and when they are offered.&lt;/li&gt;
-  &lt;li&gt;Incorporate Gen-Ed/Distribution requirements.&lt;/li&gt;
-  &lt;li&gt;Allow user to store different plans.&lt;/li&gt;
-  &lt;li&gt;Allow user to export major plan in a concise, tabular format.&lt;/li&gt;
-  &lt;li&gt;Accomodate exceptions to courses, overrides from professors, etc.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;known-bugsissues-missing-features-and-reflections-on-decisions&quot;&gt;Known Bugs/Issues, Missing Features, and Reflections on Decisions&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;CSS features were adapted and tested for a limited number of screens. Sizing and placement of HTML elements may appear different on different screens.&lt;/li&gt;
-  &lt;li&gt;Currently, positioning algorithms do not respect whether courses cross.&lt;/li&gt;
-  &lt;li&gt;Most UI elements are available across browsers, but may appear different.&lt;/li&gt;
-  &lt;li&gt;Currently, positionInitialCourses() is hard-coded in terms of screen location, and based on the specific courses in the comp-major. An immediate next step in achieving Future Work Goal #1 (listed above) would be to remove instances of both hard-coding CSS (to allow for various screen widths to have consistently proportional sizing) and the reliance on course-name identification (so arbitrary courses of any major can still be meaningfully organized).&lt;/li&gt;
-  &lt;li&gt;Test suite incomplete–unit tests of some data manipulation algorithms should be implemented in the near future.&lt;/li&gt;
-  &lt;li&gt;Full major algorithm does not incorporate a check that some class is a Capstone course, as stated by the Computer Science Major rules. This may vary year by year, but a true “check” of the major should incorporate this feature as well.&lt;/li&gt;
-  &lt;li&gt;Some visual information has been left semantically ambiguous–for instance, there is no clear way to differentiate between MATH and COMP courses without clicking and viewing the description.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;acknowledgements&quot;&gt;Acknowledgements&lt;/h3&gt;
-&lt;p&gt;This project was completed as the main coursework for COMP225 (Software Design and Development), taught by Paul Cantrell in Spring 2019. We are incredibly grateful for his guidance throughout every step of the process!&lt;/p&gt;</content><author><name></name></author><summary type="html">DropIn A web-application that provides a visual interface to help students and advisors plan a major, representing the courses and prerequisite logic as a directed graph.</summary></entry></feed>
+&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
