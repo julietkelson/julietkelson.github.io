@@ -63,8 +63,8 @@ permalink: /resume/
     <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=112587">Discrete Mathematics</a><br>
     <a href="https://catalog.macalester.edu/preview_course_nopop.php?catoid=21&coid=112595">
     Statistical Machine Learning</a><br>
-    Data Storytelling (in progress)<br>
-    Causal Inference (in progress)
+    Data Storytelling <br>
+    Causal Inference 
     </td>
  </tr>
 </table>
