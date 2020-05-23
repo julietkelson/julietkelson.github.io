@@ -8,7 +8,7 @@ themes:
   - COVID Diaries
 ---
 
-## Week 9: CDC Compliance: Chicago.
+## Week 10: CDC Compliance: Chicago.
 
 *This post is part of a larger project. If you're bored in quarantine and want to collect data in your city, [email me](mailto:kelsonjuliet@gmail.com?subject=I%20Want%20To%20Collect%20Data).  It's easy!*
 
