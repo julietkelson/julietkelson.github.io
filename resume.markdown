@@ -7,10 +7,10 @@ permalink: /resume/
 ---
 #### [**Macalester College**](https://www.macalester.edu/), St. Paul, MN 
 <div>
-    Bachelor degree expected May, 2020 <br>
+    Bachelor degree May, 2020 <br>
     <b>Major:</b> Computer Science <br>
     <b>Minor:</b> Data Science/Data Driven Journalism<br>
-    <b>Current GPA:</b> 3.88
+    <b>GPA:</b> 3.89
 </div>
 
 
