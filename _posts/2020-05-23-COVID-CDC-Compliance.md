@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "COVID-19: CDC Compliance."
+title:  "COVID-19: CDC Compliance: Chicago."
 date:   2020-05-23 01:07:47 -0600
 categories: 
   - From Quarantine
