@@ -44,5 +44,5 @@ It's not all tragic.  My uncle just brought us pies and breads that my aunt made
 
 <br/>
 
-*This is the eighth in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+*This is the eighth in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one not of those posts.*
 

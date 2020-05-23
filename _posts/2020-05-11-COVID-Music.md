@@ -63,5 +63,5 @@ So, I suppose I've learned very little from this.  You've probably learned more 
 
 <br/>
 
-*This is the seventh in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is one of those posts.*
+*This is the seventh in a series of posts [From Quarantine](https://julietkelson.github.io/covid/).  Most posts from quarantine are prompted by Aisling Quigley's Data Storytelling class at Macalester College.  This is not one of those posts.*
 
