@@ -47,13 +47,15 @@ Now that you're armed with the evidence, here are some things you can do:
 - Protest (safely.  COVID is still out there)
 - Support the POC in your life and ask them what is helpful.  Don't assume that you know.
 - Donate supplies to protesters 
+- Educate yourself 
 
 Where to donate:
 
 - [George Floyd Memorial Fund](https://www.gofundme.com/f/georgefloyd)
+- [Black Visions Collective](https://www.blackvisionsmn.org/about)
 - [The Bail Project](https://bailproject.org/) 
-- [The Minnesota Freedom Fund](https://minnesotafreedomfund.org/bailbondfaq)
-- [Northstar Health Collective](https://northstarhealth.wordpress.com/about-us/)
+- [Reclaim the Block](https://www.reclaimtheblock.org/home/#about)
+- [North Star Health Collective](https://northstarhealth.wordpress.com/about-us/)
 - [MIGIZI](https://www.migizi.org/)
 
 
