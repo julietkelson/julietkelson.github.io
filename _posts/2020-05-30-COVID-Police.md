@@ -20,7 +20,7 @@ The reason I am writing is because as a data analyst, it is clear to me not only
 
 <small> The data for the following graphs comes from [Open Minneapolis](http://opendata.minneapolismn.gov/datasets/6d8110617c4b4971a270ff0834971b89_0/data?selectedAttribute=PoliceUseOfForceID) and spans 2008 through 2020.  At the time of use, the most recent update was May 29, 2020). </small>
 
-Let's start with the basic racial breakdown of incidents of police use of force. To be explicitly clear, `Race` here is the race of the person whom the force was inflicted upon.
+Let's start with the basic racial breakdown of incidents of police use of force. To be explicitly clear, `Race` here is the race of the person upon whom the force was inflicted.
 
 <img src="/assets/images/inc_race.png" alt="use of force by race">
 
