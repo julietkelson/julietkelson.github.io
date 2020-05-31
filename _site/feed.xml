@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-23T16:01:54-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: CDC Compliance: Chicago.</title><link href="http://localhost:4000/from%20quarantine/COVID-CDC-Compliance/" rel="alternate" type="text/html" title="COVID-19: CDC Compliance: Chicago." /><published>2020-05-23T02:07:47-05:00</published><updated>2020-05-23T02:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-CDC-Compliance</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-CDC-Compliance/">&lt;h2 id=&quot;week-9-cdc-compliance-chicago&quot;&gt;Week 9: CDC Compliance: Chicago.&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-30T20:46:34-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Juliet Kelson</title><subtitle>Hey there! You’ve stumbled across my blog-website-portfolio-hub — the place where I share my data science projects, resumé, and maybe more. We’ll see. </subtitle><entry><title type="html">COVID-19: George Floyd.</title><link href="http://localhost:4000/from%20quarantine/COVID-Police/" rel="alternate" type="text/html" title="COVID-19: George Floyd." /><published>2020-05-30T02:07:47-05:00</published><updated>2020-05-30T02:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Police</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Police/">&lt;h2 id=&quot;week-11-george-floyd&quot;&gt;Week 11: George Floyd.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Before you read this post,&lt;/strong&gt; understand this – mine is not the voice you should prioritize. While I am outraged by the murder of George Floyd, and I hope you are too, the voices we need to listen to, follow, and promote right now are the voices of the black communities in this country.&lt;/p&gt;
+
+&lt;p&gt;I am not writing to recount the events of George Floyd’s murder.  As the &lt;a href=&quot;https://www.washingtonpost.com/opinions/2020/05/29/heres-why-we-dont-see-protests-when-police-unjustly-kill-white-people/&quot;&gt;&lt;em&gt;Washington Post&lt;/em&gt;&lt;/a&gt; put it:&lt;/p&gt;
+
+&lt;p&gt;“If you’re white, you can view the footage of Daniel Shaver’s death, feel some anger and move on. If you’re black, viewing the video of George Floyd’s death is a reminder that the throat under Officer Derek Chauvin’s knee could easily have been your own.”&lt;/p&gt;
+
+&lt;p&gt;The reason I am writing is because as a data analyst, it is clear to me not only from anecdote, but from the numbers, that the United States has a problem with police using force against people of color.  I’ll show you the data briefly for Minneapolis.  Then I’ll offer ways to help that have been promoted by those organizing and involved in the current protests.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;White people, don’t just sit on this information.&lt;/strong&gt; Donate money and supplies, engage with local organizations to find out how to help, educate yourselves.  Utilize the privilege that George Floyd didn’t have to prevent this from happening again and to hold those responsible accountable.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; The data for the following graphs comes from &lt;a href=&quot;http://opendata.minneapolismn.gov/datasets/6d8110617c4b4971a270ff0834971b89_0/data?selectedAttribute=PoliceUseOfForceID&quot;&gt;Open Minneapolis&lt;/a&gt; and spans 2008 through 2020.  At the time of use, the most recent update was May 29, 2020). &lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s start with the basic racial breakdown of incidents of police use of force. To be explicitly clear, &lt;code class=&quot;highlighter-rouge&quot;&gt;Race&lt;/code&gt; here is the race of the person whom the force was inflicted upon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/inc_race.png&quot; alt=&quot;use of force by race&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since 2008, 17,933 (62%) incidents of police use of force have been recorded against black people in Minneapolis. White people come in with 7,033 (24%) – almost 11,000 fewer.  Black people make up &lt;a href=&quot;https://www.census.gov/quickfacts/fact/table/minneapoliscityminnesota/PST045219&quot;&gt;19%&lt;/a&gt; of the Minneapolis population.&lt;/p&gt;
+
+&lt;p&gt;For black people, the most common “problem” that brings police and results in these violent incidents is recorded as “Suspicious Person.” The number of “Suspicious Person” reports for white people is less than half of those listed for black people.&lt;/p&gt;
+
+&lt;p&gt;The neighborhood with the most records of “suspicious people” that ended in use of force against black people: Downtown West. A neighborhood that is 60% white and only 22% black.&lt;/p&gt;
+
+&lt;p&gt;Next, I want you to look at the type of force police use with people of color (POC):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/type_force.png&quot; alt=&quot;type of force&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;George Floyd is one of the 14,000+ people of color to be counted in the “bodily force” category.&lt;/p&gt;
+
+&lt;p&gt;People of color outnumber white people by a long shot. And of all people of color, Minneapolis police seem to use the most force against black people. Specifically black men.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/race_type.png&quot; alt=&quot;type of force&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you’re armed with the evidence, here are some things you can do:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;VOTE.&lt;/li&gt;
+  &lt;li&gt;Call your legislators and demand police accountability&lt;/li&gt;
+  &lt;li&gt;Protest (safely.  COVID is still out there)&lt;/li&gt;
+  &lt;li&gt;Support the POC in your life and ask them what is helpful.  Don’t assume that you know.&lt;/li&gt;
+  &lt;li&gt;Donate supplies to protesters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Where to donate:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gofundme.com/f/georgefloyd&quot;&gt;George Floyd Memorial Fund&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bailproject.org/&quot;&gt;The Bail Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://minnesotafreedomfund.org/bailbondfaq&quot;&gt;The Minnesota Freedom Fund&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://northstarhealth.wordpress.com/about-us/&quot;&gt;Northstar Health Collective&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.migizi.org/&quot;&gt;MIGIZI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the tenth in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 11: George Floyd.</summary></entry><entry><title type="html">COVID-19: CDC Compliance: Chicago.</title><link href="http://localhost:4000/from%20quarantine/COVID-CDC-Compliance/" rel="alternate" type="text/html" title="COVID-19: CDC Compliance: Chicago." /><published>2020-05-23T02:07:47-05:00</published><updated>2020-05-23T02:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-CDC-Compliance</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-CDC-Compliance/">&lt;h2 id=&quot;week-10-cdc-compliance-chicago&quot;&gt;Week 10: CDC Compliance: Chicago.&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;This post is part of a larger project. If you’re bored in quarantine and want to collect data in your city, &lt;a href=&quot;mailto:kelsonjuliet@gmail.com?subject=I%20Want%20To%20Collect%20Data&quot;&gt;email me&lt;/a&gt;.  It’s easy!&lt;/em&gt;&lt;/p&gt;
 
@@ -61,7 +117,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This is the ninth in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 9: CDC Compliance: Chicago.</summary></entry><entry><title type="html">COVID-19: A Weekend.</title><link href="http://localhost:4000/from%20quarantine/COVID-A-Weekend/" rel="alternate" type="text/html" title="COVID-19: A Weekend." /><published>2020-05-18T02:07:47-05:00</published><updated>2020-05-18T02:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-A-Weekend</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-A-Weekend/">&lt;h2 id=&quot;week-9-a-weekend&quot;&gt;Week 9: A Weekend.&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This is the ninth in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 10: CDC Compliance: Chicago.</summary></entry><entry><title type="html">COVID-19: A Weekend.</title><link href="http://localhost:4000/from%20quarantine/COVID-A-Weekend/" rel="alternate" type="text/html" title="COVID-19: A Weekend." /><published>2020-05-18T02:07:47-05:00</published><updated>2020-05-18T02:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-A-Weekend</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-A-Weekend/">&lt;h2 id=&quot;week-9-a-weekend&quot;&gt;Week 9: A Weekend.&lt;/h2&gt;
 
 &lt;p&gt;In the dystopian fashion of 2020, I logged onto Zoom Saturday afternoon to watch my virtual graduation. Four years of college bookended by Trump’s election and a pandemic. Different people will have differing opinions on that first one, but if you know me then you know my opinion.  If you don’t know me, I think that Trump is as bad for my health as the pandemic – and I’m immunocompromised.&lt;/p&gt;
 
@@ -551,35 +607,4 @@ Since the start of quarantine, I’ve not found myself doing this as much.  Perh
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This is the first in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 3: Quantified Self.</summary></entry><entry><title type="html">COVID-19: Prologue.</title><link href="http://localhost:4000/from%20quarantine/COVID-Prologue/" rel="alternate" type="text/html" title="COVID-19: Prologue." /><published>2020-03-13T14:07:47-05:00</published><updated>2020-03-13T14:07:47-05:00</updated><id>http://localhost:4000/from%20quarantine/COVID-Prologue</id><content type="html" xml:base="http://localhost:4000/from%20quarantine/COVID-Prologue/">&lt;p&gt;&lt;em&gt;Written 4/22/20&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&quot;weeks-1--2-prologue&quot;&gt;Weeks 1 &amp;amp; 2: Prologue.&lt;/h2&gt;
-
-&lt;p&gt;I am writing this post retroactively because my &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;COVID Diaries&lt;/a&gt; adventure began during week 3 of my quarantine. Being as I have a strong desire for order and consistency, I could not let these posts start at week 3.  It just felt wrong and has been bothering me, so here we are. As I write this, I am in the middle of week 6.  The only reason I know that is because of these posts.  I thought I’d summarize a bit of what weeks one and two looked like for me and, if I can, provide some visualizations as well.&lt;/p&gt;
-
-&lt;p&gt;My first week of &lt;em&gt;quasi-&lt;/em&gt;quarantine coincided with the first anticipated week of Spring Break.  This was, in large part, a week of canceled plans.  My roommates and I were supposed to go to New Orleans and I had St Patrick’s Day tickets to a Blackhawks vs. Wild hockey game where I was looking forward to getting beat up for supporting Chicago in my Toews jersey.  But, alas, that was all scrapped and the only plans I did keep were to go “up north” (as they say in Minnesota) with my girlfriend, Gillian. We thought there would be very few people hiking on trails that were either covered in inches of ice and snow and somehow we were right.&lt;/p&gt;
-
-&lt;p&gt;Here’s our path:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/upNorth.png&quot; alt=&quot;up North&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We went hiking four state parks, spent one night in Grand Marais at a &lt;a href=&quot;hungryhippiehostel.com/the-hostel/&quot;&gt;The Hungry Hippie Hostel&lt;/a&gt;, and then crossed the border into Ontario (because why not?) and hiked some more.  While this wasn’t exactly a quarantine, we practiced social distancing and didn’t come in contact with others aside from a couple of meals.  At this point, the virus was not as pervasive in the US as it is now.  If it were, this trip likely would not have happened.&lt;/p&gt;
-
-&lt;p&gt;When we got back to Minnesota, we made a big trip to Costco which was out of eggs, toilet paper, milk, and other essentials, dropped half of it off at my house (including a 20lb bag of rice), and went back to Gillian’s apartment to start the real lock-down of quarantine – the plan being for me to stay with her until my roommates had been done working outside of the house for two weeks.&lt;/p&gt;
-
-&lt;p&gt;We watched a lot of Netflix, ate a lot of grilled cheese, and went on a lot of walks, trying to walk around a different lake every day.  Eventually our living situation shifted.  If you’re curious about that, I made a &lt;a href=&quot;https://julietkelson.github.io/from%20quarantine/COVID-Social-Networks/&quot;&gt;post&lt;/a&gt; about it.&lt;/p&gt;
-
-&lt;p&gt;Quarantining is a struggle.  It’s an abnormal way to live and while it’s less than ideal, writing these “diaries” each week has been a useful way for me to reflect on this challenging time and be a little more intentional with my actions.  As I write this, I am weeks away from my virtual “graduation ceremony” and my mom’s restructured at-home wedding.  We’re ordering groceries online, wearing masks over our faces, and coveting Purell like it’s liquid gold.  Times are strange.&lt;/p&gt;
-
-&lt;p&gt;I’ll leave you with my &lt;a href=&quot;https://www.costarastrology.com/&quot;&gt;co-star&lt;/a&gt; horoscope of the day:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Your work this month is to understand the difference between feeling truly alive and being constantly in danger.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m not really sure what to do with that.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/tettegouche.png&quot; alt=&quot;Tettegouche State Park&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Tettegouche State Park&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is the prologue for a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Written 4/22/20 Weeks 1 &amp;amp; 2: Prologue.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;This is the first in a series of posts &lt;a href=&quot;https://julietkelson.github.io/covid/&quot;&gt;From Quarantine&lt;/a&gt;.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is one of those posts.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 3: Quantified Self.</summary></entry></feed>

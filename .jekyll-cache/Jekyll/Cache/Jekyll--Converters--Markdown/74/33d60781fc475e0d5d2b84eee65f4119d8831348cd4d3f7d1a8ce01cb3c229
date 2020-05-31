@@ -1,0 +1,57 @@
+I"<h2 id="week-11-george-floyd">Week 11: George Floyd.</h2>
+
+<p><strong>Before you read this post,</strong> understand this – mine is not the voice you should prioritize. While I am outraged by the murder of George Floyd, and I hope you are too, the voices we need to listen to, follow, and promote right now are the voices of the black communities in this country.</p>
+
+<p>I am not writing to recount the events of George Floyd’s murder.  As the <a href="https://www.washingtonpost.com/opinions/2020/05/29/heres-why-we-dont-see-protests-when-police-unjustly-kill-white-people/"><em>Washington Post</em></a> put it:</p>
+
+<p>“If you’re white, you can view the footage of Daniel Shaver’s death, feel some anger and move on. If you’re black, viewing the video of George Floyd’s death is a reminder that the throat under Officer Derek Chauvin’s knee could easily have been your own.”</p>
+
+<p>The reason I am writing is because as a data analyst, it is clear to me not only from anecdote, but from the numbers, that the United States has a problem with police using force against people of color.  I’ll show you the data briefly for Minneapolis.  Then I’ll offer ways to help that have been promoted by those organizing and involved in the current protests.</p>
+
+<p><strong>White people, don’t just sit on this information.</strong> Donate money and supplies, engage with local organizations to find out how to help, educate yourselves.  Utilize the privilege that George Floyd didn’t have to prevent this from happening again and to hold those responsible accountable.</p>
+
+<p><small> The data for the following graphs comes from <a href="http://opendata.minneapolismn.gov/datasets/6d8110617c4b4971a270ff0834971b89_0/data?selectedAttribute=PoliceUseOfForceID">Open Minneapolis</a> and spans 2008 through 2020.  At the time of use, the most recent update was May 29, 2020). </small></p>
+
+<p>Let’s start with the basic racial breakdown of incidents of police use of force. To be explicitly clear, <code class="highlighter-rouge">Race</code> here is the race of the person whom the force was inflicted upon.</p>
+
+<p><img src="/assets/images/inc_race.png" alt="use of force by race" /></p>
+
+<p>Since 2008, 17,933 (62%) incidents of police use of force have been recorded against black people in Minneapolis. White people come in with 7,033 (24%) – almost 11,000 fewer.  Black people make up <a href="https://www.census.gov/quickfacts/fact/table/minneapoliscityminnesota/PST045219">19%</a> of the Minneapolis population.</p>
+
+<p>For black people, the most common “problem” that bring the police to these violent incidents is recorded as “Suspicious Person.” The number of “Suspicious Person” reports for white people is less than half of those listed for black people.</p>
+
+<p>The neighborhood with the most records of “suspicious people” that ended in use of force against black people: Downtown West. A neighborhood that is 60% white and only 22% black.</p>
+
+<p>Next, I want you to look at the type of force police use with people of color (POC):</p>
+
+<p><img src="/assets/images/type_force.png" alt="type of force" /></p>
+
+<p>George Floyd is one of the 14,000+ people of color to be counted in the “bodily force” category. People of color outnumber white people by a long shot. And of all people of color, Minneapolis police seem to use the most force against black people. Specifically black men.</p>
+
+<p><img src="/assets/images/race_type.png" alt="type of force" /></p>
+
+<p>Now that you’re armed with the evidence, here are some things you can do:</p>
+
+<ul>
+  <li>VOTE.</li>
+  <li>Call your legislators and demand police accountability</li>
+  <li>Protest (safely.  COVID is still out there)</li>
+  <li>Support the POC in your life and ask them what is helpful.  Don’t assume that you know.</li>
+  <li>Donate supplies to protesters</li>
+</ul>
+
+<p>Where to donate:</p>
+
+<ul>
+  <li><a href="https://www.gofundme.com/f/georgefloyd">George Floyd Memorial Fund</a></li>
+  <li><a href="https://bailproject.org/">The Bail Project</a></li>
+  <li><a href="https://minnesotafreedomfund.org/bailbondfaq">The Minnesota Freedom Fund</a></li>
+  <li><a href="https://northstarhealth.wordpress.com/about-us/">Northstar Health Collective</a></li>
+  <li><a href="https://www.migizi.org/">MIGIZI</a></li>
+</ul>
+
+<p><br /></p>
+
+<p><em>This is the tenth in a series of posts <a href="https://julietkelson.github.io/covid/">From Quarantine</a>.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.</em></p>
+
+:ET

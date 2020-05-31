@@ -1,0 +1,23 @@
+I"�	<h2 id="week-11-george-floyd">Week 11: George Floyd.</h2>
+
+<p><strong>Before you read this post,</strong> understand this – mine is not the voice you should prioritize. While I am outraged by the murder of George Floyd, and I hope you are too, the voices we need to listen to, follow, and promote right now are the voices of the black communities in this country.</p>
+
+<p>I am not writing to recount the events of George Floyd’s murder.  As the <a href="https://www.washingtonpost.com/opinions/2020/05/29/heres-why-we-dont-see-protests-when-police-unjustly-kill-white-people/"><em>Washington Post</em></a> put it,</p>
+
+<p>“If you’re white, you can view the footage of Daniel Shaver’s death, feel some anger and move on. If you’re black, viewing the video of George Floyd’s death is a reminder that the throat under Officer Derek Chauvin’s knee could easily have been your own.”</p>
+
+<p>The reason I am writing is because as a data analyst, it is clear to me not only from anecdote, but from the numbers, that the United States has a problem with police using force against people of color.  I’ll show you the data briefly for Minneapolis.  Then I’ll offer ways to help that have been promoted by those organizing and involved in the current protests.</p>
+
+<p><big><strong>White people&lt;/big&gt;, don’t just sit on this information.</strong> Donate money and supplies, engage with local organizations to find out how to help, educate yourselves.  Utilize the privilege that George Floyd didn’t have to prevent this from happening again and to hold those responsible accountable.</big></p>
+
+<p><small> The data for the following graphs comes from <a href="http://opendata.minneapolismn.gov/datasets/6d8110617c4b4971a270ff0834971b89_0/data?selectedAttribute=PoliceUseOfForceID">Open Minneapolis</a> and spans 2008 through 2020.  At the time of use, the most recent update was May 29, 2020). </small></p>
+
+<p>Let’s start with the basic racial breakdown of incidents of police use of force. To be explicitly clear, <em>Race</em> here is the race of the person whom the force was inflicted upon.</p>
+
+<p><img src="/assets/images/inc_race.png" alt="compliance by sex" /></p>
+
+<p><br /></p>
+
+<p><em>This is the tenth in a series of posts <a href="https://julietkelson.github.io/covid/">From Quarantine</a>.  Most posts from quarantine are prompted by Aisling Quigley’s Data Storytelling class at Macalester College.  This is not one of those posts.</em></p>
+
+:ET

@@ -1,4 +1,4 @@
-I"`
+I"í
 <div id="archives">
 
   <div class="archive-group">
@@ -44,6 +44,10 @@
 
     <h2 class="category-head">From Quarantine</h2>
     <a name="From Quarantine"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/from%20quarantine/COVID-Police/">COVID-19: George Floyd.</a></h4>
+    </article>
     
     <article class="archive-item">
       <h4><a href="/from%20quarantine/COVID-CDC-Compliance/">COVID-19: CDC Compliance: Chicago.</a></h4>
