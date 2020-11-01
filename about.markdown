@@ -12,7 +12,7 @@ Want to know more about me?
 
 **I am a(n):**
 
-[Part-time dog mom](https://www.instagram.com/bigheadroshi/). Chicagoan. Data nerd. Computer Science graduate. [Musician](http://thekelsontwins.com/). Polyglot. Barista. [Bad hockey player](https://www.instagram.com/macwomenshockey/). Twin. [Event chair](https://themacweekly.com/75980/news/naming-hate-to-tackle-education-awareness-and-action/). Doodler. Coffee drinker. Tea drinker. Math lover. [Voter](https://www.usa.gov/register-to-vote). Enjoyer of well-designed graphs and plots. Detailed thinker. INFJ. 
+Data Analyst at the Star Tribune. [Part-time dog mom](https://www.instagram.com/bigheadroshi/). Chicagoan. Data nerd. Computer Science graduate. [Musician](http://thekelsontwins.com/). Polyglot. Barista. [Bad hockey player](https://www.instagram.com/macwomenshockey/). Twin. [Event chair](https://themacweekly.com/75980/news/naming-hate-to-tackle-education-awareness-and-action/). Doodler. Coffee drinker. Tea drinker. Math lover. [Voter](https://www.usa.gov/register-to-vote). Enjoyer of well-designed graphs and plots. Detailed thinker. INFJ. 
 <br><br>
 
 **I aspire to:**

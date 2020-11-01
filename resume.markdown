@@ -10,7 +10,7 @@ permalink: /resume/
     Bachelor degree May, 2020 <br>
     <b>Major:</b> Computer Science <br>
     <b>Minor:</b> Data Science/Data Driven Journalism<br>
-    <b>GPA:</b> 3.89
+    <b>GPA:</b> 3.89, <i> magna cum laude </i>
 </div>
 
 
@@ -24,7 +24,9 @@ permalink: /resume/
         Data Modeling<br>
         Data Visualization<br>
         Data Analytics<br>
-        DBMS
+        DBMS<br>
+        Adobe Analytics<br>
+        Google Analytics
     </td>
     <td>
         Python<br>
@@ -104,9 +106,15 @@ permalink: /resume/
 ## WORK EXPERIENCE
 ---
 
+### Data Analyst, Star Tribune
+<div>
+<i> August, 2018 - May, 2020</i> 
+ <br>
+</div>
+
 ### Co-Founder and Co-Chair, Naming Hate Symposium
 <div>
-<i> Fall, 2018 - Present</i> <br>
+<i> Fall, 2018 - May, 2020</i> <br>
 ● Created a 3-day symposium featuring expert panels and speakers as well as workshops in response to a rise of antisemitism and racism on Macalester’s campus  <br>
 ● Received the Coalition for Liberation award from the Department of Multicultural life for collaboration with the President, the Center for Religious and Spiritual Life, the Title IX office, and others.
  <br>
@@ -115,7 +123,7 @@ permalink: /resume/
 
 ### Shift Supervisor, Caribou Coffee
 <div>
-<i> November, 2016 - Present</i> 
+<i> November, 2016 - March, 2020</i> 
 </div>
 
 ### Portuguese Lab Instructor, Macalester College
