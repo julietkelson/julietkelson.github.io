@@ -10,7 +10,6 @@ themes:
 
 ## Week 10: CDC Compliance: Chicago.
 
-*This post is part of a larger project. If you're bored in quarantine and want to collect data in your city, [email me](mailto:kelsonjuliet@gmail.com?subject=I%20Want%20To%20Collect%20Data).  It's easy!*
 
 In order to not go completely insane, I've been taking a lot of walks.  I try to be careful – I wear a mask and I stay 6 feet from others whenever possible – but there is one problem that I keep *running* into... (it will be a pun, trust me.)
 
