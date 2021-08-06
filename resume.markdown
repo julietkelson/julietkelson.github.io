@@ -32,9 +32,7 @@ permalink: /resume/
         Python<br>
         Java<br>
         R<br>
-        SQL<br>
-        Ruby<br>
-        Swift
+        SQL
     </td>
     <td>
         English (Native)<br>
