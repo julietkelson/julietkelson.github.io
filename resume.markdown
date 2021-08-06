@@ -3,7 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-### Currently a Data Analyst at [Star Tribune](https://www.startribune.com/)
+## *Data Analyst at [Star Tribune](https://www.startribune.com/) since August, 2020*
 ---
 <br>
 <br>
