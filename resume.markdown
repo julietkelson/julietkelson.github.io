@@ -3,6 +3,11 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
+### Currently a Data Analyst at [Star Tribune](https://www.startribune.com/)
+---
+<br>
+<br>
+
 ## EDUCATION AND SKILLS
 ---
 #### [**Macalester College**](https://www.macalester.edu/), St. Paul, MN 
@@ -106,7 +111,7 @@ permalink: /resume/
 
 ### Data Analyst, Star Tribune
 <div>
-<i> August, 2018 - May, 2020</i> 
+<i> August, 2020 </i> 
  <br>
 </div>
 
