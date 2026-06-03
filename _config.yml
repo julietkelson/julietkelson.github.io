@@ -24,7 +24,7 @@ description: >-
   Senior data analyst at the Minnesota Star Tribune — data essays, projects, and writing by Juliet Kelson.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://julietkelson.com
-og_image: /assets/images/headshot.jpg
+og_image: /assets/images/social-card.png
 github_username:  julietkelson
 
 # Build settings
