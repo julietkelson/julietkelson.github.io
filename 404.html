@@ -1,25 +1,30 @@
 ---
 permalink: /404.html
 layout: default
+title: "404"
+description: "Page not found."
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div style="padding: 52px 56px 48px; border-bottom: 1px solid var(--fn-rule);">
 
-<div class="container">
-  <h1>404</h1>
+  <div style="font-family: var(--fn-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--fn-forest); margin-bottom: 16px;">
+    Error
+  </div>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <h1 style="font-family: var(--fn-display); font-weight: 500; font-size: 128px; line-height: 0.88; letter-spacing: -0.04em; color: var(--fn-ink); margin: 0 0 28px;">
+    404
+  </h1>
+
+  <p style="font-family: var(--fn-sans); font-size: 20px; line-height: 1.5; color: var(--fn-ink); margin: 0 0 10px; max-width: 520px;">
+    Nothing here.
+  </p>
+
+  <p style="font-family: var(--fn-sans); font-size: 15px; line-height: 1.6; color: var(--fn-ink2); margin: 0 0 32px; max-width: 520px;">
+    This page might have moved, or maybe I broke something. Try the nav up top or head back home.
+  </p>
+
+  <a href="{{ '/' | relative_url }}" style="font-family: var(--fn-display); font-weight: 500; font-size: 18px; color: var(--fn-amber); text-decoration: none; border-bottom: 1.5px solid var(--fn-amber); padding-bottom: 1px;">
+    ← Back to home
+  </a>
+
 </div>
