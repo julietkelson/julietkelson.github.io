@@ -334,6 +334,7 @@
   text-transform: uppercase;
   color: var(--fn-ink2);
   white-space: nowrap;
+  margin-left: auto;
 }
 
 .cv-role__blurb {
@@ -509,8 +510,7 @@
 .cv-sidebar__sublabel {
   font-family: var(--fn-mono);
   font-size: 10px;
-  letter-spacing: 0.10em;
-  text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: var(--fn-ink2);
   margin-top: 16px;
   margin-bottom: 8px;
@@ -557,7 +557,7 @@
 
 .cv-sidebar__award-desc {
   margin: 0;
-  font-family: var(--fn-sans);
+  font-family: var(--fn-mono);
   font-size: 12px;
   line-height: 1.5;
   color: var(--fn-ink2);

@@ -25,7 +25,7 @@ layout: default
       </p>
       <p class="about-hero__p">
         Outside of work, you can find me in my garden, trying to play hockey, sunbathing with my
-        dog, or reading books on a Kindle my family said I'd never open just to spite them.
+        dog, or reading books on a Kindle my family said I'd never open — just to spite them.
       </p>
       <p class="about-hero__availability">
         <span class="about-hero__availability-label">Availability</span>
@@ -89,7 +89,7 @@ layout: default
     <div class="about-list">
       <div class="about-list__heading">I am a(n):</div>
       <ul class="about-list__items">
-        {% assign iam = "Senior Data Analyst at the Star Tribune,Dog mom,Chicagoan,Data nerd,Computer Science graduate,Musician,Polyglot,Bad hockey player,Twin,Event chair,Doodler,Coffee drinker,Tea drinker,Math lover,Voter,PWHL fan,Lover of cooking,Enjoyer of well-designed graphs and plots,Detailed thinker,INFJ,Poor hockey player,Slightly better gardener" | split: "," %}
+        {% assign iam = "Senior Data Analyst at the Star Tribune,Dog mom,Chicagoan,Data nerd,Computer Science graduate,Musician,Polyglot,Twin,Event chair,Doodler,Coffee drinker,Tea drinker,Math lover,Voter,PWHL fan,Lover of cooking,Enjoyer of well-designed graphs and plots,Detailed thinker,INFJ,Poor hockey player,Slightly better gardener" | split: "," %}
         {% for item in iam %}
         <li class="about-list__item">
           <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
