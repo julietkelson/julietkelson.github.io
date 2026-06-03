@@ -10,12 +10,7 @@
 }
 
 .home-hero__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-forest);
+  @extend .fn-eyebrow;
   margin-bottom: 16px;
 }
 
@@ -43,16 +38,6 @@
   line-height: 1.45;
   color: var(--fn-ink);
   margin: 0 0 18px;
-
-  .hl {
-    background: var(--fn-forestSoft);
-    color: var(--fn-forestDk);
-    padding: 1px 6px;
-  }
-
-  .hl-ul {
-    border-bottom: 2px solid var(--fn-amber);
-  }
 }
 
 .home-hero__p2 {
@@ -122,7 +107,7 @@
   border-bottom: 2px solid var(--fn-amber);
   padding-bottom: 1px;
 
-  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); }
+  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); text-decoration: none; }
 }
 
 // ── SELECTED WORK ─────────────────────────────────────────────────────────────
@@ -178,15 +163,10 @@
 }
 
 .home-entry__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  @extend .fn-eyebrow;
   margin-bottom: 6px;
 
-  .home-entry--forest & { color: var(--fn-forest); }
-  .home-entry--amber  & { color: var(--fn-amber); }
+  .home-entry--amber & { color: var(--fn-amber); }
 }
 
 .home-entry__title {

@@ -10,12 +10,7 @@
 }
 
 .work-hero__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-forest);
+  @extend .fn-eyebrow;
   margin-bottom: 16px;
 }
 
@@ -36,12 +31,6 @@
   color: var(--fn-ink);
   margin: 0;
   max-width: 760px;
-
-  .hl {
-    background: var(--fn-forestSoft);
-    color: var(--fn-forestDk);
-    padding: 1px 6px;
-  }
 }
 
 // ── FEATURED CASE STUDY ───────────────────────────────────────────────────────
@@ -141,7 +130,7 @@
   border-bottom: 2px solid var(--fn-amber);
   padding-bottom: 1px;
 
-  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); }
+  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); text-decoration: none; }
 }
 
 // Impact stat cards
@@ -192,12 +181,7 @@
 }
 
 .work-described__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-forest);
+  @extend .fn-eyebrow;
 }
 
 .work-described__meta {

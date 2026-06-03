@@ -63,11 +63,17 @@ p {
 a {
   color: var(--fn-amber);
   text-decoration: none;
+  transition: color 0.15s, border-color 0.15s;
 
   &:hover {
     color: var(--fn-forest);
     text-decoration: underline;
   }
+}
+
+:focus-visible {
+  outline: 2px solid var(--fn-amber);
+  outline-offset: 3px;
 }
 
 // ============================================================================
@@ -77,11 +83,6 @@ a {
 .fn-rule {
   border: none;
   border-top: 1.5px solid var(--fn-rule);
-}
-
-.fn-rule-soft {
-  border: none;
-  border-top: 1px solid var(--fn-ruleSoft);
 }
 
 // ============================================================================
@@ -94,7 +95,7 @@ a {
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--fn-ink2);
+  color: var(--fn-forest);
 }
 
 // ============================================================================
@@ -104,6 +105,30 @@ a {
 .fn-panel {
   background-color: var(--fn-panel);
   border: 1.5px solid var(--fn-rule);
+}
+
+// ============================================================================
+// STATUS PILL
+// ============================================================================
+
+.fn-status-pill {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &--real      { color: var(--fn-amber); }
+  &--stripped  { color: var(--fn-forest); }
+  &--dummy     { color: var(--fn-forest); }
+  &--described { color: var(--fn-forest); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
 
 // ============================================================================
@@ -122,4 +147,18 @@ a {
   @media (max-width: 599px) {
     padding-inline: 16px;
   }
+}
+
+// ============================================================================
+// TEXT HIGHLIGHT UTILITIES
+// ============================================================================
+
+.hl {
+  background: var(--fn-forestSoft);
+  color: var(--fn-forestDk);
+  padding: 1px 6px;
+}
+
+.hl-ul {
+  border-bottom: 2px solid var(--fn-amber);
 }

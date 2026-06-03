@@ -10,12 +10,7 @@
 }
 
 .writing-hero__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-forest);
+  @extend .fn-eyebrow;
   margin-bottom: 16px;
 }
 
@@ -36,12 +31,6 @@
   color: var(--fn-ink);
   margin: 0;
   max-width: 740px;
-
-  .hl {
-    background: var(--fn-forestSoft);
-    color: var(--fn-forestDk);
-    padding: 1px 6px;
-  }
 }
 
 // ── FEATURE ENTRIES ───────────────────────────────────────────────────────────
@@ -85,14 +74,9 @@
 }
 
 .writing-feature__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  @extend .fn-eyebrow;
 
-  &--forest { color: var(--fn-forest); }
-  &--amber  { color: var(--fn-amber); }
+  &--amber { color: var(--fn-amber); }
 }
 
 .writing-feature__type {
@@ -167,7 +151,7 @@
   border-bottom: 1.5px solid var(--fn-amber);
   padding-bottom: 1px;
 
-  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); }
+  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); text-decoration: none; }
 }
 
 // ── ESSAY LIST ACCORDION ──────────────────────────────────────────────────────
@@ -220,6 +204,7 @@
   text-decoration: none;
   color: var(--fn-ink);
   background: var(--fn-panel);
+  transition: background 0.15s, color 0.15s;
 
   &:last-child { border-bottom: none; }
 
@@ -295,12 +280,7 @@
 }
 
 .writing-class__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-forest);
+  @extend .fn-eyebrow;
 }
 
 .writing-class__meta {
@@ -323,6 +303,7 @@
   padding: 22px 24px;
   text-decoration: none;
   color: var(--fn-ink);
+  transition: background 0.15s;
 
   &:hover { background: var(--fn-paper); text-decoration: none; }
 }
@@ -381,7 +362,7 @@
   .writing-hero        { padding: 32px 24px 24px; }
   .writing-hero__title { font-size: 80px; }
   .writing-feature     { padding: 24px 24px; grid-template-columns: 48px minmax(0,1fr); }
-  .writing-feature__chart { grid-column: 2; }
+  .writing-feature__chart { grid-column: 1 / -1; }
   .writing-class       { padding: 24px 24px 36px; }
 }
 
