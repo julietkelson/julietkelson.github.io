@@ -6,6 +6,26 @@
   <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
 
+  <!-- Open Graph / link previews -->
+  <meta property="og:type"        content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url"         content="{{ page.url | absolute_url }}">
+  <meta property="og:title"       content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <meta property="og:image"       content="{{ page.og_image | default: site.og_image | absolute_url }}">
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <meta name="twitter:image"       content="{{ page.og_image | default: site.og_image | absolute_url }}">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F97E9CK2S9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F97E9CK2S9');
+  </script>
+
   <!-- Google Fonts: Newsreader · Public Sans · JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
