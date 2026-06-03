@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Public+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 1200px;
+  height: 630px;
+  background-color: #efeee7;
+  background-image: radial-gradient(rgba(26, 20, 16, 0.085) 1px, transparent 1px);
+  background-size: 22px 22px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.rule-cap {
+  height: 4px;
+  background: #4a3826;
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1;
+  padding: 56px 80px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #4a3826;
+}
+
+.issue {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  letter-spacing: 0.10em;
+  color: #5f6640;
+}
+
+.name {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
+  font-size: 152px;
+  line-height: 0.88;
+  letter-spacing: -0.04em;
+  color: #1a1410;
+}
+
+.bottom {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-top: 1px solid rgba(26, 20, 16, 0.16);
+  padding-top: 18px;
+}
+
+.tagline {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #46403a;
+}
+
+.url {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  color: #5f6640;
+}
+</style>
+</head>
+<body>
+  <div class="rule-cap"></div>
+
+  <div class="main">
+    <div class="top">
+      <span class="eyebrow">Senior Data Analyst · Minnesota Star Tribune</span>
+      <span class="issue">julietkelson.com</span>
+    </div>
+
+    <div class="name">Juliet<br>Kelson</div>
+
+    <div class="bottom">
+      <span class="tagline">Data essays, projects, and writing.</span>
+    </div>
+  </div>
+
+  <div class="rule-cap"></div>
+</body>
+</html>
