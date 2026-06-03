@@ -383,7 +383,7 @@ impute_info_int &lt;- airbnb_ints %&gt;%
 airbnb_sample_complete &lt;- predict(impute_info, newdata=airbnb_sample)
 airbnb_int_sample_complete &lt;- predict(impute_info_int, newdata=airbnb_int_sample)</code></pre>
 <p>In preparing our data, we removed predictors that were repetitive, such as keeping <code>accommodates</code> and removing <code>guests_included</code>. We also removed predictors that we suspected wouldn’t help predict price, such as <code>id</code> or <code>host_has_profile_pic</code>.</p>
-<p>Looking at the correlation plot helped us determine what the important predictors were that influenced price. After this process, we remained with 15 variables out of the original 31.</p>
+<p>Looking at the correlation plot helped us determine what the important predictors were that influenced price. After this process, we were left with 15 variables out of the original 31.</p>
 <p>After studying the data and looking at various plots, a few insights about the price of Airbnb listings surfaced. To begin with, being a superhost does not seem to affect price. There are more listings that are not from superhosts, yet both true and false for this predictor has the same trend. There are many cheap listings and few expensive ones. The review score affects price slightly, but not in a very significant way. The reviews at or near 100 vary in price, but the most expensive listings are all high ratings. There is a similar trend with accommodates – the more expensive listings accommodate a large number of people. Furthermore, the more expensive listings are entire home/apts, while the less expensive listings are private rooms or shared rooms.</p>
 <p>Predictive model attempts:</p>
 <pre class="r"><code>#  airbnb_please_work &lt;-
