@@ -30,6 +30,7 @@ github_username:  julietkelson
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 
 permalink: /:categories/:title/
