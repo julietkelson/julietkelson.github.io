@@ -2,7 +2,8 @@
 layout: post
 title:  "DropIn: Web-based Major Planning"
 date:   2019-05-08 13:07:47 -0600
-categories: 
+description: "DropIn — a web-based major planning tool built at Macalester College. A class project by Juliet Kelson."
+categories:
   - From Class
   - From My Brain
 ---

@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: A Weekend."
 date:   2020-05-18 01:07:47 -0600
+description: "COVID Diaries entry — a data diary of a single quarantine weekend, tracked in full. By Juliet Kelson."
 categories: 
   - From Quarantine
 themes:

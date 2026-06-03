@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: CDC Compliance: Chicago."
 date:   2020-05-23 01:07:47 -0600
+description: "COVID Diaries entry — measuring compliance with CDC social distancing guidelines in Chicago. By Juliet Kelson."
 categories: 
   - From Quarantine
 themes:

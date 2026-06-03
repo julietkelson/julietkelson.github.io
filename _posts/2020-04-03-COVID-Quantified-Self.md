@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Quantified Self."
 date:   2020-04-04 13:07:47 -0600
+description: "COVID Diaries entry — tracking steps, sleep, and daily activity data during quarantine. A personal data essay by Juliet Kelson."
 categories: 
   - From Quarantine
 ---

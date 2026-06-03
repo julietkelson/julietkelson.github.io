@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Organization."
 date:   2020-04-29 13:07:47 -0600
+description: "COVID Diaries entry — using data to make sense of quarantine routines and household organization. By Juliet Kelson."
 categories: 
   - From Quarantine
 themes:

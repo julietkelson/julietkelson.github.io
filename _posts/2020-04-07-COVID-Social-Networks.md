@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Social Networks. Part 1."
 date:   2020-04-07 13:07:47 -0600
+description: "COVID Diaries entry — mapping how social connections shifted during lockdown. Part 1. A personal data essay by Juliet Kelson."
 categories: 
   - From Quarantine
 themes:

@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Text Analysis."
 date:   2020-04-22 13:07:47 -0600
+description: "COVID Diaries entry — analyzing the language of pandemic news and personal messages using text analysis. By Juliet Kelson."
 categories: 
   - From Quarantine
 ---

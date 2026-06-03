@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Prologue."
 date:   2020-03-13 13:07:47 -0600
+description: "The first entry in the COVID Diaries — a personal data essay series by Juliet Kelson from the early days of the pandemic."
 categories: 
   - From Quarantine
 themes:

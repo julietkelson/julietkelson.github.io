@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Music."
 date:   2020-05-11 01:07:47 -0600
+description: "COVID Diaries entry — the album being mixed when the pandemic hit, and what the listening data looks like. By Juliet Kelson."
 categories: 
   - From Quarantine
 themes:

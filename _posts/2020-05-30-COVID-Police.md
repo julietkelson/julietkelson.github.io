@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: George Floyd."
 date:   2020-05-30 01:07:47 -0600
+description: "COVID Diaries entry — a data essay written in the days after George Floyd's murder in Minneapolis. By Juliet Kelson."
 categories: 
   - From Quarantine
 ---

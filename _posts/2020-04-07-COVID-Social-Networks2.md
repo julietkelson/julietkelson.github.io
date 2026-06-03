@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Social Networks. Part 2."
 date:   2020-04-07 13:10:47 -0600
+description: "COVID Diaries entry — a deeper look at pandemic social network data. Part 2. A personal data essay by Juliet Kelson."
 categories: 
   - From Quarantine
 ---

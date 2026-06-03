@@ -2,6 +2,7 @@
 layout: post
 title:  "COVID-19: Data Privacy."
 date:   2020-04-16 13:07:47 -0600
+description: "COVID Diaries entry — examining the data privacy trade-offs of contact tracing apps during the pandemic. By Juliet Kelson."
 categories: 
   - From Quarantine
 ---
