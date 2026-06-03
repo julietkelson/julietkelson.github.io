@@ -6,7 +6,7 @@
 // ── HEADER ───────────────────────────────────────────────────────────────────
 
 .essay-header {
-  padding: 46px 56px 30px;
+  padding: 52px 56px 30px;
   border-bottom: 1px solid var(--fn-rule);
 }
 
@@ -232,21 +232,6 @@
   display: flex;
   justify-content: space-between;
   gap: 12px;
-}
-
-// ── STATUS PILL ───────────────────────────────────────────────────────────────
-
-.fn-status-pill {
-  font-family: var(--fn-mono);
-  font-size: 10.5px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  white-space: nowrap;
-
-  &--real      { color: var(--fn-amber); }
-  &--stripped  { color: var(--fn-forest); }
-  &--dummy     { color: var(--fn-forest); }
-  &--described { color: var(--fn-forest); }
 }
 
 // ── PAGER ─────────────────────────────────────────────────────────────────────

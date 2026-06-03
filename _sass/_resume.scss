@@ -5,7 +5,7 @@
 // ── HERO ─────────────────────────────────────────────────────────────────────
 
 .cv-hero {
-  padding: 48px 56px 28px;
+  padding: 52px 56px 28px;
   border-bottom: 1px dashed var(--fn-rule);
   position: relative;
 }
@@ -22,11 +22,7 @@
 }
 
 .cv-hero__eyebrow {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-forest);
+  @extend .fn-eyebrow;
   margin-bottom: 14px;
 }
 
@@ -78,6 +74,7 @@
   text-transform: uppercase;
   border: 1.5px solid var(--fn-rule);
   white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
 
   &:hover { background: var(--fn-forest); color: var(--fn-panel); text-decoration: none; }
 }
