@@ -1,0 +1,337 @@
+// ============================================================================
+// POST / ESSAY LAYOUT — FieldCaseStudy in field-case-study.jsx
+// All values reproduced verbatim from the JSX.
+// ============================================================================
+
+// ── HEADER ───────────────────────────────────────────────────────────────────
+
+.essay-header {
+  padding: 46px 56px 30px;
+  border-bottom: 1px solid var(--fn-rule);
+}
+
+// breadcrumb row — mono meta across full width
+.essay-header__meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+}
+
+.essay-header__breadcrumb {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0;
+
+  a {
+    color: var(--fn-ink2);
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover { color: var(--fn-amber); }
+  }
+
+  .sep { margin: 0 8px; }
+}
+
+.essay-header__date-right { color: var(--fn-amber); }
+
+// Header body — full width within the padded header.
+// The 760px column constraint belongs on the essay body text, not the display H1.
+.essay-header__body {
+  width: 100%;
+}
+
+.essay-header__kicker {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-forest);
+  margin-bottom: 14px;
+}
+
+.essay-header__title {
+  font-family: var(--fn-display);
+  font-weight: 500;          // --fn-w-display
+  font-size: 96px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+  color: var(--fn-ink);
+}
+
+.essay-header__subtitle {
+  font-family: var(--fn-display);
+  font-style: italic;
+  font-size: 21px;
+  color: var(--fn-ink2);
+  margin-bottom: 22px;
+}
+
+// content-note chip shown on applicable posts
+.essay-header__content-note {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--fn-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fn-amber);
+  border: 1px solid var(--fn-amber);
+  padding: 3px 10px;
+}
+
+// ── ESSAY BODY ────────────────────────────────────────────────────────────────
+
+.essay-body {
+  padding: 40px 56px 32px;
+
+  // Block children fill the padded content area
+  > * {
+    max-width: 100%;
+  }
+
+  // EssayP — Newsreader body text
+  p {
+    font-family: var(--fn-display);
+    font-weight: 400;
+    font-size: 18.5px;
+    line-height: 1.62;
+    color: var(--fn-ink2);
+    margin: 0 0 22px;
+  }
+
+  // First paragraph as lead (EssayP lead=true)
+  > p:first-of-type {
+    font-size: 21px;
+    color: var(--fn-ink);
+  }
+
+  // EssayLink
+  a {
+    color: var(--fn-amber);
+    text-decoration: none;
+    border-bottom: 1px solid var(--fn-amber);
+
+    &:hover {
+      color: var(--fn-forest);
+      border-bottom-color: var(--fn-forest);
+      text-decoration: none;
+    }
+  }
+
+  em { color: var(--fn-ink); font-style: italic; }
+  strong { color: var(--fn-ink); font-weight: 600; }
+
+  ul, ol {
+    margin: 0 0 22px;
+    padding-left: 22px;
+    font-family: var(--fn-display);
+    font-size: 18.5px;
+    line-height: 1.7;
+    color: var(--fn-ink2);
+  }
+
+  h2 {
+    font-family: var(--fn-display);
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--fn-ink);
+    margin: 40px 0 18px;
+
+    &:first-child { margin-top: 0; }
+  }
+
+  h3 {
+    font-family: var(--fn-display);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--fn-ink);
+    margin: 32px 0 14px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--fn-ruleSoft);
+    margin: 32px 0;
+  }
+
+  blockquote {
+    margin: 28px 0;
+    padding: 24px 28px;
+    border-left: 3px solid var(--fn-amber);
+    background: var(--fn-panel);
+
+    p {
+      font-family: var(--fn-display);
+      font-weight: var(--fn-w-head);
+      font-size: 22px;
+      line-height: 1.4;
+      color: var(--fn-ink);
+      margin: 0;
+    }
+  }
+
+  // Series footnote — italic closing note at end of each COVID entry
+  > p:last-of-type em:only-child {
+    display: block;
+    margin-top: 10px;
+    padding-top: 22px;
+    border-top: 1px solid var(--fn-rule);
+    font-family: var(--fn-display);
+    font-style: italic;
+    font-size: 15.5px;
+    line-height: 1.6;
+    color: var(--fn-ink2);
+  }
+
+  // Scoped reset for pandoc-exported HTML class-project posts.
+  // The raw html file starts with <html><head>... which browsers ignore
+  // inside <article>; we just ensure the outer nav/footer are unaffected.
+  html, head, body { display: contents; }
+}
+
+// ── ESSAY FIGURE (built by JS from bare <img> elements) ──────────────────────
+
+.essay-figure {
+  max-width: 720px;
+  margin: 34px auto;
+}
+
+.essay-figure__img {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 18px 20px;
+    box-sizing: border-box;
+  }
+}
+
+.essay-figure__caption {
+  margin-top: 10px;
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  color: var(--fn-ink2);
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+// ── STATUS PILL ───────────────────────────────────────────────────────────────
+
+.fn-status-pill {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &--real      { color: var(--fn-amber); }
+  &--stripped  { color: var(--fn-forest); }
+  &--dummy     { color: var(--fn-forest); }
+  &--described { color: var(--fn-forest); }
+}
+
+// ── PAGER ─────────────────────────────────────────────────────────────────────
+
+.essay-pager {
+  margin-top: 36px;
+  // Break out of the max-width: 1280px main container to span full viewport.
+  // On viewports wider than 1280px each side gains (vw - 1280) / 2 extra space.
+  margin-left:  calc(-1 * max((100vw - 1280px) / 2, 0px));
+  margin-right: calc(-1 * max((100vw - 1280px) / 2, 0px));
+  // Keep visual padding anchored at 56px from the canvas edge
+  padding: 18px calc(56px + max((100vw - 1280px) / 2, 0px));
+  border-top: 1.5px solid var(--fn-rule);
+  background: var(--fn-paperDk);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+
+  a {
+    color: var(--fn-ink);
+    text-decoration: none;
+    border-bottom: none;
+
+    &:hover { color: var(--fn-amber); }
+
+    &.essay-pager__center { color: var(--fn-amber); }
+  }
+
+  &__gap { visibility: hidden; pointer-events: none; }
+}
+
+// ── RESPONSIVE ────────────────────────────────────────────────────────────────
+
+@media (max-width: 1023px) {
+  .essay-header {
+    padding: 32px 24px 24px;
+  }
+
+  .essay-header__title {
+    font-size: 64px;
+  }
+
+  .essay-body {
+    padding: 32px 24px 24px;
+  }
+
+  .essay-pager {
+    padding: 14px 24px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .essay-header {
+    padding: 24px 16px 20px;
+  }
+
+  .essay-header__title {
+    font-size: 48px;
+  }
+
+  .essay-header__meta {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .essay-body {
+    padding: 24px 16px 24px;
+
+    p, ul, ol { font-size: 16.5px; }
+    > p:first-of-type { font-size: 18.5px; }
+  }
+
+  .essay-figure {
+    margin: 24px 0;
+  }
+
+  .essay-pager {
+    padding: 12px 16px;
+    gap: 6px;
+  }
+}

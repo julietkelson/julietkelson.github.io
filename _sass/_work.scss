@@ -1,0 +1,299 @@
+// ============================================================================
+// WORK PAGE — FieldWorkCareer in field-revised.jsx
+// ============================================================================
+
+// ── HERO ─────────────────────────────────────────────────────────────────────
+
+.work-hero {
+  padding: 52px 56px 32px;
+  border-bottom: 1px solid var(--fn-rule);
+}
+
+.work-hero__eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-forest);
+  margin-bottom: 16px;
+}
+
+.work-hero__title {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  margin: 0 0 22px;
+  color: var(--fn-ink);
+}
+
+.work-hero__lead {
+  font-family: var(--fn-sans);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--fn-ink);
+  margin: 0;
+  max-width: 760px;
+
+  .hl {
+    background: var(--fn-forestSoft);
+    color: var(--fn-forestDk);
+    padding: 1px 6px;
+  }
+}
+
+// ── FEATURED CASE STUDY ───────────────────────────────────────────────────────
+
+.work-feature {
+  padding: 28px 56px 8px;
+}
+
+.work-feature__header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.work-feature__label {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-amber);
+}
+
+.work-feature__meta {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  color: var(--fn-ink2);
+  letter-spacing: 0.04em;
+}
+
+.work-feature__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.work-feature__title {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 46px;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+  margin: 0 0 16px;
+  color: var(--fn-ink);
+}
+
+.work-feature__p {
+  font-family: var(--fn-sans);
+  margin: 0 0 14px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--fn-ink2);
+}
+
+.work-feature__p2 {
+  font-family: var(--fn-sans);
+  margin: 0 0 18px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--fn-ink2);
+}
+
+.work-feature__tags {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-family: var(--fn-sans);
+  font-size: 13px;
+  color: var(--fn-ink2);
+  margin-bottom: 18px;
+}
+
+.work-feature__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--fn-forest);
+    flex-shrink: 0;
+  }
+}
+
+.work-feature__link {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 19px;
+  color: var(--fn-amber);
+  text-decoration: none;
+  border-bottom: 2px solid var(--fn-amber);
+  padding-bottom: 1px;
+
+  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); }
+}
+
+// Impact stat cards
+.work-impact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.work-impact__card {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  padding: 18px 20px;
+}
+
+.work-impact__value {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+
+  &--lg { font-size: 40px; }
+  &--sm { font-size: 28px; }
+}
+
+.work-impact__desc {
+  margin-top: 10px;
+  font-family: var(--fn-sans);
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--fn-ink2);
+}
+
+// ── DESCRIBED WORK ────────────────────────────────────────────────────────────
+
+.work-described {
+  padding: 34px 56px 48px;
+}
+
+.work-described__header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-top: 24px;
+  border-top: 1.5px solid var(--fn-rule);
+}
+
+.work-described__eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-forest);
+}
+
+.work-described__meta {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  color: var(--fn-ink2);
+  letter-spacing: 0.04em;
+}
+
+.work-described__list {
+  border: 1.5px solid var(--fn-rule);
+}
+
+.work-described__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 24px;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--fn-ruleSoft);
+  background: var(--fn-paper);
+  align-items: baseline;
+
+  &:last-child { border-bottom: none; }
+}
+
+.work-described__item-title {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  color: var(--fn-ink);
+  margin-bottom: 4px;
+}
+
+.work-described__item-desc {
+  font-family: var(--fn-sans);
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--fn-ink2);
+}
+
+.work-described__item-stack {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--fn-ink2);
+  text-align: right;
+}
+
+// Shared chart card (same markup as home)
+.work-chart-card {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  overflow: hidden;
+}
+
+.work-chart-card__chart {
+  padding: 14px 14px 6px;
+  svg { display: block; width: 100%; }
+}
+
+.work-chart-card__footer {
+  padding: 8px 14px;
+  border-top: 1px solid var(--fn-ruleSoft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.work-chart-card__caption {
+  font-family: var(--fn-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--fn-ink2);
+}
+
+// ── RESPONSIVE ────────────────────────────────────────────────────────────────
+
+@media (max-width: 1023px) {
+  .work-hero        { padding: 32px 24px 24px; }
+  .work-hero__title { font-size: 80px; }
+  .work-feature     { padding: 24px 24px 8px; }
+  .work-feature__body { grid-template-columns: 1fr; }
+  .work-impact      { grid-template-columns: 1fr 1fr; }
+  .work-described   { padding: 24px 24px 36px; }
+  .work-described__item { grid-template-columns: 1fr; gap: 8px; }
+  .work-described__item-stack { text-align: left; }
+}
+
+@media (max-width: 767px) {
+  .work-hero        { padding: 24px 16px 20px; }
+  .work-hero__title { font-size: 56px; }
+  .work-feature     { padding: 20px 16px 8px; }
+  .work-feature__title { font-size: 32px; }
+  .work-impact      { grid-template-columns: 1fr; }
+  .work-described   { padding: 20px 16px 28px; }
+}

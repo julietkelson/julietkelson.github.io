@@ -1,0 +1,184 @@
+// ============================================================================
+// COVID DIARIES LANDING PAGE
+// ============================================================================
+
+// ── HERO ─────────────────────────────────────────────────────────────────────
+
+.covid-hero {
+  padding: 46px 56px 30px;
+  border-bottom: 1px solid var(--fn-rule);
+}
+
+.covid-hero__eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-forest);
+  margin-bottom: 14px;
+}
+
+.covid-hero__title {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 104px;
+  letter-spacing: -0.02em;
+  margin: 0 0 22px;
+  line-height: 0.92;
+  color: var(--fn-ink);
+}
+
+.covid-hero__body {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.covid-hero__lead {
+  font-family: var(--fn-sans);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--fn-ink);
+  margin: 0;
+  max-width: 640px;
+
+  .hl {
+    background: var(--fn-forestSoft);
+    color: var(--fn-forestDk);
+    padding: 1px 6px;
+  }
+}
+
+// Chart card
+.covid-chart-card {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  overflow: hidden;
+}
+
+.covid-chart-card__chart {
+  padding: 14px 14px 6px;
+  svg { display: block; width: 100%; }
+}
+
+.covid-chart-card__footer {
+  padding: 8px 14px;
+  border-top: 1px solid var(--fn-ruleSoft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.covid-chart-card__caption {
+  font-family: var(--fn-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--fn-ink2);
+}
+
+// ── INDEX LABEL ───────────────────────────────────────────────────────────────
+
+.covid-index-label {
+  padding: 16px 56px;
+  border-bottom: 1px solid var(--fn-rule);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.covid-index-label__title {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  color: var(--fn-ink);
+}
+
+// ── ENTRY LIST ────────────────────────────────────────────────────────────────
+
+.covid-entries {
+  // container
+}
+
+.covid-entry {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr) 30px;
+  gap: 24px;
+  padding: 20px 56px;
+  border-bottom: 1px solid var(--fn-ruleSoft);
+  align-items: baseline;
+  text-decoration: none;
+  color: var(--fn-ink);
+  background: var(--fn-paper);
+
+  &--last { border-bottom: none; }
+
+  &:hover {
+    background: var(--fn-panel);
+    text-decoration: none;
+    color: var(--fn-ink);
+
+    .covid-entry__title { color: var(--fn-forest); }
+    .covid-entry__arrow { color: var(--fn-forest); }
+  }
+}
+
+.covid-entry__meta {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--fn-ink2);
+}
+
+.covid-entry__title {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.2;
+  color: var(--fn-ink);
+  margin-bottom: 4px;
+}
+
+.covid-entry__content-note {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--fn-amber);
+}
+
+.covid-entry__blurb {
+  margin: 0;
+  font-family: var(--fn-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--fn-ink2);
+  max-width: 620px;
+}
+
+.covid-entry__arrow {
+  font-family: var(--fn-sans);
+  font-size: 17px;
+  color: var(--fn-amber);
+  text-align: right;
+}
+
+// ── RESPONSIVE ────────────────────────────────────────────────────────────────
+
+@media (max-width: 1023px) {
+  .covid-hero        { padding: 32px 24px 24px; }
+  .covid-hero__title { font-size: 72px; }
+  .covid-hero__body  { grid-template-columns: 1fr; gap: 24px; }
+  .covid-index-label { padding: 14px 24px; }
+  .covid-entry       { padding: 18px 24px; grid-template-columns: 120px minmax(0,1fr) 24px; gap: 16px; }
+}
+
+@media (max-width: 767px) {
+  .covid-hero        { padding: 24px 16px 20px; }
+  .covid-hero__title { font-size: 52px; }
+  .covid-index-label { padding: 12px 16px; }
+  .covid-entry       { padding: 16px 16px; grid-template-columns: 1fr 24px; gap: 8px; }
+  .covid-entry__meta { grid-column: 1 / -1; }
+}

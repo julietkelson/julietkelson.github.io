@@ -1,0 +1,151 @@
+// ============================================================================
+// CHROME — nav + footer
+// Source values: field.jsx → FnNav / FieldHomeRevised footer
+// ============================================================================
+
+// ── NAV ──────────────────────────────────────────────────────────────────────
+
+.fn-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 56px;
+  background: var(--fn-paper);
+  border-bottom: 1.5px solid var(--fn-rule);
+}
+
+.fn-nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--fn-display);
+  font-size: 22px;
+  font-weight: var(--fn-w-head);
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--fn-ink);
+}
+
+.fn-nav__monogram {
+  background: var(--fn-forest);
+  color: var(--fn-panel);
+  padding: 3px 10px;
+  font-family: var(--fn-display);
+  font-weight: var(--fn-w-head);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.fn-nav__links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  font-family: var(--fn-sans);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.fn-nav__link {
+  color: var(--fn-ink);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: color 0.1s, border-color 0.1s;
+
+  &:hover {
+    color: var(--fn-ink2);
+    text-decoration: none;
+  }
+
+  &--active {
+    color: var(--fn-amber);
+    border-bottom-color: var(--fn-amber);
+
+    &:hover {
+      color: var(--fn-amber);
+    }
+  }
+}
+
+.fn-nav__vol {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  color: var(--fn-ink2);
+  letter-spacing: 0.06em;
+}
+
+// ── FOOTER ───────────────────────────────────────────────────────────────────
+
+.fn-footer {
+  padding: 14px 56px;
+  border-top: 1.5px solid var(--fn-rule);
+  background: var(--fn-paperDk);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--fn-sans);
+  font-size: 13px;
+  color: var(--fn-ink2);
+}
+
+.fn-footer__links {
+  display: flex;
+  gap: 18px;
+}
+
+.fn-footer__link {
+  color: var(--fn-ink2);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--fn-ink);
+    text-decoration: none;
+  }
+
+  &--cta {
+    color: var(--fn-amber);
+
+    &:hover {
+      color: var(--fn-forest);
+    }
+  }
+}
+
+// ── RESPONSIVE ───────────────────────────────────────────────────────────────
+
+@media (max-width: 1023px) {
+  .fn-nav {
+    padding: 14px 24px;
+  }
+
+  .fn-nav__vol {
+    display: none;
+  }
+
+  .fn-footer {
+    padding: 14px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fn-nav {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 12px 16px;
+  }
+
+  .fn-nav__links {
+    order: 3;
+    width: 100%;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .fn-footer {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 14px 16px;
+  }
+}

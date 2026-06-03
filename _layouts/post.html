@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+{% comment %} ── Category kicker ────────────────────────────────────────────── {% endcomment %}
+{% if page.categories contains 'From Quarantine' %}
+  {% assign _kicker = 'From Quarantine · a data diary' %}
+  {% assign _breadcrumb_series = 'COVID Diaries' %}
+  {% assign _breadcrumb_series_url = '/covid/' %}
+{% elsif page.categories contains 'From Class' %}
+  {% assign _kicker = 'From Class · Macalester College' %}
+  {% assign _breadcrumb_series = 'From Class' %}
+  {% assign _breadcrumb_series_url = '/writing/' %}
+{% else %}
+  {% assign _kicker = '' %}
+  {% assign _breadcrumb_series = '' %}
+{% endif %}
+
+<header class="essay-header">
+
+  <div class="essay-header__meta">
+    <div class="essay-header__breadcrumb">
+      <a href="{{ '/writing/' | relative_url }}">Writing</a>
+      {% if _breadcrumb_series != '' %}
+        <span class="sep">/</span>
+        <a href="{{ _breadcrumb_series_url | relative_url }}">{{ _breadcrumb_series }}</a>
+      {% endif %}
+      <span class="sep">/</span>
+      <span>{{ page.title | truncate: 48, '…' }}</span>
+    </div>
+    <div class="essay-header__date-right">{{ page.date | date: "%-d %B, %Y" }}</div>
+  </div>
+
+  <div class="essay-header__body">
+    {% if _kicker != '' %}
+      <div class="essay-header__kicker">{{ _kicker }}</div>
+    {% endif %}
+    <h1 class="essay-header__title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <div class="essay-header__subtitle">{{ page.subtitle }}</div>
+    {% endif %}
+    {% if page.content_note %}
+      <div class="essay-header__content-note">content note</div>
+    {% endif %}
+  </div>
+
+</header>
+
+<article class="essay-body">
+  {{ content }}
+</article>
+
+{% comment %} ── Pager ──────────────────────────────────────────────────────── {% endcomment %}
+{% assign _prev = page.previous %}
+{% assign _next = page.next %}
+
+<nav class="essay-pager" aria-label="Post navigation">
+  <div>
+    {% if _prev %}
+      <a href="{{ _prev.url | relative_url }}">← {{ _prev.title | truncate: 28, '…' }}</a>
+    {% else %}
+      <span class="essay-pager__gap">←</span>
+    {% endif %}
+  </div>
+
+  {% if page.categories contains 'From Quarantine' %}
+    <a class="essay-pager__center" href="{{ '/covid/' | relative_url }}">↑ all 11 entries</a>
+  {% elsif page.categories contains 'From Class' %}
+    <a class="essay-pager__center" href="{{ '/writing/' | relative_url }}">↑ all writing</a>
+  {% else %}
+    <a class="essay-pager__center" href="{{ '/writing/' | relative_url }}">↑ writing</a>
+  {% endif %}
+
+  <div>
+    {% if _next %}
+      <a href="{{ _next.url | relative_url }}">{{ _next.title | truncate: 28, '…' }} →</a>
+    {% else %}
+      <span class="essay-pager__gap">→</span>
+    {% endif %}
+  </div>
+</nav>
+
+<script>
+// Lift bare <img> elements in the essay body into EssayFigure panels:
+// bordered panel (1.5px ink rule, panel bg) + mono caption with fig number
+// and "● real data" status pill. Matches EssayFigure in field-case-study.jsx.
+(function () {
+  var body = document.querySelector('.essay-body');
+  if (!body) return;
+  var figIdx = 0;
+
+  function makeFigure(img) {
+    figIdx++;
+    var num = figIdx < 10 ? '0' + figIdx : String(figIdx);
+
+    var fig = document.createElement('figure');
+    fig.className = 'essay-figure';
+
+    var wrap = document.createElement('div');
+    wrap.className = 'essay-figure__img';
+    var clone = img.cloneNode(true);
+    clone.removeAttribute('width');
+    clone.removeAttribute('height');
+    wrap.appendChild(clone);
+
+    var cap = document.createElement('figcaption');
+    cap.className = 'essay-figure__caption';
+
+    var label = document.createElement('span');
+    label.textContent = 'fig. ' + num + (img.alt ? ' — ' + img.alt : '');
+
+    var pill = document.createElement('span');
+    pill.className = 'fn-status-pill fn-status-pill--real';
+    pill.textContent = '● real data';
+
+    cap.appendChild(label);
+    cap.appendChild(pill);
+    fig.appendChild(wrap);
+    fig.appendChild(cap);
+    return fig;
+  }
+
+  function isOnlyImg(node) {
+    var meaningful = Array.from(node.childNodes).filter(function (n) {
+      return !(n.nodeType === 3 && n.textContent.trim() === '');
+    });
+    return meaningful.length === 1 && meaningful[0].tagName === 'IMG';
+  }
+
+  Array.from(body.childNodes).forEach(function (node) {
+    if (node.nodeType !== 1) return;
+    if (node.tagName === 'IMG') {
+      node.replaceWith(makeFigure(node));
+    } else if (node.tagName === 'P' && isOnlyImg(node)) {
+      var img = node.querySelector('img');
+      node.replaceWith(makeFigure(img));
+    }
+  });
+}());
+</script>

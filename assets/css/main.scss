@@ -1,0 +1,125 @@
+---
+---
+
+@import "tokens";
+@import "chrome";
+@import "post";
+@import "home";
+@import "work";
+@import "writing";
+@import "music";
+@import "about";
+@import "resume";
+@import "covid";
+
+// ============================================================================
+// GLOBAL RESET + BASE
+// ============================================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip; // prevent horizontal scrollbar from full-bleed elements
+}
+
+body {
+  @extend .fn-page;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+// ============================================================================
+// TYPOGRAPHY
+// ============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fn-display);
+  font-weight: var(--fn-w-head);
+  color: var(--fn-ink);
+  line-height: 1.05;
+}
+
+p {
+  color: var(--fn-ink2);
+  line-height: 1.62;
+}
+
+a {
+  color: var(--fn-amber);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--fn-forest);
+    text-decoration: underline;
+  }
+}
+
+// ============================================================================
+// STRUCTURAL RULES — 1.5px solid ink, square corners, no shadows
+// ============================================================================
+
+.fn-rule {
+  border: none;
+  border-top: 1.5px solid var(--fn-rule);
+}
+
+.fn-rule-soft {
+  border: none;
+  border-top: 1px solid var(--fn-ruleSoft);
+}
+
+// ============================================================================
+// MONO EYEBROW / KICKER LABEL
+// ============================================================================
+
+.fn-eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+}
+
+// ============================================================================
+// PANEL / CARD SURFACE
+// ============================================================================
+
+.fn-panel {
+  background-color: var(--fn-panel);
+  border: 1.5px solid var(--fn-rule);
+}
+
+// ============================================================================
+// LAYOUT SHELL — max-width canvas (1280px desktop, responsive below 1024px)
+// ============================================================================
+
+.fn-canvas {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 48px;
+
+  @media (max-width: 1023px) {
+    padding-inline: 24px;
+  }
+
+  @media (max-width: 599px) {
+    padding-inline: 16px;
+  }
+}

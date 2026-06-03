@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Resume
+layout: resume
+title: Résumé
 permalink: /resume/
 ---
 ## *Data Analyst at [Star Tribune](https://www.startribune.com/) since August, 2020*

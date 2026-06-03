@@ -1,0 +1,40 @@
+{% comment %} Detect active nav section from page.url and page.nav_section {% endcomment %}
+{% if page.nav_section %}
+  {% assign _nav = page.nav_section %}
+{% elsif page.url == "/" %}
+  {% assign _nav = "Home" %}
+{% elsif page.url contains "/work" %}
+  {% assign _nav = "Work" %}
+{% elsif page.url contains "/writing" or page.url contains "/covid" %}
+  {% assign _nav = "Writing" %}
+{% elsif page.url contains "/music" %}
+  {% assign _nav = "Music" %}
+{% elsif page.url contains "/about" %}
+  {% assign _nav = "About" %}
+{% elsif page.url contains "/resume" %}
+  {% assign _nav = "Résumé" %}
+{% elsif page.categories contains "From Quarantine" or page.categories contains "From Class" %}
+  {% assign _nav = "Writing" %}
+{% else %}
+  {% assign _nav = "" %}
+{% endif %}
+
+<nav class="fn-nav" role="navigation" aria-label="Main navigation">
+
+  <a class="fn-nav__brand" href="{{ '/' | relative_url }}">
+    <span class="fn-nav__monogram">JK</span>
+    <span class="fn-nav__name">Juliet Kelson</span>
+  </a>
+
+  <ul class="fn-nav__links" role="list">
+    <li><a class="fn-nav__link{% if _nav == 'Home' %} fn-nav__link--active{% endif %}"     href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a class="fn-nav__link{% if _nav == 'Work' %} fn-nav__link--active{% endif %}"     href="{{ '/work/' | relative_url }}">Work</a></li>
+    <li><a class="fn-nav__link{% if _nav == 'Writing' %} fn-nav__link--active{% endif %}"  href="{{ '/writing/' | relative_url }}">Writing</a></li>
+    <li><a class="fn-nav__link{% if _nav == 'Music' %} fn-nav__link--active{% endif %}"    href="{{ '/music/' | relative_url }}">Music</a></li>
+    <li><a class="fn-nav__link{% if _nav == 'About' %} fn-nav__link--active{% endif %}"    href="{{ '/about/' | relative_url }}">About</a></li>
+    <li><a class="fn-nav__link{% if _nav == 'Résumé' %} fn-nav__link--active{% endif %}"   href="{{ '/resume/' | relative_url }}">Résumé</a></li>
+  </ul>
+
+  <div class="fn-nav__vol" aria-hidden="true">notebook · vol. vi</div>
+
+</nav>

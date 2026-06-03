@@ -1,0 +1,51 @@
+// FIELD NOTEBOOK — DESIGN TOKENS
+// Source: design_handoff_portfolio/tokens.css — reproduce values verbatim.
+// Every var(--fn-*) name is used throughout layouts and components.
+
+// Fonts — loaded in _layouts/default.html <head>:
+//   Newsreader, Public Sans, JetBrains Mono via Google Fonts
+
+:root {
+  // Surfaces (bone paper)
+  --fn-paper:      #efeee7;   // page background
+  --fn-paperDk:    #dfddd2;   // sunken / footer bands
+  --fn-panel:      #f7f6ee;   // card / raised surfaces
+
+  // Ink (warm near-black)
+  --fn-ink:        #1a1410;   // primary text + 1.5px structural rules
+  --fn-ink2:       #46403a;   // secondary text
+  --fn-rule:       #1a1410;
+  --fn-ruleSoft:   rgba(26, 20, 16, 0.16);  // dashed/soft separators
+
+  // Bark (warm brown)
+  --fn-forest:     #4a3826;
+  --fn-forestDk:   #2e2317;
+  --fn-forestSoft: rgba(74, 56, 38, 0.10);
+
+  // Olive accent (links, highlights, numbers) — AA-safe on bone
+  --fn-amber:      #5f6640;
+  --fn-amberSoft:  rgba(95, 102, 64, 0.16);
+
+  // Dot grid
+  --fn-dot:        rgba(26, 20, 16, 0.085);
+
+  // Type families
+  --fn-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --fn-sans:    "Public Sans", -apple-system, system-ui, sans-serif;
+  --fn-mono:    "JetBrains Mono", ui-monospace, monospace;
+
+  // Heading weights
+  --fn-w-display: 500;   // big display headings (Newsreader Medium)
+  --fn-w-head:    600;   // card/section headings (Newsreader Semibold)
+}
+
+// Bone paper + soft 22px dot grid — applied to <body>
+.fn-page {
+  background-color: var(--fn-paper);
+  color: var(--fn-ink);
+  font-family: var(--fn-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  background-image: radial-gradient(var(--fn-dot) 1px, transparent 1px);
+  background-size: 22px 22px;
+}

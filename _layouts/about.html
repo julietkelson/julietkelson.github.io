@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+<!-- ── HERO ──────────────────────────────────────────────────────────────────── -->
+<div class="about-hero">
+  <div class="about-hero__readme">README · about.txt</div>
+
+  <div class="about-hero__grid">
+
+    <!-- Left: text -->
+    <div>
+      <div class="about-hero__eyebrow">About — the longer answer</div>
+      <h1 class="about-hero__title">Hey<br>there</h1>
+      <p class="about-hero__lead">
+        I'm a senior data analyst at the Minnesota Star Tribune, where I've spent the last six years
+        working across the full analytics stack —
+        <span class="hl">tracking, experimentation, BI, and infrastructure</span> —
+        for teams in product, marketing, acquisition, and retention.
+      </p>
+      <p class="about-hero__p">
+        I like working on messy, cross-functional problems and the work underneath them — the
+        untangling, the negotiating, the moment things finally click. Lately, figuring out how to
+        use AI effectively and responsibly feels like exactly that kind of problem.
+      </p>
+      <p class="about-hero__p">
+        Outside of work, you can find me in my garden, trying to play hockey, sunbathing with my
+        dog, or reading books on a Kindle my family said I'd never open just to spite them.
+      </p>
+      <p class="about-hero__availability">
+        <span class="about-hero__availability-label">Availability</span>
+        Open to senior product analytics roles.
+        <a href="mailto:kelsonjuliet@gmail.com" class="about-hero__availability-link">Say hello</a>.
+      </p>
+    </div>
+
+    <!-- Right: portrait + facts -->
+    <div>
+      <div class="about-portrait">
+        <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Juliet Kelson" class="about-portrait__img">
+        <div class="about-portrait__caption">
+          <span>Juliet Kelson</span>
+          <span class="about-portrait__badge">● src: camera</span>
+        </div>
+      </div>
+
+      <div class="about-facts">
+        <div class="about-facts__row">
+          <span class="about-facts__key">from</span><span class="about-facts__val">chicago, il</span>
+        </div>
+        <div class="about-facts__row">
+          <span class="about-facts__key">based</span><span class="about-facts__val">minneapolis, mn</span>
+        </div>
+        <div class="about-facts__row">
+          <span class="about-facts__key">role</span><span class="about-facts__val">sr. data analyst</span>
+        </div>
+        <div class="about-facts__row">
+          <span class="about-facts__key">twin</span><span class="about-facts__val">true · 2 min older</span>
+        </div>
+        <div class="about-facts__row">
+          <span class="about-facts__key">dog</span><span class="about-facts__val">yes · good</span>
+        </div>
+        <div class="about-facts__row">
+          <span class="about-facts__key">plays</span><span class="about-facts__val">music · since forever</span>
+        </div>
+        <div class="about-facts__row">
+          <span class="about-facts__key">langs</span><span class="about-facts__val">en · es · pt · fr-basic</span>
+        </div>
+        <div class="about-facts__row about-facts__row--last">
+          <span class="about-facts__key">mbti</span><span class="about-facts__val">infj</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── FOR THE RECORD ─────────────────────────────────────────────────────────── -->
+<div class="about-lists">
+
+  <div class="about-lists__header">
+    <span class="about-lists__eyebrow">For the record</span>
+    <span class="about-lists__meta">three lists, no particular order</span>
+  </div>
+
+  <div class="about-lists__grid">
+
+    <!-- Column 1: I am a(n) -->
+    <div class="about-list">
+      <div class="about-list__heading">I am a(n):</div>
+      <ul class="about-list__items">
+        {% assign iam = "Senior Data Analyst at the Star Tribune,Dog mom,Chicagoan,Data nerd,Computer Science graduate,Musician,Polyglot,Bad hockey player,Twin,Event chair,Doodler,Coffee drinker,Tea drinker,Math lover,Voter,PWHL fan,Lover of cooking,Enjoyer of well-designed graphs and plots,Detailed thinker,INFJ,Poor hockey player,Slightly better gardener" | split: "," %}
+        {% for item in iam %}
+        <li class="about-list__item">
+          <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="about-list__text">{{ item }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Column 2: I aspire to -->
+    <div class="about-list about-list--amber">
+      <div class="about-list__heading about-list__heading--amber">I aspire to:</div>
+      <ul class="about-list__items">
+        {% assign aspire = "Be one inch taller,Keep learning,Fill notebooks before I buy new ones,Learn to play a horn,Do meaningful work,Learn to catch clean and cook a fish,Remain politically involved,Travel the world,Learn more languages,Make more graphs by hand,Read more books,Open a pottery shop,Grow all of my produce" | split: "," %}
+        {% for item in aspire %}
+        <li class="about-list__item">
+          <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="about-list__text">{{ item }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Column 3: I have been a(n) -->
+    <div class="about-list about-list--last">
+      <div class="about-list__heading">I have been a(n):</div>
+      <ul class="about-list__items">
+        {% assign havebeen = "Babysitter,Montessori student,Spanish tutor,Camp counselor,Camper,Immigration law intern,Vegetarian,Exchange student,Music teacher,Volunteer,Fundraiser,Data science intern,Portuguese instructor,Barista" | split: "," %}
+        {% for item in havebeen %}
+        <li class="about-list__item">
+          <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="about-list__text">{{ item }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>

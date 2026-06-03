@@ -27,7 +27,6 @@ url: https://julietkelson.github.io/
 github_username:  julietkelson
 
 # Build settings
-theme: jekyll-swiss
 plugins:
   - jekyll-feed
 

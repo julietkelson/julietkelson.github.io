@@ -1,0 +1,303 @@
+// ============================================================================
+// HOME PAGE — FieldHomeRevised + RevHero in field-revised.jsx
+// ============================================================================
+
+// ── HERO ─────────────────────────────────────────────────────────────────────
+
+.home-hero {
+  padding: 52px 56px 34px;
+  border-bottom: 1px solid var(--fn-rule);
+}
+
+.home-hero__eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-forest);
+  margin-bottom: 16px;
+}
+
+.home-hero__name {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  margin: 0 0 26px;
+  color: var(--fn-ink);
+}
+
+.home-hero__body {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 48px;
+  align-items: start;
+  max-width: 1168px;
+}
+
+.home-hero__lead {
+  font-family: var(--fn-sans);
+  font-size: 22px;
+  line-height: 1.45;
+  color: var(--fn-ink);
+  margin: 0 0 18px;
+
+  .hl {
+    background: var(--fn-forestSoft);
+    color: var(--fn-forestDk);
+    padding: 1px 6px;
+  }
+
+  .hl-ul {
+    border-bottom: 2px solid var(--fn-amber);
+  }
+}
+
+.home-hero__p2 {
+  font-family: var(--fn-sans);
+  font-size: 16.5px;
+  line-height: 1.6;
+  color: var(--fn-ink2);
+  margin: 0;
+}
+
+// Quick-facts card — right column of hero
+.home-facts {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  padding: 20px 22px;
+}
+
+.home-facts__label {
+  font-family: var(--fn-display);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--fn-ink);
+  margin-bottom: 12px;
+}
+
+.home-facts__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--fn-ruleSoft);
+  font-family: var(--fn-mono);
+  font-size: 12px;
+
+  &:last-child { border-bottom: none; }
+}
+
+.home-facts__key { color: var(--fn-ink2); }
+.home-facts__val { color: var(--fn-ink); }
+
+// Contact strip at base of hero
+.home-hero__contact {
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid var(--fn-rule);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.home-hero__contact-text {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  color: var(--fn-ink);
+}
+
+.home-hero__contact-link {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  color: var(--fn-amber);
+  text-decoration: none;
+  border-bottom: 2px solid var(--fn-amber);
+  padding-bottom: 1px;
+
+  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); }
+}
+
+// ── SELECTED WORK ─────────────────────────────────────────────────────────────
+
+.home-work-header {
+  padding: 20px 56px 4px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.home-work-header__title {
+  font-family: var(--fn-display);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--fn-ink);
+}
+
+.home-work-header__link {
+  font-family: var(--fn-sans);
+  font-size: 14px;
+  color: var(--fn-amber);
+  text-decoration: none;
+  border-bottom: none;
+
+  &:hover { color: var(--fn-forest); text-decoration: none; }
+}
+
+// ── ENTRY ROW ────────────────────────────────────────────────────────────────
+
+.home-entry {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) 300px;
+  gap: 28px;
+  padding: 30px 56px;
+  border-bottom: 1px solid var(--fn-ruleSoft);
+  align-items: start;
+  background: var(--fn-paper);
+
+  &:last-child { border-bottom: none; }
+}
+
+.home-entry__no {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 0.9;
+  padding-top: 8px;
+
+  .home-entry--forest & { color: var(--fn-forest); }
+  .home-entry--amber  & { color: var(--fn-amber); }
+}
+
+.home-entry__eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+
+  .home-entry--forest & { color: var(--fn-forest); }
+  .home-entry--amber  & { color: var(--fn-amber); }
+}
+
+.home-entry__title {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
+  color: var(--fn-ink);
+}
+
+.home-entry__blurb {
+  font-family: var(--fn-sans);
+  margin: 0 0 16px;
+  color: var(--fn-ink2);
+  font-size: 15.5px;
+  line-height: 1.6;
+}
+
+.home-entry__tags {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-family: var(--fn-sans);
+  font-size: 13px;
+  color: var(--fn-ink2);
+}
+
+.home-entry__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .home-entry--forest &::before { background: var(--fn-forest); }
+  .home-entry--amber  &::before { background: var(--fn-amber); }
+}
+
+// ── CHART CARD ────────────────────────────────────────────────────────────────
+
+.home-chart-card {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  overflow: hidden;
+}
+
+.home-chart-card__chart {
+  padding: 14px 14px 6px;
+
+  svg { display: block; width: 100%; }
+}
+
+.home-chart-card__footer {
+  padding: 8px 14px;
+  border-top: 1px solid var(--fn-ruleSoft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-chart-card__caption {
+  font-family: var(--fn-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--fn-ink2);
+}
+
+// ── RESPONSIVE ────────────────────────────────────────────────────────────────
+
+@media (max-width: 1023px) {
+  .home-hero {
+    padding: 32px 24px 24px;
+  }
+
+  .home-hero__name { font-size: 80px; }
+
+  .home-hero__body {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .home-work-header { padding: 20px 24px 4px; }
+
+  .home-entry {
+    grid-template-columns: 48px 1fr;
+    padding: 24px;
+
+    .home-entry__chart { grid-column: 1 / -1; }
+  }
+}
+
+@media (max-width: 767px) {
+  .home-hero { padding: 24px 16px 20px; }
+  .home-hero__name { font-size: 52px; }
+  .home-hero__lead { font-size: 18px; }
+  .home-work-header { padding: 16px 16px 4px; }
+
+  .home-entry {
+    grid-template-columns: 1fr;
+    padding: 20px 16px;
+
+    .home-entry__no { padding-top: 0; font-size: 36px; }
+  }
+}

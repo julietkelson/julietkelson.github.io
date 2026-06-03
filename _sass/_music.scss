@@ -1,0 +1,143 @@
+// ============================================================================
+// MUSIC PAGE
+// ============================================================================
+
+// ── HERO ─────────────────────────────────────────────────────────────────────
+
+.music-hero {
+  padding: 52px 56px 30px;
+  border-bottom: 1px solid var(--fn-rule);
+}
+
+.music-hero__eyebrow {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fn-forest);
+  margin-bottom: 16px;
+}
+
+.music-hero__title {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  margin: 0 0 22px;
+  color: var(--fn-ink);
+}
+
+.music-hero__lead {
+  font-family: var(--fn-sans);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--fn-ink);
+  margin: 0;
+  max-width: 740px;
+
+  .hl {
+    background: var(--fn-forestSoft);
+    color: var(--fn-forestDk);
+    padding: 1px 6px;
+  }
+}
+
+// ── BANDS GRID ───────────────────────────────────────────────────────────────
+
+.music-bands {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  padding: 30px 56px 48px;
+}
+
+.music-band {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.music-band__header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.music-band__no {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 0.9;
+  flex-shrink: 0;
+
+  &--amber { color: var(--fn-amber); }
+  &--forest { color: var(--fn-forest); }
+}
+
+.music-band__name {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  margin: 0;
+  color: var(--fn-ink);
+  line-height: 1.1;
+}
+
+.music-band__role {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--fn-ink2);
+  margin-top: 4px;
+}
+
+.music-band__blurb {
+  margin: 0;
+  font-family: var(--fn-sans);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--fn-ink2);
+  min-height: 132px;
+}
+
+.music-band__embed {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  padding: 8px;
+
+  iframe {
+    display: block;
+    border-radius: 0;
+  }
+}
+
+.music-band__link {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--fn-amber);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--fn-amber);
+  padding-bottom: 1px;
+  align-self: flex-start;
+
+  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); text-decoration: none; }
+}
+
+// ── RESPONSIVE ────────────────────────────────────────────────────────────────
+
+@media (max-width: 1023px) {
+  .music-hero        { padding: 32px 24px 24px; }
+  .music-hero__title { font-size: 80px; }
+  .music-bands       { padding: 24px 24px 36px; grid-template-columns: 1fr 1fr; }
+  .music-band__blurb { min-height: unset; }
+}
+
+@media (max-width: 767px) {
+  .music-hero        { padding: 24px 16px 20px; }
+  .music-hero__title { font-size: 56px; }
+  .music-bands       { padding: 20px 16px 28px; grid-template-columns: 1fr; }
+}
