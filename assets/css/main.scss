@@ -76,6 +76,23 @@ a {
   outline-offset: 3px;
 }
 
+.fn-skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 10px 20px;
+  background: var(--fn-ink);
+  color: var(--fn-paper);
+  font-family: var(--fn-mono);
+  font-size: 13px;
+  z-index: 1000;
+  text-decoration: none;
+
+  &:focus {
+    top: 0;
+  }
+}
+
 // ============================================================================
 // STRUCTURAL RULES — 1.5px solid ink, square corners, no shadows
 // ============================================================================
