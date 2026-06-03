@@ -87,6 +87,15 @@
   color: var(--fn-ink2);
 }
 
+.work-feature__subhead {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  color: var(--fn-ink);
+  margin: 32px 0 10px;
+}
+
 .work-feature__p2 {
   font-family: var(--fn-sans);
   margin: 0 0 18px;
