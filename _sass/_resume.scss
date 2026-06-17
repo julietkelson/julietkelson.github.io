@@ -716,4 +716,13 @@
   .cv-impact__grid     { grid-template-columns: 1fr; }
   .cv-main             { padding: 0 16px; }
   .cv-sidebar          { padding: 20px 16px; }
+
+  .cv-chapter__header  {
+    grid-template-columns: 32px minmax(0, 1fr);
+    gap: 12px;
+    row-gap: 6px;
+  }
+  .cv-chapter__no      { padding-top: 4px; }
+  .cv-chapter__title   { font-size: 28px; overflow-wrap: break-word; }
+  .cv-chapter__kicker  { grid-column: 2; white-space: normal; }
 }
