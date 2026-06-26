@@ -3,7 +3,7 @@
   {% assign _nav = page.nav_section %}
 {% elsif page.url == "/" %}
   {% assign _nav = "Home" %}
-{% elsif page.url contains "/work" %}
+{% elsif page.url contains "/work" or page.categories contains "From Work" %}
   {% assign _nav = "Work" %}
 {% elsif page.url contains "/writing" or page.url contains "/covid" %}
   {% assign _nav = "Writing" %}
