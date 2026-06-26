@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Subscriber Paths: the newsroom metric that measures what people pay for"
-date:   2026-06-25 09:30:00 -0500
+date:   2025-07-14 09:00:00 -0500
 subtitle: "A metric I co-created at the Star Tribune to measure which content actually drives subscriptions — not just clicks, but the stories that move readers to pay."
 description: "How New Subscriber Paths works, why it tracks subscription conversion better than session volume, and how it reshaped the News × Analytics partnership at the Star Tribune. By Juliet Kelson."
 categories:
