@@ -10,64 +10,46 @@ layout: default
     The professional side — six years of product, marketing, and newsroom analytics at the Star Tribune.
     Most of it is internal and confidential, so it's
     <span class="hl">described rather than shown</span>.
-    One project below.
   </p>
 </header>
 
-<!-- ── FEATURED: NEW SUBSCRIBER PATHS ───────────────────────────────────── -->
-<section class="work-feature">
+<!-- ── PROJECT: NEW SUBSCRIBER PATHS ────────────────────────────────────── -->
+<section class="work-published">
 
-  <div class="work-feature__header">
-    <span class="work-feature__label">Featured</span>
-    <span class="work-feature__meta">Metric · 2024 · built with newsroom leadership and the analytics team · presented at SRCCON 2025</span>
+  <div class="work-published__header">
+    <span class="work-published__eyebrow">Metric creation</span>
+    <span class="work-published__meta">2024 · built with newsroom leadership · presented at SRCCON 2025</span>
   </div>
 
-  <div class="work-feature__body">
+  <div class="work-published__body">
     <div>
-      <h2 class="work-feature__title">New Subscriber Paths</h2>
-      <p class="work-feature__p">
-        A newsroom metric I co-created to measure which content actually drives subscriptions — not just
-        clicks, but the stories that move a reader to pay. It changed how the newsroom and the analytics
-        team talk about value, and it contributed roughly a million dollars in monthly recurring revenue.
+      <h2 class="work-published__title">New Subscriber Paths</h2>
+      <p class="work-published__p">
+        A newsroom metric I co-created at the Star Tribune to measure which content actually drives
+        subscriptions — not just clicks, but the stories that move a reader to pay.
+      </p>
+      <p class="work-published__p">
+        Changed how News and Analytics talk about value, and contributed ~$1M in annual subscriber
+        revenue added above predictions each month. The writeup covers how the metric works, why it
+        tracks conversion better than session volume, and how it reshaped the News × Analytics partnership.
       </p>
 
-      <h3 class="work-feature__subhead">How it works</h3>
-      <p class="work-feature__p">
-        A <span class="hl">path</span> to subscription includes every article a reader viewed in the 30 days before they subscribed — each new subscriber has one. The metric counts how often each article shows up across all of those paths.
-        In other words, a story's path count = the number of users who purchased a subscription in the 30 days after reading the story. This turns out to have a much tighter relationship with subscription conversion than session volume alone.
-      </p>
-      <p class="work-feature__p">
-        Once you have paths per story, articles can be tagged with levers — story archetype, topic, location,
-        framing, discovery strategy, photos, video, galleries, content vertical — to look for patterns. The output
-        of this analysis gives a view of what kinds of journalism people are actually willing to pay for, not just what
-        they click on, and how different elements of that journalism affect acquisition. Something few other newsrooms are measuring.
-      </p>
-      <p class="work-feature__p">
-        Paths don't measure retention, reach, engagement, or readers who can't afford to subscribe — they're
-        a conversion signal, not a whole-picture metric. Discounted paywall offers also create noise unrelated
-        to content, so those periods — among other features — should be controlled for when reporting and modeling expected paths.
-      </p>
-      <h3 class="work-feature__subhead">The relationship part</h3>
-      <p class="work-feature__p">
-        This wasn't only an analytics project — it reshaped how News and Analytics work together. The process
-        was collaborative from the start: editors helped define what they wanted to know, and we built the
-        infrastructure and analysis to answer it. The result was a shared language for talking about content
-        value that both teams actually trusted. 
-      </p>
-      <p class="work-feature__p2">
-        The numbers are proprietary, so the chart is anonymized — the method, and how it changed the
-        Analytics–News relationship, is the part worth sharing.
-      </p>
-      <div class="work-feature__tags">
-        <span class="work-feature__tag">SQL</span>
-        <span class="work-feature__tag">Snowflake</span>
-        <span class="work-feature__tag">Python</span>
-        <span class="work-feature__tag">Machine Learning</span>
+      <div class="work-published__tags">
+        <span class="work-published__tag">SQL</span>
+        <span class="work-published__tag">Snowflake</span>
+        <span class="work-published__tag">Python</span>
+        <span class="work-published__tag">Machine Learning</span>
       </div>
-      <a href="https://drive.google.com/file/d/1yH-A4iYyqsf3s5wE0K5YkwasNUvM76KC/view"
-         target="_blank" rel="noopener noreferrer" class="work-feature__link">
-        Read the SRCCON 2025 deck ↗
-      </a>
+
+      <div class="work-published__ctas">
+        <a href="{{ '/from%20work/new-subscriber-paths/' | relative_url }}" class="work-published__link">
+          Read the writeup ↗
+        </a>
+        <a href="https://drive.google.com/file/d/1yH-A4iYyqsf3s5wE0K5YkwasNUvM76KC/view"
+           target="_blank" rel="noopener noreferrer" class="work-published__link work-published__link--ghost">
+          SRCCON 2025 deck ↗
+        </a>
+      </div>
     </div>
 
     <div class="work-chart-card" role="img" aria-label="Scatter plot showing a positive correlation between how often an article appeared in subscriber paths and the number of new subscribers, March 2021 through May 2024. Axis values are anonymized.">
@@ -129,19 +111,87 @@ layout: default
     </div>
   </div>
 
-  <!-- Impact stats -->
-  <div class="work-impact">
-    <div class="work-impact__card">
-      <div class="work-impact__value work-impact__value--lg" style="color: var(--fn-amber);">~$1M</div>
-      <div class="work-impact__desc">in annual subscriber revenue added above predictions each month</div>
+</section>
+
+<!-- ── PROJECT: SEARCH GAP DETECTOR ─────────────────────────────────────── -->
+<section class="work-published">
+
+  <div class="work-published__header">
+    <span class="work-published__eyebrow">Open code</span>
+    <span class="work-published__meta">Engineering project · 2026 · code public on GitHub · with full writeup</span>
+  </div>
+
+  <div class="work-published__body">
+    <div>
+      <h2 class="work-published__title">Did we cover it? A search gap detector</h2>
+      <p class="work-published__p">
+        A pipeline that flags rising Google searches, checks whether your newsroom covered the topic, and
+        measures the timing gap if it did. Trend detection in Python; article matching via a two-stage
+        Jaccard pre-filter into Snowflake Cortex.
+      </p>
+      <p class="work-published__p">
+        A self-directed engineering project, fully shown. The writeup covers the detection logic, the
+        matcher, a false-positive case study, and how to wire the pipeline into your own newsroom's GSC
+        and CMS.
+      </p>
+
+      <div class="work-published__tags">
+        <span class="work-published__tag">Python</span>
+        <span class="work-published__tag">Snowflake Cortex</span>
+        <span class="work-published__tag">Google Search Console</span>
+        <span class="work-published__tag">LLM matching</span>
+      </div>
+
+      <div class="work-published__ctas">
+        <a href="{{ '/from%20work/trend-tracker/' | relative_url }}" class="work-published__link">
+          Read the writeup ↗
+        </a>
+        <a href="https://github.com/julietkelson/trend-tracker"
+           target="_blank" rel="noopener noreferrer" class="work-published__link work-published__link--ghost">
+          View on GitHub ↗
+        </a>
+      </div>
     </div>
-    <div class="work-impact__card">
-      <div class="work-impact__value work-impact__value--lg" style="color: var(--fn-forest);">+3.1K</div>
-      <div class="work-impact__desc">new subscribers per month above predictions since Paths began informing content strategy</div>
-    </div>
-    <div class="work-impact__card">
-      <div class="work-impact__value work-impact__value--sm" style="color: var(--fn-ink);">News × Analytics</div>
-      <div class="work-impact__desc">a newsroom that now trusts analytics</div>
+
+    <div class="work-chart-card" role="img" aria-label="Stacked bar showing 12 trending queries from a synthetic sample dataset: 7 covered, 5 with no coverage.">
+      <div class="work-chart-card__chart">
+        <!-- ChartStacked: 12 trending queries split covered (7) vs no_coverage (5) -->
+        <svg viewBox="0 0 280 180" aria-hidden="true">
+          <!-- Eyebrow -->
+          <text x="20" y="30" font-family="var(--fn-mono)" font-size="9" fill="var(--fn-ink2)" letter-spacing="0.14em">12 TRENDING QUERIES</text>
+
+          <!-- Stacked bar: 12 units × 20px each, x=20..260, y=58..118 -->
+          <rect x="20"  y="58" width="140" height="60" fill="var(--fn-forest)" fill-opacity="0.78"/>
+          <rect x="160" y="58" width="100" height="60" fill="var(--fn-amber)" fill-opacity="0.55"/>
+
+          <!-- Per-query tick marks (one per query unit) -->
+          <line x1="40"  x2="40"  y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="60"  x2="60"  y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="80"  x2="80"  y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="100" x2="100" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="120" x2="120" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="140" x2="140" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="180" x2="180" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="200" x2="200" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="220" x2="220" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+          <line x1="240" x2="240" y1="58" y2="118" stroke="var(--fn-paper)" stroke-width="1"/>
+
+          <!-- Bold structural divider between groups -->
+          <line x1="160" x2="160" y1="54" y2="122" stroke="var(--fn-ink)" stroke-width="1.5"/>
+
+          <!-- Headline counts inside bars -->
+          <text x="90"  y="100" font-family="var(--fn-display)" font-weight="500" font-size="34" text-anchor="middle" fill="var(--fn-panel)">7</text>
+          <text x="210" y="100" font-family="var(--fn-display)" font-weight="500" font-size="34" text-anchor="middle" fill="var(--fn-panel)">5</text>
+
+          <!-- Group labels below -->
+          <text x="90"  y="146" font-family="var(--fn-mono)" font-size="9" text-anchor="middle" fill="var(--fn-ink)" letter-spacing="0.14em">COVERED</text>
+          <text x="210" y="146" font-family="var(--fn-mono)" font-size="9" text-anchor="middle" fill="var(--fn-ink)" letter-spacing="0.14em">NO_COVERAGE</text>
+        </svg>
+      </div>
+      <div class="work-chart-card__footer">
+        <span class="work-chart-card__caption">from examples/sample_output.csv</span>
+        <span class="fn-status-pill fn-status-pill--dummy">○ synthetic example</span>
+      </div>
     </div>
   </div>
 

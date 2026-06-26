@@ -174,6 +174,119 @@
   color: var(--fn-ink2);
 }
 
+// ── OPEN-CODE / PUBLISHED PROJECT ─────────────────────────────────────────────
+// Sits between the Featured case study and the Described list. Uses the
+// section-header pattern from work-described (eyebrow + meta + border-top rule)
+// so it reads as a secondary feature, not a competing headline.
+
+.work-published {
+  padding: 34px 56px 12px;
+}
+
+.work-published__header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 22px;
+  padding-top: 24px;
+  border-top: 1.5px solid var(--fn-rule);
+}
+
+.work-published__eyebrow {
+  @extend .fn-eyebrow;
+}
+
+.work-published__meta {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  color: var(--fn-ink2);
+  letter-spacing: 0.04em;
+}
+
+.work-published__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.work-published__title {
+  font-family: var(--fn-display);
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0 0 14px;
+  color: var(--fn-ink);
+}
+
+.work-published__p {
+  font-family: var(--fn-sans);
+  margin: 0 0 14px;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--fn-ink2);
+}
+
+.work-published__tags {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-family: var(--fn-sans);
+  font-size: 13px;
+  color: var(--fn-ink2);
+  margin-bottom: 18px;
+}
+
+.work-published__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--fn-forest);
+    flex-shrink: 0;
+  }
+}
+
+.work-published__ctas {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.work-published__link {
+  font-family: var(--fn-display);
+  font-weight: 500;
+  font-size: 17px;
+  color: var(--fn-amber);
+  text-decoration: none;
+  border-bottom: 2px solid var(--fn-amber);
+  padding-bottom: 1px;
+
+  &:hover {
+    color: var(--fn-forest);
+    border-bottom-color: var(--fn-forest);
+    text-decoration: none;
+  }
+
+  &--ghost {
+    color: var(--fn-ink2);
+    border-bottom-color: var(--fn-ruleSoft);
+
+    &:hover {
+      color: var(--fn-forest);
+      border-bottom-color: var(--fn-forest);
+    }
+  }
+}
+
 // ── DESCRIBED WORK ────────────────────────────────────────────────────────────
 
 .work-described {
@@ -277,6 +390,8 @@
   .work-feature     { padding: 24px 24px 8px; }
   .work-feature__body { grid-template-columns: 1fr; }
   .work-impact      { grid-template-columns: 1fr 1fr; }
+  .work-published   { padding: 28px 24px 12px; }
+  .work-published__body { grid-template-columns: 1fr; }
   .work-described   { padding: 24px 24px 36px; }
   .work-described__item { grid-template-columns: 1fr; gap: 8px; }
   .work-described__item-stack { text-align: left; }
@@ -288,5 +403,7 @@
   .work-feature     { padding: 20px 16px 8px; }
   .work-feature__title { font-size: 32px; }
   .work-impact      { grid-template-columns: 1fr; }
+  .work-published   { padding: 24px 16px 12px; }
+  .work-published__title { font-size: 26px; }
   .work-described   { padding: 20px 16px 28px; }
 }
