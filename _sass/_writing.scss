@@ -36,7 +36,8 @@
 // ── FEATURE ENTRIES ───────────────────────────────────────────────────────────
 
 .writing-features {
-  border-bottom: 1.5px solid var(--fn-rule);
+  // No border-bottom — the next section (writing-class__header)
+  // draws the structural separator via its own border-top.
 }
 
 .writing-feature {

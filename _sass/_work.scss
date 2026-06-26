@@ -192,6 +192,14 @@
   border-top: 1.5px solid var(--fn-rule);
 }
 
+// The first project section sits directly under the hero, which already has
+// its own border-bottom — suppress the duplicate structural rule here so the
+// top of the page doesn't read as a double line.
+.work-hero + .work-published .work-published__header {
+  padding-top: 0;
+  border-top: none;
+}
+
 .work-published__eyebrow {
   @extend .fn-eyebrow;
 }
