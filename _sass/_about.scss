@@ -61,35 +61,6 @@
   max-width: 640px;
 }
 
-.about-hero__availability {
-  font-family: var(--fn-sans);
-  font-size: 15px;
-  line-height: 1.5;
-  color: var(--fn-ink2);
-  margin: 0;
-  max-width: 640px;
-  padding-left: 14px;
-  border-left: 2.5px solid var(--fn-amber);
-}
-
-.about-hero__availability-label {
-  font-family: var(--fn-mono);
-  font-size: 10.5px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-amber);
-  display: block;
-  margin-bottom: 6px;
-}
-
-.about-hero__availability-link {
-  color: var(--fn-amber);
-  text-decoration: none;
-  border-bottom: 1px solid var(--fn-amber);
-
-  &:hover { color: var(--fn-forest); border-bottom-color: var(--fn-forest); text-decoration: none; }
-}
-
 // ── PORTRAIT ─────────────────────────────────────────────────────────────────
 
 .about-portrait {

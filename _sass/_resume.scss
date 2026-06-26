@@ -79,21 +79,6 @@
   &:hover { background: var(--fn-forest); color: var(--fn-panel); text-decoration: none; }
 }
 
-.cv-hero__available {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 18px;
-  padding: 6px 14px;
-  border: 1.5px solid var(--fn-amber);
-  color: var(--fn-amber);
-  background: var(--fn-panel);
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
 .cv-hero__summary {
   font-family: var(--fn-sans);
   font-size: 18px;
@@ -106,27 +91,6 @@
 .cv-hero__strong {
   color: var(--fn-amber);
   font-weight: 600;
-}
-
-.cv-hero__looking {
-  font-family: var(--fn-sans);
-  font-size: 15.5px;
-  line-height: 1.6;
-  color: var(--fn-ink2);
-  margin: 14px 0 0;
-  max-width: 900px;
-  padding-left: 14px;
-  border-left: 2.5px solid var(--fn-amber);
-}
-
-.cv-hero__looking-label {
-  font-family: var(--fn-mono);
-  font-size: 10.5px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--fn-amber);
-  display: block;
-  margin-bottom: 6px;
 }
 
 // Meta strip
