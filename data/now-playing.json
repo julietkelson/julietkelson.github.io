@@ -1,45 +1,30 @@
 {
-  "fetched_at": "2026-07-07T23:04:53Z",
+  "fetched_at": "2026-07-07T23:26:41Z",
   "is_playing": true,
   "currently_playing_type": "track",
   "track": {
-    "id": "2SSHYzoxRsFosKl81KRFz7",
-    "name": "Mamas Don't Let Your Babies Grow Up to Be Cowboys",
+    "id": "5PH5U9ZdYk27gF8wh3iUxY",
+    "name": "Borne By You",
     "artists": [
       {
-        "id": "5W5bDNCqJ1jbCgTxDD0Cb3",
-        "name": "Willie Nelson"
+        "id": "79hrYiudVcFyyxyJW0ipTy",
+        "name": "The Paper Kites"
       }
     ],
     "album": {
-      "name": "Greatest Hits (& Some That Will Be)",
-      "release_date": "1981-08-21",
-      "image": "https://i.scdn.co/image/ab67616d0000b273179336412e985d9c400fbb2c"
+      "name": "If You Go There, I Hope You Find It",
+      "release_date": "2026-01-23",
+      "image": "https://i.scdn.co/image/ab67616d0000b27375c025887392a2668dd0eaba"
     },
-    "duration_ms": 206733,
-    "progress_ms": 87411,
+    "duration_ms": 251975,
+    "progress_ms": 226130,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2SSHYzoxRsFosKl81KRFz7"
+      "spotify": "https://open.spotify.com/track/5PH5U9ZdYk27gF8wh3iUxY"
     }
   },
   "genres": [
-    "outlaw country",
-    "classic country",
-    "country",
-    "traditional country",
-    "honky tonk"
+    "indie folk"
   ],
-  "audio_features": {
-    "energy": 0.45,
-    "danceability": 0.434,
-    "valence": 0.485,
-    "acousticness": 0.333,
-    "instrumentalness": 2.05e-05,
-    "speechiness": 0.0599,
-    "tempo": 171.77,
-    "liveness": 0.0844,
-    "loudness": -10.347,
-    "source": "reccobeats"
-  }
+  "audio_features": null
 }

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-07T23:04:55Z",
+  "generated_at": "2026-07-07T23:26:42Z",
   "window": {
-    "plays_used": 1,
+    "plays_used": 2,
     "plays_with_features": 1
   },
   "totals": {
-    "plays": 1,
-    "unique_artists": 1
+    "plays": 2,
+    "unique_artists": 2
   },
   "audio_features_mean": {
     "energy": 0.45,
@@ -31,11 +31,11 @@
       "count": 1
     },
     {
-      "name": "outlaw country",
+      "name": "indie folk",
       "count": 1
     },
     {
-      "name": "traditional country",
+      "name": "outlaw country",
       "count": 1
     }
   ]
