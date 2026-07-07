@@ -37,6 +37,7 @@ permalink: /:categories/:title/
 
 exclude:
   - _social-card.html
+  - _docs
 
 
 

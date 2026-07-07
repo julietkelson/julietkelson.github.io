@@ -1,0 +1,25 @@
+{%- comment -%}
+Aggregated listening banner: last 50 Spotify plays.
+Data comes from data/aggregates.json (written by scripts/now_playing.py).
+{%- endcomment -%}
+<section class="np" data-np aria-label="Recent listening" hidden>
+  <div class="np__eyebrow">In my ears</div>
+  <p class="np__lead">
+    The shape of my last 50 Spotify plays, averaged. Updates every few minutes.
+  </p>
+  <div class="np__body">
+    <div class="np__bars" data-np-bars>
+      <!-- filled by JS -->
+    </div>
+    <div class="np__axis" aria-hidden="true">
+      <span class="np__axis-scale">
+        <span>0</span>
+        <span>1</span>
+      </span>
+    </div>
+    <div class="np__empty" data-np-empty>Calibrating — waiting on data.</div>
+  </div>
+  <div class="np__rule"></div>
+  <div class="np__genres" data-np-genres></div>
+  <div class="np__meta" data-np-meta></div>
+</section>

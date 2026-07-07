@@ -1,0 +1,131 @@
+// ============================================================================
+// NOW PLAYING BANNER (/music/)
+// Sits below the three band cards. Aggregated read of recent Spotify listening.
+// ============================================================================
+
+.np {
+  padding: 40px 56px 40px;
+  border-bottom: 1px solid var(--fn-rule);
+  font-family: var(--fn-sans);
+  color: var(--fn-ink);
+
+  &[hidden] { display: none; }
+}
+
+.np__eyebrow {
+  @extend .fn-eyebrow;
+  margin-bottom: 12px;
+}
+
+.np__lead {
+  font-family: var(--fn-sans);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--fn-ink2);
+  margin: 0 0 22px;
+}
+
+.np__rule {
+  border-top: 1px solid var(--fn-ruleSoft);
+  margin: 14px 0 10px;
+}
+
+.np__body {
+  position: relative;
+}
+
+.np__bars {
+  display: grid;
+  grid-template-columns: 140px 1fr 48px;
+  row-gap: 6px;
+  column-gap: 14px;
+  align-items: center;
+}
+
+.np__bar-label {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+}
+
+.np__bar-track {
+  height: 8px;
+  background: var(--fn-panel);
+  position: relative;
+  overflow: hidden;
+}
+
+.np__bar-fill {
+  height: 100%;
+  background: var(--fn-amber);
+  transition: width 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.np__bar-value {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  color: var(--fn-ink);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.np__axis {
+  display: grid;
+  grid-template-columns: 140px 1fr 48px;
+  column-gap: 14px;
+  margin-top: 6px;
+}
+
+.np__axis-scale {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--fn-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.06em;
+  color: var(--fn-ink2);
+  font-variant-numeric: tabular-nums;
+}
+
+.np__empty {
+  display: none;
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+  padding: 8px 0;
+}
+
+.np__genres {
+  font-family: var(--fn-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--fn-ink2);
+}
+
+.np__meta {
+  margin-top: 8px;
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+}
+
+.np--calibrating {
+  .np__bars,
+  .np__axis,
+  .np__genres,
+  .np__meta,
+  .np__rule { display: none; }
+  .np__empty { display: block; }
+}
+
+@media (max-width: 767px) {
+  .np { padding: 28px 16px 32px; }
+  .np__bars,
+  .np__axis { grid-template-columns: 110px 1fr 42px; }
+}
