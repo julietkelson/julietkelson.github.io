@@ -1,0 +1,29 @@
+[
+  {
+    "logged_at": "2026-07-07T23:04:55Z",
+    "track_id": "2SSHYzoxRsFosKl81KRFz7",
+    "name": "Mamas Don't Let Your Babies Grow Up to Be Cowboys",
+    "artists": [
+      "Willie Nelson"
+    ],
+    "genres": [
+      "outlaw country",
+      "classic country",
+      "country",
+      "traditional country",
+      "honky tonk"
+    ],
+    "audio_features": {
+      "energy": 0.45,
+      "danceability": 0.434,
+      "valence": 0.485,
+      "acousticness": 0.333,
+      "instrumentalness": 2.05e-05,
+      "speechiness": 0.0599,
+      "tempo": 171.77,
+      "liveness": 0.0844,
+      "loudness": -10.347,
+      "source": "reccobeats"
+    }
+  }
+]

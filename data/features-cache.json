@@ -1,0 +1,17 @@
+{
+  "2SSHYzoxRsFosKl81KRFz7": {
+    "cached_at": "2026-07-07T23:04:55Z",
+    "features": {
+      "acousticness": 0.333,
+      "danceability": 0.434,
+      "energy": 0.45,
+      "instrumentalness": 2.05e-05,
+      "liveness": 0.0844,
+      "loudness": -10.347,
+      "source": "reccobeats",
+      "speechiness": 0.0599,
+      "tempo": 171.77,
+      "valence": 0.485
+    }
+  }
+}
