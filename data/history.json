@@ -37,5 +37,32 @@
       "indie folk"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-08T22:38:41Z",
+    "track_id": "10NxGnsyqTf2MVXthGnKQf",
+    "name": "Chinky Pin Hill",
+    "artists": [
+      "I'm With Her"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "indie folk",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.232,
+      "danceability": 0.436,
+      "valence": 0.278,
+      "acousticness": 0.937,
+      "instrumentalness": 0.00475,
+      "speechiness": 0.0324,
+      "tempo": 145.978,
+      "liveness": 0.096,
+      "loudness": -11.736,
+      "source": "reccobeats"
+    }
   }
 ]

@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-07-08T21:32:33Z",
+  "generated_at": "2026-07-08T22:38:41Z",
   "window": {
-    "plays_used": 2,
-    "plays_with_features": 1
+    "plays_used": 3,
+    "plays_with_features": 2
   },
   "totals": {
-    "plays": 2,
-    "unique_artists": 2
+    "plays": 3,
+    "unique_artists": 3
   },
   "audio_features_mean": {
-    "energy": 0.45,
-    "danceability": 0.434,
-    "valence": 0.485,
-    "acousticness": 0.333,
-    "instrumentalness": 0.0,
-    "speechiness": 0.0599
+    "energy": 0.341,
+    "danceability": 0.435,
+    "valence": 0.3815,
+    "acousticness": 0.635,
+    "instrumentalness": 0.0024,
+    "speechiness": 0.0461
   },
-  "tempo_mean_bpm": 171.77,
+  "tempo_mean_bpm": 158.87,
   "top_genres": [
+    {
+      "name": "indie folk",
+      "count": 2
+    },
+    {
+      "name": "americana",
+      "count": 1
+    },
+    {
+      "name": "bluegrass",
+      "count": 1
+    },
     {
       "name": "classic country",
       "count": 1
     },
     {
       "name": "country",
-      "count": 1
-    },
-    {
-      "name": "honky tonk",
-      "count": 1
-    },
-    {
-      "name": "indie folk",
-      "count": 1
-    },
-    {
-      "name": "outlaw country",
       "count": 1
     }
   ]
