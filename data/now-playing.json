@@ -1,30 +1,5 @@
 {
-  "fetched_at": "2026-07-07T23:26:41Z",
-  "is_playing": true,
-  "currently_playing_type": "track",
-  "track": {
-    "id": "5PH5U9ZdYk27gF8wh3iUxY",
-    "name": "Borne By You",
-    "artists": [
-      {
-        "id": "79hrYiudVcFyyxyJW0ipTy",
-        "name": "The Paper Kites"
-      }
-    ],
-    "album": {
-      "name": "If You Go There, I Hope You Find It",
-      "release_date": "2026-01-23",
-      "image": "https://i.scdn.co/image/ab67616d0000b27375c025887392a2668dd0eaba"
-    },
-    "duration_ms": 251975,
-    "progress_ms": 226130,
-    "explicit": false,
-    "external_urls": {
-      "spotify": "https://open.spotify.com/track/5PH5U9ZdYk27gF8wh3iUxY"
-    }
-  },
-  "genres": [
-    "indie folk"
-  ],
-  "audio_features": null
+  "fetched_at": "2026-07-08T01:02:48Z",
+  "is_playing": false,
+  "track": null
 }
