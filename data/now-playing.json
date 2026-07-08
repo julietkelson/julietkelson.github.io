@@ -1,45 +1,5 @@
 {
-  "fetched_at": "2026-07-08T22:38:40Z",
-  "is_playing": true,
-  "currently_playing_type": "track",
-  "track": {
-    "id": "10NxGnsyqTf2MVXthGnKQf",
-    "name": "Chinky Pin Hill",
-    "artists": [
-      {
-        "id": "3oXddLOOjkoUuC2sX1RMdr",
-        "name": "I'm With Her"
-      }
-    ],
-    "album": {
-      "name": "Johnny Cash: Forever Words Expanded",
-      "release_date": "2021-04-02",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734c81f68e1c9ab6b12edb6419"
-    },
-    "duration_ms": 205274,
-    "progress_ms": 117423,
-    "explicit": false,
-    "external_urls": {
-      "spotify": "https://open.spotify.com/track/10NxGnsyqTf2MVXthGnKQf"
-    }
-  },
-  "genres": [
-    "newgrass",
-    "bluegrass",
-    "americana",
-    "indie folk",
-    "folk"
-  ],
-  "audio_features": {
-    "energy": 0.232,
-    "danceability": 0.436,
-    "valence": 0.278,
-    "acousticness": 0.937,
-    "instrumentalness": 0.00475,
-    "speechiness": 0.0324,
-    "tempo": 145.978,
-    "liveness": 0.096,
-    "loudness": -11.736,
-    "source": "reccobeats"
-  }
+  "fetched_at": "2026-07-08T23:45:10Z",
+  "is_playing": false,
+  "track": null
 }
