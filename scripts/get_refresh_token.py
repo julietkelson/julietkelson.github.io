@@ -33,7 +33,7 @@ import urllib.request
 import webbrowser
 
 REDIRECT_URI = "http://127.0.0.1:3000"
-SCOPE = "user-read-currently-playing"
+SCOPE = "user-read-recently-played"
 AUTH_URL = "https://accounts.spotify.com/authorize"
 TOKEN_URL = "https://accounts.spotify.com/api/token"
 

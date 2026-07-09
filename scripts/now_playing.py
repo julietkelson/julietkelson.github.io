@@ -29,7 +29,6 @@ NOW_PLAYING_PATH = DATA_DIR / "now-playing.json"
 AGGREGATES_PATH = DATA_DIR / "aggregates.json"
 FEATURES_CACHE_PATH = DATA_DIR / "features-cache.json"
 
-DEDUPE_MINUTES = 20
 HISTORY_MAX_ENTRIES = 500
 HISTORY_MAX_DAYS = 30
 
@@ -43,8 +42,18 @@ def _now_iso() -> str:
 
 
 def _parse_iso(s: str) -> dt.datetime:
-    return dt.datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(
-        tzinfo=dt.timezone.utc
+    """Parse ISO timestamps with or without fractional seconds."""
+    s = s.replace("Z", "+00:00")
+    try:
+        return dt.datetime.fromisoformat(s)
+    except ValueError:
+        s = s.split(".")[0] + "+00:00"
+        return dt.datetime.fromisoformat(s)
+
+
+def _normalize_iso(s: str) -> str:
+    return _parse_iso(s).astimezone(dt.timezone.utc).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
     )
 
 
@@ -62,74 +71,44 @@ def _write_json(path: pathlib.Path, data: Any) -> None:
     path.write_text(json.dumps(data, indent=2) + "\n")
 
 
-def _extract_snapshot(body: dict[str, Any]) -> dict[str, Any]:
-    """Return the internal now-playing.json shape for a currently-playing body."""
-    item = body.get("item") or {}
-    play_type = body.get("currently_playing_type", "track")
-    if play_type == "track":
-        artists = [
-            {"id": a.get("id"), "name": a.get("name")}
-            for a in item.get("artists", [])
-        ]
-        album = item.get("album") or {}
-        images = album.get("images") or []
-        widest = max(images, key=lambda im: im.get("width", 0), default=None)
-        track = {
-            "id": item.get("id"),
-            "name": item.get("name"),
+def _latest_played_ms(history: list[dict[str, Any]]) -> int | None:
+    """Return the last logged play's timestamp in Unix ms, or None if empty."""
+    if not history:
+        return None
+    try:
+        when = _parse_iso(history[-1]["logged_at"])
+    except (KeyError, ValueError):
+        return None
+    return int(when.timestamp() * 1000)
+
+
+def _snapshot_from_item(item: dict[str, Any]) -> dict[str, Any]:
+    """Shape a recently-played item into a `now-playing.json` snapshot."""
+    track = item.get("track") or {}
+    artists = [
+        {"id": a.get("id"), "name": a.get("name")}
+        for a in track.get("artists", [])
+    ]
+    album = track.get("album") or {}
+    images = album.get("images") or []
+    widest = max(images, key=lambda im: im.get("width", 0), default=None)
+    return {
+        "fetched_at": _now_iso(),
+        "played_at": item.get("played_at"),
+        "track": {
+            "id": track.get("id"),
+            "name": track.get("name"),
             "artists": artists,
             "album": {
                 "name": album.get("name"),
                 "release_date": album.get("release_date"),
                 "image": widest.get("url") if widest else None,
             },
-            "duration_ms": item.get("duration_ms"),
-            "progress_ms": body.get("progress_ms"),
-            "explicit": item.get("explicit"),
-            "external_urls": item.get("external_urls") or {},
-        }
-    else:
-        track = {
-            "id": item.get("id"),
-            "name": item.get("name"),
-            "artists": [],
-            "album": {},
-            "duration_ms": item.get("duration_ms"),
-            "progress_ms": body.get("progress_ms"),
-        }
-    return {
-        "fetched_at": _now_iso(),
-        "is_playing": bool(body.get("is_playing")),
-        "currently_playing_type": play_type,
-        "track": track,
+            "duration_ms": track.get("duration_ms"),
+            "explicit": track.get("explicit"),
+            "external_urls": track.get("external_urls") or {},
+        },
     }
-
-
-def _history_entry(snapshot: dict[str, Any], genres: list[str],
-                   features: dict[str, Any] | None) -> dict[str, Any]:
-    track = snapshot["track"]
-    return {
-        "logged_at": _now_iso(),
-        "track_id": track.get("id"),
-        "name": track.get("name"),
-        "artists": [a.get("name") for a in track.get("artists", [])],
-        "genres": genres,
-        "audio_features": features,
-    }
-
-
-def _should_append(history: list[dict[str, Any]], entry: dict[str, Any]) -> bool:
-    if not history:
-        return True
-    last = history[-1]
-    if entry["track_id"] != last.get("track_id"):
-        return True
-    try:
-        last_when = _parse_iso(last["logged_at"])
-    except (KeyError, ValueError):
-        return True
-    now_when = _parse_iso(entry["logged_at"])
-    return (now_when - last_when).total_seconds() > DEDUPE_MINUTES * 60
 
 
 def _cap_history(history: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -159,52 +138,80 @@ def run(dry_run: bool = False) -> int:
     if not isinstance(history, list):
         history = []
 
+    after_ms = _latest_played_ms(history)
     try:
-        body = spotify.currently_playing()
+        items = spotify.recently_played(after_ms=after_ms)
     except SpotifyError as e:
         print(f"Spotify error: {e}", file=sys.stderr)
         return 1
 
-    if body is None:
-        now_playing = {
-            "fetched_at": _now_iso(),
-            "is_playing": False,
-            "track": None,
-        }
-    else:
-        snapshot = _extract_snapshot(body)
-        now_playing = snapshot
-        track = snapshot["track"]
+    # Spotify returns newest-first; append in chronological order.
+    items.reverse()
+
+    known_played_ats = {
+        e.get("logged_at") for e in history if e.get("logged_at")
+    }
+    new_count = 0
+    for item in items:
+        played_at_raw = item.get("played_at")
+        track = item.get("track") or {}
         track_id = track.get("id")
+        if not played_at_raw or not track_id:
+            continue
+        try:
+            played_at = _normalize_iso(played_at_raw)
+        except ValueError:
+            continue
+        if played_at in known_played_ats:
+            continue
 
-        if snapshot["currently_playing_type"] == "track" and track_id:
-            artist_ids = [
-                a["id"] for a in track.get("artists", []) if a.get("id")
-            ]
-            try:
-                genres = spotify.artist_genres(artist_ids)
-            except SpotifyError as e:
-                print(f"Genre fetch failed: {e}", file=sys.stderr)
-                genres = []
-            features = features_client.get(track_id)
-        else:
+        artist_ids = [
+            a["id"] for a in track.get("artists", []) if a.get("id")
+        ]
+        try:
+            genres = spotify.artist_genres(artist_ids)
+        except SpotifyError as e:
+            print(f"Genre fetch failed for {track_id}: {e}", file=sys.stderr)
             genres = []
-            features = None
 
-        snapshot["genres"] = genres
-        snapshot["audio_features"] = features
+        features = features_client.get(track_id)
 
-        if track_id:
-            entry = _history_entry(snapshot, genres, features)
-            if _should_append(history, entry):
-                history.append(entry)
+        history.append({
+            "logged_at": played_at,
+            "track_id": track_id,
+            "name": track.get("name"),
+            "artists": [a.get("name") for a in track.get("artists", [])],
+            "genres": genres,
+            "audio_features": features,
+        })
+        known_played_ats.add(played_at)
+        new_count += 1
 
+    history.sort(key=lambda e: e.get("logged_at", ""))
     history = _cap_history(history)
     aggregates = aggregate(history, window=50)
 
+    if items:
+        now_playing = _snapshot_from_item(items[-1])
+    elif history:
+        last = history[-1]
+        now_playing = {
+            "fetched_at": _now_iso(),
+            "played_at": last.get("logged_at"),
+            "track": {
+                "id": last.get("track_id"),
+                "name": last.get("name"),
+                "artists": [{"name": n} for n in last.get("artists", [])],
+            },
+        }
+    else:
+        now_playing = {
+            "fetched_at": _now_iso(),
+            "track": None,
+        }
+
     if dry_run:
-        print("--- now-playing ---")
-        print(json.dumps(now_playing, indent=2))
+        print(f"--- fetched {len(items)} items, appended {new_count} new ---")
         print("--- history length ---", len(history))
         print("--- aggregates ---")
         print(json.dumps(aggregates, indent=2))

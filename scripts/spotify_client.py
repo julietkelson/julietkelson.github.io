@@ -50,28 +50,36 @@ class SpotifyClient:
             self._refresh_access_token()
         return {"Authorization": f"Bearer {self._access_token}"}
 
-    def currently_playing(self) -> dict[str, Any] | None:
+    def recently_played(
+        self, after_ms: int | None = None, limit: int = 50
+    ) -> list[dict[str, Any]]:
+        """Return up to `limit` recently-played items, newest first.
+
+        If `after_ms` is provided, only items played after that Unix ms
+        timestamp are returned. Empty list if nothing new.
+        """
+        params: dict[str, Any] = {"limit": limit}
+        if after_ms is not None:
+            params["after"] = after_ms
         resp = requests.get(
-            f"{API_ROOT}/me/player/currently-playing",
+            f"{API_ROOT}/me/player/recently-played",
             headers=self._headers(),
+            params=params,
             timeout=TIMEOUT_S,
         )
-        if resp.status_code == 204:
-            return None
         if resp.status_code == 401:
             self._refresh_access_token()
             resp = requests.get(
-                f"{API_ROOT}/me/player/currently-playing",
+                f"{API_ROOT}/me/player/recently-played",
                 headers=self._headers(),
+                params=params,
                 timeout=TIMEOUT_S,
             )
-        if resp.status_code == 204:
-            return None
         if resp.status_code != 200:
             raise SpotifyError(
-                f"currently-playing failed: {resp.status_code} {resp.text[:200]}"
+                f"recently-played failed: {resp.status_code} {resp.text[:200]}"
             )
-        return resp.json()
+        return resp.json().get("items", [])
 
     def artist_genres(self, artist_ids: list[str]) -> list[str]:
         seen: set[str] = set()
