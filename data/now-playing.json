@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-13T18:07:58Z",
-  "played_at": "2026-07-13T18:06:46.100Z",
+  "fetched_at": "2026-07-13T19:48:29Z",
+  "played_at": "2026-07-13T19:05:34.518Z",
   "track": {
-    "id": "1umKFpJdXDtquGCz4oBVDJ",
-    "name": "Windows Are Rolled Down",
+    "id": "7lBFvCywkKG7NdUD6Csffv",
+    "name": "You Can Be All Kinds of Emotional",
     "artists": [
       {
-        "id": "0QrowybipCKUDnq5y10PD2",
-        "name": "Amos Lee"
+        "id": "7JFtD8KnbAADBBDleIMuH7",
+        "name": "The Lone Bellow"
       }
     ],
     "album": {
-      "name": "Mission Bell",
-      "release_date": "2011",
-      "image": "https://i.scdn.co/image/ab67616d0000b27352e9433dd7c3c55289561756"
+      "name": "The Lone Bellow",
+      "release_date": "2013-01-22",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735cdf353c299da28daa3fc440"
     },
-    "duration_ms": 237226,
+    "duration_ms": 200306,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1umKFpJdXDtquGCz4oBVDJ"
+      "spotify": "https://open.spotify.com/track/7lBFvCywkKG7NdUD6Csffv"
     }
   }
 }

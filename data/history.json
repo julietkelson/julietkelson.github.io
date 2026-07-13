@@ -384,5 +384,143 @@
       "loudness": -6.649,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-13T18:39:24Z",
+    "track_id": "4CiEDfKT3btzAkOszkETfM",
+    "name": "You Were Leaving",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-13T18:41:43Z",
+    "track_id": "4CiEDfKT3btzAkOszkETfM",
+    "name": "You Were Leaving",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-13T18:45:15Z",
+    "track_id": "6xVd8klTvL6ZRovgIhIs98",
+    "name": "Not Dead Yet",
+    "artists": [
+      "Lord Huron"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.816,
+      "danceability": 0.489,
+      "valence": 0.64,
+      "acousticness": 0.331,
+      "instrumentalness": 0.148,
+      "speechiness": 0.0338,
+      "tempo": 74.017,
+      "liveness": 0.0876,
+      "loudness": -7.681,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-13T18:49:51Z",
+    "track_id": "5bIOaGjf4RuPoBMTt5DkqC",
+    "name": "Then Came the Morning",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.646,
+      "danceability": 0.464,
+      "valence": 0.472,
+      "acousticness": 0.582,
+      "instrumentalness": 0.000261,
+      "speechiness": 0.0332,
+      "tempo": 125.001,
+      "liveness": 0.116,
+      "loudness": -5.641,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-13T18:57:34Z",
+    "track_id": "7u7KSW5VKTYOTod6NvYgvT",
+    "name": "The Life You Chose",
+    "artists": [
+      "Jason Isbell"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "roots rock",
+      "red dirt"
+    ],
+    "audio_features": {
+      "energy": 0.57,
+      "danceability": 0.599,
+      "valence": 0.288,
+      "acousticness": 0.0357,
+      "instrumentalness": 0.00183,
+      "speechiness": 0.0388,
+      "tempo": 104.133,
+      "liveness": 0.244,
+      "loudness": -11.992,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-13T19:02:13Z",
+    "track_id": "5yTpyXVKcB20zOGXU1ffgf",
+    "name": "Face Down In The Moment",
+    "artists": [
+      "Nathaniel Rateliff & The Night Sweats"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.591,
+      "danceability": 0.52,
+      "valence": 0.359,
+      "acousticness": 0.353,
+      "instrumentalness": 0.00412,
+      "speechiness": 0.0301,
+      "tempo": 151.089,
+      "liveness": 0.102,
+      "loudness": -3.225,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-13T19:05:34Z",
+    "track_id": "7lBFvCywkKG7NdUD6Csffv",
+    "name": "You Can Be All Kinds of Emotional",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.396,
+      "danceability": 0.459,
+      "valence": 0.164,
+      "acousticness": 0.513,
+      "instrumentalness": 5.66e-05,
+      "speechiness": 0.0428,
+      "tempo": 94.49,
+      "liveness": 0.248,
+      "loudness": -11.314,
+      "source": "reccobeats"
+    }
   }
 ]
