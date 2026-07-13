@@ -522,5 +522,28 @@
       "loudness": -11.314,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-13T20:09:35Z",
+    "track_id": "1FaFvYaqcgG2PpVSz4slue",
+    "name": "Honey",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.686,
+      "danceability": 0.673,
+      "valence": 0.497,
+      "acousticness": 0.0467,
+      "instrumentalness": 0.000179,
+      "speechiness": 0.0377,
+      "tempo": 121.951,
+      "liveness": 0.111,
+      "loudness": -7.378,
+      "source": "reccobeats"
+    }
   }
 ]
