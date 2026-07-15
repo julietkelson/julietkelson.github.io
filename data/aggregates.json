@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-15T20:43:08Z",
+  "generated_at": "2026-07-15T21:41:39Z",
   "window": {
-    "plays_used": 29,
-    "plays_with_features": 24
+    "plays_used": 30,
+    "plays_with_features": 25
   },
   "totals": {
-    "plays": 29,
+    "plays": 30,
     "unique_artists": 18
   },
   "audio_features_mean": {
-    "energy": 0.5515,
-    "danceability": 0.5456,
-    "valence": 0.5261,
+    "energy": 0.5579,
+    "danceability": 0.5556,
+    "valence": 0.5389,
     "acousticness": 0.4418,
-    "instrumentalness": 0.0659,
-    "speechiness": 0.0361
+    "instrumentalness": 0.0641,
+    "speechiness": 0.0362
   },
-  "tempo_mean_bpm": 124.14,
+  "tempo_mean_bpm": 123.57,
   "top_genres": [
     {
       "name": "americana",
@@ -35,7 +35,7 @@
       "count": 6
     },
     {
-      "name": "indie folk",
+      "name": "classic rock",
       "count": 5
     }
   ]
