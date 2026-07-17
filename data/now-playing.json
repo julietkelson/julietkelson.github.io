@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-17T22:29:57Z",
-  "played_at": "2026-07-17T21:04:45.460Z",
+  "fetched_at": "2026-07-17T23:29:47Z",
+  "played_at": "2026-07-17T23:26:17.205Z",
   "track": {
-    "id": "3354J49VpkbZJho7Ztdzpw",
-    "name": "Jumper - 1998 Edit",
+    "id": "4OXY5UFZOlfNnMWIULlD7B",
+    "name": "Ivy (2pm)",
     "artists": [
       {
-        "id": "6TcnmlCSxihzWOQJ8k0rNS",
-        "name": "Third Eye Blind"
+        "id": "6iWuBN32BqCJAeXW6o3nil",
+        "name": "Cautious Clay"
       }
     ],
     "album": {
-      "name": "Third Eye Blind",
-      "release_date": "1997-04-08",
-      "image": "https://i.scdn.co/image/ab67616d0000b2730c12ef918102b8d303dc9e9b"
+      "name": "Ivy (2pm)",
+      "release_date": "2026-06-26",
+      "image": "https://i.scdn.co/image/ab67616d0000b27319763946aa60866c5c38cc75"
     },
-    "duration_ms": 272973,
+    "duration_ms": 144144,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3354J49VpkbZJho7Ztdzpw"
+      "spotify": "https://open.spotify.com/track/4OXY5UFZOlfNnMWIULlD7B"
     }
   }
 }
