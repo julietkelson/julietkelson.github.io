@@ -907,5 +907,30 @@
       "loudness": -3.952,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-17T18:36:06Z",
+    "track_id": "5ruzrDWcT0vuJIOMW7gMnW",
+    "name": "The Adults Are Talking",
+    "artists": [
+      "The Strokes"
+    ],
+    "genres": [
+      "garage rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "audio_features": {
+      "energy": 0.749,
+      "danceability": 0.593,
+      "valence": 0.649,
+      "acousticness": 0.0113,
+      "instrumentalness": 0.106,
+      "speechiness": 0.0475,
+      "tempo": 164.959,
+      "liveness": 0.314,
+      "loudness": -5.67,
+      "source": "reccobeats"
+    }
   }
 ]
