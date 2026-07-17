@@ -748,5 +748,164 @@
       "loudness": -15.269,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-17T17:49:44Z",
+    "track_id": "6SpLc7EXZIPpy0sVko0aoU",
+    "name": "Misery Business",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-17T17:56:32Z",
+    "track_id": "25FTMokYEbEWHEdss5JLZS",
+    "name": "Teenage Dirtbag",
+    "artists": [
+      "Wheatus"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.85,
+      "danceability": 0.625,
+      "valence": 0.633,
+      "acousticness": 0.346,
+      "instrumentalness": 0.000233,
+      "speechiness": 0.0495,
+      "tempo": 94.661,
+      "liveness": 0.174,
+      "loudness": -3.904,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T17:59:59Z",
+    "track_id": "6YVajR33kCWLhWpMVD8AGD",
+    "name": "Calling After Me",
+    "artists": [
+      "Wallows"
+    ],
+    "genres": [
+      "indie"
+    ],
+    "audio_features": {
+      "energy": 0.797,
+      "danceability": 0.636,
+      "valence": 0.965,
+      "acousticness": 0.00598,
+      "instrumentalness": 4.26e-06,
+      "speechiness": 0.0296,
+      "tempo": 139.963,
+      "liveness": 0.114,
+      "loudness": -4.644,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T18:03:22Z",
+    "track_id": "1gugDOSMREb34Xo0c1PlxM",
+    "name": "She Looks So Perfect",
+    "artists": [
+      "5 Seconds of Summer"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-17T18:07:41Z",
+    "track_id": "6VoIBz0VhCyz7OdEoRYDiA",
+    "name": "Say It Ain't So - Original Mix",
+    "artists": [
+      "Weezer"
+    ],
+    "genres": [
+      "alternative rock"
+    ],
+    "audio_features": {
+      "energy": 0.551,
+      "danceability": 0.634,
+      "valence": 0.453,
+      "acousticness": 0.00737,
+      "instrumentalness": 1.82e-05,
+      "speechiness": 0.0352,
+      "tempo": 151.779,
+      "liveness": 0.07,
+      "loudness": -7.136,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T18:10:44Z",
+    "track_id": "0w5Bdu51Ka25Pf3hojsKHh",
+    "name": "Hard Times",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": {
+      "energy": 0.818,
+      "danceability": 0.695,
+      "valence": 0.916,
+      "acousticness": 0.00647,
+      "instrumentalness": 4.87e-06,
+      "speechiness": 0.0334,
+      "tempo": 119.965,
+      "liveness": 0.0219,
+      "loudness": -5.379,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T18:13:23Z",
+    "track_id": "2jjwQENSoGnYbQEK4acuC6",
+    "name": "Basic Being Basic",
+    "artists": [
+      "Djo"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.585,
+      "danceability": 0.86,
+      "valence": 0.935,
+      "acousticness": 0.121,
+      "instrumentalness": 9.41e-05,
+      "speechiness": 0.0524,
+      "tempo": 122.002,
+      "liveness": 0.0753,
+      "loudness": -5.409,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T18:18:37Z",
+    "track_id": "4iZxeyibg6w4EFCOoAQ6Eh",
+    "name": "What You Know",
+    "artists": [
+      "Two Door Cinema Club"
+    ],
+    "genres": [
+      "indie",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.763,
+      "danceability": 0.556,
+      "valence": 0.814,
+      "acousticness": 0.000728,
+      "instrumentalness": 6.79e-06,
+      "speechiness": 0.0413,
+      "tempo": 138.984,
+      "liveness": 0.071,
+      "loudness": -3.952,
+      "source": "reccobeats"
+    }
   }
 ]
