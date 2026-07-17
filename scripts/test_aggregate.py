@@ -97,6 +97,47 @@ class AggregateTest(unittest.TestCase):
         result = aggregate(history, days=0)
         self.assertEqual(result["totals"]["plays"], 2)
 
+    def test_daily_series_groups_same_day_and_averages(self):
+        day = _days_ago(2)  # same calendar day for both
+        history = [
+            entry("a", ["A"], ["folk"], FEATURES_A, when=day),
+            entry("b", ["B"], ["folk"], FEATURES_B, when=day),
+        ]
+        series = aggregate(history)["daily_series"]
+        self.assertEqual(len(series), 1)
+        pt = series[0]
+        # energy: mean(0.8, 0.4) = 0.6 ; valence: mean(0.5, 0.2) = 0.35
+        self.assertAlmostEqual(pt["energy"], 0.6)
+        self.assertAlmostEqual(pt["valence"], 0.35)
+        self.assertEqual(pt["plays"], 2)
+
+    def test_daily_series_sorted_ascending(self):
+        history = [
+            entry("new", ["A"], ["folk"], FEATURES_A, when=_days_ago(1)),
+            entry("old", ["B"], ["folk"], FEATURES_B, when=_days_ago(5)),
+        ]
+        dates = [p["date"] for p in aggregate(history)["daily_series"]]
+        self.assertEqual(dates, sorted(dates))
+
+    def test_daily_series_omits_days_without_features(self):
+        history = [
+            entry("feat", ["A"], ["folk"], FEATURES_A, when=_days_ago(1)),
+            entry("nofeat", ["B"], ["folk"], None, when=_days_ago(3)),
+        ]
+        series = aggregate(history)["daily_series"]
+        self.assertEqual(len(series), 1)
+        self.assertEqual(series[0]["plays"], 1)
+
+    def test_daily_series_plays_counts_featureless_plays(self):
+        day = _days_ago(2)
+        history = [
+            entry("feat", ["A"], ["folk"], FEATURES_A, when=day),
+            entry("nofeat", ["B"], ["folk"], None, when=day),
+        ]
+        series = aggregate(history)["daily_series"]
+        self.assertEqual(len(series), 1)
+        self.assertEqual(series[0]["plays"], 2)  # counts the featureless play
+
 
 if __name__ == "__main__":
     unittest.main()

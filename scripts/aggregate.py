@@ -30,6 +30,37 @@ def _mean(values: list[float]) -> float:
     return sum(values) / len(values)
 
 
+def _daily_series(recent: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_day: dict[str, dict[str, Any]] = {}
+    for e in recent:
+        try:
+            day = _parse_iso(e["logged_at"]).astimezone(
+                dt.timezone.utc
+            ).date().isoformat()
+        except (KeyError, ValueError):
+            continue
+        bucket = by_day.setdefault(
+            day, {"plays": 0, "energy": [], "valence": []}
+        )
+        bucket["plays"] += 1
+        feats = e.get("audio_features")
+        if feats:
+            bucket["energy"].append(feats["energy"])
+            bucket["valence"].append(feats["valence"])
+    series = []
+    for day in sorted(by_day):
+        b = by_day[day]
+        if not b["energy"]:
+            continue
+        series.append({
+            "date": day,
+            "energy": round(_mean(b["energy"]), 4),
+            "valence": round(_mean(b["valence"]), 4),
+            "plays": b["plays"],
+        })
+    return series
+
+
 def aggregate(history: list[dict[str, Any]], days: int = 30) -> dict[str, Any]:
     if days:
         cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
@@ -89,4 +120,5 @@ def aggregate(history: list[dict[str, Any]], days: int = 30) -> dict[str, Any]:
         "audio_features_mean": features_mean,
         "tempo_mean_bpm": tempo_mean,
         "top_genres": top_genres,
+        "daily_series": _daily_series(recent),
     }
