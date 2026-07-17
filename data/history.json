@@ -1052,5 +1052,98 @@
       "country"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-17T20:51:59Z",
+    "track_id": "5l9c6bJmzvftumhz4TMPgk",
+    "name": "Harvest Moon",
+    "artists": [
+      "Neil Young"
+    ],
+    "genres": [
+      "classic rock",
+      "folk rock",
+      "singer-songwriter",
+      "roots rock"
+    ],
+    "audio_features": {
+      "energy": 0.31,
+      "danceability": 0.648,
+      "valence": 0.408,
+      "acousticness": 0.53,
+      "instrumentalness": 0.000231,
+      "speechiness": 0.0264,
+      "tempo": 112.938,
+      "liveness": 0.124,
+      "loudness": -12.431,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T20:56:25Z",
+    "track_id": "19Ym5Sg0YyOCa6ao21bdoG",
+    "name": "Gypsy",
+    "artists": [
+      "Fleetwood Mac"
+    ],
+    "genres": [
+      "yacht rock",
+      "classic rock",
+      "soft rock"
+    ],
+    "audio_features": {
+      "energy": 0.54,
+      "danceability": 0.622,
+      "valence": 0.847,
+      "acousticness": 0.017,
+      "instrumentalness": 0.00771,
+      "speechiness": 0.0261,
+      "tempo": 130.879,
+      "liveness": 0.265,
+      "loudness": -13.99,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T21:00:11Z",
+    "track_id": "6iX1f3r7oUJnMbGgQ2gx1j",
+    "name": "867-5309 / Jenny",
+    "artists": [
+      "Tommy Tutone"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.708,
+      "danceability": 0.584,
+      "valence": 0.564,
+      "acousticness": 0.0264,
+      "instrumentalness": 0.00364,
+      "speechiness": 0.0593,
+      "tempo": 137.657,
+      "liveness": 0.112,
+      "loudness": -10.039,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-17T21:04:45Z",
+    "track_id": "3354J49VpkbZJho7Ztdzpw",
+    "name": "Jumper - 1998 Edit",
+    "artists": [
+      "Third Eye Blind"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.543,
+      "danceability": 0.599,
+      "valence": 0.624,
+      "acousticness": 0.0129,
+      "instrumentalness": 0.00204,
+      "speechiness": 0.0302,
+      "tempo": 91.105,
+      "liveness": 0.291,
+      "loudness": -9.226,
+      "source": "reccobeats"
+    }
   }
 ]
