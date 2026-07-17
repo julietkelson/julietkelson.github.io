@@ -47,13 +47,21 @@
         <span class="np__trend-key np__trend-key--energy">ENERGY</span>
         <span class="np__trend-key np__trend-key--valence">VALENCE</span>
       </div>
-      <svg class="np__trend-svg" viewBox="0 0 ${W} ${H}"
-           preserveAspectRatio="none" aria-hidden="true">
-        <polyline class="np__trend-line np__trend-line--valence"
-                  vector-effect="non-scaling-stroke" points="${path('valence')}" />
-        <polyline class="np__trend-line np__trend-line--energy"
-                  vector-effect="non-scaling-stroke" points="${path('energy')}" />
-      </svg>
+      <div class="np__trend-chart">
+        <div class="np__trend-yaxis" aria-hidden="true">
+          <span>1</span><span>0.5</span><span>0</span>
+        </div>
+        <div class="np__trend-plot" data-np-plot>
+          <svg class="np__trend-svg" viewBox="0 0 ${W} ${H}"
+               preserveAspectRatio="none" aria-hidden="true">
+            <polyline class="np__trend-line np__trend-line--valence"
+                      vector-effect="non-scaling-stroke" points="${path('valence')}" />
+            <polyline class="np__trend-line np__trend-line--energy"
+                      vector-effect="non-scaling-stroke" points="${path('energy')}" />
+          </svg>
+          <div class="np__trend-midline" aria-hidden="true"></div>
+        </div>
+      </div>
       <div class="np__trend-dates">
         <span>${shortDate(pts[0].date)}</span>
         <span>${shortDate(pts[n - 1].date)}</span>

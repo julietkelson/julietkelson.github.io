@@ -161,12 +161,12 @@
 }
 
 .np__trend-key--energy::before { background: var(--fn-amber); }
-.np__trend-key--valence::before { background: var(--fn-ink2); }
+.np__trend-key--valence::before { background: var(--fn-ochre); }
 
 .np__trend-svg {
   display: block;
   width: 100%;
-  height: 64px;
+  height: 100%;
 }
 
 .np__trend-line {
@@ -177,12 +177,45 @@
 }
 
 .np__trend-line--energy { stroke: var(--fn-amber); }
-.np__trend-line--valence { stroke: var(--fn-ink2); }
+.np__trend-line--valence { stroke: var(--fn-ochre); }
+
+.np__trend-chart {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  column-gap: 6px;
+}
+
+.np__trend-yaxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: var(--fn-mono);
+  font-size: 10px;
+  line-height: 1;
+  color: var(--fn-ink2);
+}
+
+.np__trend-plot {
+  position: relative;
+  height: 64px;
+}
+
+.np__trend-midline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--fn-dot);
+  pointer-events: none;
+}
 
 .np__trend-dates {
   display: flex;
   justify-content: space-between;
   margin-top: 4px;
+  padding-left: 32px;
   font-family: var(--fn-mono);
   font-size: 10px;
   color: var(--fn-ink2);
