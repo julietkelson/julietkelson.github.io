@@ -42,7 +42,6 @@
 
     const artists = data.totals && data.totals.unique_artists;
     const bpm = data.tempo_mean_bpm;
-    const plays = data.totals && data.totals.plays;
 
     const targets = FEATURE_KEYS.map((key) => {
       const value = data.audio_features_mean[key];
@@ -59,7 +58,7 @@
     const g = (data.top_genres || []).map(x => x.name).join(' · ');
     genres.textContent = g;
 
-    meta.textContent = `${plays} plays · ${artists} artists · ${Math.round(bpm)} bpm avg`;
+    meta.textContent = `${artists} artists · ${Math.round(bpm)} bpm avg`;
 
     requestAnimationFrame(() => {
       bars.querySelectorAll('.np__bar-fill').forEach((el, idx) => {

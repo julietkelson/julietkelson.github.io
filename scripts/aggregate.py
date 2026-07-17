@@ -16,12 +16,33 @@ def _now_iso() -> str:
     return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _parse_iso(s: str) -> dt.datetime:
+    """Parse ISO timestamps with or without fractional seconds."""
+    s = s.replace("Z", "+00:00")
+    try:
+        return dt.datetime.fromisoformat(s)
+    except ValueError:
+        s = s.split(".")[0] + "+00:00"
+        return dt.datetime.fromisoformat(s)
+
+
 def _mean(values: list[float]) -> float:
     return sum(values) / len(values)
 
 
-def aggregate(history: list[dict[str, Any]], window: int = 50) -> dict[str, Any]:
-    recent = history[-window:] if window else list(history)
+def aggregate(history: list[dict[str, Any]], days: int = 30) -> dict[str, Any]:
+    if days:
+        cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
+        recent = []
+        for e in history:
+            try:
+                when = _parse_iso(e["logged_at"])
+            except (KeyError, ValueError):
+                continue
+            if when >= cutoff:
+                recent.append(e)
+    else:
+        recent = list(history)
     with_features = [e for e in recent if e.get("audio_features")]
 
     if not with_features:

@@ -189,7 +189,7 @@ def run(dry_run: bool = False) -> int:
 
     history.sort(key=lambda e: e.get("logged_at", ""))
     history = _cap_history(history)
-    aggregates = aggregate(history, window=50)
+    aggregates = aggregate(history, days=HISTORY_MAX_DAYS)
 
     if items:
         now_playing = _snapshot_from_item(items[-1])

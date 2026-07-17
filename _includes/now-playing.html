@@ -1,11 +1,12 @@
 {%- comment -%}
-Aggregated listening banner: last 50 Spotify plays.
+Aggregated listening banner: last 30 days of Spotify plays.
 Data comes from data/aggregates.json (written by scripts/now_playing.py).
+The 30-day window is set by HISTORY_MAX_DAYS in scripts/now_playing.py.
 {%- endcomment -%}
 <section class="np" data-np aria-label="Recent listening" hidden>
   <div class="np__eyebrow">In my ears</div>
   <p class="np__lead">
-    The shape of my last 50 Spotify plays, averaged.
+    The shape of my last 30 days of listening, averaged.
   </p>
   <div class="np__body">
     <div class="np__bars" data-np-bars>

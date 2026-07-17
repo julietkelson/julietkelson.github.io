@@ -1,6 +1,15 @@
+import datetime as dt
 import unittest
 
 from aggregate import aggregate
+
+
+def _days_ago(n: int) -> str:
+    when = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=n)
+    return when.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+RECENT = _days_ago(1)
 
 FEATURES_A = {
     "energy": 0.8, "danceability": 0.6, "valence": 0.5,
@@ -14,7 +23,7 @@ FEATURES_B = {
 }
 
 
-def entry(track_id, artists, genres, features, when="2026-06-28T15:00:00Z"):
+def entry(track_id, artists, genres, features, when=RECENT):
     return {
         "logged_at": when,
         "track_id": track_id,
@@ -71,12 +80,22 @@ class AggregateTest(unittest.TestCase):
         result = aggregate(history)
         self.assertEqual(result["totals"]["unique_artists"], 3)
 
-    def test_window_truncates_to_most_recent_n(self):
+    def test_days_window_excludes_plays_older_than_cutoff(self):
         history = [
-            entry(str(i), [f"A{i}"], ["folk"], FEATURES_A) for i in range(60)
+            entry("old", ["A"], ["folk"], FEATURES_A, when=_days_ago(45)),
+            entry("recent1", ["B"], ["folk"], FEATURES_B, when=_days_ago(5)),
+            entry("recent2", ["C"], ["folk"], FEATURES_A, when=_days_ago(1)),
         ]
-        result = aggregate(history, window=50)
-        self.assertEqual(result["totals"]["plays"], 50)
+        result = aggregate(history, days=30)
+        self.assertEqual(result["totals"]["plays"], 2)
+
+    def test_days_zero_includes_all_history(self):
+        history = [
+            entry("old", ["A"], ["folk"], FEATURES_A, when=_days_ago(400)),
+            entry("recent", ["B"], ["folk"], FEATURES_B, when=_days_ago(1)),
+        ]
+        result = aggregate(history, days=0)
+        self.assertEqual(result["totals"]["plays"], 2)
 
 
 if __name__ == "__main__":
