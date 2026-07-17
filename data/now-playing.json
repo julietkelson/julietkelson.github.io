@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-17T19:51:43Z",
-  "played_at": "2026-07-17T18:36:06.703Z",
+  "fetched_at": "2026-07-17T20:45:06Z",
+  "played_at": "2026-07-17T20:22:52.373Z",
   "track": {
-    "id": "5ruzrDWcT0vuJIOMW7gMnW",
-    "name": "The Adults Are Talking",
+    "id": "0a8TgCFvvnCvazdJCrTmH9",
+    "name": "Cowboy Take Me Away",
     "artists": [
       {
-        "id": "0epOFNiUfyON9EYx7Tpr6V",
-        "name": "The Strokes"
+        "id": "25IG9fa7cbdmCIy3OnuH57",
+        "name": "The Chicks"
       }
     ],
     "album": {
-      "name": "The New Abnormal",
-      "release_date": "2020-04-10",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39"
+      "name": "Fly",
+      "release_date": "1999",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732edac608e0f7779f0ab55c06"
     },
-    "duration_ms": 309053,
+    "duration_ms": 291073,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5ruzrDWcT0vuJIOMW7gMnW"
+      "spotify": "https://open.spotify.com/track/0a8TgCFvvnCvazdJCrTmH9"
     }
   }
 }
