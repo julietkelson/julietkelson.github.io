@@ -129,3 +129,61 @@
   .np__bars,
   .np__axis { grid-template-columns: 110px 1fr 42px; }
 }
+
+.np__trend {
+  margin-top: 18px;
+
+  &[hidden] { display: none; }
+}
+
+.np__trend-legend {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.np__trend-key {
+  font-family: var(--fn-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fn-ink2);
+  display: inline-flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    margin-right: 6px;
+  }
+}
+
+.np__trend-key--energy::before { background: var(--fn-amber); }
+.np__trend-key--valence::before { background: var(--fn-ink2); }
+
+.np__trend-svg {
+  display: block;
+  width: 100%;
+  height: 64px;
+}
+
+.np__trend-line {
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.np__trend-line--energy { stroke: var(--fn-amber); }
+.np__trend-line--valence { stroke: var(--fn-ink2); }
+
+.np__trend-dates {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-family: var(--fn-mono);
+  font-size: 10px;
+  color: var(--fn-ink2);
+}
