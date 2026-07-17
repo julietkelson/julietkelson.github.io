@@ -25,6 +25,11 @@
     return `${parseInt(m, 10)}/${parseInt(d, 10)}`;
   }
 
+  function nearestIndex(frac, n) {
+    const i = Math.round(frac * (n - 1));
+    return Math.max(0, Math.min(n - 1, i));
+  }
+
   function renderTrend(container, series) {
     if (!container) return;
     const pts = Array.isArray(series) ? series : [];
@@ -60,6 +65,12 @@
                       vector-effect="non-scaling-stroke" points="${path('energy')}" />
           </svg>
           <div class="np__trend-midline" aria-hidden="true"></div>
+          <div class="np__trend-cursor" data-np-cursor hidden aria-hidden="true">
+            <div class="np__trend-guide"></div>
+            <div class="np__trend-dot np__trend-dot--energy"></div>
+            <div class="np__trend-dot np__trend-dot--valence"></div>
+            <div class="np__trend-tip"></div>
+          </div>
         </div>
       </div>
       <div class="np__trend-dates">
@@ -67,6 +78,45 @@
         <span>${shortDate(pts[n - 1].date)}</span>
       </div>
     `;
+
+    const xPct = (i) => (i / (n - 1)) * 100;
+    const yPct = (v) => (1 - Math.max(0, Math.min(1, v))) * 100;
+
+    const plot = container.querySelector('[data-np-plot]');
+    const cursor = container.querySelector('[data-np-cursor]');
+    const guide = cursor.querySelector('.np__trend-guide');
+    const dotE = cursor.querySelector('.np__trend-dot--energy');
+    const dotV = cursor.querySelector('.np__trend-dot--valence');
+    const tip = cursor.querySelector('.np__trend-tip');
+
+    function moveTo(clientX) {
+      const rect = plot.getBoundingClientRect();
+      if (!rect.width) return;
+      const frac = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+      const i = nearestIndex(frac, n);
+      const px = xPct(i);
+      cursor.hidden = false;
+      guide.style.left = px + '%';
+      dotE.style.left = px + '%';
+      dotE.style.top = yPct(pts[i].energy) + '%';
+      dotV.style.left = px + '%';
+      dotV.style.top = yPct(pts[i].valence) + '%';
+      tip.style.left = px + '%';
+      tip.classList.toggle('np__trend-tip--flip', frac > 0.5);
+      tip.innerHTML = `
+        <div class="np__trend-tip-date">${shortDate(pts[i].date)}</div>
+        <div class="np__trend-tip-row">
+          <span class="np__trend-tip-swatch np__trend-tip-swatch--energy"></span>
+          ENERGY <b>${fmt(pts[i].energy)}</b>
+        </div>
+        <div class="np__trend-tip-row">
+          <span class="np__trend-tip-swatch np__trend-tip-swatch--valence"></span>
+          VALENCE <b>${fmt(pts[i].valence)}</b>
+        </div>`;
+    }
+
+    plot.addEventListener('pointermove', (e) => moveTo(e.clientX));
+    plot.addEventListener('pointerleave', () => { cursor.hidden = true; });
   }
 
   function render(root, data) {
