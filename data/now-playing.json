@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-18T15:27:48Z",
-  "played_at": "2026-07-17T23:26:17.205Z",
+  "fetched_at": "2026-07-18T16:29:31Z",
+  "played_at": "2026-07-18T00:03:50.940Z",
   "track": {
-    "id": "4OXY5UFZOlfNnMWIULlD7B",
-    "name": "Ivy (2pm)",
+    "id": "2tHebLHNRVw8vhzK4roYOw",
+    "name": "Green Screen (1pm)",
     "artists": [
       {
         "id": "6iWuBN32BqCJAeXW6o3nil",
@@ -11,14 +11,14 @@
       }
     ],
     "album": {
-      "name": "Ivy (2pm)",
-      "release_date": "2026-06-26",
-      "image": "https://i.scdn.co/image/ab67616d0000b27319763946aa60866c5c38cc75"
+      "name": "Green Screen (1pm)",
+      "release_date": "2026-05-29",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d0d6ae31120f5fcf8e65686c"
     },
-    "duration_ms": 144144,
+    "duration_ms": 130291,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/4OXY5UFZOlfNnMWIULlD7B"
+      "spotify": "https://open.spotify.com/track/2tHebLHNRVw8vhzK4roYOw"
     }
   }
 }
