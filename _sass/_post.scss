@@ -214,16 +214,21 @@
 
   // Tables — outer 1.5px structural rule, ruleSoft row dividers,
   // mono uppercase header matching the eyebrow convention.
-  // display: block lets the table scroll horizontally on narrow viewports
-  // without breaking the 1.5px rule containment.
+  // The post layout's JS wraps each table in .essay-table-scroll, since
+  // overflow-x is inert on a bare <table> box in every major engine —
+  // the wrapper owns the horizontal scroll on narrow viewports while the
+  // table keeps its default display:table so columns/header stretch to
+  // fill the full width instead of shrinking to content.
+  .essay-table-scroll {
+    overflow-x: auto;
+    margin: 26px 0;
+  }
+
   table {
-    display: block;
     width: 100%;
     max-width: 100%;
-    overflow-x: auto;
     border-collapse: collapse;
     border: 1.5px solid var(--fn-rule);
-    margin: 26px 0;
     font-family: var(--fn-sans);
     font-size: 14.5px;
     color: var(--fn-ink2);

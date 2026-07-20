@@ -154,5 +154,16 @@ layout: default
       node.replaceWith(makeFigure(img));
     }
   });
+
+  // Wrap kramdown tables in a scroll container: overflow-x is inert on a
+  // bare <table> box in every major engine, so the table itself must keep
+  // display:table (to stretch/align columns normally) while a plain block
+  // wrapper owns the horizontal scroll on narrow viewports.
+  body.querySelectorAll('table').forEach(function (table) {
+    var wrap = document.createElement('div');
+    wrap.className = 'essay-table-scroll';
+    table.parentNode.insertBefore(wrap, table);
+    wrap.appendChild(table);
+  });
 }());
 </script>
