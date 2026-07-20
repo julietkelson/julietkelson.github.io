@@ -1220,5 +1220,67 @@
       "loudness": -9.267,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-20T15:30:55Z",
+    "track_id": "3dDaJo3QS9Bohk8wrG5Pvv",
+    "name": "Virginia (Wind In The Night)",
+    "artists": [
+      "The Head And The Heart"
+    ],
+    "genres": [
+      "indie folk",
+      "folk pop",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.79,
+      "danceability": 0.265,
+      "valence": 0.248,
+      "acousticness": 0.00699,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0366,
+      "tempo": 136.075,
+      "liveness": 0.0523,
+      "loudness": -3.702,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-20T15:34:15Z",
+    "track_id": "5me7kz45svPj6ChdhzUZhY",
+    "name": "The Restless",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.39,
+      "danceability": 0.499,
+      "valence": 0.393,
+      "acousticness": 0.74,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0493,
+      "tempo": 142.04,
+      "liveness": 0.243,
+      "loudness": -7.683,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-20T15:40:36Z",
+    "track_id": "34N4miRYCGQwmQEXoCiuuL",
+    "name": "Another Story",
+    "artists": [
+      "The Head And The Heart"
+    ],
+    "genres": [
+      "indie folk",
+      "folk pop",
+      "folk"
+    ],
+    "audio_features": null
   }
 ]

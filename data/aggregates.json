@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-20T15:27:56Z",
+  "generated_at": "2026-07-20T16:52:30Z",
   "window": {
-    "plays_used": 59,
-    "plays_with_features": 45
+    "plays_used": 62,
+    "plays_with_features": 47
   },
   "totals": {
-    "plays": 59,
-    "unique_artists": 36
+    "plays": 62,
+    "unique_artists": 37
   },
   "audio_features_mean": {
     "energy": 0.5906,
-    "danceability": 0.5914,
-    "valence": 0.6172,
-    "acousticness": 0.3157,
-    "instrumentalness": 0.0501,
-    "speechiness": 0.0384
+    "danceability": 0.5825,
+    "valence": 0.6045,
+    "acousticness": 0.3182,
+    "instrumentalness": 0.048,
+    "speechiness": 0.0386
   },
-  "tempo_mean_bpm": 127.37,
+  "tempo_mean_bpm": 127.87,
   "top_genres": [
     {
       "name": "americana",
-      "count": 14
+      "count": 15
     },
     {
       "name": "classic rock",
@@ -28,14 +28,14 @@
     },
     {
       "name": "folk",
+      "count": 9
+    },
+    {
+      "name": "indie folk",
       "count": 7
     },
     {
       "name": "bluegrass",
-      "count": 6
-    },
-    {
-      "name": "newgrass",
       "count": 6
     }
   ],
@@ -90,9 +90,9 @@
     },
     {
       "date": "2026-07-20",
-      "energy": 0.795,
-      "valence": 0.612,
-      "plays": 1
+      "energy": 0.6583,
+      "valence": 0.4177,
+      "plays": 4
     }
   ]
 }
