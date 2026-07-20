@@ -10,11 +10,10 @@ layout: default
 
     <!-- Left: text -->
     <div>
-      <div class="about-hero__eyebrow">About — the longer answer</div>
       <h1 class="about-hero__title">Hey<br>there</h1>
       <p class="about-hero__lead">
-        I'm a senior data analyst at the Minnesota Star Tribune, where I've spent the last six years
-        working across the full analytics stack —
+        I'm a senior data analyst at Chicago Public Media, home to WBEZ and the Chicago Sun-Times.
+        Before that, six years at the Minnesota Star Tribune working across the full analytics stack —
         <span class="hl">tracking, experimentation, BI, and infrastructure</span> —
         for teams in product, marketing, acquisition, and retention.
       </p>
@@ -74,7 +73,6 @@ layout: default
 <div class="about-lists">
 
   <div class="about-lists__header">
-    <span class="about-lists__eyebrow">For the record</span>
     <span class="about-lists__meta">three lists, no particular order</span>
   </div>
 
@@ -87,7 +85,6 @@ layout: default
         {% assign iam = "Senior Data Analyst at the Star Tribune,Dog mom,Chicagoan,Data nerd,Computer Science graduate,Musician,Polyglot,Twin,Event chair,Doodler,Coffee drinker,Tea drinker,Math lover,Voter,PWHL fan,Lover of cooking,Enjoyer of well-designed graphs and plots,Detailed thinker,INFJ,Poor hockey player,Slightly better gardener" | split: "," %}
         {% for item in iam %}
         <li class="about-list__item">
-          <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
           <span class="about-list__text">{{ item }}</span>
         </li>
         {% endfor %}
@@ -101,7 +98,6 @@ layout: default
         {% assign aspire = "Be one inch taller,Keep learning,Fill notebooks before I buy new ones,Learn to play a horn,Do meaningful work,Learn to catch clean and cook a fish,Remain politically involved,Travel the world,Learn more languages,Make more graphs by hand,Read more books,Open a pottery shop,Grow all of my produce" | split: "," %}
         {% for item in aspire %}
         <li class="about-list__item">
-          <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
           <span class="about-list__text">{{ item }}</span>
         </li>
         {% endfor %}
@@ -115,7 +111,6 @@ layout: default
         {% assign havebeen = "Babysitter,Montessori student,Spanish tutor,Camp counselor,Camper,Immigration law intern,Vegetarian,Exchange student,Music teacher,Volunteer,Fundraiser,Data science intern,Portuguese instructor,Barista" | split: "," %}
         {% for item in havebeen %}
         <li class="about-list__item">
-          <span class="about-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
           <span class="about-list__text">{{ item }}</span>
         </li>
         {% endfor %}

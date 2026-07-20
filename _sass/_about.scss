@@ -170,20 +170,10 @@
 }
 
 .about-list__item {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  gap: 10px;
-  align-items: baseline;
   padding: 7px 0;
   border-bottom: 1px dashed var(--fn-ruleSoft);
 
   &:last-child { border-bottom: none; }
-}
-
-.about-list__num {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  color: var(--fn-ink2);
 }
 
 .about-list__text {
