@@ -1196,5 +1196,29 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-20T15:24:03Z",
+    "track_id": "63T7DJ1AFDD6Bn8VzG6JE8",
+    "name": "Paint It, Black",
+    "artists": [
+      "The Rolling Stones"
+    ],
+    "genres": [
+      "classic rock",
+      "rock"
+    ],
+    "audio_features": {
+      "energy": 0.795,
+      "danceability": 0.464,
+      "valence": 0.612,
+      "acousticness": 0.0493,
+      "instrumentalness": 0.00244,
+      "speechiness": 0.0926,
+      "tempo": 158.691,
+      "liveness": 0.399,
+      "loudness": -9.267,
+      "source": "reccobeats"
+    }
   }
 ]

@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-20T15:22:09Z",
-  "played_at": "2026-07-18T00:03:50.940Z",
+  "fetched_at": "2026-07-20T15:27:56Z",
+  "played_at": "2026-07-20T15:24:03.170Z",
   "track": {
-    "id": "2tHebLHNRVw8vhzK4roYOw",
-    "name": "Green Screen (1pm)",
+    "id": "63T7DJ1AFDD6Bn8VzG6JE8",
+    "name": "Paint It, Black",
     "artists": [
       {
-        "id": "6iWuBN32BqCJAeXW6o3nil",
-        "name": "Cautious Clay"
+        "id": "22bE4uQ6baNwSHPVcDxLCe",
+        "name": "The Rolling Stones"
       }
     ],
     "album": {
-      "name": "Green Screen (1pm)",
-      "release_date": "2026-05-29",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d0d6ae31120f5fcf8e65686c"
+      "name": "Aftermath",
+      "release_date": "1966-04-15",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bad7062c3fd2f2d037989694"
     },
-    "duration_ms": 130291,
+    "duration_ms": 202266,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2tHebLHNRVw8vhzK4roYOw"
+      "spotify": "https://open.spotify.com/track/63T7DJ1AFDD6Bn8VzG6JE8"
     }
   }
 }
