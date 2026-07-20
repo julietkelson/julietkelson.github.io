@@ -68,13 +68,6 @@
   }
 }
 
-.fn-nav__vol {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  color: var(--fn-ink2);
-  letter-spacing: 0.06em;
-}
-
 // ── FOOTER ───────────────────────────────────────────────────────────────────
 
 .fn-footer {
@@ -117,10 +110,6 @@
 @media (max-width: 1023px) {
   .fn-nav {
     padding: 14px 24px;
-  }
-
-  .fn-nav__vol {
-    display: none;
   }
 
   .fn-footer {

@@ -42,7 +42,7 @@
 
 .writing-feature {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr) 300px;
+  grid-template-columns: minmax(0, 1fr) 300px;
   gap: 28px;
   padding: 30px 56px;
   border-bottom: 1px solid var(--fn-ruleSoft);
@@ -50,17 +50,6 @@
   background: var(--fn-paper);
 
   &--last { border-bottom: none; }
-}
-
-.writing-feature__no {
-  padding-top: 8px;
-  font-family: var(--fn-display);
-  font-weight: 500;
-  font-size: 46px;
-  line-height: 0.9;
-  color: var(--fn-forest);
-
-  &--amber { color: var(--fn-amber); }
 }
 
 .writing-feature__body {
@@ -362,7 +351,7 @@
 @media (max-width: 1023px) {
   .writing-hero        { padding: 32px 24px 24px; }
   .writing-hero__title { font-size: 80px; }
-  .writing-feature     { padding: 24px 24px; grid-template-columns: 48px minmax(0,1fr); }
+  .writing-feature     { padding: 24px 24px; grid-template-columns: minmax(0,1fr); }
   .writing-feature__chart { grid-column: 1 / -1; }
   .writing-class       { padding: 24px 24px 36px; }
 }
@@ -371,7 +360,6 @@
   .writing-hero        { padding: 24px 16px 20px; }
   .writing-hero__title { font-size: 56px; }
   .writing-feature     { padding: 20px 16px; grid-template-columns: 1fr; }
-  .writing-feature__no { display: none; }
   .writing-feature__chart { display: none; }
   .writing-class       { padding: 20px 16px 28px; }
   .writing-class__grid { grid-template-columns: 1fr; }

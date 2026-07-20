@@ -17,9 +17,8 @@ layout: default
 <!-- ── FEATURES ──────────────────────────────────────────────────────────────── -->
 <div class="writing-features">
 
-  <!-- Entry 01 — Remote Roast -->
+  <!-- Remote Roast -->
   <div class="writing-feature writing-feature--amber">
-    <div class="writing-feature__no writing-feature__no--amber">01</div>
     <div class="writing-feature__body">
       <div class="writing-feature__meta">
         <span class="writing-feature__eyebrow writing-feature__eyebrow--amber">2023 — ongoing</span>
@@ -78,9 +77,8 @@ layout: default
     </div>
   </div>
 
-  <!-- Entry 02 — COVID Diaries -->
+  <!-- COVID Diaries -->
   <div class="writing-feature writing-feature--forest writing-feature--last">
-    <div class="writing-feature__no">02</div>
     <div class="writing-feature__body">
       <div class="writing-feature__meta">
         <span class="writing-feature__eyebrow writing-feature__eyebrow--forest">2020</span>
@@ -108,7 +106,7 @@ layout: default
           {% assign covid_posts = site.categories['From Quarantine'] | sort: 'date' %}
           {% for post in covid_posts %}
           <a href="{{ post.url | relative_url }}" class="writing-essay-list__item">
-            <span class="writing-essay-list__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+            <span class="writing-essay-list__num">{{ forloop.index }}</span>
             <span class="writing-essay-list__title">{{ post.title }}</span>
             <span class="writing-essay-list__date">{{ post.date | date: "%b %Y" }}</span>
           </a>

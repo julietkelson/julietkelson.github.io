@@ -55,17 +55,6 @@
   gap: 12px;
 }
 
-.music-band__no {
-  font-family: var(--fn-display);
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 0.9;
-  flex-shrink: 0;
-
-  &--amber { color: var(--fn-amber); }
-  &--forest { color: var(--fn-forest); }
-}
-
 .music-band__name {
   font-family: var(--fn-display);
   font-weight: 600;
