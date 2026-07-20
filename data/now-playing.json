@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-20T20:16:04Z",
-  "played_at": "2026-07-20T15:40:36.252Z",
+  "fetched_at": "2026-07-20T21:36:22Z",
+  "played_at": "2026-07-20T15:41:37.909Z",
   "track": {
-    "id": "34N4miRYCGQwmQEXoCiuuL",
-    "name": "Another Story",
+    "id": "2S7MofYTmgtrrqNZwz8Hca",
+    "name": "The Moorings",
     "artists": [
       {
-        "id": "0n94vC3S9c3mb2HyNAOcjg",
-        "name": "The Head And The Heart"
+        "id": "68HziuR2jVOJHuVhJM4H2l",
+        "name": "Andrew Duhon"
       }
     ],
     "album": {
-      "name": "Let's Be Still",
-      "release_date": "2013-10-15",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731b5e06befa7b4402dc470db8"
+      "name": "The Moorings",
+      "release_date": "2013-04-30",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cd118011fc8e35524e2fb60a"
     },
-    "duration_ms": 274200,
+    "duration_ms": 206053,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/34N4miRYCGQwmQEXoCiuuL"
+      "spotify": "https://open.spotify.com/track/2S7MofYTmgtrrqNZwz8Hca"
     }
   }
 }
