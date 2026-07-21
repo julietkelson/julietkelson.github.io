@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-21T01:09:41Z",
-  "played_at": "2026-07-20T15:41:37.909Z",
+  "fetched_at": "2026-07-21T04:32:37Z",
+  "played_at": "2026-07-21T01:39:43.698Z",
   "track": {
-    "id": "2S7MofYTmgtrrqNZwz8Hca",
-    "name": "The Moorings",
+    "id": "39qhEfWsxkbhuRqs1cEfoX",
+    "name": "Emily and Me",
     "artists": [
       {
-        "id": "68HziuR2jVOJHuVhJM4H2l",
-        "name": "Andrew Duhon"
+        "id": "3ZKyADicHqelBDeADLutiu",
+        "name": "Flyte"
       }
     ],
     "album": {
-      "name": "The Moorings",
-      "release_date": "2013-04-30",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cd118011fc8e35524e2fb60a"
+      "name": "Between You and Me",
+      "release_date": "2025-08-29",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736564817702bd887f2c069187"
     },
-    "duration_ms": 206053,
+    "duration_ms": 252453,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2S7MofYTmgtrrqNZwz8Hca"
+      "spotify": "https://open.spotify.com/track/39qhEfWsxkbhuRqs1cEfoX"
     }
   }
 }

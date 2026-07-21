@@ -1305,5 +1305,36 @@
       "loudness": -7.141,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-21T01:35:01Z",
+    "track_id": "7f2sUWAdbsOklA12izYuCy",
+    "name": "Better Than Blue",
+    "artists": [
+      "Flyte"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.444,
+      "danceability": 0.644,
+      "valence": 0.425,
+      "acousticness": 0.885,
+      "instrumentalness": 0.0735,
+      "speechiness": 0.0309,
+      "tempo": 101.459,
+      "liveness": 0.116,
+      "loudness": -7.652,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-21T01:39:43Z",
+    "track_id": "39qhEfWsxkbhuRqs1cEfoX",
+    "name": "Emily and Me",
+    "artists": [
+      "Flyte"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]
