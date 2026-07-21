@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-21T11:31:28Z",
-  "played_at": "2026-07-21T01:39:43.698Z",
+  "fetched_at": "2026-07-21T15:14:10Z",
+  "played_at": "2026-07-21T03:16:20.504Z",
   "track": {
-    "id": "39qhEfWsxkbhuRqs1cEfoX",
-    "name": "Emily and Me",
+    "id": "5aBGR2ppIj67X3RNa6ibli",
+    "name": "Shore",
     "artists": [
       {
-        "id": "3ZKyADicHqelBDeADLutiu",
-        "name": "Flyte"
+        "id": "3h9TfIgwhovQELlP2jj4xL",
+        "name": "Madison Cunningham"
       }
     ],
     "album": {
-      "name": "Between You and Me",
-      "release_date": "2025-08-29",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736564817702bd887f2c069187"
+      "name": "Ace",
+      "release_date": "2025-10-10",
+      "image": "https://i.scdn.co/image/ab67616d0000b273acfa72871cdc196bb93c5d5a"
     },
-    "duration_ms": 252453,
+    "duration_ms": 330903,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/39qhEfWsxkbhuRqs1cEfoX"
+      "spotify": "https://open.spotify.com/track/5aBGR2ppIj67X3RNa6ibli"
     }
   }
 }
