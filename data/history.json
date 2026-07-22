@@ -1845,5 +1845,17 @@
       "loudness": -9.161,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-22T17:56:10Z",
+    "track_id": "0X1Bz7NKvIh90nIptl5tlG",
+    "name": "Good Ol' Days",
+    "artists": [
+      "Hayley Williams"
+    ],
+    "genres": [
+      "art pop"
+    ],
+    "audio_features": null
   }
 ]
