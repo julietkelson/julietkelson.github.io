@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-22T00:05:51Z",
-  "played_at": "2026-07-22T00:05:05.677Z",
+  "fetched_at": "2026-07-22T06:16:03Z",
+  "played_at": "2026-07-22T03:49:52.981Z",
   "track": {
-    "id": "5rvUOItVH0ZBx6TdxFQami",
-    "name": "Count On Me",
+    "id": "1j8z4TTjJ1YOdoFEDwJTQa",
+    "name": "Ain't It Fun",
     "artists": [
       {
-        "id": "7JFtD8KnbAADBBDleIMuH7",
-        "name": "The Lone Bellow"
+        "id": "74XFHRwlV6OrjEM0A2NCMF",
+        "name": "Paramore"
       }
     ],
     "album": {
-      "name": "Half Moon Light",
-      "release_date": "2020-02-07",
-      "image": "https://i.scdn.co/image/ab67616d0000b27337518e1d3e529c3b0a67e796"
+      "name": "Paramore",
+      "release_date": "2013-04-05",
+      "image": "https://i.scdn.co/image/ab67616d0000b273532033d0d90736f661c13d35"
     },
-    "duration_ms": 160600,
+    "duration_ms": 296520,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5rvUOItVH0ZBx6TdxFQami"
+      "spotify": "https://open.spotify.com/track/1j8z4TTjJ1YOdoFEDwJTQa"
     }
   }
 }
