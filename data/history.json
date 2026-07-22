@@ -1346,5 +1346,28 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-22T00:05:05Z",
+    "track_id": "5rvUOItVH0ZBx6TdxFQami",
+    "name": "Count On Me",
+    "artists": [
+      "The Lone Bellow"
+    ],
+    "genres": [
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.798,
+      "danceability": 0.374,
+      "valence": 0.311,
+      "acousticness": 0.022,
+      "instrumentalness": 6.29e-06,
+      "speechiness": 0.111,
+      "tempo": 152.059,
+      "liveness": 0.403,
+      "loudness": -4.66,
+      "source": "reccobeats"
+    }
   }
 ]

@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-21T23:07:58Z",
-  "played_at": "2026-07-21T03:16:20.504Z",
+  "fetched_at": "2026-07-22T00:05:51Z",
+  "played_at": "2026-07-22T00:05:05.677Z",
   "track": {
-    "id": "5aBGR2ppIj67X3RNa6ibli",
-    "name": "Shore",
+    "id": "5rvUOItVH0ZBx6TdxFQami",
+    "name": "Count On Me",
     "artists": [
       {
-        "id": "3h9TfIgwhovQELlP2jj4xL",
-        "name": "Madison Cunningham"
+        "id": "7JFtD8KnbAADBBDleIMuH7",
+        "name": "The Lone Bellow"
       }
     ],
     "album": {
-      "name": "Ace",
-      "release_date": "2025-10-10",
-      "image": "https://i.scdn.co/image/ab67616d0000b273acfa72871cdc196bb93c5d5a"
+      "name": "Half Moon Light",
+      "release_date": "2020-02-07",
+      "image": "https://i.scdn.co/image/ab67616d0000b27337518e1d3e529c3b0a67e796"
     },
-    "duration_ms": 330903,
+    "duration_ms": 160600,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5aBGR2ppIj67X3RNa6ibli"
+      "spotify": "https://open.spotify.com/track/5rvUOItVH0ZBx6TdxFQami"
     }
   }
 }
