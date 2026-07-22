@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-22T16:20:34Z",
-  "played_at": "2026-07-22T03:49:52.981Z",
+  "fetched_at": "2026-07-22T17:47:13Z",
+  "played_at": "2026-07-22T17:15:44.018Z",
   "track": {
-    "id": "1j8z4TTjJ1YOdoFEDwJTQa",
-    "name": "Ain't It Fun",
+    "id": "5hS8s1Vf4CeSRBT1bTWa39",
+    "name": "Roddy",
     "artists": [
       {
-        "id": "74XFHRwlV6OrjEM0A2NCMF",
-        "name": "Paramore"
+        "id": "5p9HO3XC5P3BLxJs5Mtrhm",
+        "name": "Djo"
       }
     ],
     "album": {
-      "name": "Paramore",
-      "release_date": "2013-04-05",
-      "image": "https://i.scdn.co/image/ab67616d0000b273532033d0d90736f661c13d35"
+      "name": "Twenty Twenty",
+      "release_date": "2019-09-13",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735b97ef03e581f7ab1cea9c48"
     },
-    "duration_ms": 296520,
+    "duration_ms": 252987,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1j8z4TTjJ1YOdoFEDwJTQa"
+      "spotify": "https://open.spotify.com/track/5hS8s1Vf4CeSRBT1bTWa39"
     }
   }
 }
