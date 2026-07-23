@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-23T16:59:28Z",
-  "played_at": "2026-07-22T17:56:10.255Z",
+  "fetched_at": "2026-07-23T18:19:25Z",
+  "played_at": "2026-07-23T17:54:37.290Z",
   "track": {
-    "id": "0X1Bz7NKvIh90nIptl5tlG",
-    "name": "Good Ol' Days",
+    "id": "2z4U9d5OAA4YLNXoCgioxo",
+    "name": "What the Hell",
     "artists": [
       {
-        "id": "6Rx1JKzBrSzoKQtmbVmBnM",
-        "name": "Hayley Williams"
+        "id": "0p4nmQO2msCgU4IF37Wi3j",
+        "name": "Avril Lavigne"
       }
     ],
     "album": {
-      "name": "Ego Death At A Bachelorette Party",
-      "release_date": "2025-11-07",
-      "image": "https://i.scdn.co/image/ab67616d0000b2734f422ed700af8715b23326af"
+      "name": "Goodbye Lullaby (Expanded Edition)",
+      "release_date": "2011-03-08",
+      "image": "https://i.scdn.co/image/ab67616d0000b27372c9f7a7c75eba39726106a6"
     },
-    "duration_ms": 203710,
+    "duration_ms": 220706,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/0X1Bz7NKvIh90nIptl5tlG"
+      "spotify": "https://open.spotify.com/track/2z4U9d5OAA4YLNXoCgioxo"
     }
   }
 }
