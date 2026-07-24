@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-24T15:48:19Z",
+  "generated_at": "2026-07-24T17:16:36Z",
   "window": {
-    "plays_used": 98,
-    "plays_with_features": 72
+    "plays_used": 99,
+    "plays_with_features": 73
   },
   "totals": {
-    "plays": 98,
-    "unique_artists": 55
+    "plays": 99,
+    "unique_artists": 56
   },
   "audio_features_mean": {
-    "energy": 0.6345,
-    "danceability": 0.5777,
-    "valence": 0.6033,
-    "acousticness": 0.2726,
-    "instrumentalness": 0.0329,
-    "speechiness": 0.0469
+    "energy": 0.6379,
+    "danceability": 0.5786,
+    "valence": 0.6029,
+    "acousticness": 0.2692,
+    "instrumentalness": 0.0325,
+    "speechiness": 0.0468
   },
-  "tempo_mean_bpm": 129.24,
+  "tempo_mean_bpm": 129.18,
   "top_genres": [
     {
       "name": "americana",
@@ -24,11 +24,11 @@
     },
     {
       "name": "emo",
-      "count": 14
+      "count": 15
     },
     {
       "name": "pop punk",
-      "count": 12
+      "count": 13
     },
     {
       "name": "classic rock",
@@ -111,6 +111,12 @@
       "energy": 0.8568,
       "valence": 0.7813,
       "plays": 6
+    },
+    {
+      "date": "2026-07-24",
+      "energy": 0.884,
+      "valence": 0.573,
+      "plays": 1
     }
   ]
 }
