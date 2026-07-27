@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-27T17:52:22Z",
-  "played_at": "2026-07-24T16:13:53.362Z",
+  "fetched_at": "2026-07-27T19:19:13Z",
+  "played_at": "2026-07-27T18:33:39.670Z",
   "track": {
-    "id": "36UVZPoK8a1Oxh13cY8kOp",
-    "name": "I Don't Wanna Be In Love (Dance Floor Anthem)",
+    "id": "5xEM5hIgJ1jjgcEBfpkt2F",
+    "name": "Complicated",
     "artists": [
       {
-        "id": "5aYyPjAsLj7UzANzdupwnS",
-        "name": "Good Charlotte"
+        "id": "0p4nmQO2msCgU4IF37Wi3j",
+        "name": "Avril Lavigne"
       }
     ],
     "album": {
-      "name": "Good Morning Revival",
-      "release_date": "2007-03-27",
-      "image": "https://i.scdn.co/image/ab67616d0000b273160938e45326c10e1fcd6749"
+      "name": "Let Go",
+      "release_date": "2002-06-04",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f7ec724fbf97a30869d06240"
     },
-    "duration_ms": 244000,
+    "duration_ms": 244506,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/36UVZPoK8a1Oxh13cY8kOp"
+      "spotify": "https://open.spotify.com/track/5xEM5hIgJ1jjgcEBfpkt2F"
     }
   }
 }
