@@ -2083,5 +2083,28 @@
       "tempo": 77.987,
       "valence": 0.427
     }
+  },
+  {
+    "logged_at": "2026-07-27T20:35:45Z",
+    "track_id": "5VWmMZCfJ4yVkJw9ZLFXej",
+    "name": "1, 2, 3, 4",
+    "artists": [
+      "Plain White T's"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T20:46:10Z",
+    "track_id": "1uvyZBs4IZYRebHIB1747m",
+    "name": "Purple Rain",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
   }
 ]
