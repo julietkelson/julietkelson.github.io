@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-27T20:48:17Z",
-  "played_at": "2026-07-27T20:46:10.196Z",
+  "fetched_at": "2026-07-27T21:53:27Z",
+  "played_at": "2026-07-27T21:10:11.163Z",
   "track": {
-    "id": "1uvyZBs4IZYRebHIB1747m",
-    "name": "Purple Rain",
+    "id": "2XLAzm8bMDSI7MhbRW8nVj",
+    "name": "I Wanna Be Your Lover",
     "artists": [
       {
         "id": "5a2EaR3hamoenG9rDuVn8j",
@@ -11,14 +11,14 @@
       }
     ],
     "album": {
-      "name": "Purple Rain",
-      "release_date": "1984-06-25",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738a2ce3f148f57584269c3782"
+      "name": "Prince",
+      "release_date": "1979-10-19",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d539ebc9ac4dc40946532580"
     },
-    "duration_ms": 521866,
+    "duration_ms": 347666,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1uvyZBs4IZYRebHIB1747m"
+      "spotify": "https://open.spotify.com/track/2XLAzm8bMDSI7MhbRW8nVj"
     }
   }
 }

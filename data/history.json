@@ -2106,5 +2106,83 @@
       "funk"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T20:51:53Z",
+    "track_id": "6sby78fghipoXHQLeeZFFH",
+    "name": "When Doves Cry",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T20:52:08Z",
+    "track_id": "6sby78fghipoXHQLeeZFFH",
+    "name": "When Doves Cry",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T20:55:55Z",
+    "track_id": "62LJFaYihsdVrrkgUOJC05",
+    "name": "Kiss",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T20:59:31Z",
+    "track_id": "2I1W3hcSsPIsEJfD69pHrW",
+    "name": "Raspberry Beret",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T21:04:10Z",
+    "track_id": "6FMIVQPZg9cmMY8hPxAacD",
+    "name": "Let's Go Crazy",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T21:10:11Z",
+    "track_id": "2XLAzm8bMDSI7MhbRW8nVj",
+    "name": "I Wanna Be Your Lover",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": null
   }
 ]
