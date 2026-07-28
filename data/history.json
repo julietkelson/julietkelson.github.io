@@ -2184,5 +2184,29 @@
       "funk"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-27T21:30:27Z",
+    "track_id": "0aPaGIX2QIMAH5SMp0VEMe",
+    "name": "The Most Beautiful Girl In the World",
+    "artists": [
+      "Prince"
+    ],
+    "genres": [
+      "funk rock",
+      "funk"
+    ],
+    "audio_features": {
+      "energy": 0.693,
+      "danceability": 0.489,
+      "valence": 0.453,
+      "acousticness": 0.0182,
+      "instrumentalness": 5.63e-06,
+      "speechiness": 0.0427,
+      "tempo": 185.758,
+      "liveness": 0.304,
+      "loudness": -4.952,
+      "source": "reccobeats"
+    }
   }
 ]

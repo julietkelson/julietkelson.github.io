@@ -67,6 +67,21 @@
     "cached_at": "2026-07-17T20:45:06Z",
     "features": null
   },
+  "0aPaGIX2QIMAH5SMp0VEMe": {
+    "cached_at": "2026-07-28T15:36:37Z",
+    "features": {
+      "acousticness": 0.0182,
+      "danceability": 0.489,
+      "energy": 0.693,
+      "instrumentalness": 5.63e-06,
+      "liveness": 0.304,
+      "loudness": -4.952,
+      "source": "reccobeats",
+      "speechiness": 0.0427,
+      "tempo": 185.758,
+      "valence": 0.453
+    }
+  },
   "0bJ7Fs6uqdILGFy8O7Stz7": {
     "cached_at": "2026-07-22T06:15:49Z",
     "features": {
