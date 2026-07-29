@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-28T23:40:23Z",
+  "generated_at": "2026-07-29T01:10:06Z",
   "window": {
-    "plays_used": 113,
-    "plays_with_features": 78
+    "plays_used": 115,
+    "plays_with_features": 80
   },
   "totals": {
-    "plays": 113,
-    "unique_artists": 59
+    "plays": 115,
+    "unique_artists": 60
   },
   "audio_features_mean": {
-    "energy": 0.6497,
-    "danceability": 0.5725,
-    "valence": 0.5973,
-    "acousticness": 0.2531,
-    "instrumentalness": 0.0306,
-    "speechiness": 0.047
+    "energy": 0.647,
+    "danceability": 0.5697,
+    "valence": 0.5868,
+    "acousticness": 0.2616,
+    "instrumentalness": 0.0299,
+    "speechiness": 0.0465
   },
-  "tempo_mean_bpm": 129.44,
+  "tempo_mean_bpm": 129.07,
   "top_genres": [
     {
       "name": "americana",
-      "count": 17
+      "count": 19
     },
     {
       "name": "emo",
@@ -123,6 +123,18 @@
       "energy": 0.8218,
       "valence": 0.5158,
       "plays": 14
+    },
+    {
+      "date": "2026-07-28",
+      "energy": 0.545,
+      "valence": 0.176,
+      "plays": 1
+    },
+    {
+      "date": "2026-07-29",
+      "energy": 0.545,
+      "valence": 0.176,
+      "plays": 1
     }
   ]
 }

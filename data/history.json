@@ -2208,5 +2208,55 @@
       "loudness": -4.952,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-28T13:54:44Z",
+    "track_id": "7zp9Uj66my5wUpdH1FTfy9",
+    "name": "Margaret vs. Pauline",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.545,
+      "danceability": 0.46,
+      "valence": 0.176,
+      "acousticness": 0.593,
+      "instrumentalness": 6.99e-05,
+      "speechiness": 0.0288,
+      "tempo": 114.564,
+      "liveness": 0.193,
+      "loudness": -7.355,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T01:07:27Z",
+    "track_id": "7zp9Uj66my5wUpdH1FTfy9",
+    "name": "Margaret vs. Pauline",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.545,
+      "danceability": 0.46,
+      "valence": 0.176,
+      "acousticness": 0.593,
+      "instrumentalness": 6.99e-05,
+      "speechiness": 0.0288,
+      "tempo": 114.564,
+      "liveness": 0.193,
+      "loudness": -7.355,
+      "source": "reccobeats"
+    }
   }
 ]
