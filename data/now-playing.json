@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-07-29T01:10:06Z",
-  "played_at": "2026-07-29T01:07:27.876Z",
+  "fetched_at": "2026-07-29T04:31:35Z",
+  "played_at": "2026-07-29T03:39:05.042Z",
   "track": {
-    "id": "7zp9Uj66my5wUpdH1FTfy9",
-    "name": "Margaret vs. Pauline",
+    "id": "1Dr1fXbc2IxaK1Mu8P8Khz",
+    "name": "When I Come Around",
     "artists": [
       {
-        "id": "4Cedjq5BQL3MhapRvDpFED",
-        "name": "Neko Case"
+        "id": "7oPftvlwr6VrsViSDV7fJY",
+        "name": "Green Day"
       }
     ],
     "album": {
-      "name": "Fox Confessor Brings The Flood (Bonus Track Version)",
-      "release_date": "2008-04-15",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e47e462498547a988b6ec067"
+      "name": "Dookie",
+      "release_date": "1994-02-01",
+      "image": "https://i.scdn.co/image/ab67616d0000b273db89b08034de626ebee6823d"
     },
-    "duration_ms": 172640,
+    "duration_ms": 178000,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/7zp9Uj66my5wUpdH1FTfy9"
+      "spotify": "https://open.spotify.com/track/1Dr1fXbc2IxaK1Mu8P8Khz"
     }
   }
 }

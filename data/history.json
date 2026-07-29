@@ -2258,5 +2258,247 @@
       "loudness": -7.355,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-07-29T01:12:39Z",
+    "track_id": "17fWdcSAhLc6559youmLap",
+    "name": "Star Witness",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.58,
+      "danceability": 0.305,
+      "valence": 0.343,
+      "acousticness": 0.513,
+      "instrumentalness": 3.2e-06,
+      "speechiness": 0.0329,
+      "tempo": 184.462,
+      "liveness": 0.128,
+      "loudness": -6.272,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T01:15:25Z",
+    "track_id": "3S80U4lmgrsYM9Ew93Z82P",
+    "name": "Hold On, Hold On",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.8,
+      "danceability": 0.466,
+      "valence": 0.43,
+      "acousticness": 0.197,
+      "instrumentalness": 2.33e-06,
+      "speechiness": 0.0304,
+      "tempo": 119.33,
+      "liveness": 0.321,
+      "loudness": -5.016,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T01:21:11Z",
+    "track_id": "5KESChxrDFqBxR07JLRckJ",
+    "name": "Fox Confessor Brings The Flood",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.652,
+      "danceability": 0.399,
+      "valence": 0.325,
+      "acousticness": 0.322,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0282,
+      "tempo": 82.47,
+      "liveness": 0.124,
+      "loudness": -5.538,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T01:25:17Z",
+    "track_id": "08nhxjVxAq9Q37qiskGKlW",
+    "name": "John Saw That Number",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.735,
+      "danceability": 0.474,
+      "valence": 0.557,
+      "acousticness": 0.503,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0394,
+      "tempo": 79.718,
+      "liveness": 0.354,
+      "loudness": -5.806,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T01:28:36Z",
+    "track_id": "0XNM1Mq2YYxwJPFOL3FOPq",
+    "name": "Dirty Knife",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.393,
+      "danceability": 0.415,
+      "valence": 0.101,
+      "acousticness": 0.405,
+      "instrumentalness": 5.95e-05,
+      "speechiness": 0.0288,
+      "tempo": 97.976,
+      "liveness": 0.107,
+      "loudness": -9.022,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T03:13:47Z",
+    "track_id": "4ny4sqrQmzhwHk7IHIVmL1",
+    "name": "Lion's Jaws",
+    "artists": [
+      "Neko Case"
+    ],
+    "genres": [
+      "alt country",
+      "southern gothic",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.492,
+      "danceability": 0.336,
+      "valence": 0.334,
+      "acousticness": 0.164,
+      "instrumentalness": 0.000368,
+      "speechiness": 0.0275,
+      "tempo": 167.996,
+      "liveness": 0.0959,
+      "loudness": -7.941,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T03:17:55Z",
+    "track_id": "7cz70nyRXlCJOE85whEkgU",
+    "name": "Flagpole Sitta",
+    "artists": [
+      "Harvey Danger"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-29T03:25:22Z",
+    "track_id": "6liaHE9iHh23PLVvw7lK8V",
+    "name": "Closing Time",
+    "artists": [
+      "Semisonic"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.84,
+      "danceability": 0.444,
+      "valence": 0.282,
+      "acousticness": 0.084,
+      "instrumentalness": 2.07e-05,
+      "speechiness": 0.032,
+      "tempo": 92.077,
+      "liveness": 0.102,
+      "loudness": -7.024,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T03:29:23Z",
+    "track_id": "0a7BloCiNzLDD9qSQHh5m7",
+    "name": "Dance, Dance",
+    "artists": [
+      "Fall Out Boy"
+    ],
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "audio_features": {
+      "energy": 0.961,
+      "danceability": 0.621,
+      "valence": 0.449,
+      "acousticness": 0.00523,
+      "instrumentalness": 0.0,
+      "speechiness": 0.154,
+      "tempo": 114.451,
+      "liveness": 0.0854,
+      "loudness": -3.198,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-07-29T03:32:33Z",
+    "track_id": "3VA4sjTMSTTF02hFGmlpJh",
+    "name": "crushcrushcrush",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-07-29T03:39:05Z",
+    "track_id": "1Dr1fXbc2IxaK1Mu8P8Khz",
+    "name": "When I Come Around",
+    "artists": [
+      "Green Day"
+    ],
+    "genres": [
+      "punk",
+      "pop punk"
+    ],
+    "audio_features": {
+      "energy": 0.909,
+      "danceability": 0.531,
+      "valence": 0.814,
+      "acousticness": 0.0175,
+      "instrumentalness": 0.0,
+      "speechiness": 0.034,
+      "tempo": 97.546,
+      "liveness": 0.231,
+      "loudness": -4.236,
+      "source": "reccobeats"
+    }
   }
 ]
