@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-02T16:32:07Z",
-  "played_at": "2026-07-30T13:05:59.715Z",
+  "fetched_at": "2026-08-02T17:39:06Z",
+  "played_at": "2026-08-02T17:37:34.301Z",
   "track": {
-    "id": "5oQcOu1omDykbIPSdSQQNJ",
-    "name": "1985",
+    "id": "0gSNi1CGG7ExDV8UvUsSoj",
+    "name": "Dirty Little Secret",
     "artists": [
       {
-        "id": "5ND0mGcL9SKSjWIjPd0xIb",
-        "name": "Bowling For Soup"
+        "id": "3vAaWhdBR38Q02ohXqaNHT",
+        "name": "The All-American Rejects"
       }
     ],
     "album": {
-      "name": "A Hangover You Don't Deserve",
-      "release_date": "2004",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f9b3ece3271d3a5fa73d3759"
+      "name": "Move Along",
+      "release_date": "2005-07-12",
+      "image": "https://i.scdn.co/image/ab67616d0000b27305b9e4f856db958eacdb7cb3"
     },
-    "duration_ms": 193000,
+    "duration_ms": 193485,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5oQcOu1omDykbIPSdSQQNJ"
+      "spotify": "https://open.spotify.com/track/0gSNi1CGG7ExDV8UvUsSoj"
     }
   }
 }

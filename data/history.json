@@ -2524,5 +2524,168 @@
       "loudness": -4.404,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-02T17:07:49Z",
+    "track_id": "7ewT0nLFkMD8ONbRibePr9",
+    "name": "I Don't Care - Single Version",
+    "artists": [
+      "Fall Out Boy"
+    ],
+    "genres": [
+      "emo",
+      "pop punk"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-02T17:11:10Z",
+    "track_id": "2i0AUcEnsDm3dsqLrFWUCq",
+    "name": "Tonight Tonight",
+    "artists": [
+      "Hot Chelle Rae"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.783,
+      "danceability": 0.686,
+      "valence": 0.814,
+      "acousticness": 0.0764,
+      "instrumentalness": 0.0,
+      "speechiness": 0.119,
+      "tempo": 99.978,
+      "liveness": 0.163,
+      "loudness": -4.977,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-02T17:14:29Z",
+    "track_id": "0aZJGkkXR3DgaFqo5sB8ot",
+    "name": "Weightless",
+    "artists": [
+      "All Time Low"
+    ],
+    "genres": [
+      "pop punk",
+      "emo",
+      "punk"
+    ],
+    "audio_features": {
+      "energy": 0.923,
+      "danceability": 0.497,
+      "valence": 0.663,
+      "acousticness": 0.00282,
+      "instrumentalness": 0.0,
+      "speechiness": 0.138,
+      "tempo": 181.074,
+      "liveness": 0.158,
+      "loudness": -4.512,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-02T17:19:52Z",
+    "track_id": "2z4U9d5OAA4YLNXoCgioxo",
+    "name": "What the Hell",
+    "artists": [
+      "Avril Lavigne"
+    ],
+    "genres": [],
+    "audio_features": {
+      "acousticness": 0.00472,
+      "danceability": 0.578,
+      "energy": 0.926,
+      "instrumentalness": 0.0127,
+      "liveness": 0.14,
+      "loudness": -3.689,
+      "source": "reccobeats",
+      "speechiness": 0.0548,
+      "tempo": 149.976,
+      "valence": 0.877
+    }
+  },
+  {
+    "logged_at": "2026-08-02T17:23:51Z",
+    "track_id": "35fOoTvFme2VjutXS6G01f",
+    "name": "Move Along",
+    "artists": [
+      "The All-American Rejects"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-02T17:27:08Z",
+    "track_id": "7kMfu3KUydmrFVGEAhjtyl",
+    "name": "Good Girls Go Bad (feat. Leighton Meester)",
+    "artists": [
+      "Cobra Starship",
+      "Leighton Meester"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.874,
+      "danceability": 0.594,
+      "valence": 0.628,
+      "acousticness": 0.0116,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0815,
+      "tempo": 119.964,
+      "liveness": 0.549,
+      "loudness": -3.716,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-02T17:30:48Z",
+    "track_id": "7N2PNxzZXxCdAHiAfsklhT",
+    "name": "Check Yes, Juliet",
+    "artists": [
+      "We The Kings"
+    ],
+    "genres": [
+      "pop punk"
+    ],
+    "audio_features": {
+      "energy": 0.912,
+      "danceability": 0.352,
+      "valence": 0.351,
+      "acousticness": 0.00197,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0725,
+      "tempo": 166.795,
+      "liveness": 0.193,
+      "loudness": -4.253,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-02T17:34:20Z",
+    "track_id": "1lHXlGlve5Zx8tXLhyjDwM",
+    "name": "Makes Me Wonder",
+    "artists": [
+      "Maroon 5"
+    ],
+    "genres": [
+      "pop"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-02T17:37:34Z",
+    "track_id": "0gSNi1CGG7ExDV8UvUsSoj",
+    "name": "Dirty Little Secret",
+    "artists": [
+      "The All-American Rejects"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": null
   }
 ]
