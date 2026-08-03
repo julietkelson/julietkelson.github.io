@@ -2697,5 +2697,89 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-03T17:01:34Z",
+    "track_id": "7rKyITVLEwldhdXIy7P6Vw",
+    "name": "Closer to Fine",
+    "artists": [
+      "Indigo Girls"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.677,
+      "danceability": 0.54,
+      "valence": 0.748,
+      "acousticness": 0.368,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0286,
+      "tempo": 98.339,
+      "liveness": 0.224,
+      "loudness": -6.349,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-03T17:19:28Z",
+    "track_id": "7rKyITVLEwldhdXIy7P6Vw",
+    "name": "Closer to Fine",
+    "artists": [
+      "Indigo Girls"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.677,
+      "danceability": 0.54,
+      "valence": 0.748,
+      "acousticness": 0.368,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0286,
+      "tempo": 98.339,
+      "liveness": 0.224,
+      "loudness": -6.349,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-03T17:19:35Z",
+    "track_id": "7rKyITVLEwldhdXIy7P6Vw",
+    "name": "Closer to Fine",
+    "artists": [
+      "Indigo Girls"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.677,
+      "danceability": 0.54,
+      "valence": 0.748,
+      "acousticness": 0.368,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0286,
+      "tempo": 98.339,
+      "liveness": 0.224,
+      "loudness": -6.349,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-03T17:28:08Z",
+    "track_id": "7rKyITVLEwldhdXIy7P6Vw",
+    "name": "Closer to Fine",
+    "artists": [
+      "Indigo Girls"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.677,
+      "danceability": 0.54,
+      "valence": 0.748,
+      "acousticness": 0.368,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0286,
+      "tempo": 98.339,
+      "liveness": 0.224,
+      "loudness": -6.349,
+      "source": "reccobeats"
+    }
   }
 ]

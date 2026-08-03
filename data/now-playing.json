@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-03T16:10:24Z",
-  "played_at": "2026-08-02T18:39:45.555Z",
+  "fetched_at": "2026-08-03T18:06:32Z",
+  "played_at": "2026-08-03T17:28:08.258Z",
   "track": {
-    "id": "1ve4UbmAdG0FsCwXkcYIPl",
-    "name": "Year 3000",
+    "id": "7rKyITVLEwldhdXIy7P6Vw",
+    "name": "Closer to Fine",
     "artists": [
       {
-        "id": "7gOdHgIoIKoe4i9Tta6qdD",
-        "name": "Jonas Brothers"
+        "id": "4wM29TDTr3HI0qFY3KoSFG",
+        "name": "Indigo Girls"
       }
     ],
     "album": {
-      "name": "It's About Time",
-      "release_date": "2006-08-08",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fd4b7839f18b7f2d4e2d0676"
+      "name": "Indigo Girls (Expanded Edition)",
+      "release_date": "1989",
+      "image": "https://i.scdn.co/image/ab67616d0000b273347cd7326ed7dc67048e7420"
     },
-    "duration_ms": 201813,
+    "duration_ms": 241600,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1ve4UbmAdG0FsCwXkcYIPl"
+      "spotify": "https://open.spotify.com/track/7rKyITVLEwldhdXIy7P6Vw"
     }
   }
 }
