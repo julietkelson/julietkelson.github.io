@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-03T19:55:02Z",
+  "generated_at": "2026-08-03T21:04:13Z",
   "window": {
-    "plays_used": 141,
-    "plays_with_features": 99
+    "plays_used": 142,
+    "plays_with_features": 100
   },
   "totals": {
-    "plays": 141,
+    "plays": 142,
     "unique_artists": 73
   },
   "audio_features_mean": {
-    "energy": 0.6681,
-    "danceability": 0.556,
-    "valence": 0.5839,
-    "acousticness": 0.2496,
-    "instrumentalness": 0.0243,
-    "speechiness": 0.0482
+    "energy": 0.6648,
+    "danceability": 0.557,
+    "valence": 0.5875,
+    "acousticness": 0.2557,
+    "instrumentalness": 0.0279,
+    "speechiness": 0.0481
   },
-  "tempo_mean_bpm": 127.2,
+  "tempo_mean_bpm": 127.69,
   "top_genres": [
     {
       "name": "americana",
@@ -36,7 +36,7 @@
     },
     {
       "name": "classic rock",
-      "count": 9
+      "count": 10
     }
   ],
   "daily_series": [
@@ -150,9 +150,9 @@
     },
     {
       "date": "2026-08-03",
-      "energy": 0.677,
-      "valence": 0.748,
-      "plays": 4
+      "energy": 0.6088,
+      "valence": 0.7878,
+      "plays": 5
     }
   ]
 }
