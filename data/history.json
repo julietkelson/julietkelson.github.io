@@ -2806,5 +2806,124 @@
       "tempo": 176.083,
       "valence": 0.947
     }
+  },
+  {
+    "logged_at": "2026-08-04T00:41:25Z",
+    "track_id": "3d3uCbMDDCzIJlbVNd18C3",
+    "name": "Revelator",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T00:45:13Z",
+    "track_id": "5bVp8uPlAAU69ly6mLuVy8",
+    "name": "My First Lover",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T00:46:01Z",
+    "track_id": "1141zsROekCetZOy6FT8F0",
+    "name": "Dark Turn of Mind",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T00:48:27Z",
+    "track_id": "107fix33Tu8wlALHWTPDgp",
+    "name": "Dear Someone",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T00:51:42Z",
+    "track_id": "3HGOBpx2pBgEWwsptthrXG",
+    "name": "Red Clay Halo",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T00:56:53Z",
+    "track_id": "5EanV7AK9n1q76Ecxe31YH",
+    "name": "April the 14th Part 1",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T01:01:16Z",
+    "track_id": "4mmFeqt6GXhyp9Jo9Ja7Id",
+    "name": "I Want To Sing That Rock And Roll",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
   }
 ]
