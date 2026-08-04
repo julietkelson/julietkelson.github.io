@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-04T01:03:20Z",
+  "generated_at": "2026-08-04T04:26:09Z",
   "window": {
-    "plays_used": 149,
+    "plays_used": 153,
     "plays_with_features": 100
   },
   "totals": {
-    "plays": 149,
+    "plays": 153,
     "unique_artists": 74
   },
   "audio_features_mean": {
@@ -20,7 +20,7 @@
   "top_genres": [
     {
       "name": "americana",
-      "count": 32
+      "count": 36
     },
     {
       "name": "pop punk",
@@ -32,11 +32,11 @@
     },
     {
       "name": "alt country",
-      "count": 17
+      "count": 21
     },
     {
       "name": "folk",
-      "count": 16
+      "count": 20
     }
   ],
   "daily_series": [

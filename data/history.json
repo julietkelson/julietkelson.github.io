@@ -2925,5 +2925,73 @@
       "christian bluegrass"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T01:07:35Z",
+    "track_id": "7kugdzJaspAoBNOEdp1qwE",
+    "name": "Elvis Presley Blues",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T01:10:12Z",
+    "track_id": "6EIW2JY1wl5La2xoDkrqAW",
+    "name": "Ruination Day Part 2",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T01:15:00Z",
+    "track_id": "3KLtHfl1z17beGV5el2yeU",
+    "name": "Everything Is Free",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-04T01:30:21Z",
+    "track_id": "0kGN0PYexsQZfjrII4fyVU",
+    "name": "I Dream A Highway",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
   }
 ]
