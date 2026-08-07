@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-07T22:21:23Z",
+  "generated_at": "2026-08-07T23:02:53Z",
   "window": {
-    "plays_used": 152,
-    "plays_with_features": 99
+    "plays_used": 147,
+    "plays_with_features": 94
   },
   "totals": {
-    "plays": 152,
-    "unique_artists": 72
+    "plays": 147,
+    "unique_artists": 69
   },
   "audio_features_mean": {
-    "energy": 0.6669,
-    "danceability": 0.5582,
-    "valence": 0.5886,
-    "acousticness": 0.2549,
-    "instrumentalness": 0.0282,
-    "speechiness": 0.0479
+    "energy": 0.6904,
+    "danceability": 0.5642,
+    "valence": 0.6036,
+    "acousticness": 0.2201,
+    "instrumentalness": 0.0296,
+    "speechiness": 0.0485
   },
-  "tempo_mean_bpm": 127.24,
+  "tempo_mean_bpm": 126.68,
   "top_genres": [
     {
       "name": "americana",
-      "count": 37
+      "count": 32
     },
     {
       "name": "pop punk",
@@ -35,17 +35,11 @@
       "count": 22
     },
     {
-      "name": "folk",
-      "count": 21
+      "name": "southern gothic",
+      "count": 20
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-07-08",
-      "energy": 0.2262,
-      "valence": 0.3068,
-      "plays": 5
-    },
     {
       "date": "2026-07-09",
       "energy": 0.537,
