@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-07T00:33:44Z",
+  "generated_at": "2026-08-07T03:35:53Z",
   "window": {
-    "plays_used": 151,
+    "plays_used": 152,
     "plays_with_features": 99
   },
   "totals": {
-    "plays": 151,
+    "plays": 152,
     "unique_artists": 72
   },
   "audio_features_mean": {
@@ -20,23 +20,23 @@
   "top_genres": [
     {
       "name": "americana",
-      "count": 36
+      "count": 37
     },
     {
       "name": "pop punk",
       "count": 23
     },
     {
+      "name": "alt country",
+      "count": 22
+    },
+    {
       "name": "emo",
       "count": 22
     },
     {
-      "name": "alt country",
-      "count": 21
-    },
-    {
       "name": "folk",
-      "count": 20
+      "count": 21
     }
   ],
   "daily_series": [

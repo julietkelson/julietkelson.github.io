@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-07T00:33:44Z",
-  "played_at": "2026-08-04T01:30:21.894Z",
+  "fetched_at": "2026-08-07T03:35:53Z",
+  "played_at": "2026-08-04T03:53:39.126Z",
   "track": {
-    "id": "0kGN0PYexsQZfjrII4fyVU",
-    "name": "I Dream A Highway",
+    "id": "3d3uCbMDDCzIJlbVNd18C3",
+    "name": "Revelator",
     "artists": [
       {
         "id": "2H5elA2mJKrHmqkN9GSfkz",
@@ -15,10 +15,10 @@
       "release_date": "2001-07-31",
       "image": "https://i.scdn.co/image/ab67616d0000b273e44e45c473ed851a9c3da07e"
     },
-    "duration_ms": 879800,
+    "duration_ms": 382560,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/0kGN0PYexsQZfjrII4fyVU"
+      "spotify": "https://open.spotify.com/track/3d3uCbMDDCzIJlbVNd18C3"
     }
   }
 }
