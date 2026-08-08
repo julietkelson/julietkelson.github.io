@@ -1,31 +1,5 @@
 [
   {
-    "logged_at": "2026-07-09T03:05:20Z",
-    "track_id": "1w9WCqGYdaEUMPs7BAvemm",
-    "name": "Porch Light",
-    "artists": [
-      "Aoife O'Donovan"
-    ],
-    "genres": [
-      "newgrass",
-      "bluegrass",
-      "americana",
-      "folk"
-    ],
-    "audio_features": {
-      "energy": 0.537,
-      "danceability": 0.359,
-      "valence": 0.567,
-      "acousticness": 0.714,
-      "instrumentalness": 0.000489,
-      "speechiness": 0.0302,
-      "tempo": 95.134,
-      "liveness": 0.228,
-      "loudness": -8.487,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-10T13:23:14Z",
     "track_id": "0jHeoHxTVRaTJVhASjBhUu",
     "name": "Mavis",
