@@ -1,28 +1,5 @@
 [
   {
-    "logged_at": "2026-07-10T17:28:26Z",
-    "track_id": "5K4Dl7nz6NSUONT4fl4sJV",
-    "name": "Tonight the Heartache's on Me",
-    "artists": [
-      "The Chicks"
-    ],
-    "genres": [
-      "country"
-    ],
-    "audio_features": {
-      "energy": 0.731,
-      "danceability": 0.681,
-      "valence": 0.82,
-      "acousticness": 0.192,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0289,
-      "tempo": 120.736,
-      "liveness": 0.356,
-      "loudness": -4.64,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-10T19:33:28Z",
     "track_id": "5K4Dl7nz6NSUONT4fl4sJV",
     "name": "Tonight the Heartache's on Me",
