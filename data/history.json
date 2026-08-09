@@ -1,29 +1,5 @@
 [
   {
-    "logged_at": "2026-07-10T13:23:14Z",
-    "track_id": "0jHeoHxTVRaTJVhASjBhUu",
-    "name": "Mavis",
-    "artists": [
-      "Nathaniel Rateliff"
-    ],
-    "genres": [
-      "indie folk",
-      "americana"
-    ],
-    "audio_features": {
-      "energy": 0.525,
-      "danceability": 0.486,
-      "valence": 0.626,
-      "acousticness": 0.634,
-      "instrumentalness": 0.635,
-      "speechiness": 0.0417,
-      "tempo": 157.021,
-      "liveness": 0.103,
-      "loudness": -11.65,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-10T13:27:48Z",
     "track_id": "3vtY9ccU3jnDwBA7BcXt9S",
     "name": "Clay Pigeons",
