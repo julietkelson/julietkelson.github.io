@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-10T23:07:20Z",
-  "played_at": "2026-08-04T03:53:39.126Z",
+  "fetched_at": "2026-08-10T23:49:56Z",
+  "played_at": "2026-08-10T23:12:50.583Z",
   "track": {
-    "id": "3d3uCbMDDCzIJlbVNd18C3",
-    "name": "Revelator",
+    "id": "06L4a5JnNqZAfaOerHnfYt",
+    "name": "A Whiter Shade of Pale",
     "artists": [
       {
-        "id": "2H5elA2mJKrHmqkN9GSfkz",
-        "name": "Gillian Welch"
+        "id": "5R55ruC73ANyzDSOzIZjNc",
+        "name": "Johnny Blue Skies"
       }
     ],
     "album": {
-      "name": "Time (The Revelator)",
-      "release_date": "2001-07-31",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e44e45c473ed851a9c3da07e"
+      "name": "Mutiny After Midnight (Extended Edition)",
+      "release_date": "2026-06-08",
+      "image": "https://i.scdn.co/image/ab67616d0000b27393fc0d07a15d2a4e8c5c9647"
     },
-    "duration_ms": 382560,
+    "duration_ms": 273137,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3d3uCbMDDCzIJlbVNd18C3"
+      "spotify": "https://open.spotify.com/track/06L4a5JnNqZAfaOerHnfYt"
     }
   }
 }

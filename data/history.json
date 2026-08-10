@@ -2712,5 +2712,17 @@
       "christian bluegrass"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-10T23:12:50Z",
+    "track_id": "06L4a5JnNqZAfaOerHnfYt",
+    "name": "A Whiter Shade of Pale",
+    "artists": [
+      "Johnny Blue Skies"
+    ],
+    "genres": [
+      "alt country"
+    ],
+    "audio_features": null
   }
 ]
