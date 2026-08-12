@@ -2724,5 +2724,74 @@
       "alt country"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-12T00:03:43Z",
+    "track_id": "2M64vgZ07oUmUNQ7FmXy0C",
+    "name": "Jackson",
+    "artists": [
+      "Lucinda Williams"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "outlaw country",
+      "singer-songwriter",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.244,
+      "danceability": 0.448,
+      "valence": 0.332,
+      "acousticness": 0.733,
+      "instrumentalness": 8.59e-06,
+      "speechiness": 0.0271,
+      "tempo": 77.021,
+      "liveness": 0.101,
+      "loudness": -9.137,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-12T00:09:06Z",
+    "track_id": "0ADmPm5z59eriZF3FF9cR4",
+    "name": "Wrecking Ball",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-12T00:14:32Z",
+    "track_id": "5MhqCzQuPwHEVGS2i5zHOz",
+    "name": "Love At The Five & Dime",
+    "artists": [
+      "Nanci Griffith"
+    ],
+    "genres": [
+      "folk",
+      "americana",
+      "singer-songwriter"
+    ],
+    "audio_features": {
+      "energy": 0.223,
+      "danceability": 0.579,
+      "valence": 0.556,
+      "acousticness": 0.611,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0339,
+      "tempo": 77.498,
+      "liveness": 0.0918,
+      "loudness": -16.828,
+      "source": "reccobeats"
+    }
   }
 ]

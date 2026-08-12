@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-11T23:40:57Z",
+  "generated_at": "2026-08-12T00:42:58Z",
   "window": {
-    "plays_used": 143,
-    "plays_with_features": 89
+    "plays_used": 146,
+    "plays_with_features": 91
   },
   "totals": {
-    "plays": 143,
-    "unique_artists": 67
+    "plays": 146,
+    "unique_artists": 69
   },
   "audio_features_mean": {
-    "energy": 0.6982,
-    "danceability": 0.5645,
-    "valence": 0.6002,
-    "acousticness": 0.203,
-    "instrumentalness": 0.0241,
-    "speechiness": 0.0495
+    "energy": 0.688,
+    "danceability": 0.5634,
+    "valence": 0.5968,
+    "acousticness": 0.2133,
+    "instrumentalness": 0.0236,
+    "speechiness": 0.0491
   },
-  "tempo_mean_bpm": 126.67,
+  "tempo_mean_bpm": 125.58,
   "top_genres": [
     {
       "name": "americana",
-      "count": 29
+      "count": 32
+    },
+    {
+      "name": "alt country",
+      "count": 24
     },
     {
       "name": "pop punk",
       "count": 23
-    },
-    {
-      "name": "alt country",
-      "count": 22
     },
     {
       "name": "emo",
@@ -36,7 +36,7 @@
     },
     {
       "name": "southern gothic",
-      "count": 20
+      "count": 21
     }
   ],
   "daily_series": [
@@ -129,6 +129,12 @@
       "energy": 0.6088,
       "valence": 0.7878,
       "plays": 5
+    },
+    {
+      "date": "2026-08-12",
+      "energy": 0.2335,
+      "valence": 0.444,
+      "plays": 3
     }
   ]
 }
