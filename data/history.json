@@ -2841,5 +2841,30 @@
       "christian bluegrass"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-12T03:39:34Z",
+    "track_id": "1h70a8Y5zpIMhaoMYaVtri",
+    "name": "Gravity",
+    "artists": [
+      "Alison Krauss & Union Station"
+    ],
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "christian bluegrass"
+    ],
+    "audio_features": {
+      "energy": 0.304,
+      "danceability": 0.567,
+      "valence": 0.19,
+      "acousticness": 0.762,
+      "instrumentalness": 2.68e-05,
+      "speechiness": 0.029,
+      "tempo": 129.58,
+      "liveness": 0.0944,
+      "loudness": -11.425,
+      "source": "reccobeats"
+    }
   }
 ]

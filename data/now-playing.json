@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-12T03:12:56Z",
-  "played_at": "2026-08-12T01:14:29.516Z",
+  "fetched_at": "2026-08-12T05:06:54Z",
+  "played_at": "2026-08-12T03:39:34.669Z",
   "track": {
-    "id": "2YbGrWVWYDfAm9QfDVaY2N",
-    "name": "Wayside/Back in Time",
+    "id": "1h70a8Y5zpIMhaoMYaVtri",
+    "name": "Gravity",
     "artists": [
       {
-        "id": "2H5elA2mJKrHmqkN9GSfkz",
-        "name": "Gillian Welch"
+        "id": "0OTnx2X2FDXeewcm72lavT",
+        "name": "Alison Krauss & Union Station"
       }
     ],
     "album": {
-      "name": "Soul Journey",
-      "release_date": "2003-06-03",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c3fbcfe2ae379afbeeee7113"
+      "name": "Lonely Runs Both Ways",
+      "release_date": "2004-01-01",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bb8585108958dd5ca64f9f33"
     },
-    "duration_ms": 208373,
+    "duration_ms": 215933,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2YbGrWVWYDfAm9QfDVaY2N"
+      "spotify": "https://open.spotify.com/track/1h70a8Y5zpIMhaoMYaVtri"
     }
   }
 }
