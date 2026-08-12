@@ -1,28 +1,5 @@
 [
   {
-    "logged_at": "2026-07-13T17:43:16Z",
-    "track_id": "6px340oxL4x4RrhLer462m",
-    "name": "Warm Nights",
-    "artists": [
-      "Royel Otis"
-    ],
-    "genres": [
-      "indie"
-    ],
-    "audio_features": {
-      "energy": 0.628,
-      "danceability": 0.582,
-      "valence": 0.532,
-      "acousticness": 0.241,
-      "instrumentalness": 0.0059,
-      "speechiness": 0.0601,
-      "tempo": 158.159,
-      "liveness": 0.334,
-      "loudness": -8.104,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-13T17:49:35Z",
     "track_id": "5UW4tA4j23YL6kDfRw3rWT",
     "name": "mangetout",
