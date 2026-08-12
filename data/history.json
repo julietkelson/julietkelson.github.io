@@ -2793,5 +2793,53 @@
       "loudness": -16.828,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-12T01:11:00Z",
+    "track_id": "7jb1ZSirsHV1H2cLTNbqDX",
+    "name": "Crossing Muddy Waters",
+    "artists": [
+      "I'm With Her",
+      "Sara Watkins",
+      "Sarah Jarosz",
+      "Aoife O'Donovan"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "indie folk",
+      "folk",
+      "christian bluegrass"
+    ],
+    "audio_features": {
+      "energy": 0.256,
+      "danceability": 0.596,
+      "valence": 0.342,
+      "acousticness": 0.907,
+      "instrumentalness": 8.43e-06,
+      "speechiness": 0.0294,
+      "tempo": 115.187,
+      "liveness": 0.118,
+      "loudness": -9.947,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-12T01:14:29Z",
+    "track_id": "2YbGrWVWYDfAm9QfDVaY2N",
+    "name": "Wayside/Back in Time",
+    "artists": [
+      "Gillian Welch"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country",
+      "folk",
+      "southern gothic",
+      "christian bluegrass"
+    ],
+    "audio_features": null
   }
 ]

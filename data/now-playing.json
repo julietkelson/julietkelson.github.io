@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-12T00:42:58Z",
-  "played_at": "2026-08-12T00:14:32.891Z",
+  "fetched_at": "2026-08-12T03:12:56Z",
+  "played_at": "2026-08-12T01:14:29.516Z",
   "track": {
-    "id": "5MhqCzQuPwHEVGS2i5zHOz",
-    "name": "Love At The Five & Dime",
+    "id": "2YbGrWVWYDfAm9QfDVaY2N",
+    "name": "Wayside/Back in Time",
     "artists": [
       {
-        "id": "5CAiy5rDr3LaSoGtJOq6A0",
-        "name": "Nanci Griffith"
+        "id": "2H5elA2mJKrHmqkN9GSfkz",
+        "name": "Gillian Welch"
       }
     ],
     "album": {
-      "name": "The Last Of The True Believers",
-      "release_date": "1986-01-01",
-      "image": "https://i.scdn.co/image/ab67616d0000b273620b8b4e40e1f9f8d6895a6f"
+      "name": "Soul Journey",
+      "release_date": "2003-06-03",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c3fbcfe2ae379afbeeee7113"
     },
-    "duration_ms": 279266,
+    "duration_ms": 208373,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5MhqCzQuPwHEVGS2i5zHOz"
+      "spotify": "https://open.spotify.com/track/2YbGrWVWYDfAm9QfDVaY2N"
     }
   }
 }
