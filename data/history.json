@@ -2688,5 +2688,30 @@
       "loudness": -15.272,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-14T02:48:40Z",
+    "track_id": "0ZQ0AYmoSQqmPYtI9JP9F9",
+    "name": "War on War",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.833,
+      "danceability": 0.65,
+      "valence": 0.677,
+      "acousticness": 0.0323,
+      "instrumentalness": 0.00386,
+      "speechiness": 0.0297,
+      "tempo": 131.184,
+      "liveness": 0.233,
+      "loudness": -8.446,
+      "source": "reccobeats"
+    }
   }
 ]
