@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-14T00:09:42Z",
-  "played_at": "2026-08-12T03:39:34.669Z",
+  "fetched_at": "2026-08-14T02:46:25Z",
+  "played_at": "2026-08-14T02:44:53.073Z",
   "track": {
-    "id": "1h70a8Y5zpIMhaoMYaVtri",
-    "name": "Gravity",
+    "id": "5y4MDqm1PYa2T1vT6vboJI",
+    "name": "Radio Cure",
     "artists": [
       {
-        "id": "0OTnx2X2FDXeewcm72lavT",
-        "name": "Alison Krauss & Union Station"
+        "id": "2QoU3awHVdcHS8LrZEKvSM",
+        "name": "Wilco"
       }
     ],
     "album": {
-      "name": "Lonely Runs Both Ways",
-      "release_date": "2004-01-01",
-      "image": "https://i.scdn.co/image/ab67616d0000b273bb8585108958dd5ca64f9f33"
+      "name": "Yankee Hotel Foxtrot",
+      "release_date": "2003-10-07",
+      "image": "https://i.scdn.co/image/ab67616d0000b27327f0b3e25bfd979d8ae1d54b"
     },
-    "duration_ms": 215933,
+    "duration_ms": 308533,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1h70a8Y5zpIMhaoMYaVtri"
+      "spotify": "https://open.spotify.com/track/5y4MDqm1PYa2T1vT6vboJI"
     }
   }
 }
