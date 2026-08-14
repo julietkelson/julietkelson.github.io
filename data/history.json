@@ -1,29 +1,5 @@
 [
   {
-    "logged_at": "2026-07-15T20:55:27Z",
-    "track_id": "3hJLKtTpgct9Y9wKww0BiR",
-    "name": "Miss You - Remastered",
-    "artists": [
-      "The Rolling Stones"
-    ],
-    "genres": [
-      "classic rock",
-      "rock"
-    ],
-    "audio_features": {
-      "energy": 0.71,
-      "danceability": 0.795,
-      "valence": 0.845,
-      "acousticness": 0.443,
-      "instrumentalness": 0.0215,
-      "speechiness": 0.0392,
-      "tempo": 109.689,
-      "liveness": 0.344,
-      "loudness": -4.746,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-16T22:43:29Z",
     "track_id": "3ZpQiJ78LKINrW9SQTgbXd",
     "name": "All I Wanna Do",
