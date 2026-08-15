@@ -2593,5 +2593,180 @@
       "loudness": -8.446,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-15T00:15:36Z",
+    "track_id": "4wd09wCccmxUB7XVJp0RNn",
+    "name": "Jesus, Etc.",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.28,
+      "danceability": 0.756,
+      "valence": 0.695,
+      "acousticness": 0.616,
+      "instrumentalness": 0.00033,
+      "speechiness": 0.0296,
+      "tempo": 109.413,
+      "liveness": 0.414,
+      "loudness": -14.27,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T00:22:46Z",
+    "track_id": "1BI3TOb107VToPovrraoU2",
+    "name": "Ashes of American Flags",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.351,
+      "danceability": 0.344,
+      "valence": 0.206,
+      "acousticness": 0.879,
+      "instrumentalness": 0.221,
+      "speechiness": 0.0342,
+      "tempo": 67.017,
+      "liveness": 0.0791,
+      "loudness": -12.206,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T00:25:55Z",
+    "track_id": "4xmeLj3uVcoAwgDtwM4MbG",
+    "name": "Heavy Metal Drummer",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.66,
+      "danceability": 0.661,
+      "valence": 0.814,
+      "acousticness": 0.0257,
+      "instrumentalness": 0.00977,
+      "speechiness": 0.0373,
+      "tempo": 120.617,
+      "liveness": 0.256,
+      "loudness": -9.061,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T00:29:51Z",
+    "track_id": "70gsdxSzE5lCKCCYj2F1Yr",
+    "name": "I'm the Man Who Loves You",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.74,
+      "danceability": 0.587,
+      "valence": 0.89,
+      "acousticness": 0.0458,
+      "instrumentalness": 0.0335,
+      "speechiness": 0.0396,
+      "tempo": 94.014,
+      "liveness": 0.305,
+      "loudness": -7.554,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T01:05:08Z",
+    "track_id": "7fRAo80qMQjm6sr21gQTXp",
+    "name": "Pot Kettle Black",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.626,
+      "danceability": 0.729,
+      "valence": 0.666,
+      "acousticness": 0.052,
+      "instrumentalness": 0.241,
+      "speechiness": 0.0299,
+      "tempo": 123.242,
+      "liveness": 0.665,
+      "loudness": -9.946,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T01:09:08Z",
+    "track_id": "7fRAo80qMQjm6sr21gQTXp",
+    "name": "Pot Kettle Black",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.626,
+      "danceability": 0.729,
+      "valence": 0.666,
+      "acousticness": 0.052,
+      "instrumentalness": 0.241,
+      "speechiness": 0.0299,
+      "tempo": 123.242,
+      "liveness": 0.665,
+      "loudness": -9.946,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T01:14:23Z",
+    "track_id": "4cGVaSWrKvMYuVTz5NRYYJ",
+    "name": "Poor Places",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.416,
+      "danceability": 0.28,
+      "valence": 0.287,
+      "acousticness": 0.766,
+      "instrumentalness": 0.031,
+      "speechiness": 0.0382,
+      "tempo": 181.037,
+      "liveness": 0.602,
+      "loudness": -10.946,
+      "source": "reccobeats"
+    }
   }
 ]
