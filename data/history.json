@@ -2843,5 +2843,30 @@
       "loudness": -10.352,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-15T20:52:13Z",
+    "track_id": "3VwZp4jxGFWMyMClFOq3YK",
+    "name": "Nothing'severgonnastandinmyway (Again)",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.863,
+      "danceability": 0.553,
+      "valence": 0.703,
+      "acousticness": 0.032,
+      "instrumentalness": 1.88e-06,
+      "speechiness": 0.0315,
+      "tempo": 130.446,
+      "liveness": 0.227,
+      "loudness": -3.893,
+      "source": "reccobeats"
+    }
   }
 ]

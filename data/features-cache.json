@@ -778,6 +778,21 @@
     "cached_at": "2026-07-29T04:31:35Z",
     "features": null
   },
+  "3VwZp4jxGFWMyMClFOq3YK": {
+    "cached_at": "2026-08-15T20:58:07Z",
+    "features": {
+      "acousticness": 0.032,
+      "danceability": 0.553,
+      "energy": 0.863,
+      "instrumentalness": 1.88e-06,
+      "liveness": 0.227,
+      "loudness": -3.893,
+      "source": "reccobeats",
+      "speechiness": 0.0315,
+      "tempo": 130.446,
+      "valence": 0.703
+    }
+  },
   "3ZpQiJ78LKINrW9SQTgbXd": {
     "cached_at": "2026-07-17T04:21:01Z",
     "features": {
