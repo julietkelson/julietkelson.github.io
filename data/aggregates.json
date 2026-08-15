@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-15T17:59:44Z",
+  "generated_at": "2026-08-15T18:41:17Z",
   "window": {
-    "plays_used": 142,
-    "plays_with_features": 90
+    "plays_used": 145,
+    "plays_with_features": 93
   },
   "totals": {
-    "plays": 142,
+    "plays": 145,
     "unique_artists": 70
   },
   "audio_features_mean": {
-    "energy": 0.6589,
-    "danceability": 0.5588,
-    "valence": 0.5871,
-    "acousticness": 0.2322,
-    "instrumentalness": 0.0221,
-    "speechiness": 0.0487
+    "energy": 0.6499,
+    "danceability": 0.5538,
+    "valence": 0.5798,
+    "acousticness": 0.2502,
+    "instrumentalness": 0.0256,
+    "speechiness": 0.0482
   },
-  "tempo_mean_bpm": 125.32,
+  "tempo_mean_bpm": 125.46,
   "top_genres": [
     {
       "name": "americana",
-      "count": 38
+      "count": 41
     },
     {
       "name": "alt country",
-      "count": 34
+      "count": 37
     },
     {
       "name": "pop punk",
@@ -132,9 +132,9 @@
     },
     {
       "date": "2026-08-15",
-      "energy": 0.5284,
-      "valence": 0.6034,
-      "plays": 7
+      "energy": 0.4842,
+      "valence": 0.5309,
+      "plays": 10
     }
   ]
 }

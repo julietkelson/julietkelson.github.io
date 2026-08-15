@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-15T17:59:44Z",
-  "played_at": "2026-08-15T01:14:23.851Z",
+  "fetched_at": "2026-08-15T18:41:17Z",
+  "played_at": "2026-08-15T18:28:05.450Z",
   "track": {
-    "id": "4cGVaSWrKvMYuVTz5NRYYJ",
-    "name": "Poor Places",
+    "id": "2CJpJK9awyjKS98KOPfivw",
+    "name": "Theologians",
     "artists": [
       {
         "id": "2QoU3awHVdcHS8LrZEKvSM",
@@ -11,14 +11,14 @@
       }
     ],
     "album": {
-      "name": "Yankee Hotel Foxtrot",
-      "release_date": "2003-10-07",
-      "image": "https://i.scdn.co/image/ab67616d0000b27327f0b3e25bfd979d8ae1d54b"
+      "name": "A Ghost Is Born",
+      "release_date": "2004-06-22",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cc48fe77912cd73e98d7612f"
     },
-    "duration_ms": 315466,
+    "duration_ms": 212240,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/4cGVaSWrKvMYuVTz5NRYYJ"
+      "spotify": "https://open.spotify.com/track/2CJpJK9awyjKS98KOPfivw"
     }
   }
 }

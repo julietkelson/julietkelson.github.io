@@ -2768,5 +2768,80 @@
       "loudness": -10.946,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-15T17:58:33Z",
+    "track_id": "1TRsfoxOCzeSJXHtY8KiQC",
+    "name": "Reservations",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.214,
+      "danceability": 0.196,
+      "valence": 0.0768,
+      "acousticness": 0.884,
+      "instrumentalness": 0.171,
+      "speechiness": 0.0375,
+      "tempo": 138.947,
+      "liveness": 0.248,
+      "loudness": -17.569,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T18:11:42Z",
+    "track_id": "1TRsfoxOCzeSJXHtY8KiQC",
+    "name": "Reservations",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.214,
+      "danceability": 0.196,
+      "valence": 0.0768,
+      "acousticness": 0.884,
+      "instrumentalness": 0.171,
+      "speechiness": 0.0375,
+      "tempo": 138.947,
+      "liveness": 0.248,
+      "loudness": -17.569,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-15T18:28:05Z",
+    "track_id": "2CJpJK9awyjKS98KOPfivw",
+    "name": "Theologians",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.715,
+      "danceability": 0.816,
+      "valence": 0.931,
+      "acousticness": 0.602,
+      "instrumentalness": 0.0433,
+      "speechiness": 0.0278,
+      "tempo": 111.385,
+      "liveness": 0.119,
+      "loudness": -10.352,
+      "source": "reccobeats"
+    }
   }
 ]
