@@ -1,26 +1,5 @@
 [
   {
-    "logged_at": "2026-07-16T22:43:29Z",
-    "track_id": "3ZpQiJ78LKINrW9SQTgbXd",
-    "name": "All I Wanna Do",
-    "artists": [
-      "Sheryl Crow"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.528,
-      "danceability": 0.82,
-      "valence": 0.926,
-      "acousticness": 0.107,
-      "instrumentalness": 0.0188,
-      "speechiness": 0.032,
-      "tempo": 120.089,
-      "liveness": 0.257,
-      "loudness": -11.18,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-17T01:24:57Z",
     "track_id": "3ZpQiJ78LKINrW9SQTgbXd",
     "name": "All I Wanna Do",
