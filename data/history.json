@@ -1,26 +1,5 @@
 [
   {
-    "logged_at": "2026-07-17T23:07:59Z",
-    "track_id": "3i6qNxyVgIdUZTTi5m25EM",
-    "name": "Bitch",
-    "artists": [
-      "Meredith Brooks"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.886,
-      "danceability": 0.617,
-      "valence": 0.645,
-      "acousticness": 0.0113,
-      "instrumentalness": 9.27e-05,
-      "speechiness": 0.0551,
-      "tempo": 96.328,
-      "liveness": 0.0523,
-      "loudness": -5.953,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-17T23:23:52Z",
     "track_id": "2tHebLHNRVw8vhzK4roYOw",
     "name": "Green Screen (1pm)",
