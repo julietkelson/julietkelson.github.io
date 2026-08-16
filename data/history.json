@@ -1,39 +1,5 @@
 [
   {
-    "logged_at": "2026-07-17T17:49:44Z",
-    "track_id": "6SpLc7EXZIPpy0sVko0aoU",
-    "name": "Misery Business",
-    "artists": [
-      "Paramore"
-    ],
-    "genres": [
-      "pop punk",
-      "emo"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-17T17:56:32Z",
-    "track_id": "25FTMokYEbEWHEdss5JLZS",
-    "name": "Teenage Dirtbag",
-    "artists": [
-      "Wheatus"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.85,
-      "danceability": 0.625,
-      "valence": 0.633,
-      "acousticness": 0.346,
-      "instrumentalness": 0.000233,
-      "speechiness": 0.0495,
-      "tempo": 94.661,
-      "liveness": 0.174,
-      "loudness": -3.904,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-17T17:59:59Z",
     "track_id": "6YVajR33kCWLhWpMVD8AGD",
     "name": "Calling After Me",
