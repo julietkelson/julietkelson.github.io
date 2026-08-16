@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-16T20:00:58Z",
+  "generated_at": "2026-08-16T20:33:42Z",
   "window": {
-    "plays_used": 132,
-    "plays_with_features": 84
+    "plays_used": 126,
+    "plays_with_features": 80
   },
   "totals": {
-    "plays": 132,
-    "unique_artists": 64
+    "plays": 126,
+    "unique_artists": 59
   },
   "audio_features_mean": {
-    "energy": 0.6532,
-    "danceability": 0.5385,
-    "valence": 0.5574,
-    "acousticness": 0.2594,
-    "instrumentalness": 0.0266,
-    "speechiness": 0.0492
+    "energy": 0.6557,
+    "danceability": 0.5358,
+    "valence": 0.5503,
+    "acousticness": 0.2598,
+    "instrumentalness": 0.0218,
+    "speechiness": 0.0498
   },
-  "tempo_mean_bpm": 124.66,
+  "tempo_mean_bpm": 123.54,
   "top_genres": [
     {
       "name": "americana",
@@ -42,9 +42,9 @@
   "daily_series": [
     {
       "date": "2026-07-17",
-      "energy": 0.5999,
-      "valence": 0.6544,
-      "plays": 13
+      "energy": 0.5974,
+      "valence": 0.6176,
+      "plays": 7
     },
     {
       "date": "2026-07-20",
