@@ -1,26 +1,5 @@
 [
   {
-    "logged_at": "2026-07-17T02:14:48Z",
-    "track_id": "25IRjWUZ60n7KXxcB4DiX9",
-    "name": "Strong Enough",
-    "artists": [
-      "Sheryl Crow"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.266,
-      "danceability": 0.58,
-      "valence": 0.581,
-      "acousticness": 0.794,
-      "instrumentalness": 0.000172,
-      "speechiness": 0.0317,
-      "tempo": 154.595,
-      "liveness": 0.11,
-      "loudness": -15.269,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-17T17:49:44Z",
     "track_id": "6SpLc7EXZIPpy0sVko0aoU",
     "name": "Misery Business",
