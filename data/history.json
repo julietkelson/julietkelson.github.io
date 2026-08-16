@@ -1,31 +1,5 @@
 [
   {
-    "logged_at": "2026-07-17T20:51:59Z",
-    "track_id": "5l9c6bJmzvftumhz4TMPgk",
-    "name": "Harvest Moon",
-    "artists": [
-      "Neil Young"
-    ],
-    "genres": [
-      "classic rock",
-      "folk rock",
-      "singer-songwriter",
-      "roots rock"
-    ],
-    "audio_features": {
-      "energy": 0.31,
-      "danceability": 0.648,
-      "valence": 0.408,
-      "acousticness": 0.53,
-      "instrumentalness": 0.000231,
-      "speechiness": 0.0264,
-      "tempo": 112.938,
-      "liveness": 0.124,
-      "loudness": -12.431,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-17T20:56:25Z",
     "track_id": "19Ym5Sg0YyOCa6ao21bdoG",
     "name": "Gypsy",
