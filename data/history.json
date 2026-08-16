@@ -1,46 +1,5 @@
 [
   {
-    "logged_at": "2026-07-17T01:24:57Z",
-    "track_id": "3ZpQiJ78LKINrW9SQTgbXd",
-    "name": "All I Wanna Do",
-    "artists": [
-      "Sheryl Crow"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.528,
-      "danceability": 0.82,
-      "valence": 0.926,
-      "acousticness": 0.107,
-      "instrumentalness": 0.0188,
-      "speechiness": 0.032,
-      "tempo": 120.089,
-      "liveness": 0.257,
-      "loudness": -11.18,
-      "source": "reccobeats"
-    }
-  },
-  {
-    "logged_at": "2026-07-17T01:30:43Z",
-    "track_id": "215JYyyUnrJ98NK3KEwu6d",
-    "name": "Soak Up The Sun",
-    "artists": [
-      "Sheryl Crow"
-    ],
-    "genres": [],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-17T01:36:07Z",
-    "track_id": "5XrfFo0JFOnWD9ZMNXGkQh",
-    "name": "If It Makes You Happy",
-    "artists": [
-      "Sheryl Crow"
-    ],
-    "genres": [],
-    "audio_features": null
-  },
-  {
     "logged_at": "2026-07-17T02:14:48Z",
     "track_id": "25IRjWUZ60n7KXxcB4DiX9",
     "name": "Strong Enough",
