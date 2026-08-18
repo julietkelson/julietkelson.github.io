@@ -2591,5 +2591,59 @@
       "loudness": -7.561,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-18T23:36:05Z",
+    "track_id": "3PphHkiVdhRaO1EWH6ZWqZ",
+    "name": "Yards / Gardens",
+    "artists": [
+      "Kate Bollinger"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.544,
+      "danceability": 0.8,
+      "valence": 0.745,
+      "acousticness": 0.268,
+      "instrumentalness": 0.617,
+      "speechiness": 0.032,
+      "tempo": 107.984,
+      "liveness": 0.11,
+      "loudness": -7.52,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-18T23:39:34Z",
+    "track_id": "19woxaSpjOefa2JnAOoqW5",
+    "name": "Garden (Say It Like Dat)",
+    "artists": [
+      "SZA"
+    ],
+    "genres": [
+      "r&b"
+    ],
+    "audio_features": {
+      "energy": 0.457,
+      "danceability": 0.73,
+      "valence": 0.549,
+      "acousticness": 0.0705,
+      "instrumentalness": 0.0,
+      "speechiness": 0.283,
+      "tempo": 111.352,
+      "liveness": 0.124,
+      "loudness": -7.26,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-18T23:42:50Z",
+    "track_id": "5zFaNeTwCtsBbMc72FtXVo",
+    "name": "Stay High",
+    "artists": [
+      "Brittany Howard"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]
