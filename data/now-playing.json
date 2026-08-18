@@ -1,24 +1,36 @@
 {
-  "fetched_at": "2026-08-18T13:12:49Z",
-  "played_at": "2026-08-15T20:52:13.084Z",
+  "fetched_at": "2026-08-18T13:58:41Z",
+  "played_at": "2026-08-18T13:43:41.891Z",
   "track": {
-    "id": "3VwZp4jxGFWMyMClFOq3YK",
-    "name": "Nothing'severgonnastandinmyway (Again)",
+    "id": "6VWqR8xIVeWkHjSbaPJ3bP",
+    "name": "Find My Way to You",
     "artists": [
       {
-        "id": "2QoU3awHVdcHS8LrZEKvSM",
-        "name": "Wilco"
+        "id": "3oXddLOOjkoUuC2sX1RMdr",
+        "name": "I'm With Her"
+      },
+      {
+        "id": "6nFBonVf7Lqaj05R0v5VGJ",
+        "name": "Sarah Jarosz"
+      },
+      {
+        "id": "1f3ubTd6eyxuy30ddDJQQa",
+        "name": "Aoife O'Donovan"
+      },
+      {
+        "id": "1FDE7zZ6jmP8HHb9ej3mek",
+        "name": "Sara Watkins"
       }
     ],
     "album": {
-      "name": "Summerteeth",
-      "release_date": "1999-03-08",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731e129eb9e8f65e52f372bee7"
+      "name": "Wild and Clear and Blue",
+      "release_date": "2025-05-09",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e1917e26e66f38eac61be589"
     },
-    "duration_ms": 200733,
+    "duration_ms": 200352,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3VwZp4jxGFWMyMClFOq3YK"
+      "spotify": "https://open.spotify.com/track/6VWqR8xIVeWkHjSbaPJ3bP"
     }
   }
 }

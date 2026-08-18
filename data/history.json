@@ -2337,5 +2337,72 @@
       "loudness": -3.893,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-18T13:35:38Z",
+    "track_id": "0jCe45cYIc6NXedmbIKy0Q",
+    "name": "I Can Change",
+    "artists": [
+      "Lake Street Dive"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.193,
+      "danceability": 0.546,
+      "valence": 0.311,
+      "acousticness": 0.868,
+      "instrumentalness": 4.18e-05,
+      "speechiness": 0.0426,
+      "tempo": 139.795,
+      "liveness": 0.087,
+      "loudness": -11.903,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-18T13:39:21Z",
+    "track_id": "48I5zrBAbKfGp7lqfBZ0Ll",
+    "name": "B61",
+    "artists": [
+      "Aoife O'Donovan"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.205,
+      "danceability": 0.471,
+      "valence": 0.158,
+      "acousticness": 0.823,
+      "instrumentalness": 0.00234,
+      "speechiness": 0.0402,
+      "tempo": 137.414,
+      "liveness": 0.12,
+      "loudness": -16.448,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-18T13:43:41Z",
+    "track_id": "6VWqR8xIVeWkHjSbaPJ3bP",
+    "name": "Find My Way to You",
+    "artists": [
+      "I'm With Her",
+      "Sarah Jarosz",
+      "Aoife O'Donovan",
+      "Sara Watkins"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "indie folk",
+      "folk",
+      "christian bluegrass"
+    ],
+    "audio_features": null
   }
 ]
