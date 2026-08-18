@@ -1,36 +1,24 @@
 {
-  "fetched_at": "2026-08-18T16:16:48Z",
-  "played_at": "2026-08-18T13:43:41.891Z",
+  "fetched_at": "2026-08-18T16:53:21Z",
+  "played_at": "2026-08-18T16:41:42.434Z",
   "track": {
-    "id": "6VWqR8xIVeWkHjSbaPJ3bP",
-    "name": "Find My Way to You",
+    "id": "5L1zthhBBRh3xqFEkGpIrB",
+    "name": "See You Around",
     "artists": [
       {
         "id": "3oXddLOOjkoUuC2sX1RMdr",
         "name": "I'm With Her"
-      },
-      {
-        "id": "6nFBonVf7Lqaj05R0v5VGJ",
-        "name": "Sarah Jarosz"
-      },
-      {
-        "id": "1f3ubTd6eyxuy30ddDJQQa",
-        "name": "Aoife O'Donovan"
-      },
-      {
-        "id": "1FDE7zZ6jmP8HHb9ej3mek",
-        "name": "Sara Watkins"
       }
     ],
     "album": {
-      "name": "Wild and Clear and Blue",
-      "release_date": "2025-05-09",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e1917e26e66f38eac61be589"
+      "name": "See You Around",
+      "release_date": "2018-02-16",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732c7d6117dd4290e64a3df76a"
     },
-    "duration_ms": 200352,
+    "duration_ms": 228626,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/6VWqR8xIVeWkHjSbaPJ3bP"
+      "spotify": "https://open.spotify.com/track/5L1zthhBBRh3xqFEkGpIrB"
     }
   }
 }

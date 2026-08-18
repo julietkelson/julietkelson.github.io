@@ -2404,5 +2404,32 @@
       "christian bluegrass"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-18T16:41:42Z",
+    "track_id": "5L1zthhBBRh3xqFEkGpIrB",
+    "name": "See You Around",
+    "artists": [
+      "I'm With Her"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "indie folk",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.0657,
+      "danceability": 0.495,
+      "valence": 0.18,
+      "acousticness": 0.948,
+      "instrumentalness": 8.36e-06,
+      "speechiness": 0.0372,
+      "tempo": 119.351,
+      "liveness": 0.168,
+      "loudness": -16.782,
+      "source": "reccobeats"
+    }
   }
 ]
