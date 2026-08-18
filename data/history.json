@@ -2537,5 +2537,59 @@
       "tempo": 95.134,
       "valence": 0.567
     }
+  },
+  {
+    "logged_at": "2026-08-18T23:27:57Z",
+    "track_id": "0mTJW2yluaM5hcXg86Wf5g",
+    "name": "Little Lies",
+    "artists": [
+      "I'm With Her"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "indie folk",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.299,
+      "danceability": 0.41,
+      "valence": 0.223,
+      "acousticness": 0.865,
+      "instrumentalness": 7.94e-06,
+      "speechiness": 0.0301,
+      "tempo": 123.625,
+      "liveness": 0.107,
+      "loudness": -7.561,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-18T23:28:00Z",
+    "track_id": "0mTJW2yluaM5hcXg86Wf5g",
+    "name": "Little Lies",
+    "artists": [
+      "I'm With Her"
+    ],
+    "genres": [
+      "newgrass",
+      "bluegrass",
+      "americana",
+      "indie folk",
+      "folk"
+    ],
+    "audio_features": {
+      "energy": 0.299,
+      "danceability": 0.41,
+      "valence": 0.223,
+      "acousticness": 0.865,
+      "instrumentalness": 7.94e-06,
+      "speechiness": 0.0301,
+      "tempo": 123.625,
+      "liveness": 0.107,
+      "loudness": -7.561,
+      "source": "reccobeats"
+    }
   }
 ]
