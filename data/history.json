@@ -2762,5 +2762,26 @@
       "loudness": -5.871,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-19T13:34:18Z",
+    "track_id": "1cON9arrpxPsC7URw7D4y8",
+    "name": "Liz",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.79,
+      "danceability": 0.572,
+      "valence": 0.575,
+      "acousticness": 0.139,
+      "instrumentalness": 0.0,
+      "speechiness": 0.132,
+      "tempo": 161.124,
+      "liveness": 0.324,
+      "loudness": -3.866,
+      "source": "reccobeats"
+    }
   }
 ]
