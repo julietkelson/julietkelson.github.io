@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-19T01:18:36Z",
-  "played_at": "2026-08-19T00:05:58.075Z",
+  "fetched_at": "2026-08-19T02:33:33Z",
+  "played_at": "2026-08-19T02:29:06.114Z",
   "track": {
-    "id": "3fnpMcMbhrep8wMIjKsNVS",
-    "name": "Like the Sea",
+    "id": "0w3A7y2EJ8awXWMUtftue5",
+    "name": "What It Is",
     "artists": [
       {
-        "id": "3DiDSECUqqY1AuBP8qtaIa",
-        "name": "Alicia Keys"
+        "id": "0tbeZu9lv8YEKSQ9tZSslu",
+        "name": "Amber Mark"
       }
     ],
     "album": {
-      "name": "The Element Of Freedom",
-      "release_date": "2009-12-15",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fe6a98e875958c7d7080584e"
+      "name": "Three Dimensions Deep",
+      "release_date": "2022-01-28",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e22dbd4ab26afe8fc3901d70"
     },
-    "duration_ms": 253133,
+    "duration_ms": 325105,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3fnpMcMbhrep8wMIjKsNVS"
+      "spotify": "https://open.spotify.com/track/0w3A7y2EJ8awXWMUtftue5"
     }
   }
 }

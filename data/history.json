@@ -2669,5 +2669,207 @@
       "loudness": -7.764,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-19T01:51:10Z",
+    "track_id": "5SFssNXGjeOxdAnECfgttm",
+    "name": "How Much Can A Heart Take (feat. Yebba)",
+    "artists": [
+      "Lucky Daye",
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.693,
+      "danceability": 0.661,
+      "valence": 0.613,
+      "acousticness": 0.324,
+      "instrumentalness": 0.0336,
+      "speechiness": 0.196,
+      "tempo": 82.058,
+      "liveness": 0.0959,
+      "loudness": -6.553,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T01:55:18Z",
+    "track_id": "46clCWv55EyW1ZlOl796It",
+    "name": "Cinderella",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.818,
+      "danceability": 0.724,
+      "valence": 0.608,
+      "acousticness": 0.0751,
+      "instrumentalness": 0.0,
+      "speechiness": 0.058,
+      "tempo": 103.001,
+      "liveness": 0.0981,
+      "loudness": -4.544,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T01:58:43Z",
+    "track_id": "1iIkP4FMKqOw5nqbrKUqEC",
+    "name": "Nasty",
+    "artists": [
+      "Tinashe"
+    ],
+    "genres": [
+      "alternative r&b"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-19T02:02:26Z",
+    "track_id": "3SXXFIZel1VQQ4ENiqozxi",
+    "name": "Still into You",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": {
+      "energy": 0.923,
+      "danceability": 0.602,
+      "valence": 0.765,
+      "acousticness": 0.0098,
+      "instrumentalness": 0.0,
+      "speechiness": 0.044,
+      "tempo": 136.01,
+      "liveness": 0.0561,
+      "loudness": -3.763,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T02:05:54Z",
+    "track_id": "1UXBbmjIrxjckrbv5EfSVT",
+    "name": "Tell Me Something I Don't Know - Soundtrack",
+    "artists": [
+      "Selena Gomez"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.936,
+      "danceability": 0.611,
+      "valence": 0.697,
+      "acousticness": 0.0309,
+      "instrumentalness": 0.0,
+      "speechiness": 0.11,
+      "tempo": 144.901,
+      "liveness": 0.12,
+      "loudness": -3.697,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T02:12:21Z",
+    "track_id": "116kG9vvdUtoprjYtToONt",
+    "name": "Beggin' On Your Knees (feat. Victoria Justice)",
+    "artists": [
+      "Victorious Cast",
+      "Victoria Justice"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.869,
+      "danceability": 0.623,
+      "valence": 0.663,
+      "acousticness": 0.00841,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0481,
+      "tempo": 130.013,
+      "liveness": 0.0771,
+      "loudness": -3.376,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T02:15:08Z",
+    "track_id": "0XkZmBCCcdMY0EPY8ij6Gb",
+    "name": "Slim Pickins",
+    "artists": [
+      "Sabrina Carpenter"
+    ],
+    "genres": [
+      "pop"
+    ],
+    "audio_features": {
+      "energy": 0.542,
+      "danceability": 0.619,
+      "valence": 0.308,
+      "acousticness": 0.288,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0529,
+      "tempo": 99.824,
+      "liveness": 0.151,
+      "loudness": -8.681,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T02:18:32Z",
+    "track_id": "1BsEKaermhlrzSQpouxlmM",
+    "name": "Leaning On You",
+    "artists": [
+      "HAIM"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-19T02:21:34Z",
+    "track_id": "5TAqSeSM6JI5AGAmMHoSAu",
+    "name": "namesake",
+    "artists": [
+      "Noname"
+    ],
+    "genres": [
+      "alternative r&b"
+    ],
+    "audio_features": {
+      "energy": 0.687,
+      "danceability": 0.791,
+      "valence": 0.495,
+      "acousticness": 0.352,
+      "instrumentalness": 0.0967,
+      "speechiness": 0.112,
+      "tempo": 119.98,
+      "liveness": 0.119,
+      "loudness": -9.386,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-19T02:29:06Z",
+    "track_id": "0w3A7y2EJ8awXWMUtftue5",
+    "name": "What It Is",
+    "artists": [
+      "Amber Mark"
+    ],
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "audio_features": {
+      "energy": 0.55,
+      "danceability": 0.7,
+      "valence": 0.854,
+      "acousticness": 0.16,
+      "instrumentalness": 0.000119,
+      "speechiness": 0.104,
+      "tempo": 72.997,
+      "liveness": 0.0644,
+      "loudness": -5.871,
+      "source": "reccobeats"
+    }
   }
 ]
