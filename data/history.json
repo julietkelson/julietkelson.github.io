@@ -2645,5 +2645,29 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-19T00:05:58Z",
+    "track_id": "3fnpMcMbhrep8wMIjKsNVS",
+    "name": "Like the Sea",
+    "artists": [
+      "Alicia Keys"
+    ],
+    "genres": [
+      "r&b",
+      "neo soul"
+    ],
+    "audio_features": {
+      "energy": 0.629,
+      "danceability": 0.743,
+      "valence": 0.615,
+      "acousticness": 0.297,
+      "instrumentalness": 0.000182,
+      "speechiness": 0.261,
+      "tempo": 132.036,
+      "liveness": 0.153,
+      "loudness": -7.764,
+      "source": "reccobeats"
+    }
   }
 ]

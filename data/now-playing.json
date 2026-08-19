@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-18T23:55:02Z",
-  "played_at": "2026-08-18T23:42:50.195Z",
+  "fetched_at": "2026-08-19T01:18:36Z",
+  "played_at": "2026-08-19T00:05:58.075Z",
   "track": {
-    "id": "5zFaNeTwCtsBbMc72FtXVo",
-    "name": "Stay High",
+    "id": "3fnpMcMbhrep8wMIjKsNVS",
+    "name": "Like the Sea",
     "artists": [
       {
-        "id": "4XquDVA8pkg5Lx91No1JxB",
-        "name": "Brittany Howard"
+        "id": "3DiDSECUqqY1AuBP8qtaIa",
+        "name": "Alicia Keys"
       }
     ],
     "album": {
-      "name": "Jaime",
-      "release_date": "2019-09-20",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737311369db743b12bedee32a1"
+      "name": "The Element Of Freedom",
+      "release_date": "2009-12-15",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fe6a98e875958c7d7080584e"
     },
-    "duration_ms": 191395,
+    "duration_ms": 253133,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5zFaNeTwCtsBbMc72FtXVo"
+      "spotify": "https://open.spotify.com/track/3fnpMcMbhrep8wMIjKsNVS"
     }
   }
 }
