@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-20T17:49:08Z",
-  "played_at": "2026-08-20T17:45:53.348Z",
+  "fetched_at": "2026-08-20T18:17:14Z",
+  "played_at": "2026-08-20T17:51:05.421Z",
   "track": {
-    "id": "27sBcXtgTBSJRdUxei1a7J",
-    "name": "Sexy Villain",
+    "id": "43thKZxOf40xZaJlzaZX9T",
+    "name": "Dance With a Stranger",
     "artists": [
       {
-        "id": "0NB5HROxc8dDBXpkIi1v3d",
-        "name": "Remi Wolf"
+        "id": "3nuc29fYGlQbIrwh4yrNWd",
+        "name": "Lake Street Dive"
       }
     ],
     "album": {
-      "name": "Juno",
-      "release_date": "2021-10-15",
-      "image": "https://i.scdn.co/image/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2"
+      "name": "Good Together",
+      "release_date": "2024-06-21",
+      "image": "https://i.scdn.co/image/ab67616d0000b273400e333ef34eb536d5063a1e"
     },
-    "duration_ms": 188500,
-    "explicit": true,
+    "duration_ms": 215031,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/27sBcXtgTBSJRdUxei1a7J"
+      "spotify": "https://open.spotify.com/track/43thKZxOf40xZaJlzaZX9T"
     }
   }
 }

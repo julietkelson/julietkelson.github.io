@@ -2854,5 +2854,26 @@
       "loudness": -4.927,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-20T17:51:05Z",
+    "track_id": "43thKZxOf40xZaJlzaZX9T",
+    "name": "Dance With a Stranger",
+    "artists": [
+      "Lake Street Dive"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.723,
+      "danceability": 0.798,
+      "valence": 0.624,
+      "acousticness": 0.0759,
+      "instrumentalness": 0.00013,
+      "speechiness": 0.0743,
+      "tempo": 101.952,
+      "liveness": 0.057,
+      "loudness": -4.699,
+      "source": "reccobeats"
+    }
   }
 ]
