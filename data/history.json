@@ -2797,5 +2797,62 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-20T17:22:10Z",
+    "track_id": "0IVkP59yJ9GFF6B7IrvrxA",
+    "name": "Paper Bag",
+    "artists": [
+      "Fiona Apple"
+    ],
+    "genres": [
+      "art pop"
+    ],
+    "audio_features": {
+      "energy": 0.446,
+      "danceability": 0.709,
+      "valence": 0.843,
+      "acousticness": 0.716,
+      "instrumentalness": 2.39e-05,
+      "speechiness": 0.037,
+      "tempo": 140.993,
+      "liveness": 0.11,
+      "loudness": -9.904,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-20T17:25:59Z",
+    "track_id": "2BWiRQTaGAYL7N0wv4ce2h",
+    "name": "Don't Call Again",
+    "artists": [
+      "Tkay Maidza",
+      "Kari Faux"
+    ],
+    "genres": [
+      "alternative r&b"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-20T17:45:53Z",
+    "track_id": "27sBcXtgTBSJRdUxei1a7J",
+    "name": "Sexy Villain",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.539,
+      "danceability": 0.766,
+      "valence": 0.888,
+      "acousticness": 0.402,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0479,
+      "tempo": 120.175,
+      "liveness": 0.104,
+      "loudness": -4.927,
+      "source": "reccobeats"
+    }
   }
 ]
