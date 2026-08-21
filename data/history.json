@@ -1,29 +1,5 @@
 [
   {
-    "logged_at": "2026-07-22T03:59:19Z",
-    "track_id": "6GG73Jik4jUlQCkKg9JuGO",
-    "name": "The Middle",
-    "artists": [
-      "Jimmy Eat World"
-    ],
-    "genres": [
-      "emo",
-      "pop punk"
-    ],
-    "audio_features": {
-      "energy": 0.849,
-      "danceability": 0.643,
-      "valence": 0.903,
-      "acousticness": 0.0371,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0526,
-      "tempo": 162.152,
-      "liveness": 0.058,
-      "loudness": -5.428,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-22T16:57:05Z",
     "track_id": "6tp670G39fAwx8Hjrb4HqV",
     "name": "i hate this tune",
