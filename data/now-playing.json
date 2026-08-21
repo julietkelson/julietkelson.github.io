@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-08-21T05:17:04Z",
-  "played_at": "2026-08-20T17:51:05.421Z",
+  "fetched_at": "2026-08-21T05:52:36Z",
+  "played_at": "2026-08-21T05:27:47.212Z",
   "track": {
-    "id": "43thKZxOf40xZaJlzaZX9T",
-    "name": "Dance With a Stranger",
+    "id": "2drDZnirL0TSVp8pOA756W",
+    "name": "Softly",
     "artists": [
       {
-        "id": "3nuc29fYGlQbIrwh4yrNWd",
-        "name": "Lake Street Dive"
+        "id": "0tbeZu9lv8YEKSQ9tZSslu",
+        "name": "Amber Mark"
       }
     ],
     "album": {
-      "name": "Good Together",
-      "release_date": "2024-06-21",
-      "image": "https://i.scdn.co/image/ab67616d0000b273400e333ef34eb536d5063a1e"
+      "name": "Three Dimensions Deep",
+      "release_date": "2022-01-28",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e22dbd4ab26afe8fc3901d70"
     },
-    "duration_ms": 215031,
+    "duration_ms": 173968,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/43thKZxOf40xZaJlzaZX9T"
+      "spotify": "https://open.spotify.com/track/2drDZnirL0TSVp8pOA756W"
     }
   }
 }

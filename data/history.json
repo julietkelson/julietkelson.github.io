@@ -2463,5 +2463,29 @@
       "loudness": -4.699,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-21T05:27:47Z",
+    "track_id": "2drDZnirL0TSVp8pOA756W",
+    "name": "Softly",
+    "artists": [
+      "Amber Mark"
+    ],
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "audio_features": {
+      "energy": 0.61,
+      "danceability": 0.662,
+      "valence": 0.536,
+      "acousticness": 0.321,
+      "instrumentalness": 1.71e-06,
+      "speechiness": 0.0521,
+      "tempo": 89.997,
+      "liveness": 0.169,
+      "loudness": -8.225,
+      "source": "reccobeats"
+    }
   }
 ]
