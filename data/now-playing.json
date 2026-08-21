@@ -1,24 +1,28 @@
 {
-  "fetched_at": "2026-08-21T20:35:36Z",
-  "played_at": "2026-08-21T05:27:47.212Z",
+  "fetched_at": "2026-08-21T20:58:14Z",
+  "played_at": "2026-08-21T20:53:48.281Z",
   "track": {
-    "id": "2drDZnirL0TSVp8pOA756W",
-    "name": "Softly",
+    "id": "0WqFBfRAMFqOu5bLKojjIL",
+    "name": "Arrow Through Me",
     "artists": [
       {
-        "id": "0tbeZu9lv8YEKSQ9tZSslu",
-        "name": "Amber Mark"
+        "id": "1e16kiJQtCTveTl7TQnkFN",
+        "name": "Scary Pockets"
+      },
+      {
+        "id": "3h9TfIgwhovQELlP2jj4xL",
+        "name": "Madison Cunningham"
       }
     ],
     "album": {
-      "name": "Three Dimensions Deep",
-      "release_date": "2022-01-28",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e22dbd4ab26afe8fc3901d70"
+      "name": "LIFE",
+      "release_date": "2021-05-13",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738217157c13848ff324a4e4e2"
     },
-    "duration_ms": 173968,
+    "duration_ms": 166135,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2drDZnirL0TSVp8pOA756W"
+      "spotify": "https://open.spotify.com/track/0WqFBfRAMFqOu5bLKojjIL"
     }
   }
 }
