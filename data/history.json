@@ -1,38 +1,5 @@
 [
   {
-    "logged_at": "2026-07-22T16:57:05Z",
-    "track_id": "6tp670G39fAwx8Hjrb4HqV",
-    "name": "i hate this tune",
-    "artists": [
-      "Royel Otis"
-    ],
-    "genres": [
-      "indie"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-22T17:02:55Z",
-    "track_id": "4kPfzkWY23WgM902kNAQLn",
-    "name": "Charlie's Garden",
-    "artists": [
-      "Djo"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.473,
-      "danceability": 0.775,
-      "valence": 0.686,
-      "acousticness": 0.29,
-      "instrumentalness": 0.00122,
-      "speechiness": 0.0272,
-      "tempo": 91.967,
-      "liveness": 0.0805,
-      "loudness": -7.222,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-22T17:07:07Z",
     "track_id": "2TugrDKkd55mfVOMVZsfO8",
     "name": "who\u2019s your boyfriend",
