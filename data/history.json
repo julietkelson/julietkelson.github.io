@@ -1,46 +1,5 @@
 [
   {
-    "logged_at": "2026-07-23T19:38:28Z",
-    "track_id": "6Hdc3IQeyCxG5d14uAcwQW",
-    "name": "u + me = <3",
-    "artists": [
-      "Olivia Rodrigo"
-    ],
-    "genres": [],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-23T19:43:44Z",
-    "track_id": "5p9XWUdvbUzmPCukOmwoU3",
-    "name": "Suddenly I See",
-    "artists": [
-      "KT Tunstall"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.767,
-      "danceability": 0.587,
-      "valence": 0.664,
-      "acousticness": 0.225,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0449,
-      "tempo": 100.38,
-      "liveness": 0.112,
-      "loudness": -5.713,
-      "source": "reccobeats"
-    }
-  },
-  {
-    "logged_at": "2026-07-23T19:49:16Z",
-    "track_id": "6jfiwkcwt8iYCdkbLukxeI",
-    "name": "maggots for brains",
-    "artists": [
-      "Olivia Rodrigo"
-    ],
-    "genres": [],
-    "audio_features": null
-  },
-  {
     "logged_at": "2026-07-24T16:13:53Z",
     "track_id": "36UVZPoK8a1Oxh13cY8kOp",
     "name": "I Don't Wanna Be In Love (Dance Floor Anthem)",
