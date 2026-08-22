@@ -1,26 +1,5 @@
 [
   {
-    "logged_at": "2026-07-23T17:54:37Z",
-    "track_id": "2z4U9d5OAA4YLNXoCgioxo",
-    "name": "What the Hell",
-    "artists": [
-      "Avril Lavigne"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.926,
-      "danceability": 0.578,
-      "valence": 0.877,
-      "acousticness": 0.00472,
-      "instrumentalness": 0.0127,
-      "speechiness": 0.0548,
-      "tempo": 149.976,
-      "liveness": 0.14,
-      "loudness": -3.689,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-23T19:32:03Z",
     "track_id": "6twjuBZfRJIZnoHrghzWLk",
     "name": "Blame Brett",
