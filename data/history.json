@@ -1,47 +1,5 @@
 [
   {
-    "logged_at": "2026-07-23T19:32:03Z",
-    "track_id": "6twjuBZfRJIZnoHrghzWLk",
-    "name": "Blame Brett",
-    "artists": [
-      "The Beaches"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.867,
-      "danceability": 0.472,
-      "valence": 0.792,
-      "acousticness": 0.0063,
-      "instrumentalness": 4.56e-06,
-      "speechiness": 0.0409,
-      "tempo": 155.996,
-      "liveness": 0.326,
-      "loudness": -3.159,
-      "source": "reccobeats"
-    }
-  },
-  {
-    "logged_at": "2026-07-23T19:32:15Z",
-    "track_id": "6twjuBZfRJIZnoHrghzWLk",
-    "name": "Blame Brett",
-    "artists": [
-      "The Beaches"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.867,
-      "danceability": 0.472,
-      "valence": 0.792,
-      "acousticness": 0.0063,
-      "instrumentalness": 4.56e-06,
-      "speechiness": 0.0409,
-      "tempo": 155.996,
-      "liveness": 0.326,
-      "loudness": -3.159,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-23T19:38:28Z",
     "track_id": "6Hdc3IQeyCxG5d14uAcwQW",
     "name": "u + me = <3",
