@@ -2413,5 +2413,77 @@
       "loudness": -6.435,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-21T21:02:17Z",
+    "track_id": "038YO2kxZ6AC4k1MTnIDgP",
+    "name": "Hazel Eyed Lover in Patagonia",
+    "artists": [
+      "Abigayle Oakley",
+      "jed and the valentine"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-22T02:04:06Z",
+    "track_id": "5aBDTmIB5GXJgvvgu4Nh5k",
+    "name": "This Side of the Sun",
+    "artists": [
+      "Abigayle Oakley"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-22T02:07:25Z",
+    "track_id": "31km1IiR8cQdvE3Puo2sEt",
+    "name": "Billboard America",
+    "artists": [
+      "Abigayle Oakley"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-22T02:10:40Z",
+    "track_id": "1UwVaOZkeGyg8nhq9SmH1D",
+    "name": "If You Ever Stop Loving Me",
+    "artists": [
+      "Abigayle Oakley"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-22T02:14:03Z",
+    "track_id": "038YO2kxZ6AC4k1MTnIDgP",
+    "name": "Hazel Eyed Lover in Patagonia",
+    "artists": [
+      "Abigayle Oakley",
+      "jed and the valentine"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-22T02:17:13Z",
+    "track_id": "3rXPEOPgTSYC7i28enRpJC",
+    "name": "Press 3",
+    "artists": [
+      "Abigayle Oakley"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-22T02:21:59Z",
+    "track_id": "6wYWROzWXN6EpYwBuPMk7K",
+    "name": "Journey to the Sun - From the Film \"Journey to the Sun\"",
+    "artists": [
+      "Abigayle Oakley"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]

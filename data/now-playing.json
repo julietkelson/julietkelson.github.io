@@ -1,28 +1,24 @@
 {
-  "fetched_at": "2026-08-22T01:46:51Z",
-  "played_at": "2026-08-21T20:53:48.281Z",
+  "fetched_at": "2026-08-22T02:42:29Z",
+  "played_at": "2026-08-22T02:21:59.979Z",
   "track": {
-    "id": "0WqFBfRAMFqOu5bLKojjIL",
-    "name": "Arrow Through Me",
+    "id": "6wYWROzWXN6EpYwBuPMk7K",
+    "name": "Journey to the Sun - From the Film \"Journey to the Sun\"",
     "artists": [
       {
-        "id": "1e16kiJQtCTveTl7TQnkFN",
-        "name": "Scary Pockets"
-      },
-      {
-        "id": "3h9TfIgwhovQELlP2jj4xL",
-        "name": "Madison Cunningham"
+        "id": "0hEcdz5VtLuc8c1zOI89kW",
+        "name": "Abigayle Oakley"
       }
     ],
     "album": {
-      "name": "LIFE",
-      "release_date": "2021-05-13",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738217157c13848ff324a4e4e2"
+      "name": "This Side of the Sun (Deluxe)",
+      "release_date": "2026-07-10",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b6e131b6ec0c800172f3d9ea"
     },
-    "duration_ms": 166135,
+    "duration_ms": 286226,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/0WqFBfRAMFqOu5bLKojjIL"
+      "spotify": "https://open.spotify.com/track/6wYWROzWXN6EpYwBuPMk7K"
     }
   }
 }
