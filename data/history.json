@@ -1,30 +1,5 @@
 [
   {
-    "logged_at": "2026-07-24T16:13:53Z",
-    "track_id": "36UVZPoK8a1Oxh13cY8kOp",
-    "name": "I Don't Wanna Be In Love (Dance Floor Anthem)",
-    "artists": [
-      "Good Charlotte"
-    ],
-    "genres": [
-      "pop punk",
-      "punk",
-      "emo"
-    ],
-    "audio_features": {
-      "energy": 0.884,
-      "danceability": 0.64,
-      "valence": 0.573,
-      "acousticness": 0.0226,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0428,
-      "tempo": 124.968,
-      "liveness": 0.187,
-      "loudness": -2.609,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-27T18:19:08Z",
     "track_id": "3hc7PLcmuZbJGPjhIore1i",
     "name": "Too Little Too Late - 2018",
