@@ -2406,5 +2406,38 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-25T23:34:05Z",
+    "track_id": "27876bQcDNkZhWqvF0zfFN",
+    "name": "Wildflowers - 2015 Remaster",
+    "artists": [
+      "Dolly Parton",
+      "Linda Ronstadt",
+      "Emmylou Harris"
+    ],
+    "genres": [
+      "country",
+      "classic country",
+      "country rock",
+      "mariachi",
+      "americana",
+      "folk",
+      "alt country",
+      "bluegrass",
+      "singer-songwriter"
+    ],
+    "audio_features": {
+      "energy": 0.368,
+      "danceability": 0.609,
+      "valence": 0.618,
+      "acousticness": 0.762,
+      "instrumentalness": 6.28e-06,
+      "speechiness": 0.0294,
+      "tempo": 90.373,
+      "liveness": 0.335,
+      "loudness": -13.338,
+      "source": "reccobeats"
+    }
   }
 ]

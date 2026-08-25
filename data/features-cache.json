@@ -670,6 +670,21 @@
       "valence": 0.581
     }
   },
+  "27876bQcDNkZhWqvF0zfFN": {
+    "cached_at": "2026-08-25T23:56:13Z",
+    "features": {
+      "acousticness": 0.762,
+      "danceability": 0.609,
+      "energy": 0.368,
+      "instrumentalness": 6.28e-06,
+      "liveness": 0.335,
+      "loudness": -13.338,
+      "source": "reccobeats",
+      "speechiness": 0.0294,
+      "tempo": 90.373,
+      "valence": 0.618
+    }
+  },
   "27sBcXtgTBSJRdUxei1a7J": {
     "cached_at": "2026-08-20T17:49:08Z",
     "features": {
