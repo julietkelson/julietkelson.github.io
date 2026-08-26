@@ -1,26 +1,5 @@
 [
   {
-    "logged_at": "2026-07-27T18:19:08Z",
-    "track_id": "3hc7PLcmuZbJGPjhIore1i",
-    "name": "Too Little Too Late - 2018",
-    "artists": [
-      "JoJo"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.821,
-      "danceability": 0.394,
-      "valence": 0.509,
-      "acousticness": 0.00302,
-      "instrumentalness": 0.019,
-      "speechiness": 0.0404,
-      "tempo": 82.764,
-      "liveness": 0.186,
-      "loudness": -4.304,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-27T18:22:32Z",
     "track_id": "00Mb3DuaIH1kjrwOku9CGU",
     "name": "Sk8er Boi",
