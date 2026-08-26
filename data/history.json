@@ -1,130 +1,5 @@
 [
   {
-    "logged_at": "2026-07-27T20:35:45Z",
-    "track_id": "5VWmMZCfJ4yVkJw9ZLFXej",
-    "name": "1, 2, 3, 4",
-    "artists": [
-      "Plain White T's"
-    ],
-    "genres": [],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T20:46:10Z",
-    "track_id": "1uvyZBs4IZYRebHIB1747m",
-    "name": "Purple Rain",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T20:51:53Z",
-    "track_id": "6sby78fghipoXHQLeeZFFH",
-    "name": "When Doves Cry",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T20:52:08Z",
-    "track_id": "6sby78fghipoXHQLeeZFFH",
-    "name": "When Doves Cry",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T20:55:55Z",
-    "track_id": "62LJFaYihsdVrrkgUOJC05",
-    "name": "Kiss",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T20:59:31Z",
-    "track_id": "2I1W3hcSsPIsEJfD69pHrW",
-    "name": "Raspberry Beret",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T21:04:10Z",
-    "track_id": "6FMIVQPZg9cmMY8hPxAacD",
-    "name": "Let's Go Crazy",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T21:10:11Z",
-    "track_id": "2XLAzm8bMDSI7MhbRW8nVj",
-    "name": "I Wanna Be Your Lover",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": null
-  },
-  {
-    "logged_at": "2026-07-27T21:30:27Z",
-    "track_id": "0aPaGIX2QIMAH5SMp0VEMe",
-    "name": "The Most Beautiful Girl In the World",
-    "artists": [
-      "Prince"
-    ],
-    "genres": [
-      "funk rock",
-      "funk"
-    ],
-    "audio_features": {
-      "energy": 0.693,
-      "danceability": 0.489,
-      "valence": 0.453,
-      "acousticness": 0.0182,
-      "instrumentalness": 5.63e-06,
-      "speechiness": 0.0427,
-      "tempo": 185.758,
-      "liveness": 0.304,
-      "loudness": -4.952,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-07-28T13:54:44Z",
     "track_id": "7zp9Uj66my5wUpdH1FTfy9",
     "name": "Margaret vs. Pauline",
@@ -2622,6 +2497,177 @@
       "tempo": 97.737,
       "liveness": 0.147,
       "loudness": -9.365,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T22:17:19Z",
+    "track_id": "2GmZfhcsYz3BselkzN2nAX",
+    "name": "BB Good",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:20:23Z",
+    "track_id": "6TQFXftq84XzUjLLSP7c8Z",
+    "name": "Pushin' Me Away",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:23:48Z",
+    "track_id": "4VCWhlKdW55IFDNLe3dx61",
+    "name": "A Little Bit Longer",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:27:01Z",
+    "track_id": "3r1vQUKVy5VdFErn4UoKHN",
+    "name": "Sorry",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:29:37Z",
+    "track_id": "6ShgZb9gDc1Kkdm63jPxpW",
+    "name": "Got Me Going Crazy",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:40:23Z",
+    "track_id": "5UA49g3Va5ERaf2DHAY9Zu",
+    "name": "Tonight",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:44:51Z",
+    "track_id": "3wTvJmDF0tC6lHj1TdPFWu",
+    "name": "Can't Have You",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:48:40Z",
+    "track_id": "6JClrE2ZWWIysR4052PGO1",
+    "name": "Shelf",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:51:49Z",
+    "track_id": "7ekF53mU50nwQBuQfKC6d8",
+    "name": "One Man Show",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T22:58:37Z",
+    "track_id": "5ILmJ41lSsul2zSmJnqvAy",
+    "name": "Lovebug",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T23:01:41Z",
+    "track_id": "69BLkDWJcRYqzje2qdr6PC",
+    "name": "That's Just The Way We Roll",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T23:08:53Z",
+    "track_id": "0LAe8mOyLxUAN5pgqovhpN",
+    "name": "Hold On",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T23:12:18Z",
+    "track_id": "4VCWhlKdW55IFDNLe3dx61",
+    "name": "A Little Bit Longer",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T23:15:15Z",
+    "track_id": "2GmZfhcsYz3BselkzN2nAX",
+    "name": "BB Good",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T23:17:49Z",
+    "track_id": "1Ont4S42bnnJsQ56oIkahk",
+    "name": "S.O.S.",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-26T23:21:07Z",
+    "track_id": "5MTQbjkMmE6WsDQ8JlyEVo",
+    "name": "Play My Music",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.875,
+      "danceability": 0.471,
+      "valence": 0.759,
+      "acousticness": 0.000652,
+      "instrumentalness": 0.0,
+      "speechiness": 0.087,
+      "tempo": 177.98,
+      "liveness": 0.239,
+      "loudness": -3.499,
       "source": "reccobeats"
     }
   }
