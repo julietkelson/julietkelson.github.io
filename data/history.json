@@ -2649,5 +2649,29 @@
       "loudness": -10.942,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-26T02:51:05Z",
+    "track_id": "0EWJ1KT2q3RdbdQIUYqZsp",
+    "name": "Two Doors Down",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.698,
+      "danceability": 0.694,
+      "valence": 0.867,
+      "acousticness": 0.645,
+      "instrumentalness": 0.0243,
+      "speechiness": 0.086,
+      "tempo": 98.338,
+      "liveness": 0.0484,
+      "loudness": -9.418,
+      "source": "reccobeats"
+    }
   }
 ]

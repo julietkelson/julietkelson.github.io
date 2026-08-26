@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-26T01:40:26Z",
-  "played_at": "2026-08-26T01:11:23.816Z",
+  "fetched_at": "2026-08-26T02:52:04Z",
+  "played_at": "2026-08-26T02:51:05.742Z",
   "track": {
-    "id": "2GEuNbl2Aan68tQeHn4ADi",
-    "name": "The Bargain Store",
+    "id": "0EWJ1KT2q3RdbdQIUYqZsp",
+    "name": "Two Doors Down",
     "artists": [
       {
         "id": "32vWCbZh0xZ4o9gkz4PsEU",
@@ -11,14 +11,14 @@
       }
     ],
     "album": {
-      "name": "The Bargain Store",
-      "release_date": "1975-02-17",
-      "image": "https://i.scdn.co/image/ab67616d0000b27375d5abdad824712d3aca12d2"
+      "name": "Here You Come Again",
+      "release_date": "1977-10-03",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d7858b14895fb15088dfd5e1"
     },
-    "duration_ms": 164505,
+    "duration_ms": 188871,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2GEuNbl2Aan68tQeHn4ADi"
+      "spotify": "https://open.spotify.com/track/0EWJ1KT2q3RdbdQIUYqZsp"
     }
   }
 }
