@@ -2673,5 +2673,53 @@
       "loudness": -9.418,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-26T02:53:57Z",
+    "track_id": "6GZ6O0bHsDndSAmqnxXMjn",
+    "name": "In the Ghetto",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.316,
+      "danceability": 0.363,
+      "valence": 0.291,
+      "acousticness": 0.594,
+      "instrumentalness": 0.00018,
+      "speechiness": 0.0669,
+      "tempo": 171.796,
+      "liveness": 0.135,
+      "loudness": -13.006,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T02:56:02Z",
+    "track_id": "48FoX5yyWA9SU1bZAWEtcm",
+    "name": "When Someone Wants to Leave",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.361,
+      "danceability": 0.669,
+      "valence": 0.697,
+      "acousticness": 0.795,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0386,
+      "tempo": 97.737,
+      "liveness": 0.147,
+      "loudness": -9.365,
+      "source": "reccobeats"
+    }
   }
 ]
