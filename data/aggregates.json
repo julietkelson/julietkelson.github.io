@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-08-25T23:56:13Z",
+  "generated_at": "2026-08-26T01:40:26Z",
   "window": {
-    "plays_used": 124,
-    "plays_with_features": 75
+    "plays_used": 132,
+    "plays_with_features": 83
   },
   "totals": {
-    "plays": 124,
+    "plays": 132,
     "unique_artists": 62
   },
   "audio_features_mean": {
-    "energy": 0.5899,
-    "danceability": 0.5567,
-    "valence": 0.5396,
-    "acousticness": 0.3695,
-    "instrumentalness": 0.0347,
-    "speechiness": 0.058
+    "energy": 0.5689,
+    "danceability": 0.5638,
+    "valence": 0.5473,
+    "acousticness": 0.4083,
+    "instrumentalness": 0.0315,
+    "speechiness": 0.0562
   },
-  "tempo_mean_bpm": 116.51,
+  "tempo_mean_bpm": 115.33,
   "top_genres": [
     {
       "name": "americana",
-      "count": 49
+      "count": 51
     },
     {
       "name": "alt country",
-      "count": 40
+      "count": 42
     },
     {
       "name": "folk",
-      "count": 26
+      "count": 28
     },
     {
       "name": "bluegrass",
-      "count": 25
+      "count": 27
     },
     {
       "name": "southern gothic",
@@ -120,9 +120,15 @@
     },
     {
       "date": "2026-08-25",
-      "energy": 0.368,
-      "valence": 0.618,
-      "plays": 1
+      "energy": 0.2525,
+      "valence": 0.3586,
+      "plays": 2
+    },
+    {
+      "date": "2026-08-26",
+      "energy": 0.405,
+      "valence": 0.6937,
+      "plays": 7
     }
   ]
 }

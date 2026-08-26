@@ -1,32 +1,24 @@
 {
-  "fetched_at": "2026-08-25T23:56:13Z",
-  "played_at": "2026-08-25T23:34:05.357Z",
+  "fetched_at": "2026-08-26T01:40:26Z",
+  "played_at": "2026-08-26T01:11:23.816Z",
   "track": {
-    "id": "27876bQcDNkZhWqvF0zfFN",
-    "name": "Wildflowers - 2015 Remaster",
+    "id": "2GEuNbl2Aan68tQeHn4ADi",
+    "name": "The Bargain Store",
     "artists": [
       {
         "id": "32vWCbZh0xZ4o9gkz4PsEU",
         "name": "Dolly Parton"
-      },
-      {
-        "id": "1sXbwvCQLGZnaH0Jp2HTVc",
-        "name": "Linda Ronstadt"
-      },
-      {
-        "id": "5s6TJEuHTr9GR894wc6VfP",
-        "name": "Emmylou Harris"
       }
     ],
     "album": {
-      "name": "Trio (2016 Remaster)",
-      "release_date": "1987-03-03",
-      "image": "https://i.scdn.co/image/ab67616d0000b273cb1f86c385af02a0005f3aae"
+      "name": "The Bargain Store",
+      "release_date": "1975-02-17",
+      "image": "https://i.scdn.co/image/ab67616d0000b27375d5abdad824712d3aca12d2"
     },
-    "duration_ms": 216573,
+    "duration_ms": 164505,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/27876bQcDNkZhWqvF0zfFN"
+      "spotify": "https://open.spotify.com/track/2GEuNbl2Aan68tQeHn4ADi"
     }
   }
 }

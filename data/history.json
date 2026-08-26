@@ -2439,5 +2439,215 @@
       "loudness": -13.338,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-25T23:34:19Z",
+    "track_id": "3xkYT152CbjaDGvLwWxiNn",
+    "name": "Telling Me Lies (with Dolly Parton & Emmy Lou Harris) - 2015 Remaster",
+    "artists": [
+      "Dolly Parton",
+      "Linda Ronstadt",
+      "Emmylou Harris"
+    ],
+    "genres": [
+      "country",
+      "classic country",
+      "country rock",
+      "mariachi",
+      "americana",
+      "folk",
+      "alt country",
+      "bluegrass",
+      "singer-songwriter"
+    ],
+    "audio_features": {
+      "energy": 0.137,
+      "danceability": 0.513,
+      "valence": 0.0992,
+      "acousticness": 0.658,
+      "instrumentalness": 5.46e-05,
+      "speechiness": 0.0291,
+      "tempo": 97.024,
+      "liveness": 0.112,
+      "loudness": -17.176,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T00:49:41Z",
+    "track_id": "1l2Xmg54EUr3TDzNIaCr1z",
+    "name": "Coat of Many Colors",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.257,
+      "danceability": 0.624,
+      "valence": 0.681,
+      "acousticness": 0.93,
+      "instrumentalness": 7.56e-05,
+      "speechiness": 0.0444,
+      "tempo": 85.617,
+      "liveness": 0.138,
+      "loudness": -13.341,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T00:53:57Z",
+    "track_id": "6H7nDglS6xWpRidbhMwI2L",
+    "name": "Here You Come Again",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.511,
+      "danceability": 0.585,
+      "valence": 0.552,
+      "acousticness": 0.647,
+      "instrumentalness": 0.007,
+      "speechiness": 0.0391,
+      "tempo": 105.898,
+      "liveness": 0.0392,
+      "loudness": -9.37,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T00:58:02Z",
+    "track_id": "6A8spBZpLjC8LBPRf2TgJD",
+    "name": "Do I Ever Cross Your Mind?",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.458,
+      "danceability": 0.696,
+      "valence": 0.714,
+      "acousticness": 0.667,
+      "instrumentalness": 0.000269,
+      "speechiness": 0.0526,
+      "tempo": 93.611,
+      "liveness": 0.0831,
+      "loudness": -12.726,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T01:01:39Z",
+    "track_id": "27876bQcDNkZhWqvF0zfFN",
+    "name": "Wildflowers - 2015 Remaster",
+    "artists": [
+      "Dolly Parton",
+      "Linda Ronstadt",
+      "Emmylou Harris"
+    ],
+    "genres": [
+      "country",
+      "classic country",
+      "country rock",
+      "mariachi",
+      "americana",
+      "folk",
+      "alt country",
+      "bluegrass",
+      "singer-songwriter"
+    ],
+    "audio_features": {
+      "acousticness": 0.762,
+      "danceability": 0.609,
+      "energy": 0.368,
+      "instrumentalness": 6.28e-06,
+      "liveness": 0.335,
+      "loudness": -13.338,
+      "source": "reccobeats",
+      "speechiness": 0.0294,
+      "tempo": 90.373,
+      "valence": 0.618
+    }
+  },
+  {
+    "logged_at": "2026-08-26T01:04:05Z",
+    "track_id": "7d4hiv8TcJ2vx9BjSxqvj8",
+    "name": "Love Is Like a Butterfly",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.119,
+      "danceability": 0.684,
+      "valence": 0.683,
+      "acousticness": 0.913,
+      "instrumentalness": 6.59e-05,
+      "speechiness": 0.0426,
+      "tempo": 89.805,
+      "liveness": 0.112,
+      "loudness": -14.731,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T01:06:38Z",
+    "track_id": "5oheUEVCpJllnImTs5nNiS",
+    "name": "Why'd You Come in Here Lookin' Like That",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.759,
+      "danceability": 0.615,
+      "valence": 0.96,
+      "acousticness": 0.693,
+      "instrumentalness": 0.0,
+      "speechiness": 0.045,
+      "tempo": 175.249,
+      "liveness": 0.0848,
+      "loudness": -7.722,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-08-26T01:11:23Z",
+    "track_id": "2GEuNbl2Aan68tQeHn4ADi",
+    "name": "The Bargain Store",
+    "artists": [
+      "Dolly Parton"
+    ],
+    "genres": [
+      "country",
+      "classic country"
+    ],
+    "audio_features": {
+      "energy": 0.363,
+      "danceability": 0.716,
+      "valence": 0.648,
+      "acousticness": 0.906,
+      "instrumentalness": 1.41e-05,
+      "speechiness": 0.0327,
+      "tempo": 96.639,
+      "liveness": 0.135,
+      "loudness": -10.942,
+      "source": "reccobeats"
+    }
   }
 ]
