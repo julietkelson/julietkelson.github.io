@@ -2670,5 +2670,15 @@
       "loudness": -3.499,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-08-27T02:50:54Z",
+    "track_id": "3wTvJmDF0tC6lHj1TdPFWu",
+    "name": "Can't Have You",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]
