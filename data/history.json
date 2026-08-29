@@ -2404,5 +2404,15 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-08-29T22:08:14Z",
+    "track_id": "5ILmJ41lSsul2zSmJnqvAy",
+    "name": "Lovebug",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]
