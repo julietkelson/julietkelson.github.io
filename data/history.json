@@ -1,29 +1,5 @@
 [
   {
-    "logged_at": "2026-07-30T13:05:59Z",
-    "track_id": "5oQcOu1omDykbIPSdSQQNJ",
-    "name": "1985",
-    "artists": [
-      "Bowling For Soup"
-    ],
-    "genres": [
-      "pop punk",
-      "punk"
-    ],
-    "audio_features": {
-      "energy": 0.887,
-      "danceability": 0.606,
-      "valence": 0.903,
-      "acousticness": 0.000242,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0598,
-      "tempo": 119.974,
-      "liveness": 0.337,
-      "loudness": -4.404,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-08-02T17:07:49Z",
     "track_id": "7ewT0nLFkMD8ONbRibePr9",
     "name": "I Don't Care - Single Version",
