@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-03T00:37:08Z",
+  "generated_at": "2026-09-03T05:03:21Z",
   "window": {
-    "plays_used": 115,
+    "plays_used": 103,
     "plays_with_features": 60
   },
   "totals": {
-    "plays": 115,
+    "plays": 103,
     "unique_artists": 43
   },
   "audio_features_mean": {
@@ -20,23 +20,23 @@
   "top_genres": [
     {
       "name": "americana",
-      "count": 43
+      "count": 31
     },
     {
       "name": "alt country",
-      "count": 34
+      "count": 22
     },
     {
       "name": "folk",
-      "count": 28
+      "count": 16
     },
     {
       "name": "bluegrass",
-      "count": 27
+      "count": 15
     },
     {
-      "name": "christian bluegrass",
-      "count": 17
+      "name": "indie rock",
+      "count": 14
     }
   ],
   "daily_series": [
