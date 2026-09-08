@@ -1938,5 +1938,26 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-09-08T20:32:46Z",
+    "track_id": "6pWT4OMf1RUD8zzwGlCDJK",
+    "name": "Adon Olam",
+    "artists": [
+      "Chaim Shlomo Mahis"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.861,
+      "danceability": 0.751,
+      "valence": 0.639,
+      "acousticness": 0.221,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0485,
+      "tempo": 100.003,
+      "liveness": 0.122,
+      "loudness": -3.923,
+      "source": "reccobeats"
+    }
   }
 ]
