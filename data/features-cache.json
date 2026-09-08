@@ -443,6 +443,21 @@
       "valence": 0.206
     }
   },
+  "1BgsxpowUfZCxHc3q4Ztaf": {
+    "cached_at": "2026-09-08T23:22:01Z",
+    "features": {
+      "acousticness": 0.0222,
+      "danceability": 0.802,
+      "energy": 0.811,
+      "instrumentalness": 1.18e-05,
+      "liveness": 0.0653,
+      "loudness": -4.485,
+      "source": "reccobeats",
+      "speechiness": 0.0689,
+      "tempo": 126.039,
+      "valence": 0.471
+    }
+  },
   "1BsEKaermhlrzSQpouxlmM": {
     "cached_at": "2026-08-19T02:33:31Z",
     "features": null

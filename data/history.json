@@ -1959,5 +1959,28 @@
       "loudness": -3.923,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-09-08T20:39:13Z",
+    "track_id": "1BgsxpowUfZCxHc3q4Ztaf",
+    "name": "\u05d5\u05d0\u05e0\u05d9 \u05d0\u05d1\u05d8\u05d7 \u05d1\u05da",
+    "artists": [
+      "Matt Dubb",
+      "Beri Weber",
+      "Shmueli Ungar"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.811,
+      "danceability": 0.802,
+      "valence": 0.471,
+      "acousticness": 0.0222,
+      "instrumentalness": 1.18e-05,
+      "speechiness": 0.0689,
+      "tempo": 126.039,
+      "liveness": 0.0653,
+      "loudness": -4.485,
+      "source": "reccobeats"
+    }
   }
 ]
