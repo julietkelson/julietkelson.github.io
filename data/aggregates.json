@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-09T21:14:12Z",
+  "generated_at": "2026-09-09T23:19:09Z",
   "window": {
-    "plays_used": 109,
+    "plays_used": 108,
     "plays_with_features": 65
   },
   "totals": {
-    "plays": 109,
-    "unique_artists": 49
+    "plays": 108,
+    "unique_artists": 48
   },
   "audio_features_mean": {
     "energy": 0.4934,
@@ -24,7 +24,7 @@
     },
     {
       "name": "alt country",
-      "count": 23
+      "count": 22
     },
     {
       "name": "folk",
