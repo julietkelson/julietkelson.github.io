@@ -1,32 +1,36 @@
 {
-  "fetched_at": "2026-09-09T01:20:55Z",
-  "played_at": "2026-09-08T20:39:13.123Z",
+  "fetched_at": "2026-09-09T06:11:47Z",
+  "played_at": "2026-09-09T03:45:15.348Z",
   "track": {
-    "id": "1BgsxpowUfZCxHc3q4Ztaf",
-    "name": "\u05d5\u05d0\u05e0\u05d9 \u05d0\u05d1\u05d8\u05d7 \u05d1\u05da",
+    "id": "7jb1ZSirsHV1H2cLTNbqDX",
+    "name": "Crossing Muddy Waters",
     "artists": [
       {
-        "id": "4A95eIw3CcKx3uHHPUivSL",
-        "name": "Matt Dubb"
+        "id": "3oXddLOOjkoUuC2sX1RMdr",
+        "name": "I'm With Her"
       },
       {
-        "id": "3LvbEL0S6kskBf0lifrM7x",
-        "name": "Beri Weber"
+        "id": "1FDE7zZ6jmP8HHb9ej3mek",
+        "name": "Sara Watkins"
       },
       {
-        "id": "2EbXhITHfZlpCoD998Dctr",
-        "name": "Shmueli Ungar"
+        "id": "6nFBonVf7Lqaj05R0v5VGJ",
+        "name": "Sarah Jarosz"
+      },
+      {
+        "id": "1f3ubTd6eyxuy30ddDJQQa",
+        "name": "Aoife O'Donovan"
       }
     ],
     "album": {
-      "name": "\u05d5\u05d0\u05e0\u05d9 \u05d0\u05d1\u05d8\u05d7 \u05d1\u05da",
-      "release_date": "2023-02-26",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e47c269b7826797cd9bbba69"
+      "name": "Crossing Muddy Waters / Be My Husband",
+      "release_date": "2015-05-19",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ba6ff4affbdef0c55c1635d7"
     },
-    "duration_ms": 159574,
+    "duration_ms": 228320,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1BgsxpowUfZCxHc3q4Ztaf"
+      "spotify": "https://open.spotify.com/track/7jb1ZSirsHV1H2cLTNbqDX"
     }
   }
 }
