@@ -368,6 +368,10 @@
       "valence": 0.663
     }
   },
+  "15rpCY3KjVIinsKHZwgGol": {
+    "cached_at": "2026-09-10T23:05:30Z",
+    "features": null
+  },
   "17fWdcSAhLc6559youmLap": {
     "cached_at": "2026-07-29T04:31:27Z",
     "features": {
@@ -880,6 +884,21 @@
       "valence": 0.935
     }
   },
+  "2ow1Z8ytAYw72frfzCXIVB": {
+    "cached_at": "2026-09-10T23:05:33Z",
+    "features": {
+      "acousticness": 0.193,
+      "danceability": 0.477,
+      "energy": 0.836,
+      "instrumentalness": 0.0,
+      "liveness": 0.349,
+      "loudness": -3.846,
+      "source": "reccobeats",
+      "speechiness": 0.0476,
+      "tempo": 82.139,
+      "valence": 0.587
+    }
+  },
   "2z4U9d5OAA4YLNXoCgioxo": {
     "cached_at": "2026-07-23T18:19:25Z",
     "features": {
@@ -912,6 +931,21 @@
       "speechiness": 0.0302,
       "tempo": 91.105,
       "valence": 0.624
+    }
+  },
+  "33RJ3P6wc0B0FIyDalhNTv": {
+    "cached_at": "2026-09-10T23:05:33Z",
+    "features": {
+      "acousticness": 0.00432,
+      "danceability": 0.585,
+      "energy": 0.927,
+      "instrumentalness": 0.0,
+      "liveness": 0.178,
+      "loudness": -5.253,
+      "source": "reccobeats",
+      "speechiness": 0.04,
+      "tempo": 142.043,
+      "valence": 0.672
     }
   },
   "36UVZPoK8a1Oxh13cY8kOp": {
@@ -1181,6 +1215,21 @@
       "valence": 0.0992
     }
   },
+  "3z0DheGqqYaC1EbSdn8S9g": {
+    "cached_at": "2026-09-10T23:05:32Z",
+    "features": {
+      "acousticness": 0.00228,
+      "danceability": 0.498,
+      "energy": 0.83,
+      "instrumentalness": 5.76e-06,
+      "liveness": 0.137,
+      "loudness": -3.779,
+      "source": "reccobeats",
+      "speechiness": 0.0537,
+      "tempo": 81.726,
+      "valence": 0.683
+    }
+  },
   "40Crgt3WnrMsem2R6NrUTo": {
     "cached_at": "2026-08-18T17:23:47Z",
     "features": {
@@ -1209,6 +1258,21 @@
       "speechiness": 0.0743,
       "tempo": 101.952,
       "valence": 0.624
+    }
+  },
+  "44e84JcEUfOs9cNGu8nwU5": {
+    "cached_at": "2026-09-10T23:05:31Z",
+    "features": {
+      "acousticness": 0.00935,
+      "danceability": 0.703,
+      "energy": 0.806,
+      "instrumentalness": 0.00056,
+      "liveness": 0.0948,
+      "loudness": -4.974,
+      "source": "reccobeats",
+      "speechiness": 0.0555,
+      "tempo": 120.996,
+      "valence": 0.844
     }
   },
   "46clCWv55EyW1ZlOl796It": {

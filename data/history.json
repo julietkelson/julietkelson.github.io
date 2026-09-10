@@ -2137,5 +2137,99 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-09-10T18:22:31Z",
+    "track_id": "15rpCY3KjVIinsKHZwgGol",
+    "name": "Angel So Bad",
+    "artists": [
+      "True Mountain Laurel"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-09-10T22:44:39Z",
+    "track_id": "44e84JcEUfOs9cNGu8nwU5",
+    "name": "Like Whoa",
+    "artists": [
+      "Aly & AJ"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.806,
+      "danceability": 0.703,
+      "valence": 0.844,
+      "acousticness": 0.00935,
+      "instrumentalness": 0.00056,
+      "speechiness": 0.0555,
+      "tempo": 120.996,
+      "liveness": 0.0948,
+      "loudness": -4.974,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-09-10T22:48:04Z",
+    "track_id": "3z0DheGqqYaC1EbSdn8S9g",
+    "name": "East Northumberland High",
+    "artists": [
+      "Miley Cyrus"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.83,
+      "danceability": 0.498,
+      "valence": 0.683,
+      "acousticness": 0.00228,
+      "instrumentalness": 5.76e-06,
+      "speechiness": 0.0537,
+      "tempo": 81.726,
+      "liveness": 0.137,
+      "loudness": -3.779,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-09-10T22:52:11Z",
+    "track_id": "33RJ3P6wc0B0FIyDalhNTv",
+    "name": "Here We Go Again",
+    "artists": [
+      "Demi Lovato"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.927,
+      "danceability": 0.585,
+      "valence": 0.672,
+      "acousticness": 0.00432,
+      "instrumentalness": 0.0,
+      "speechiness": 0.04,
+      "tempo": 142.043,
+      "liveness": 0.178,
+      "loudness": -5.253,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-09-10T22:56:43Z",
+    "track_id": "2ow1Z8ytAYw72frfzCXIVB",
+    "name": "Trainwreck",
+    "artists": [
+      "Demi Lovato"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.836,
+      "danceability": 0.477,
+      "valence": 0.587,
+      "acousticness": 0.193,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0476,
+      "tempo": 82.139,
+      "liveness": 0.349,
+      "loudness": -3.846,
+      "source": "reccobeats"
+    }
   }
 ]
