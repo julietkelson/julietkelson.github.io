@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-11T22:42:01Z",
-  "played_at": "2026-09-10T23:43:47.085Z",
+  "fetched_at": "2026-09-12T00:41:41Z",
+  "played_at": "2026-09-11T22:43:17.448Z",
   "track": {
-    "id": "5eDPpYSyy8ag1V9sPMThEB",
-    "name": "Let's Dance",
+    "id": "579c6hHN7lbi79wrKw693Y",
+    "name": "Good and Broken",
     "artists": [
       {
         "id": "5YGY8feqx7naU7z4HrwZM6",
@@ -15,10 +15,10 @@
       "release_date": "2007-06-26",
       "image": "https://i.scdn.co/image/ab67616d0000b273ecefbb245706615f71036b9e"
     },
-    "duration_ms": 182546,
+    "duration_ms": 175080,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5eDPpYSyy8ag1V9sPMThEB"
+      "spotify": "https://open.spotify.com/track/579c6hHN7lbi79wrKw693Y"
     }
   }
 }

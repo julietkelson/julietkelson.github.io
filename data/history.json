@@ -2162,5 +2162,26 @@
       "loudness": -4.868,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-09-11T22:43:17Z",
+    "track_id": "579c6hHN7lbi79wrKw693Y",
+    "name": "Good and Broken",
+    "artists": [
+      "Miley Cyrus"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.87,
+      "danceability": 0.48,
+      "valence": 0.418,
+      "acousticness": 0.000195,
+      "instrumentalness": 0.000938,
+      "speechiness": 0.097,
+      "tempo": 144.085,
+      "liveness": 0.139,
+      "loudness": -4.015,
+      "source": "reccobeats"
+    }
   }
 ]
