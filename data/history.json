@@ -2183,5 +2183,40 @@
       "loudness": -4.015,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-09-12T17:46:11Z",
+    "track_id": "1F35Dmog9pekyCVnH1eQpl",
+    "name": "Photo ID (with Dominic Fike)",
+    "artists": [
+      "Remi Wolf",
+      "Dominic Fike"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.829,
+      "danceability": 0.75,
+      "valence": 0.87,
+      "acousticness": 0.21,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0915,
+      "tempo": 115.894,
+      "liveness": 0.279,
+      "loudness": -4.942,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-09-12T17:49:56Z",
+    "track_id": "6SpLc7EXZIPpy0sVko0aoU",
+    "name": "Misery Business",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": null
   }
 ]

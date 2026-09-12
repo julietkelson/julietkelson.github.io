@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-09-12T16:10:08Z",
-  "played_at": "2026-09-11T22:43:17.448Z",
+  "fetched_at": "2026-09-12T18:24:10Z",
+  "played_at": "2026-09-12T17:49:56.710Z",
   "track": {
-    "id": "579c6hHN7lbi79wrKw693Y",
-    "name": "Good and Broken",
+    "id": "6SpLc7EXZIPpy0sVko0aoU",
+    "name": "Misery Business",
     "artists": [
       {
-        "id": "5YGY8feqx7naU7z4HrwZM6",
-        "name": "Miley Cyrus"
+        "id": "74XFHRwlV6OrjEM0A2NCMF",
+        "name": "Paramore"
       }
     ],
     "album": {
-      "name": "Meet Miley Cyrus",
-      "release_date": "2007-06-26",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ecefbb245706615f71036b9e"
+      "name": "Riot!",
+      "release_date": "2007-06-12",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bee754528c08d5ff6799a1eb"
     },
-    "duration_ms": 175080,
+    "duration_ms": 211520,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/579c6hHN7lbi79wrKw693Y"
+      "spotify": "https://open.spotify.com/track/6SpLc7EXZIPpy0sVko0aoU"
     }
   }
 }
