@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-14T19:17:31Z",
+  "generated_at": "2026-09-14T22:35:14Z",
   "window": {
-    "plays_used": 108,
-    "plays_with_features": 57
+    "plays_used": 107,
+    "plays_with_features": 56
   },
   "totals": {
-    "plays": 108,
-    "unique_artists": 49
+    "plays": 107,
+    "unique_artists": 48
   },
   "audio_features_mean": {
-    "energy": 0.5664,
-    "danceability": 0.6185,
-    "valence": 0.5845,
-    "acousticness": 0.4307,
-    "instrumentalness": 0.0183,
-    "speechiness": 0.0656
+    "energy": 0.5611,
+    "danceability": 0.6197,
+    "valence": 0.5824,
+    "acousticness": 0.4379,
+    "instrumentalness": 0.0186,
+    "speechiness": 0.0662
   },
-  "tempo_mean_bpm": 114.51,
+  "tempo_mean_bpm": 114.23,
   "top_genres": [
     {
       "name": "americana",
-      "count": 16
+      "count": 15
     },
     {
       "name": "folk",
@@ -40,12 +40,6 @@
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-08-15",
-      "energy": 0.863,
-      "valence": 0.703,
-      "plays": 1
-    },
     {
       "date": "2026-08-18",
       "energy": 0.3138,
