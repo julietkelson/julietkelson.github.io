@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-17T17:08:01Z",
+  "generated_at": "2026-09-17T20:19:39Z",
   "window": {
-    "plays_used": 100,
-    "plays_with_features": 50
+    "plays_used": 99,
+    "plays_with_features": 49
   },
   "totals": {
-    "plays": 100,
+    "plays": 99,
     "unique_artists": 46
   },
   "audio_features_mean": {
-    "energy": 0.6021,
-    "danceability": 0.6349,
-    "valence": 0.6069,
-    "acousticness": 0.3916,
-    "instrumentalness": 0.0208,
-    "speechiness": 0.0691
+    "energy": 0.6034,
+    "danceability": 0.6406,
+    "valence": 0.6077,
+    "acousticness": 0.385,
+    "instrumentalness": 0.0212,
+    "speechiness": 0.0699
   },
-  "tempo_mean_bpm": 115.47,
+  "tempo_mean_bpm": 115.88,
   "top_genres": [
     {
       "name": "classic country",
@@ -28,23 +28,23 @@
     },
     {
       "name": "americana",
-      "count": 9
+      "count": 8
     },
     {
       "name": "folk",
-      "count": 9
+      "count": 8
     },
     {
       "name": "bluegrass",
-      "count": 8
+      "count": 7
     }
   ],
   "daily_series": [
     {
       "date": "2026-08-18",
-      "energy": 0.4272,
-      "valence": 0.4614,
-      "plays": 6
+      "energy": 0.3997,
+      "valence": 0.435,
+      "plays": 5
     },
     {
       "date": "2026-08-19",
