@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-09-18T20:22:53Z",
-  "played_at": "2026-09-13T18:17:17.030Z",
+  "fetched_at": "2026-09-18T22:43:30Z",
+  "played_at": "2026-09-18T21:33:10.570Z",
   "track": {
-    "id": "1yjY7rpaAQvKwpdUliHx0d",
-    "name": "Still into You",
+    "id": "2fOxxLz9JVe53itq6pfBak",
+    "name": "It's My Life",
     "artists": [
       {
-        "id": "74XFHRwlV6OrjEM0A2NCMF",
-        "name": "Paramore"
+        "id": "0cQbJU1aAzvbEmTuljWLlF",
+        "name": "No Doubt"
       }
     ],
     "album": {
-      "name": "Paramore",
-      "release_date": "2013-04-05",
-      "image": "https://i.scdn.co/image/ab67616d0000b273532033d0d90736f661c13d35"
+      "name": "The Singles Collection",
+      "release_date": "2003-01-01",
+      "image": "https://i.scdn.co/image/ab67616d0000b273738fbaa134106eafb7772552"
     },
-    "duration_ms": 216013,
+    "duration_ms": 225866,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1yjY7rpaAQvKwpdUliHx0d"
+      "spotify": "https://open.spotify.com/track/2fOxxLz9JVe53itq6pfBak"
     }
   }
 }
