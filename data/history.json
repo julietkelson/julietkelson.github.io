@@ -1472,5 +1472,17 @@
       "loudness": -4.535,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-09-18T21:40:03Z",
+    "track_id": "0wqOReZDnrefefEsrIGeR4",
+    "name": "Hanging By A Moment",
+    "artists": [
+      "Lifehouse"
+    ],
+    "genres": [
+      "post-grunge"
+    ],
+    "audio_features": null
   }
 ]
