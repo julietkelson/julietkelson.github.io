@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-20T20:44:41Z",
+  "generated_at": "2026-09-20T22:43:37Z",
   "window": {
-    "plays_used": 83,
-    "plays_with_features": 35
+    "plays_used": 81,
+    "plays_with_features": 34
   },
   "totals": {
-    "plays": 83,
-    "unique_artists": 36
+    "plays": 81,
+    "unique_artists": 34
   },
   "audio_features_mean": {
-    "energy": 0.6147,
-    "danceability": 0.6209,
-    "valence": 0.647,
-    "acousticness": 0.3852,
+    "energy": 0.6159,
+    "danceability": 0.6169,
+    "valence": 0.6444,
+    "acousticness": 0.3805,
     "instrumentalness": 0.0014,
-    "speechiness": 0.0555
+    "speechiness": 0.0527
   },
-  "tempo_mean_bpm": 117.92,
+  "tempo_mean_bpm": 118.77,
   "top_genres": [
     {
       "name": "classic country",
@@ -40,12 +40,6 @@
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-08-21",
-      "energy": 0.572,
-      "valence": 0.735,
-      "plays": 2
-    },
     {
       "date": "2026-08-25",
       "energy": 0.2525,
