@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-09-22T18:04:44Z",
-  "played_at": "2026-09-18T21:40:03.154Z",
+  "fetched_at": "2026-09-22T21:14:46Z",
+  "played_at": "2026-09-22T21:04:15.388Z",
   "track": {
-    "id": "0wqOReZDnrefefEsrIGeR4",
-    "name": "Hanging By A Moment",
+    "id": "4RjwUtmjgetmbL5dztp0zC",
+    "name": "I-40",
     "artists": [
       {
-        "id": "5PokPZn11xzZXyXSfnvIM3",
-        "name": "Lifehouse"
+        "id": "6k3W2iGuRZrhUnfVZOMQo8",
+        "name": "Hudson Freeman"
       }
     ],
     "album": {
-      "name": "No Name Face",
-      "release_date": "2000",
-      "image": "https://i.scdn.co/image/ab67616d0000b273d0494f682c986764e0bc629c"
+      "name": "I-40",
+      "release_date": "2026-08-14",
+      "image": "https://i.scdn.co/image/ab6742d3000053b78d475e83098b54cf28130718"
     },
-    "duration_ms": 216066,
+    "duration_ms": 231348,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/0wqOReZDnrefefEsrIGeR4"
+      "spotify": "https://open.spotify.com/track/4RjwUtmjgetmbL5dztp0zC"
     }
   }
 }
