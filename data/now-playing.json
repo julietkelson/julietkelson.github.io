@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-09-24T12:01:58Z",
-  "played_at": "2026-09-22T21:04:15.388Z",
+  "fetched_at": "2026-09-24T17:04:17Z",
+  "played_at": "2026-09-24T01:51:47.383Z",
   "track": {
-    "id": "4RjwUtmjgetmbL5dztp0zC",
-    "name": "I-40",
+    "id": "3W8299AD4n4LAgIr5VGY3X",
+    "name": "I've Got That Old Feeling",
     "artists": [
       {
-        "id": "6k3W2iGuRZrhUnfVZOMQo8",
-        "name": "Hudson Freeman"
+        "id": "5J6L7N6B4nI1M5cwa29mQG",
+        "name": "Alison Krauss"
       }
     ],
     "album": {
-      "name": "I-40",
-      "release_date": "2026-08-14",
-      "image": "https://i.scdn.co/image/ab6742d3000053b78d475e83098b54cf28130718"
+      "name": "I've Got That Old Feeling",
+      "release_date": "1990-08-15",
+      "image": "https://i.scdn.co/image/ab67616d0000b27318ee76d34404a283f9efe8fb"
     },
-    "duration_ms": 231348,
+    "duration_ms": 176400,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/4RjwUtmjgetmbL5dztp0zC"
+      "spotify": "https://open.spotify.com/track/3W8299AD4n4LAgIr5VGY3X"
     }
   }
 }

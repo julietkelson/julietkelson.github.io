@@ -1262,5 +1262,31 @@
       "loudness": -13.304,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-09-24T01:51:47Z",
+    "track_id": "3W8299AD4n4LAgIr5VGY3X",
+    "name": "I've Got That Old Feeling",
+    "artists": [
+      "Alison Krauss"
+    ],
+    "genres": [
+      "bluegrass",
+      "christian bluegrass",
+      "country christian",
+      "americana"
+    ],
+    "audio_features": {
+      "energy": 0.351,
+      "danceability": 0.667,
+      "valence": 0.397,
+      "acousticness": 0.741,
+      "instrumentalness": 0.00578,
+      "speechiness": 0.0261,
+      "tempo": 113.026,
+      "liveness": 0.186,
+      "loudness": -7.352,
+      "source": "reccobeats"
+    }
   }
 ]
