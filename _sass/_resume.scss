@@ -200,10 +200,6 @@
 }
 
 .cv-chapter__header {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 24px;
-  align-items: baseline;
   margin-bottom: 18px;
 }
 
@@ -223,15 +219,6 @@
   font-family: var(--fn-sans);
   font-size: 14.5px;
   max-width: 620px;
-}
-
-.cv-chapter__kicker {
-  font-family: var(--fn-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--fn-ink2);
-  white-space: nowrap;
 }
 
 // Role entries
@@ -654,10 +641,5 @@
   .cv-main             { padding: 0 16px; }
   .cv-sidebar          { padding: 20px 16px; }
 
-  .cv-chapter__header  {
-    grid-template-columns: 1fr;
-    row-gap: 6px;
-  }
   .cv-chapter__title   { font-size: 28px; overflow-wrap: break-word; }
-  .cv-chapter__kicker  { white-space: normal; }
 }

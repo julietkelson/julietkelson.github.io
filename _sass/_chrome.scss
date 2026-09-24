@@ -68,6 +68,37 @@
   }
 }
 
+// ── FACTS CARD (shared: Home "Quick facts" / About facts) ──────────────────────
+
+%fn-facts {
+  border: 1.5px solid var(--fn-rule);
+  background: var(--fn-panel);
+  padding: 20px 22px;
+}
+
+%fn-facts__label {
+  font-family: var(--fn-display);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--fn-ink);
+  margin-bottom: 12px;
+}
+
+%fn-facts__row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--fn-ruleSoft);
+  font-family: var(--fn-mono);
+  font-size: 12px;
+
+  &:last-child { border-bottom: none; }
+}
+
+%fn-facts__key { color: var(--fn-ink2); }
+%fn-facts__val { color: var(--fn-ink); }
+
 // ── FOOTER ───────────────────────────────────────────────────────────────────
 
 .fn-footer {

@@ -6,3 +6,6 @@ _site/
 __pycache__/
 *.pyc
 .env
+*.swp
+*.swo
+.claude/

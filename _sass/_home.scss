@@ -49,34 +49,11 @@
 }
 
 // Quick-facts card — right column of hero
-.home-facts {
-  border: 1.5px solid var(--fn-rule);
-  background: var(--fn-panel);
-  padding: 20px 22px;
-}
-
-.home-facts__label {
-  font-family: var(--fn-display);
-  font-style: italic;
-  font-size: 16px;
-  color: var(--fn-ink);
-  margin-bottom: 12px;
-}
-
-.home-facts__row {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 6px 0;
-  border-bottom: 1px solid var(--fn-ruleSoft);
-  font-family: var(--fn-mono);
-  font-size: 12px;
-
-  &:last-child { border-bottom: none; }
-}
-
-.home-facts__key { color: var(--fn-ink2); }
-.home-facts__val { color: var(--fn-ink); }
+.home-facts { @extend %fn-facts; }
+.home-facts__label { @extend %fn-facts__label; }
+.home-facts__row { @extend %fn-facts__row; }
+.home-facts__key { @extend %fn-facts__key; }
+.home-facts__val { @extend %fn-facts__val; }
 
 // Contact strip at base of hero
 .home-hero__contact {

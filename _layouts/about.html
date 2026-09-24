@@ -4,7 +4,6 @@ layout: default
 
 <!-- ── HERO ──────────────────────────────────────────────────────────────────── -->
 <div class="about-hero">
-  <div class="about-hero__readme">README · about.txt</div>
 
   <div class="about-hero__grid">
 
@@ -34,34 +33,34 @@ layout: default
         <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Juliet Kelson" class="about-portrait__img">
         <div class="about-portrait__caption">
           <span>Juliet Kelson</span>
-          <span class="about-portrait__badge">● src: camera</span>
         </div>
       </div>
 
       <div class="about-facts">
+        <div class="about-facts__label">Quick facts</div>
         <div class="about-facts__row">
-          <span class="about-facts__key">from</span><span class="about-facts__val">chicago, il</span>
+          <span class="about-facts__key">From</span><span class="about-facts__val">Chicago, IL</span>
         </div>
         <div class="about-facts__row">
-          <span class="about-facts__key">based</span><span class="about-facts__val">minneapolis, mn</span>
+          <span class="about-facts__key">Based</span><span class="about-facts__val">Minneapolis, MN</span>
         </div>
         <div class="about-facts__row">
-          <span class="about-facts__key">role</span><span class="about-facts__val">sr. data analyst</span>
+          <span class="about-facts__key">Role</span><span class="about-facts__val">Sr. Data Analyst</span>
         </div>
         <div class="about-facts__row">
-          <span class="about-facts__key">twin</span><span class="about-facts__val">true · 2 min older</span>
+          <span class="about-facts__key">Twin</span><span class="about-facts__val">True · 2 min older</span>
         </div>
         <div class="about-facts__row">
-          <span class="about-facts__key">dog</span><span class="about-facts__val">yes · good</span>
+          <span class="about-facts__key">Dog</span><span class="about-facts__val">Yes · good</span>
         </div>
         <div class="about-facts__row">
-          <span class="about-facts__key">plays</span><span class="about-facts__val">music · since forever</span>
+          <span class="about-facts__key">Plays</span><span class="about-facts__val">Music · since forever</span>
         </div>
         <div class="about-facts__row">
-          <span class="about-facts__key">langs</span><span class="about-facts__val">en · es · pt · fr-basic</span>
+          <span class="about-facts__key">Langs</span><span class="about-facts__val">EN · ES · PT · FR-basic</span>
         </div>
-        <div class="about-facts__row about-facts__row--last">
-          <span class="about-facts__key">mbti</span><span class="about-facts__val">infj</span>
+        <div class="about-facts__row">
+          <span class="about-facts__key">MBTI</span><span class="about-facts__val">INFJ</span>
         </div>
       </div>
     </div>
@@ -72,17 +71,13 @@ layout: default
 <!-- ── FOR THE RECORD ─────────────────────────────────────────────────────────── -->
 <div class="about-lists">
 
-  <div class="about-lists__header">
-    <span class="about-lists__meta">three lists, no particular order</span>
-  </div>
-
   <div class="about-lists__grid">
 
     <!-- Column 1: I am a(n) -->
     <div class="about-list">
       <div class="about-list__heading">I am a(n):</div>
       <ul class="about-list__items">
-        {% assign iam = "Senior Data Analyst at the Star Tribune,Dog mom,Chicagoan,Data nerd,Computer Science graduate,Musician,Polyglot,Twin,Event chair,Doodler,Coffee drinker,Tea drinker,Math lover,Voter,PWHL fan,Lover of cooking,Enjoyer of well-designed graphs and plots,Detailed thinker,INFJ,Poor hockey player,Slightly better gardener" | split: "," %}
+        {% assign iam = "Senior Data Analyst at Chicago Public Media,Dog mom,Chicagoan,Data nerd,Computer Science graduate,Musician,Polyglot,Twin,Event chair,Doodler,Coffee drinker,Tea drinker,Math lover,Voter,PWHL fan,Lover of cooking,Enjoyer of well-designed graphs and plots,Detailed thinker,INFJ,Poor hockey player,Slightly better gardener" | split: "," %}
         {% for item in iam %}
         <li class="about-list__item">
           <span class="about-list__text">{{ item }}</span>
