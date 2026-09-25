@@ -1,56 +1,50 @@
 {
-  "generated_at": "2026-09-24T23:21:26Z",
+  "generated_at": "2026-09-25T01:40:50Z",
   "window": {
-    "plays_used": 75,
-    "plays_with_features": 38
+    "plays_used": 71,
+    "plays_with_features": 34
   },
   "totals": {
-    "plays": 75,
+    "plays": 71,
     "unique_artists": 35
   },
   "audio_features_mean": {
-    "energy": 0.6004,
-    "danceability": 0.6187,
-    "valence": 0.618,
-    "acousticness": 0.4066,
-    "instrumentalness": 0.0014,
-    "speechiness": 0.0513
+    "energy": 0.6369,
+    "danceability": 0.5894,
+    "valence": 0.5849,
+    "acousticness": 0.3142,
+    "instrumentalness": 0.0028,
+    "speechiness": 0.0516
   },
-  "tempo_mean_bpm": 118.17,
+  "tempo_mean_bpm": 118.34,
   "top_genres": [
     {
-      "name": "classic country",
-      "count": 12
-    },
-    {
-      "name": "country",
-      "count": 12
-    },
-    {
       "name": "americana",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "alt country",
+      "count": 5
+    },
+    {
+      "name": "indie rock",
+      "count": 4
     },
     {
       "name": "bluegrass",
-      "count": 6
+      "count": 3
     },
     {
-      "name": "folk",
-      "count": 6
+      "name": "christian bluegrass",
+      "count": 3
     }
   ],
   "daily_series": [
     {
-      "date": "2026-08-25",
-      "energy": 0.2525,
-      "valence": 0.3586,
-      "plays": 2
-    },
-    {
       "date": "2026-08-26",
-      "energy": 0.4623,
-      "valence": 0.6791,
-      "plays": 26
+      "energy": 0.5625,
+      "valence": 0.6535,
+      "plays": 19
     },
     {
       "date": "2026-09-08",
@@ -102,9 +96,15 @@
     },
     {
       "date": "2026-09-24",
-      "energy": 0.351,
-      "valence": 0.397,
-      "plays": 1
+      "energy": 0.362,
+      "valence": 0.463,
+      "plays": 2
+    },
+    {
+      "date": "2026-09-25",
+      "energy": 0.4523,
+      "valence": 0.3615,
+      "plays": 4
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-09-24T23:21:26Z",
-  "played_at": "2026-09-24T01:51:47.383Z",
+  "fetched_at": "2026-09-25T01:40:50Z",
+  "played_at": "2026-09-25T00:50:23.683Z",
   "track": {
-    "id": "3W8299AD4n4LAgIr5VGY3X",
-    "name": "I've Got That Old Feeling",
+    "id": "5y4MDqm1PYa2T1vT6vboJI",
+    "name": "Radio Cure",
     "artists": [
       {
-        "id": "5J6L7N6B4nI1M5cwa29mQG",
-        "name": "Alison Krauss"
+        "id": "2QoU3awHVdcHS8LrZEKvSM",
+        "name": "Wilco"
       }
     ],
     "album": {
-      "name": "I've Got That Old Feeling",
-      "release_date": "1990-08-15",
-      "image": "https://i.scdn.co/image/ab67616d0000b27318ee76d34404a283f9efe8fb"
+      "name": "Yankee Hotel Foxtrot",
+      "release_date": "2003-10-07",
+      "image": "https://i.scdn.co/image/ab67616d0000b27327f0b3e25bfd979d8ae1d54b"
     },
-    "duration_ms": 176400,
+    "duration_ms": 308533,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3W8299AD4n4LAgIr5VGY3X"
+      "spotify": "https://open.spotify.com/track/5y4MDqm1PYa2T1vT6vboJI"
     }
   }
 }
