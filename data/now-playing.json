@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-09-25T12:17:07Z",
-  "played_at": "2026-09-25T00:50:23.683Z",
+  "fetched_at": "2026-09-25T17:19:53Z",
+  "played_at": "2026-09-25T15:49:36.735Z",
   "track": {
-    "id": "5y4MDqm1PYa2T1vT6vboJI",
-    "name": "Radio Cure",
+    "id": "2Vqk9HmieRuGHnU76ybp1m",
+    "name": "Situation",
     "artists": [
       {
-        "id": "2QoU3awHVdcHS8LrZEKvSM",
-        "name": "Wilco"
+        "id": "5R55ruC73ANyzDSOzIZjNc",
+        "name": "Johnny Blue Skies"
       }
     ],
     "album": {
-      "name": "Yankee Hotel Foxtrot",
-      "release_date": "2003-10-07",
-      "image": "https://i.scdn.co/image/ab67616d0000b27327f0b3e25bfd979d8ae1d54b"
+      "name": "Mutiny After Midnight (Extended Edition)",
+      "release_date": "2026-06-08",
+      "image": "https://i.scdn.co/image/ab67616d0000b27393fc0d07a15d2a4e8c5c9647"
     },
-    "duration_ms": 308533,
+    "duration_ms": 337954,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5y4MDqm1PYa2T1vT6vboJI"
+      "spotify": "https://open.spotify.com/track/2Vqk9HmieRuGHnU76ybp1m"
     }
   }
 }
