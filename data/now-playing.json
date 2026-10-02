@@ -1,24 +1,13 @@
 {
-  "fetched_at": "2026-10-02T15:43:08Z",
-  "played_at": "2026-09-25T15:49:36.735Z",
+  "fetched_at": "2026-10-02T20:09:59Z",
+  "played_at": "2026-09-25T15:49:36Z",
   "track": {
     "id": "2Vqk9HmieRuGHnU76ybp1m",
     "name": "Situation",
     "artists": [
       {
-        "id": "5R55ruC73ANyzDSOzIZjNc",
         "name": "Johnny Blue Skies"
       }
-    ],
-    "album": {
-      "name": "Mutiny After Midnight (Extended Edition)",
-      "release_date": "2026-06-08",
-      "image": "https://i.scdn.co/image/ab67616d0000b27393fc0d07a15d2a4e8c5c9647"
-    },
-    "duration_ms": 337954,
-    "explicit": false,
-    "external_urls": {
-      "spotify": "https://open.spotify.com/track/2Vqk9HmieRuGHnU76ybp1m"
-    }
+    ]
   }
 }
