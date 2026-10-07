@@ -969,5 +969,116 @@
       "tempo": 72.997,
       "valence": 0.854
     }
+  },
+  {
+    "logged_at": "2026-10-07T04:20:15Z",
+    "track_id": "4UuwnKoOKWYYnerZKZMtvD",
+    "name": "Evergreen",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.321,
+      "danceability": 0.618,
+      "valence": 0.541,
+      "acousticness": 0.456,
+      "instrumentalness": 0.000659,
+      "speechiness": 0.0543,
+      "tempo": 72.954,
+      "liveness": 0.052,
+      "loudness": -7.396,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-07T04:28:59Z",
+    "track_id": "4c3d0xt7rUFDV7EnnRYi4i",
+    "name": "Real Games",
+    "artists": [
+      "Lucky Daye"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.374,
+      "danceability": 0.759,
+      "valence": 0.562,
+      "acousticness": 0.432,
+      "instrumentalness": 0.000108,
+      "speechiness": 0.107,
+      "tempo": 141.917,
+      "liveness": 0.0714,
+      "loudness": -7.851,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-07T04:34:25Z",
+    "track_id": "3XMf7BXWtx7k5xgZt5QU1s",
+    "name": "Stand",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.67,
+      "danceability": 0.302,
+      "valence": 0.2,
+      "acousticness": 0.394,
+      "instrumentalness": 0.00508,
+      "speechiness": 0.0609,
+      "tempo": 87.736,
+      "liveness": 0.11,
+      "loudness": -7.969,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-07T04:43:09Z",
+    "track_id": "0PspnH1gJYzr1NGqYRK3IO",
+    "name": "Louie Bag (feat. Smino)",
+    "artists": [
+      "Yebba",
+      "Smino"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.614,
+      "danceability": 0.725,
+      "valence": 0.655,
+      "acousticness": 0.627,
+      "instrumentalness": 0.204,
+      "speechiness": 0.1,
+      "tempo": 141.213,
+      "liveness": 0.113,
+      "loudness": -7.98,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-07T04:45:06Z",
+    "track_id": "0HVxpNoX99t4EzOZwqO64S",
+    "name": "We Might Even Be Falling In Love (Duet)",
+    "artists": [
+      "Victoria Mon\u00e9t",
+      "Bryson Tiller"
+    ],
+    "genres": [
+      "alternative r&b",
+      "trap soul",
+      "r&b"
+    ],
+    "audio_features": {
+      "energy": 0.423,
+      "danceability": 0.731,
+      "valence": 0.774,
+      "acousticness": 0.498,
+      "instrumentalness": 0.000525,
+      "speechiness": 0.0833,
+      "tempo": 76.966,
+      "liveness": 0.13,
+      "loudness": -10.147,
+      "source": "reccobeats"
+    }
   }
 ]
