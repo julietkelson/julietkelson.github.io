@@ -566,6 +566,21 @@
       "valence": 0.463
     }
   },
+  "1SsUx7lHTfuiSSB1KfRMdE": {
+    "cached_at": "2026-10-07T04:09:25Z",
+    "features": {
+      "acousticness": 0.68,
+      "danceability": 0.601,
+      "energy": 0.511,
+      "instrumentalness": 0.252,
+      "liveness": 0.0732,
+      "loudness": -7.297,
+      "source": "reccobeats",
+      "speechiness": 0.038,
+      "tempo": 139.955,
+      "valence": 0.469
+    }
+  },
   "1TRsfoxOCzeSJXHtY8KiQC": {
     "cached_at": "2026-08-15T18:41:16Z",
     "features": {
@@ -2258,6 +2273,10 @@
       "tempo": 94.014,
       "valence": 0.89
     }
+  },
+  "71xigYhF7fHi2GEiwwMeo6": {
+    "cached_at": "2026-10-07T04:09:26Z",
+    "features": null
   },
   "77oU2rjC5XbjQfNe3bD6so": {
     "cached_at": "2026-07-15T20:43:05Z",
