@@ -1,28 +1,24 @@
 {
-  "fetched_at": "2026-10-08T08:53:00Z",
-  "played_at": "2026-10-07T04:45:06.359Z",
+  "fetched_at": "2026-10-08T16:06:13Z",
+  "played_at": "2026-10-07T05:02:51.833Z",
   "track": {
-    "id": "0HVxpNoX99t4EzOZwqO64S",
-    "name": "We Might Even Be Falling In Love (Duet)",
+    "id": "2voXNGgRrosxCJA6foTVau",
+    "name": "Cruisin'",
     "artists": [
       {
-        "id": "63XBtGSEZINSyXylZxEUbv",
-        "name": "Victoria Mon\u00e9t"
-      },
-      {
-        "id": "2EMAnMvWE2eb56ToJVfCWs",
-        "name": "Bryson Tiller"
+        "id": "336vr2M3Va0FjyvB55lJEd",
+        "name": "D'Angelo"
       }
     ],
     "album": {
-      "name": "JAGUAR II : Deluxe",
-      "release_date": "2024-10-04",
-      "image": "https://i.scdn.co/image/ab67616d0000b27333cdbd1f93617cf3d30bf0c7"
+      "name": "Brown Sugar",
+      "release_date": "1995-07-03",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f6465d4b8cdd34ed4d7853e2"
     },
-    "duration_ms": 90110,
+    "duration_ms": 384666,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/0HVxpNoX99t4EzOZwqO64S"
+      "spotify": "https://open.spotify.com/track/2voXNGgRrosxCJA6foTVau"
     }
   }
 }

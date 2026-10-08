@@ -1080,5 +1080,28 @@
       "loudness": -10.147,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-07T05:02:51Z",
+    "track_id": "2voXNGgRrosxCJA6foTVau",
+    "name": "Cruisin'",
+    "artists": [
+      "D'Angelo"
+    ],
+    "genres": [
+      "neo soul"
+    ],
+    "audio_features": {
+      "energy": 0.525,
+      "danceability": 0.373,
+      "valence": 0.328,
+      "acousticness": 0.38,
+      "instrumentalness": 0.000454,
+      "speechiness": 0.169,
+      "tempo": 74.764,
+      "liveness": 0.0816,
+      "loudness": -12.728,
+      "source": "reccobeats"
+    }
   }
 ]
