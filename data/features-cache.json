@@ -427,6 +427,21 @@
       "valence": 0.663
     }
   },
+  "14qNHvX8h6HoynFuV0RxWS": {
+    "cached_at": "2026-10-08T21:17:09Z",
+    "features": {
+      "acousticness": 0.222,
+      "danceability": 0.687,
+      "energy": 0.584,
+      "instrumentalness": 0.00114,
+      "liveness": 0.12,
+      "loudness": -7.336,
+      "source": "reccobeats",
+      "speechiness": 0.0422,
+      "tempo": 88.025,
+      "valence": 0.228
+    }
+  },
   "15rpCY3KjVIinsKHZwgGol": {
     "cached_at": "2026-09-10T23:05:30Z",
     "features": null
@@ -1201,6 +1216,21 @@
       "valence": 0.765
     }
   },
+  "3SjAiqAQ6sMmsJBeVw0nMf": {
+    "cached_at": "2026-10-08T21:17:13Z",
+    "features": {
+      "acousticness": 0.346,
+      "danceability": 0.424,
+      "energy": 0.484,
+      "instrumentalness": 0.0,
+      "liveness": 0.588,
+      "loudness": -10.853,
+      "source": "reccobeats",
+      "speechiness": 0.097,
+      "tempo": 92.514,
+      "valence": 0.523
+    }
+  },
   "3UQKlahxsfacw8vKmTYSzb": {
     "cached_at": "2026-07-22T06:15:48Z",
     "features": {
@@ -1244,6 +1274,21 @@
       "speechiness": 0.0261,
       "tempo": 113.026,
       "valence": 0.397
+    }
+  },
+  "3Ws7pcKeEo6dW2xPUFgmQv": {
+    "cached_at": "2026-10-08T21:17:11Z",
+    "features": {
+      "acousticness": 0.877,
+      "danceability": 0.508,
+      "energy": 0.251,
+      "instrumentalness": 0.0011,
+      "liveness": 0.352,
+      "loudness": -11.55,
+      "source": "reccobeats",
+      "speechiness": 0.0286,
+      "tempo": 72.252,
+      "valence": 0.176
     }
   },
   "3XMf7BXWtx7k5xgZt5QU1s": {

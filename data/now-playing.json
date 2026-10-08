@@ -1,24 +1,28 @@
 {
-  "fetched_at": "2026-10-08T16:06:13Z",
-  "played_at": "2026-10-07T05:02:51.833Z",
+  "fetched_at": "2026-10-08T21:17:13Z",
+  "played_at": "2026-10-08T17:22:50.825Z",
   "track": {
-    "id": "2voXNGgRrosxCJA6foTVau",
-    "name": "Cruisin'",
+    "id": "3SjAiqAQ6sMmsJBeVw0nMf",
+    "name": "How Deep Is Your Love (feat. Yebba) - Live",
     "artists": [
       {
-        "id": "336vr2M3Va0FjyvB55lJEd",
-        "name": "D'Angelo"
+        "id": "2FMOHE79X98yptp4RpPrt7",
+        "name": "PJ Morton"
+      },
+      {
+        "id": "1ooV8YZC1KbpEcrmI8WH0F",
+        "name": "Yebba"
       }
     ],
     "album": {
-      "name": "Brown Sugar",
-      "release_date": "1995-07-03",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f6465d4b8cdd34ed4d7853e2"
+      "name": "Gumbo Unplugged (Live)",
+      "release_date": "2018-03-09",
+      "image": "https://i.scdn.co/image/ab67616d0000b27376cdf64feeebb27ac290d498"
     },
-    "duration_ms": 384666,
+    "duration_ms": 210132,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2voXNGgRrosxCJA6foTVau"
+      "spotify": "https://open.spotify.com/track/3SjAiqAQ6sMmsJBeVw0nMf"
     }
   }
 }

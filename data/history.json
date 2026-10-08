@@ -1,49 +1,5 @@
 [
   {
-    "logged_at": "2026-09-08T20:32:46Z",
-    "track_id": "6pWT4OMf1RUD8zzwGlCDJK",
-    "name": "Adon Olam",
-    "artists": [
-      "Chaim Shlomo Mahis"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.861,
-      "danceability": 0.751,
-      "valence": 0.639,
-      "acousticness": 0.221,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0485,
-      "tempo": 100.003,
-      "liveness": 0.122,
-      "loudness": -3.923,
-      "source": "reccobeats"
-    }
-  },
-  {
-    "logged_at": "2026-09-08T20:39:13Z",
-    "track_id": "1BgsxpowUfZCxHc3q4Ztaf",
-    "name": "\u05d5\u05d0\u05e0\u05d9 \u05d0\u05d1\u05d8\u05d7 \u05d1\u05da",
-    "artists": [
-      "Matt Dubb",
-      "Beri Weber",
-      "Shmueli Ungar"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.811,
-      "danceability": 0.802,
-      "valence": 0.471,
-      "acousticness": 0.0222,
-      "instrumentalness": 1.18e-05,
-      "speechiness": 0.0689,
-      "tempo": 126.039,
-      "liveness": 0.0653,
-      "loudness": -4.485,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-09-09T01:50:52Z",
     "track_id": "1v76gn29TvpZg2areWXbxP",
     "name": "Long Ride Home",
@@ -1101,6 +1057,146 @@
       "tempo": 74.764,
       "liveness": 0.0816,
       "loudness": -12.728,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-08T16:07:56Z",
+    "track_id": "5SFssNXGjeOxdAnECfgttm",
+    "name": "How Much Can A Heart Take (feat. Yebba)",
+    "artists": [
+      "Lucky Daye",
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "acousticness": 0.324,
+      "danceability": 0.661,
+      "energy": 0.693,
+      "instrumentalness": 0.0336,
+      "liveness": 0.0959,
+      "loudness": -6.553,
+      "source": "reccobeats",
+      "speechiness": 0.196,
+      "tempo": 82.058,
+      "valence": 0.613
+    }
+  },
+  {
+    "logged_at": "2026-10-08T16:11:10Z",
+    "track_id": "4UuwnKoOKWYYnerZKZMtvD",
+    "name": "Evergreen",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "acousticness": 0.456,
+      "danceability": 0.618,
+      "energy": 0.321,
+      "instrumentalness": 0.000659,
+      "liveness": 0.052,
+      "loudness": -7.396,
+      "source": "reccobeats",
+      "speechiness": 0.0543,
+      "tempo": 72.954,
+      "valence": 0.541
+    }
+  },
+  {
+    "logged_at": "2026-10-08T16:15:09Z",
+    "track_id": "14qNHvX8h6HoynFuV0RxWS",
+    "name": "Far Away (feat. A$AP Rocky)",
+    "artists": [
+      "Yebba",
+      "A$AP Rocky"
+    ],
+    "genres": [
+      "rap"
+    ],
+    "audio_features": {
+      "energy": 0.584,
+      "danceability": 0.687,
+      "valence": 0.228,
+      "acousticness": 0.222,
+      "instrumentalness": 0.00114,
+      "speechiness": 0.0422,
+      "tempo": 88.025,
+      "liveness": 0.12,
+      "loudness": -7.336,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-08T16:19:50Z",
+    "track_id": "3Ws7pcKeEo6dW2xPUFgmQv",
+    "name": "Touching God (Feat. Yebba & Blood Orange)",
+    "artists": [
+      "Daniel Caesar",
+      "Yebba",
+      "Blood Orange"
+    ],
+    "genres": [
+      "art pop"
+    ],
+    "audio_features": {
+      "energy": 0.251,
+      "danceability": 0.508,
+      "valence": 0.176,
+      "acousticness": 0.877,
+      "instrumentalness": 0.0011,
+      "speechiness": 0.0286,
+      "tempo": 72.252,
+      "liveness": 0.352,
+      "loudness": -11.55,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-08T17:22:37Z",
+    "track_id": "3SjAiqAQ6sMmsJBeVw0nMf",
+    "name": "How Deep Is Your Love (feat. Yebba) - Live",
+    "artists": [
+      "PJ Morton",
+      "Yebba"
+    ],
+    "genres": [
+      "neo soul"
+    ],
+    "audio_features": {
+      "energy": 0.484,
+      "danceability": 0.424,
+      "valence": 0.523,
+      "acousticness": 0.346,
+      "instrumentalness": 0.0,
+      "speechiness": 0.097,
+      "tempo": 92.514,
+      "liveness": 0.588,
+      "loudness": -10.853,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-08T17:22:50Z",
+    "track_id": "3SjAiqAQ6sMmsJBeVw0nMf",
+    "name": "How Deep Is Your Love (feat. Yebba) - Live",
+    "artists": [
+      "PJ Morton",
+      "Yebba"
+    ],
+    "genres": [
+      "neo soul"
+    ],
+    "audio_features": {
+      "energy": 0.484,
+      "danceability": 0.424,
+      "valence": 0.523,
+      "acousticness": 0.346,
+      "instrumentalness": 0.0,
+      "speechiness": 0.097,
+      "tempo": 92.514,
+      "liveness": 0.588,
+      "loudness": -10.853,
       "source": "reccobeats"
     }
   }
