@@ -1,51 +1,45 @@
 {
-  "generated_at": "2026-10-09T01:16:35Z",
+  "generated_at": "2026-10-09T07:29:15Z",
   "window": {
-    "plays_used": 62,
-    "plays_with_features": 44
+    "plays_used": 59,
+    "plays_with_features": 41
   },
   "totals": {
-    "plays": 62,
-    "unique_artists": 46
+    "plays": 59,
+    "unique_artists": 41
   },
   "audio_features_mean": {
-    "energy": 0.587,
-    "danceability": 0.5863,
-    "valence": 0.554,
-    "acousticness": 0.3343,
-    "instrumentalness": 0.013,
-    "speechiness": 0.0659
+    "energy": 0.6094,
+    "danceability": 0.586,
+    "valence": 0.5677,
+    "acousticness": 0.2949,
+    "instrumentalness": 0.014,
+    "speechiness": 0.0687
   },
-  "tempo_mean_bpm": 109.16,
+  "tempo_mean_bpm": 109.22,
   "top_genres": [
     {
-      "name": "americana",
-      "count": 9
+      "name": "alt country",
+      "count": 6
     },
     {
-      "name": "alt country",
-      "count": 7
+      "name": "americana",
+      "count": 6
     },
     {
       "name": "indie rock",
       "count": 5
     },
     {
-      "name": "bluegrass",
+      "name": "emo",
       "count": 3
     },
     {
-      "name": "christian bluegrass",
+      "name": "grunge",
       "count": 3
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-09-09",
-      "energy": 0.2807,
-      "valence": 0.3667,
-      "plays": 4
-    },
     {
       "date": "2026-09-10",
       "energy": 0.7864,
