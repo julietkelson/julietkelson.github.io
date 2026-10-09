@@ -1,28 +1,24 @@
 {
-  "fetched_at": "2026-10-09T19:45:03Z",
-  "played_at": "2026-10-09T17:36:41.210Z",
+  "fetched_at": "2026-10-09T23:35:19Z",
+  "played_at": "2026-10-09T22:38:25.219Z",
   "track": {
-    "id": "5JuZbUR2A2qVSCH9g0ysE1",
-    "name": "Fuck Yo Feelings",
+    "id": "4l3MfSQrxCWfUYUyE2sMy6",
+    "name": "Yellow Eyes",
     "artists": [
-      {
-        "id": "5cM1PvItlR21WUyBnsdMcn",
-        "name": "Robert Glasper"
-      },
       {
         "id": "1ooV8YZC1KbpEcrmI8WH0F",
         "name": "Yebba"
       }
     ],
     "album": {
-      "name": "Fuck Yo Feelings",
-      "release_date": "2019-10-03",
-      "image": "https://i.scdn.co/image/ab67616d0000b27334223c38203d24d61f271f8a"
+      "name": "Jean",
+      "release_date": "2026-03-06",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735932b2362d978f6fa10ca63e"
     },
-    "duration_ms": 150000,
-    "explicit": true,
+    "duration_ms": 162096,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5JuZbUR2A2qVSCH9g0ysE1"
+      "spotify": "https://open.spotify.com/track/4l3MfSQrxCWfUYUyE2sMy6"
     }
   }
 }

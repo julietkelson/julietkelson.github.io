@@ -1181,5 +1181,174 @@
       "loudness": -6.824,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-09T22:15:15Z",
+    "track_id": "66OrNUst0atPTFTVeJsBOI",
+    "name": "The Age of Worry - Live at Electric Lady",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.392,
+      "danceability": 0.35,
+      "valence": 0.311,
+      "acousticness": 0.798,
+      "instrumentalness": 1.2e-05,
+      "speechiness": 0.0282,
+      "tempo": 123.654,
+      "liveness": 0.126,
+      "loudness": -6.841,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:16:55Z",
+    "track_id": "66OrNUst0atPTFTVeJsBOI",
+    "name": "The Age of Worry - Live at Electric Lady",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.392,
+      "danceability": 0.35,
+      "valence": 0.311,
+      "acousticness": 0.798,
+      "instrumentalness": 1.2e-05,
+      "speechiness": 0.0282,
+      "tempo": 123.654,
+      "liveness": 0.126,
+      "loudness": -6.841,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:20:09Z",
+    "track_id": "4YcZgvktXXqoI6WKtG7sl3",
+    "name": "October Sky",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.491,
+      "danceability": 0.52,
+      "valence": 0.414,
+      "acousticness": 0.561,
+      "instrumentalness": 0.000208,
+      "speechiness": 0.0258,
+      "tempo": 81.934,
+      "liveness": 0.297,
+      "loudness": -6.003,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:24:30Z",
+    "track_id": "3pil7DXQmpnQcImkoF4wz1",
+    "name": "Where Do You Go",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.647,
+      "danceability": 0.637,
+      "valence": 0.333,
+      "acousticness": 0.705,
+      "instrumentalness": 0.176,
+      "speechiness": 0.0423,
+      "tempo": 149.936,
+      "liveness": 0.0915,
+      "loudness": -10.584,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:28:14Z",
+    "track_id": "0PspnH1gJYzr1NGqYRK3IO",
+    "name": "Louie Bag (feat. Smino)",
+    "artists": [
+      "Yebba",
+      "Smino"
+    ],
+    "genres": [],
+    "audio_features": {
+      "acousticness": 0.627,
+      "danceability": 0.725,
+      "energy": 0.614,
+      "instrumentalness": 0.204,
+      "liveness": 0.113,
+      "loudness": -7.98,
+      "source": "reccobeats",
+      "speechiness": 0.1,
+      "tempo": 141.213,
+      "valence": 0.655
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:31:04Z",
+    "track_id": "7EFXzio24ra2XJLuL1yCkk",
+    "name": "Boomerang",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.614,
+      "danceability": 0.794,
+      "valence": 0.629,
+      "acousticness": 0.479,
+      "instrumentalness": 0.000841,
+      "speechiness": 0.0569,
+      "tempo": 124.024,
+      "liveness": 0.111,
+      "loudness": -6.572,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:32:36Z",
+    "track_id": "2lNbDvhX8erxOK9ZMNLoUY",
+    "name": "Knock Knock Knock (feat. YEBBA)",
+    "artists": [
+      "Mark Ronson",
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.466,
+      "danceability": 0.846,
+      "valence": 0.553,
+      "acousticness": 0.0757,
+      "instrumentalness": 0.299,
+      "speechiness": 0.0739,
+      "tempo": 98.136,
+      "liveness": 0.0654,
+      "loudness": -10.079,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-09T22:35:43Z",
+    "track_id": "1rag26cs952B2MAoGa5R0g",
+    "name": "Forgiveness",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-09T22:38:25Z",
+    "track_id": "4l3MfSQrxCWfUYUyE2sMy6",
+    "name": "Yellow Eyes",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]
