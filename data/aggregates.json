@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-09T14:35:47Z",
+  "generated_at": "2026-10-09T19:45:03Z",
   "window": {
-    "plays_used": 59,
-    "plays_with_features": 41
+    "plays_used": 63,
+    "plays_with_features": 42
   },
   "totals": {
-    "plays": 59,
-    "unique_artists": 40
+    "plays": 63,
+    "unique_artists": 43
   },
   "audio_features_mean": {
-    "energy": 0.6094,
-    "danceability": 0.586,
-    "valence": 0.5677,
-    "acousticness": 0.2949,
-    "instrumentalness": 0.014,
-    "speechiness": 0.0687
+    "energy": 0.608,
+    "danceability": 0.5836,
+    "valence": 0.5674,
+    "acousticness": 0.3024,
+    "instrumentalness": 0.0137,
+    "speechiness": 0.0694
   },
-  "tempo_mean_bpm": 109.22,
+  "tempo_mean_bpm": 108.62,
   "top_genres": [
     {
       "name": "alt country",
@@ -31,11 +31,11 @@
       "count": 5
     },
     {
-      "name": "emo",
-      "count": 3
+      "name": "neo soul",
+      "count": 4
     },
     {
-      "name": "grunge",
+      "name": "emo",
       "count": 3
     }
   ],
@@ -99,6 +99,12 @@
       "energy": 0.4695,
       "valence": 0.434,
       "plays": 7
+    },
+    {
+      "date": "2026-10-09",
+      "energy": 0.547,
+      "valence": 0.558,
+      "plays": 5
     }
   ]
 }

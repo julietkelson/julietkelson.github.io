@@ -1124,5 +1124,62 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-09T17:26:42Z",
+    "track_id": "2SoSmO0BnfzRKJlbS2lFpI",
+    "name": "Seven Years",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-09T17:29:29Z",
+    "track_id": "2SoSmO0BnfzRKJlbS2lFpI",
+    "name": "Seven Years",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-09T17:34:10Z",
+    "track_id": "3vEoBqjc5ZmcD0IXp1cUFE",
+    "name": "They Don't Care About Us (feat. Maverick Sabre & Yebba)",
+    "artists": [
+      "Rudimental",
+      "Yebba",
+      "Maverick Sabre"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-09T17:36:41Z",
+    "track_id": "5JuZbUR2A2qVSCH9g0ysE1",
+    "name": "Fuck Yo Feelings",
+    "artists": [
+      "Robert Glasper",
+      "Yebba"
+    ],
+    "genres": [
+      "neo soul",
+      "jazz rap"
+    ],
+    "audio_features": {
+      "energy": 0.547,
+      "danceability": 0.489,
+      "valence": 0.558,
+      "acousticness": 0.611,
+      "instrumentalness": 0.00181,
+      "speechiness": 0.0991,
+      "tempo": 83.826,
+      "liveness": 0.266,
+      "loudness": -6.824,
+      "source": "reccobeats"
+    }
   }
 ]

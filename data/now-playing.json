@@ -1,24 +1,28 @@
 {
-  "fetched_at": "2026-10-09T14:35:47Z",
-  "played_at": "2026-10-09T14:30:17.780Z",
+  "fetched_at": "2026-10-09T19:45:03Z",
+  "played_at": "2026-10-09T17:36:41.210Z",
   "track": {
-    "id": "0KOOfmGvTyWkxuzIiTX1Rx",
-    "name": "West Memphis",
+    "id": "5JuZbUR2A2qVSCH9g0ysE1",
+    "name": "Fuck Yo Feelings",
     "artists": [
+      {
+        "id": "5cM1PvItlR21WUyBnsdMcn",
+        "name": "Robert Glasper"
+      },
       {
         "id": "1ooV8YZC1KbpEcrmI8WH0F",
         "name": "Yebba"
       }
     ],
     "album": {
-      "name": "Jean",
-      "release_date": "2026-03-06",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735932b2362d978f6fa10ca63e"
+      "name": "Fuck Yo Feelings",
+      "release_date": "2019-10-03",
+      "image": "https://i.scdn.co/image/ab67616d0000b27334223c38203d24d61f271f8a"
     },
-    "duration_ms": 295300,
+    "duration_ms": 150000,
     "explicit": true,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/0KOOfmGvTyWkxuzIiTX1Rx"
+      "spotify": "https://open.spotify.com/track/5JuZbUR2A2qVSCH9g0ysE1"
     }
   }
 }
