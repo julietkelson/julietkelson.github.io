@@ -1,15 +1,5 @@
 [
   {
-    "logged_at": "2026-09-09T14:06:43Z",
-    "track_id": "0QRtKJGOuFOuLVm2AQk1RD",
-    "name": "Maneater",
-    "artists": [
-      "Nelly Furtado"
-    ],
-    "genres": [],
-    "audio_features": null
-  },
-  {
     "logged_at": "2026-09-10T16:51:35Z",
     "track_id": "1ib7qiwvDHX1ETb8ZtCfgN",
     "name": "Dandelion",
@@ -1120,6 +1110,16 @@
     "artists": [
       "Denzel Curry",
       "Kenny Beats",
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-09T14:30:17Z",
+    "track_id": "0KOOfmGvTyWkxuzIiTX1Rx",
+    "name": "West Memphis",
+    "artists": [
       "Yebba"
     ],
     "genres": [],

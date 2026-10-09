@@ -1,32 +1,24 @@
 {
-  "fetched_at": "2026-10-09T07:29:15Z",
-  "played_at": "2026-10-08T22:07:45.834Z",
+  "fetched_at": "2026-10-09T14:35:47Z",
+  "played_at": "2026-10-09T14:30:17.780Z",
   "track": {
-    "id": "1qHqHoENhzVRJVNW3atibD",
-    "name": "DIFFERENCE [Feat. Yebba]",
+    "id": "0KOOfmGvTyWkxuzIiTX1Rx",
+    "name": "West Memphis",
     "artists": [
-      {
-        "id": "6fxyWrfmjcbj5d12gXeiNV",
-        "name": "Denzel Curry"
-      },
-      {
-        "id": "1rHOtdmGNr5vcYNw5v7QGC",
-        "name": "Kenny Beats"
-      },
       {
         "id": "1ooV8YZC1KbpEcrmI8WH0F",
         "name": "Yebba"
       }
     ],
     "album": {
-      "name": "ii",
-      "release_date": "2026-08-21",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e33108f47dbaec59793f0932"
+      "name": "Jean",
+      "release_date": "2026-03-06",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735932b2362d978f6fa10ca63e"
     },
-    "duration_ms": 168865,
+    "duration_ms": 295300,
     "explicit": true,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/1qHqHoENhzVRJVNW3atibD"
+      "spotify": "https://open.spotify.com/track/0KOOfmGvTyWkxuzIiTX1Rx"
     }
   }
 }
