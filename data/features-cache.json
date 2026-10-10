@@ -183,6 +183,21 @@
       "valence": 0.308
     }
   },
+  "0Z8mzoAQhdSTyOsXcA0RdC": {
+    "cached_at": "2026-10-10T02:44:23Z",
+    "features": {
+      "acousticness": 0.497,
+      "danceability": 0.651,
+      "energy": 0.402,
+      "instrumentalness": 0.000391,
+      "liveness": 0.0871,
+      "loudness": -10.501,
+      "source": "reccobeats",
+      "speechiness": 0.061,
+      "tempo": 136.952,
+      "valence": 0.451
+    }
+  },
   "0ZQ0AYmoSQqmPYtI9JP9F9": {
     "cached_at": "2026-08-14T04:30:42Z",
     "features": {
@@ -671,6 +686,21 @@
       "valence": 0.575
     }
   },
+  "1e1BUP7FUzpyzQl6owUMkW": {
+    "cached_at": "2026-10-10T02:44:24Z",
+    "features": {
+      "acousticness": 0.257,
+      "danceability": 0.45,
+      "energy": 0.514,
+      "instrumentalness": 0.484,
+      "liveness": 0.114,
+      "loudness": -10.168,
+      "source": "reccobeats",
+      "speechiness": 0.0347,
+      "tempo": 121.333,
+      "valence": 0.0841
+    }
+  },
   "1fBl642IhJOE5U319Gy2Go": {
     "cached_at": "2026-09-18T22:43:26Z",
     "features": null
@@ -919,6 +949,10 @@
       "tempo": 77.021,
       "valence": 0.332
     }
+  },
+  "2N5xBpHZ4ACu7o8BK0Lpj1": {
+    "cached_at": "2026-10-10T02:44:21Z",
+    "features": null
   },
   "2RyiGdY33PR4aCTUolEhk7": {
     "cached_at": "2026-09-22T21:14:44Z",
@@ -1851,6 +1885,21 @@
       "valence": 0.709
     }
   },
+  "5JhJj4nqcx4VHfBDMCVZ7x": {
+    "cached_at": "2026-10-10T02:44:27Z",
+    "features": {
+      "acousticness": 0.018,
+      "danceability": 0.767,
+      "energy": 0.697,
+      "instrumentalness": 0.000314,
+      "liveness": 0.105,
+      "loudness": -8.679,
+      "source": "reccobeats",
+      "speechiness": 0.27,
+      "tempo": 100.03,
+      "valence": 0.846
+    }
+  },
   "5JhubOqCpneBCg2J627Xkk": {
     "cached_at": "2026-08-18T17:23:49Z",
     "features": {
@@ -1954,6 +2003,21 @@
       "speechiness": 0.0339,
       "tempo": 77.498,
       "valence": 0.556
+    }
+  },
+  "5Pjk4FJU3LYSO1g8JlFPey": {
+    "cached_at": "2026-10-10T02:44:26Z",
+    "features": {
+      "acousticness": 0.0241,
+      "danceability": 0.54,
+      "energy": 0.632,
+      "instrumentalness": 0.0,
+      "liveness": 0.271,
+      "loudness": -8.222,
+      "source": "reccobeats",
+      "speechiness": 0.12,
+      "tempo": 172.492,
+      "valence": 0.761
     }
   },
   "5SFssNXGjeOxdAnECfgttm": {

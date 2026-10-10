@@ -1350,5 +1350,99 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-10T00:59:37Z",
+    "track_id": "2N5xBpHZ4ACu7o8BK0Lpj1",
+    "name": "Alright",
+    "artists": [
+      "Yebba"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-10T01:03:42Z",
+    "track_id": "0Z8mzoAQhdSTyOsXcA0RdC",
+    "name": "Mother of Maladies",
+    "artists": [
+      "Marrow"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.402,
+      "danceability": 0.651,
+      "valence": 0.451,
+      "acousticness": 0.497,
+      "instrumentalness": 0.000391,
+      "speechiness": 0.061,
+      "tempo": 136.952,
+      "liveness": 0.0871,
+      "loudness": -10.501,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-10T01:21:33Z",
+    "track_id": "1e1BUP7FUzpyzQl6owUMkW",
+    "name": "(Intro)Mental",
+    "artists": [
+      "Kids These Days"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.514,
+      "danceability": 0.45,
+      "valence": 0.0841,
+      "acousticness": 0.257,
+      "instrumentalness": 0.484,
+      "speechiness": 0.0347,
+      "tempo": 121.333,
+      "liveness": 0.114,
+      "loudness": -10.168,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-10T01:25:18Z",
+    "track_id": "5Pjk4FJU3LYSO1g8JlFPey",
+    "name": "Darling",
+    "artists": [
+      "Kids These Days"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.632,
+      "danceability": 0.54,
+      "valence": 0.761,
+      "acousticness": 0.0241,
+      "instrumentalness": 0.0,
+      "speechiness": 0.12,
+      "tempo": 172.492,
+      "liveness": 0.271,
+      "loudness": -8.222,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-10T01:29:42Z",
+    "track_id": "5JhJj4nqcx4VHfBDMCVZ7x",
+    "name": "Summerscent",
+    "artists": [
+      "Kids These Days"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.697,
+      "danceability": 0.767,
+      "valence": 0.846,
+      "acousticness": 0.018,
+      "instrumentalness": 0.000314,
+      "speechiness": 0.27,
+      "tempo": 100.03,
+      "liveness": 0.105,
+      "loudness": -8.679,
+      "source": "reccobeats"
+    }
   }
 ]
