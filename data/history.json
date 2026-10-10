@@ -1444,5 +1444,26 @@
       "loudness": -8.679,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-10T04:15:12Z",
+    "track_id": "6xANFc4ajkfCOCivvrtD7U",
+    "name": "Wasting Time",
+    "artists": [
+      "Kids These Days"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.453,
+      "danceability": 0.543,
+      "valence": 0.141,
+      "acousticness": 0.472,
+      "instrumentalness": 0.000131,
+      "speechiness": 0.132,
+      "tempo": 81.689,
+      "liveness": 0.111,
+      "loudness": -10.894,
+      "source": "reccobeats"
+    }
   }
 ]
