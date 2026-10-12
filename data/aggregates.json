@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-12T08:20:05Z",
+  "generated_at": "2026-10-12T18:03:57Z",
   "window": {
-    "plays_used": 63,
-    "plays_with_features": 48
+    "plays_used": 61,
+    "plays_with_features": 47
   },
   "totals": {
-    "plays": 63,
-    "unique_artists": 39
+    "plays": 61,
+    "unique_artists": 37
   },
   "audio_features_mean": {
-    "energy": 0.5496,
-    "danceability": 0.584,
-    "valence": 0.5164,
-    "acousticness": 0.3905,
-    "instrumentalness": 0.0359,
-    "speechiness": 0.0775
+    "energy": 0.5436,
+    "danceability": 0.5804,
+    "valence": 0.5089,
+    "acousticness": 0.3943,
+    "instrumentalness": 0.0367,
+    "speechiness": 0.0772
   },
-  "tempo_mean_bpm": 109.32,
+  "tempo_mean_bpm": 109.18,
   "top_genres": [
     {
       "name": "alt country",
@@ -35,17 +35,11 @@
       "count": 4
     },
     {
-      "name": "emo",
+      "name": "grunge",
       "count": 3
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-09-12",
-      "energy": 0.829,
-      "valence": 0.87,
-      "plays": 2
-    },
     {
       "date": "2026-09-13",
       "energy": 0.923,
