@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-13T14:58:40Z",
+  "generated_at": "2026-10-13T20:35:49Z",
   "window": {
-    "plays_used": 61,
-    "plays_with_features": 47
+    "plays_used": 60,
+    "plays_with_features": 46
   },
   "totals": {
-    "plays": 61,
-    "unique_artists": 37
+    "plays": 60,
+    "unique_artists": 36
   },
   "audio_features_mean": {
-    "energy": 0.5436,
-    "danceability": 0.5804,
-    "valence": 0.5089,
-    "acousticness": 0.3943,
-    "instrumentalness": 0.0367,
-    "speechiness": 0.0772
+    "energy": 0.5354,
+    "danceability": 0.58,
+    "valence": 0.5033,
+    "acousticness": 0.4027,
+    "instrumentalness": 0.0375,
+    "speechiness": 0.078
   },
-  "tempo_mean_bpm": 109.18,
+  "tempo_mean_bpm": 108.59,
   "top_genres": [
     {
       "name": "alt country",
@@ -40,12 +40,6 @@
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-09-13",
-      "energy": 0.923,
-      "valence": 0.765,
-      "plays": 1
-    },
     {
       "date": "2026-09-18",
       "energy": 0.785,
