@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-15T14:24:04Z",
-  "played_at": "2026-10-15T14:12:36.500Z",
+  "fetched_at": "2026-10-15T18:29:48Z",
+  "played_at": "2026-10-15T17:28:36.150Z",
   "track": {
-    "id": "2yyOV4CLMguFh4bOcutyvz",
-    "name": "Caretaker",
+    "id": "0KgrW4TBWF4DvmtQl2Gco8",
+    "name": "SmthnthtIwnt",
     "artists": [
       {
         "id": "0ojcq9LJQWMawQdFDw3M0L",
@@ -15,10 +15,10 @@
       "release_date": "2015-06-30",
       "image": "https://i.scdn.co/image/ab67616d0000b27342bf3f893586a144871b35a8"
     },
-    "duration_ms": 95388,
-    "explicit": true,
+    "duration_ms": 111415,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2yyOV4CLMguFh4bOcutyvz"
+      "spotify": "https://open.spotify.com/track/0KgrW4TBWF4DvmtQl2Gco8"
     }
   }
 }

@@ -1412,5 +1412,173 @@
       "loudness": -17.73,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-15T14:24:21Z",
+    "track_id": "6y0eiewGRYSrDMHNm1bkuw",
+    "name": "Questions",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.448,
+      "danceability": 0.806,
+      "valence": 0.428,
+      "acousticness": 0.84,
+      "instrumentalness": 0.157,
+      "speechiness": 0.141,
+      "tempo": 116.05,
+      "liveness": 0.0859,
+      "loudness": -11.636,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T14:27:51Z",
+    "track_id": "5rwZDsvEnfKVGx1cFevcPU",
+    "name": "Nothing Came to Me",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.0879,
+      "danceability": 0.262,
+      "valence": 0.123,
+      "acousticness": 0.991,
+      "instrumentalness": 0.908,
+      "speechiness": 0.0329,
+      "tempo": 86.846,
+      "liveness": 0.118,
+      "loudness": -11.955,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T14:31:39Z",
+    "track_id": "2rx3VmG7rvDNUaEbwq7vW7",
+    "name": "Just Wait",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.459,
+      "danceability": 0.598,
+      "valence": 0.108,
+      "acousticness": 0.298,
+      "instrumentalness": 0.0139,
+      "speechiness": 0.0865,
+      "tempo": 140.157,
+      "liveness": 0.0858,
+      "loudness": -11.864,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T16:59:24Z",
+    "track_id": "2MMSvQYxprysW5Askrde6L",
+    "name": "Windows",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.45,
+      "danceability": 0.396,
+      "valence": 0.384,
+      "acousticness": 0.685,
+      "instrumentalness": 0.00958,
+      "speechiness": 0.213,
+      "tempo": 99.42,
+      "liveness": 0.13,
+      "loudness": -11.982,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T17:00:59Z",
+    "track_id": "2MMSvQYxprysW5Askrde6L",
+    "name": "Windows",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.45,
+      "danceability": 0.396,
+      "valence": 0.384,
+      "acousticness": 0.685,
+      "instrumentalness": 0.00958,
+      "speechiness": 0.213,
+      "tempo": 99.42,
+      "liveness": 0.13,
+      "loudness": -11.982,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T17:09:03Z",
+    "track_id": "4Zf351SuPuXo8w6IIMsxev",
+    "name": "Wanna Be Cool",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.611,
+      "danceability": 0.663,
+      "valence": 0.337,
+      "acousticness": 0.239,
+      "instrumentalness": 0.0,
+      "speechiness": 0.301,
+      "tempo": 116.947,
+      "liveness": 0.181,
+      "loudness": -8.287,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T17:26:44Z",
+    "track_id": "1CUm4jatb0BDL7RGwBV1j2",
+    "name": "Miracle",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.508,
+      "danceability": 0.45,
+      "valence": 0.15,
+      "acousticness": 0.901,
+      "instrumentalness": 1.33e-05,
+      "speechiness": 0.149,
+      "tempo": 70.085,
+      "liveness": 0.112,
+      "loudness": -8.396,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T17:28:36Z",
+    "track_id": "0KgrW4TBWF4DvmtQl2Gco8",
+    "name": "SmthnthtIwnt",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.267,
+      "danceability": 0.532,
+      "valence": 0.146,
+      "acousticness": 0.821,
+      "instrumentalness": 1.11e-05,
+      "speechiness": 0.078,
+      "tempo": 140.734,
+      "liveness": 0.146,
+      "loudness": -12.25,
+      "source": "reccobeats"
+    }
   }
 ]
