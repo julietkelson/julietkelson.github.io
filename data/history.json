@@ -1580,5 +1580,47 @@
       "loudness": -12.25,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-15T21:40:21Z",
+    "track_id": "2s8zLWtT82WJm1pi34v74i",
+    "name": "Slip Slide",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.559,
+      "danceability": 0.65,
+      "valence": 0.214,
+      "acousticness": 0.311,
+      "instrumentalness": 0.000294,
+      "speechiness": 0.392,
+      "tempo": 119.964,
+      "liveness": 0.367,
+      "loudness": -9.774,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-15T21:41:11Z",
+    "track_id": "2s8zLWtT82WJm1pi34v74i",
+    "name": "Slip Slide",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.559,
+      "danceability": 0.65,
+      "valence": 0.214,
+      "acousticness": 0.311,
+      "instrumentalness": 0.000294,
+      "speechiness": 0.392,
+      "tempo": 119.964,
+      "liveness": 0.367,
+      "loudness": -9.774,
+      "source": "reccobeats"
+    }
   }
 ]
