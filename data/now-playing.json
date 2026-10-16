@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-16T17:33:23Z",
-  "played_at": "2026-10-16T17:01:38.841Z",
+  "fetched_at": "2026-10-16T20:03:02Z",
+  "played_at": "2026-10-16T19:28:52.905Z",
   "track": {
-    "id": "3w04cXVTLNvkl6foI4K1ze",
-    "name": "Pass the Vibes",
+    "id": "6jNrjFCd9h9jBdGomb7LRN",
+    "name": "Open Shut Them",
     "artists": [
       {
-        "id": "0ojcq9LJQWMawQdFDw3M0L",
-        "name": "Nico Segal"
+        "id": "7CdGfkCRgPhElnqy3HPJ4a",
+        "name": "Super Simple Songs"
       }
     ],
     "album": {
-      "name": "Surf",
-      "release_date": "2015-06-30",
-      "image": "https://i.scdn.co/image/ab67616d0000b27342bf3f893586a144871b35a8"
+      "name": "Twinkle Twinkle Little Star & More Kids Songs",
+      "release_date": "2017-03-24",
+      "image": "https://i.scdn.co/image/ab67616d0000b273de7bc1c79c54fc802aa80f73"
     },
-    "duration_ms": 150829,
+    "duration_ms": 144511,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3w04cXVTLNvkl6foI4K1ze"
+      "spotify": "https://open.spotify.com/track/6jNrjFCd9h9jBdGomb7LRN"
     }
   }
 }
