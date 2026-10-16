@@ -1622,5 +1622,68 @@
       "loudness": -9.774,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-16T00:06:08Z",
+    "track_id": "6fTdcGsjxlAD9PSkoPaLMX",
+    "name": "Sunday Candy",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.596,
+      "danceability": 0.511,
+      "valence": 0.554,
+      "acousticness": 0.53,
+      "instrumentalness": 0.0,
+      "speechiness": 0.224,
+      "tempo": 158.063,
+      "liveness": 0.0798,
+      "loudness": -6.56,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-16T00:06:56Z",
+    "track_id": "6fTdcGsjxlAD9PSkoPaLMX",
+    "name": "Sunday Candy",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.596,
+      "danceability": 0.511,
+      "valence": 0.554,
+      "acousticness": 0.53,
+      "instrumentalness": 0.0,
+      "speechiness": 0.224,
+      "tempo": 158.063,
+      "liveness": 0.0798,
+      "loudness": -6.56,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-16T00:09:31Z",
+    "track_id": "67Q4A723vZInFO6GJlOqfd",
+    "name": "Rememory",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.251,
+      "danceability": 0.452,
+      "valence": 0.0758,
+      "acousticness": 0.805,
+      "instrumentalness": 0.00373,
+      "speechiness": 0.0718,
+      "tempo": 83.774,
+      "liveness": 0.0793,
+      "loudness": -16.163,
+      "source": "reccobeats"
+    }
   }
 ]

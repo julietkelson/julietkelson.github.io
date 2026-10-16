@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-15T23:53:43Z",
-  "played_at": "2026-10-15T21:41:11.050Z",
+  "fetched_at": "2026-10-16T03:13:17Z",
+  "played_at": "2026-10-16T00:09:31.362Z",
   "track": {
-    "id": "2s8zLWtT82WJm1pi34v74i",
-    "name": "Slip Slide",
+    "id": "67Q4A723vZInFO6GJlOqfd",
+    "name": "Rememory",
     "artists": [
       {
         "id": "0ojcq9LJQWMawQdFDw3M0L",
@@ -15,10 +15,10 @@
       "release_date": "2015-06-30",
       "image": "https://i.scdn.co/image/ab67616d0000b27342bf3f893586a144871b35a8"
     },
-    "duration_ms": 239922,
+    "duration_ms": 154095,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2s8zLWtT82WJm1pi34v74i"
+      "spotify": "https://open.spotify.com/track/67Q4A723vZInFO6GJlOqfd"
     }
   }
 }
