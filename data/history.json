@@ -1685,5 +1685,26 @@
       "loudness": -16.163,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-16T17:01:38Z",
+    "track_id": "3w04cXVTLNvkl6foI4K1ze",
+    "name": "Pass the Vibes",
+    "artists": [
+      "Nico Segal"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.45,
+      "danceability": 0.802,
+      "valence": 0.305,
+      "acousticness": 0.734,
+      "instrumentalness": 0.544,
+      "speechiness": 0.064,
+      "tempo": 140.022,
+      "liveness": 0.0919,
+      "loudness": -9.741,
+      "source": "reccobeats"
+    }
   }
 ]

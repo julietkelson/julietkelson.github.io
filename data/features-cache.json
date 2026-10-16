@@ -1614,6 +1614,21 @@
       "valence": 0.481
     }
   },
+  "3w04cXVTLNvkl6foI4K1ze": {
+    "cached_at": "2026-10-16T17:33:23Z",
+    "features": {
+      "acousticness": 0.734,
+      "danceability": 0.802,
+      "energy": 0.45,
+      "instrumentalness": 0.544,
+      "liveness": 0.0919,
+      "loudness": -9.741,
+      "source": "reccobeats",
+      "speechiness": 0.064,
+      "tempo": 140.022,
+      "valence": 0.305
+    }
+  },
   "3xkYT152CbjaDGvLwWxiNn": {
     "cached_at": "2026-08-26T01:40:18Z",
     "features": {

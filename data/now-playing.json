@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-16T13:20:20Z",
-  "played_at": "2026-10-16T00:09:31.362Z",
+  "fetched_at": "2026-10-16T17:33:23Z",
+  "played_at": "2026-10-16T17:01:38.841Z",
   "track": {
-    "id": "67Q4A723vZInFO6GJlOqfd",
-    "name": "Rememory",
+    "id": "3w04cXVTLNvkl6foI4K1ze",
+    "name": "Pass the Vibes",
     "artists": [
       {
         "id": "0ojcq9LJQWMawQdFDw3M0L",
@@ -15,10 +15,10 @@
       "release_date": "2015-06-30",
       "image": "https://i.scdn.co/image/ab67616d0000b27342bf3f893586a144871b35a8"
     },
-    "duration_ms": 154095,
+    "duration_ms": 150829,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/67Q4A723vZInFO6GJlOqfd"
+      "spotify": "https://open.spotify.com/track/3w04cXVTLNvkl6foI4K1ze"
     }
   }
 }
