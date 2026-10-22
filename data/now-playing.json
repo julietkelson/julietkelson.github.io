@@ -1,24 +1,32 @@
 {
-  "fetched_at": "2026-10-22T00:11:40Z",
-  "played_at": "2026-10-16T19:28:52.905Z",
+  "fetched_at": "2026-10-22T04:53:55Z",
+  "played_at": "2026-10-22T01:55:25.396Z",
   "track": {
-    "id": "6jNrjFCd9h9jBdGomb7LRN",
-    "name": "Open Shut Them",
+    "id": "3clc4Zg6lRMkZBt1DZXiVv",
+    "name": "Garganta Profunda",
     "artists": [
       {
-        "id": "7CdGfkCRgPhElnqy3HPJ4a",
-        "name": "Super Simple Songs"
+        "id": "5GL61oWz7b59KKnJfzlgrC",
+        "name": "Mc Jessica do escad\u00e3o"
+      },
+      {
+        "id": "2g769VR907MDS3ISg79fcJ",
+        "name": "Dj do crime"
+      },
+      {
+        "id": "0Pbb9aC8FOxRWYAWbYYCVY",
+        "name": "Da Ponte Pra C\u00e1"
       }
     ],
     "album": {
-      "name": "Twinkle Twinkle Little Star & More Kids Songs",
-      "release_date": "2017-03-24",
-      "image": "https://i.scdn.co/image/ab67616d0000b273de7bc1c79c54fc802aa80f73"
+      "name": "Garganta Profunda",
+      "release_date": "2025-04-11",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e4fec124f7f9d7c05b9eee10"
     },
-    "duration_ms": 144511,
-    "explicit": false,
+    "duration_ms": 126746,
+    "explicit": true,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/6jNrjFCd9h9jBdGomb7LRN"
+      "spotify": "https://open.spotify.com/track/3clc4Zg6lRMkZBt1DZXiVv"
     }
   }
 }
