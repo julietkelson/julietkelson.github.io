@@ -1,29 +1,5 @@
 [
   {
-    "logged_at": "2026-09-22T21:04:15Z",
-    "track_id": "1tlTFxB34VorrZnJNfRWcs",
-    "name": "Something In The Way - Live",
-    "artists": [
-      "Nirvana"
-    ],
-    "genres": [
-      "grunge",
-      "rock"
-    ],
-    "audio_features": {
-      "energy": 0.335,
-      "danceability": 0.547,
-      "valence": 0.109,
-      "acousticness": 0.656,
-      "instrumentalness": 0.000161,
-      "speechiness": 0.0501,
-      "tempo": 106.099,
-      "liveness": 0.115,
-      "loudness": -13.304,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-09-24T01:51:47Z",
     "track_id": "3W8299AD4n4LAgIr5VGY3X",
     "name": "I've Got That Old Feeling",
