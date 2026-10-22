@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-22T14:45:31Z",
+  "generated_at": "2026-10-22T18:53:13Z",
   "window": {
-    "plays_used": 77,
-    "plays_with_features": 65
+    "plays_used": 74,
+    "plays_with_features": 63
   },
   "totals": {
-    "plays": 77,
-    "unique_artists": 47
+    "plays": 74,
+    "unique_artists": 46
   },
   "audio_features_mean": {
-    "energy": 0.4915,
-    "danceability": 0.585,
-    "valence": 0.4326,
-    "acousticness": 0.4559,
-    "instrumentalness": 0.0593,
-    "speechiness": 0.1244
+    "energy": 0.4882,
+    "danceability": 0.5826,
+    "valence": 0.4294,
+    "acousticness": 0.4526,
+    "instrumentalness": 0.0612,
+    "speechiness": 0.127
   },
-  "tempo_mean_bpm": 109.29,
+  "tempo_mean_bpm": 109.06,
   "top_genres": [
     {
       "name": "alt country",
@@ -35,16 +35,16 @@
       "count": 4
     },
     {
-      "name": "grunge",
+      "name": "jazz rap",
       "count": 3
     }
   ],
   "daily_series": [
     {
       "date": "2026-09-22",
-      "energy": 0.5073,
-      "valence": 0.3923,
-      "plays": 4
+      "energy": 0.335,
+      "valence": 0.109,
+      "plays": 1
     },
     {
       "date": "2026-09-24",
