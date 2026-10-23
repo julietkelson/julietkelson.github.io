@@ -1,32 +1,24 @@
 {
-  "fetched_at": "2026-10-23T15:14:44Z",
-  "played_at": "2026-10-22T01:55:25.396Z",
+  "fetched_at": "2026-10-23T19:19:53Z",
+  "played_at": "2026-10-23T01:48:23.111Z",
   "track": {
-    "id": "3clc4Zg6lRMkZBt1DZXiVv",
-    "name": "Garganta Profunda",
+    "id": "561KH32varxPqqwIY4gA7z",
+    "name": "Balada",
     "artists": [
       {
-        "id": "5GL61oWz7b59KKnJfzlgrC",
-        "name": "Mc Jessica do escad\u00e3o"
-      },
-      {
-        "id": "2g769VR907MDS3ISg79fcJ",
-        "name": "Dj do crime"
-      },
-      {
-        "id": "0Pbb9aC8FOxRWYAWbYYCVY",
-        "name": "Da Ponte Pra C\u00e1"
+        "id": "7MiDcPa6UiV3In7lIM71IN",
+        "name": "Gusttavo Lima"
       }
     ],
     "album": {
-      "name": "Garganta Profunda",
-      "release_date": "2025-04-11",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e4fec124f7f9d7c05b9eee10"
+      "name": "Caribe 2012: Ai Se o Ver\u00e3o Te Pega!",
+      "release_date": "2012-06-22",
+      "image": "https://i.scdn.co/image/ab67616d0000b273956af31e7f5c45234b863716"
     },
-    "duration_ms": 126746,
-    "explicit": true,
+    "duration_ms": 201720,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3clc4Zg6lRMkZBt1DZXiVv"
+      "spotify": "https://open.spotify.com/track/561KH32varxPqqwIY4gA7z"
     }
   }
 }
