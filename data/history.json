@@ -1,26 +1,5 @@
 [
   {
-    "logged_at": "2026-09-24T23:14:12Z",
-    "track_id": "3FxcNd8jGiQwOmiaGgmMfn",
-    "name": "Oseh Shalom",
-    "artists": [
-      "Debbie Friedman"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.373,
-      "danceability": 0.297,
-      "valence": 0.529,
-      "acousticness": 0.69,
-      "instrumentalness": 0.0,
-      "speechiness": 0.0344,
-      "tempo": 120.84,
-      "liveness": 0.237,
-      "loudness": -11.17,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-09-25T00:27:06Z",
     "track_id": "3HWxpLKnTlz6jE3Vi5dTF2",
     "name": "I Am Trying to Break Your Heart",
