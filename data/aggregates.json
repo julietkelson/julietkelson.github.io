@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-24T00:55:59Z",
+  "generated_at": "2026-10-24T05:33:57Z",
   "window": {
-    "plays_used": 74,
-    "plays_with_features": 62
+    "plays_used": 73,
+    "plays_with_features": 61
   },
   "totals": {
-    "plays": 74,
-    "unique_artists": 46
+    "plays": 73,
+    "unique_artists": 45
   },
   "audio_features_mean": {
-    "energy": 0.4907,
-    "danceability": 0.5831,
-    "valence": 0.4346,
-    "acousticness": 0.4493,
-    "instrumentalness": 0.0622,
-    "speechiness": 0.1283
+    "energy": 0.493,
+    "danceability": 0.5818,
+    "valence": 0.4352,
+    "acousticness": 0.4446,
+    "instrumentalness": 0.0631,
+    "speechiness": 0.13
   },
-  "tempo_mean_bpm": 109.11,
+  "tempo_mean_bpm": 109.04,
   "top_genres": [
     {
       "name": "alt country",
@@ -24,7 +24,7 @@
     },
     {
       "name": "americana",
-      "count": 6
+      "count": 5
     },
     {
       "name": "indie rock",
@@ -42,9 +42,9 @@
   "daily_series": [
     {
       "date": "2026-09-24",
-      "energy": 0.362,
-      "valence": 0.463,
-      "plays": 2
+      "energy": 0.373,
+      "valence": 0.529,
+      "plays": 1
     },
     {
       "date": "2026-09-25",
