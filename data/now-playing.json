@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-25T12:30:11Z",
-  "played_at": "2026-10-25T07:22:14.247Z",
+  "fetched_at": "2026-10-25T16:45:24Z",
+  "played_at": "2026-10-25T16:39:36.176Z",
   "track": {
-    "id": "4RM18ZXC2m6cHmGMjNHvzg",
-    "name": "I Won\u2019t Cry",
+    "id": "19woxaSpjOefa2JnAOoqW5",
+    "name": "Garden (Say It Like Dat)",
     "artists": [
       {
-        "id": "0NB5HROxc8dDBXpkIi1v3d",
-        "name": "Remi Wolf"
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA"
       }
     ],
     "album": {
-      "name": "I Won\u2019t Cry",
-      "release_date": "2026-09-25",
-      "image": "https://i.scdn.co/image/ab6742d3000053b7f9b5fda9bfe3954e58b81828"
+      "name": "Ctrl",
+      "release_date": "2017-06-09",
+      "image": "https://i.scdn.co/image/ab67616d0000b27306d56b057cce5797538a16d5"
     },
-    "duration_ms": 260310,
-    "explicit": false,
+    "duration_ms": 208397,
+    "explicit": true,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/4RM18ZXC2m6cHmGMjNHvzg"
+      "spotify": "https://open.spotify.com/track/19woxaSpjOefa2JnAOoqW5"
     }
   }
 }

@@ -1,25 +1,33 @@
 {
-  "generated_at": "2026-10-25T12:30:11Z",
+  "generated_at": "2026-10-25T16:45:24Z",
   "window": {
-    "plays_used": 68,
-    "plays_with_features": 55
+    "plays_used": 76,
+    "plays_with_features": 61
   },
   "totals": {
-    "plays": 68,
-    "unique_artists": 44
+    "plays": 76,
+    "unique_artists": 47
   },
   "audio_features_mean": {
-    "energy": 0.4919,
-    "danceability": 0.5938,
-    "valence": 0.4344,
-    "acousticness": 0.453,
-    "instrumentalness": 0.069,
-    "speechiness": 0.1409
+    "energy": 0.4999,
+    "danceability": 0.5953,
+    "valence": 0.4548,
+    "acousticness": 0.4381,
+    "instrumentalness": 0.0623,
+    "speechiness": 0.1418
   },
-  "tempo_mean_bpm": 110.23,
+  "tempo_mean_bpm": 111.76,
   "top_genres": [
     {
+      "name": "alternative r&b",
+      "count": 4
+    },
+    {
       "name": "neo soul",
+      "count": 4
+    },
+    {
+      "name": "r&b",
       "count": 4
     },
     {
@@ -27,16 +35,8 @@
       "count": 3
     },
     {
-      "name": "alternative r&b",
+      "name": "indie soul",
       "count": 2
-    },
-    {
-      "name": "r&b",
-      "count": 2
-    },
-    {
-      "name": "agronejo",
-      "count": 1
     }
   ],
   "daily_series": [
@@ -87,6 +87,12 @@
       "energy": 0.845,
       "valence": 0.728,
       "plays": 1
+    },
+    {
+      "date": "2026-10-25",
+      "energy": 0.5725,
+      "valence": 0.6413,
+      "plays": 10
     }
   ]
 }
