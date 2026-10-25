@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-25T06:59:28Z",
-  "played_at": "2026-10-23T01:48:23.111Z",
+  "fetched_at": "2026-10-25T12:30:11Z",
+  "played_at": "2026-10-25T07:22:14.247Z",
   "track": {
-    "id": "561KH32varxPqqwIY4gA7z",
-    "name": "Balada",
+    "id": "4RM18ZXC2m6cHmGMjNHvzg",
+    "name": "I Won\u2019t Cry",
     "artists": [
       {
-        "id": "7MiDcPa6UiV3In7lIM71IN",
-        "name": "Gusttavo Lima"
+        "id": "0NB5HROxc8dDBXpkIi1v3d",
+        "name": "Remi Wolf"
       }
     ],
     "album": {
-      "name": "Caribe 2012: Ai Se o Ver\u00e3o Te Pega!",
-      "release_date": "2012-06-22",
-      "image": "https://i.scdn.co/image/ab67616d0000b273956af31e7f5c45234b863716"
+      "name": "I Won\u2019t Cry",
+      "release_date": "2026-09-25",
+      "image": "https://i.scdn.co/image/ab6742d3000053b7f9b5fda9bfe3954e58b81828"
     },
-    "duration_ms": 201720,
+    "duration_ms": 260310,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/561KH32varxPqqwIY4gA7z"
+      "spotify": "https://open.spotify.com/track/4RM18ZXC2m6cHmGMjNHvzg"
     }
   }
 }
