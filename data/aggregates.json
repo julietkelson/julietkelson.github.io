@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-25T01:47:01Z",
+  "generated_at": "2026-10-25T06:59:28Z",
   "window": {
-    "plays_used": 68,
-    "plays_with_features": 56
+    "plays_used": 67,
+    "plays_with_features": 55
   },
   "totals": {
-    "plays": 68,
-    "unique_artists": 44
+    "plays": 67,
+    "unique_artists": 43
   },
   "audio_features_mean": {
-    "energy": 0.498,
-    "danceability": 0.5948,
-    "valence": 0.4388,
-    "acousticness": 0.4454,
-    "instrumentalness": 0.0679,
-    "speechiness": 0.1389
+    "energy": 0.4919,
+    "danceability": 0.5938,
+    "valence": 0.4344,
+    "acousticness": 0.453,
+    "instrumentalness": 0.069,
+    "speechiness": 0.1409
   },
-  "tempo_mean_bpm": 110.6,
+  "tempo_mean_bpm": 110.23,
   "top_genres": [
     {
       "name": "neo soul",
@@ -27,25 +27,19 @@
       "count": 3
     },
     {
-      "name": "alt country",
-      "count": 2
-    },
-    {
       "name": "alternative r&b",
       "count": 2
     },
     {
       "name": "r&b",
       "count": 2
+    },
+    {
+      "name": "agronejo",
+      "count": 1
     }
   ],
   "daily_series": [
-    {
-      "date": "2026-09-25",
-      "energy": 0.833,
-      "valence": 0.677,
-      "plays": 2
-    },
     {
       "date": "2026-10-07",
       "energy": 0.4939,
