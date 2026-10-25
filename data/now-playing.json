@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-25T16:45:24Z",
-  "played_at": "2026-10-25T16:39:36.176Z",
+  "fetched_at": "2026-10-25T19:19:40Z",
+  "played_at": "2026-10-25T17:32:14.371Z",
   "track": {
-    "id": "19woxaSpjOefa2JnAOoqW5",
-    "name": "Garden (Say It Like Dat)",
+    "id": "3hc7PLcmuZbJGPjhIore1i",
+    "name": "Too Little Too Late - Clover Room Edition",
     "artists": [
       {
-        "id": "7tYKF4w9nC0nq9CsPZTHyP",
-        "name": "SZA"
+        "id": "5xuNBZoM7z1Vv8IQ6uM0p6",
+        "name": "JoJo"
       }
     ],
     "album": {
-      "name": "Ctrl",
-      "release_date": "2017-06-09",
-      "image": "https://i.scdn.co/image/ab67616d0000b27306d56b057cce5797538a16d5"
+      "name": "The High Road (Clover Room Edition)",
+      "release_date": "2018-12-20",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736d765a133698cd8e757a22c8"
     },
-    "duration_ms": 208397,
-    "explicit": true,
+    "duration_ms": 223533,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/19woxaSpjOefa2JnAOoqW5"
+      "spotify": "https://open.spotify.com/track/3hc7PLcmuZbJGPjhIore1i"
     }
   }
 }
