@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-25T21:55:55Z",
-  "played_at": "2026-10-25T17:32:14.371Z",
+  "fetched_at": "2026-10-25T23:58:18Z",
+  "played_at": "2026-10-25T23:57:13.854Z",
   "track": {
-    "id": "3hc7PLcmuZbJGPjhIore1i",
-    "name": "Too Little Too Late - Clover Room Edition",
+    "id": "30LhXbIEA2tqqL0yHXIRu9",
+    "name": "Jamie",
     "artists": [
       {
-        "id": "5xuNBZoM7z1Vv8IQ6uM0p6",
-        "name": "JoJo"
+        "id": "0NB5HROxc8dDBXpkIi1v3d",
+        "name": "Remi Wolf"
       }
     ],
     "album": {
-      "name": "The High Road (Clover Room Edition)",
-      "release_date": "2018-12-20",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736d765a133698cd8e757a22c8"
+      "name": "Mud",
+      "release_date": "2026-10-09",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fa3db827a24dd8dbaa1bf245"
     },
-    "duration_ms": 223533,
-    "explicit": false,
+    "duration_ms": 306397,
+    "explicit": true,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/3hc7PLcmuZbJGPjhIore1i"
+      "spotify": "https://open.spotify.com/track/30LhXbIEA2tqqL0yHXIRu9"
     }
   }
 }

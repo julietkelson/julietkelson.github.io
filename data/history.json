@@ -1703,5 +1703,265 @@
       "tempo": 82.764,
       "valence": 0.509
     }
+  },
+  {
+    "logged_at": "2026-10-25T22:25:43Z",
+    "track_id": "7JIuqL4ZqkpfGKQhYlrirs",
+    "name": "The Only Exception",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": {
+      "energy": 0.563,
+      "danceability": 0.452,
+      "valence": 0.209,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0272,
+      "tempo": 137.715,
+      "liveness": 0.143,
+      "loudness": -6.607,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T22:28:42Z",
+    "track_id": "7JIuqL4ZqkpfGKQhYlrirs",
+    "name": "The Only Exception",
+    "artists": [
+      "Paramore"
+    ],
+    "genres": [
+      "pop punk",
+      "emo"
+    ],
+    "audio_features": {
+      "energy": 0.563,
+      "danceability": 0.452,
+      "valence": 0.209,
+      "acousticness": 0.144,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0272,
+      "tempo": 137.715,
+      "liveness": 0.143,
+      "loudness": -6.607,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T22:32:54Z",
+    "track_id": "5jgEJXjECdlhzNgfITSTVm",
+    "name": "Just Friends (Sunny)",
+    "artists": [
+      "Musiq Soulchild"
+    ],
+    "genres": [
+      "neo soul",
+      "r&b",
+      "quiet storm"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-25T22:36:44Z",
+    "track_id": "5lE2EFXt4muvLFMGQg4hZN",
+    "name": "Hypotheticals",
+    "artists": [
+      "Lake Street Dive"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.664,
+      "danceability": 0.69,
+      "valence": 0.383,
+      "acousticness": 0.00753,
+      "instrumentalness": 0.00762,
+      "speechiness": 0.0562,
+      "tempo": 164.145,
+      "liveness": 0.0496,
+      "loudness": -6.488,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T22:44:09Z",
+    "track_id": "0xZui3lPulzn0AubjuL0zq",
+    "name": "I Am Trying to Break Your Heart - 2022 Remaster",
+    "artists": [
+      "Wilco"
+    ],
+    "genres": [
+      "alt country",
+      "americana",
+      "indie rock"
+    ],
+    "audio_features": {
+      "energy": 0.547,
+      "danceability": 0.478,
+      "valence": 0.517,
+      "acousticness": 0.261,
+      "instrumentalness": 0.00695,
+      "speechiness": 0.0271,
+      "tempo": 86.186,
+      "liveness": 0.158,
+      "loudness": -10.045,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T22:47:25Z",
+    "track_id": "5zmLRdgheUjzeeL6697YK1",
+    "name": "Haunt Me",
+    "artists": [
+      "Yana"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.485,
+      "danceability": 0.716,
+      "valence": 0.568,
+      "acousticness": 0.502,
+      "instrumentalness": 0.0488,
+      "speechiness": 0.0368,
+      "tempo": 93.966,
+      "liveness": 0.125,
+      "loudness": -8.765,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T22:51:33Z",
+    "track_id": "1Qu24vc8msUVLcMZWa4k1x",
+    "name": "Want U Around (feat. Ruel)",
+    "artists": [
+      "Omar Apollo",
+      "Ruel"
+    ],
+    "genres": [
+      "bedroom pop"
+    ],
+    "audio_features": {
+      "energy": 0.443,
+      "danceability": 0.571,
+      "valence": 0.621,
+      "acousticness": 0.3,
+      "instrumentalness": 6.95e-06,
+      "speechiness": 0.0451,
+      "tempo": 143.923,
+      "liveness": 0.101,
+      "loudness": -6.76,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T22:55:10Z",
+    "track_id": "6BqTAsjZY3HFsaMGIFbCqL",
+    "name": "Blue",
+    "artists": [
+      "Sarah Isen"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.321,
+      "danceability": 0.531,
+      "valence": 0.399,
+      "acousticness": 0.839,
+      "instrumentalness": 4.64e-06,
+      "speechiness": 0.0268,
+      "tempo": 107.645,
+      "liveness": 0.105,
+      "loudness": -7.759,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T23:00:03Z",
+    "track_id": "4uawMXx8VZ7WMrjAVOaCMe",
+    "name": "Bittersweet",
+    "artists": [
+      "Lianne La Havas"
+    ],
+    "genres": [
+      "alternative r&b",
+      "soul",
+      "pop soul",
+      "neo soul"
+    ],
+    "audio_features": {
+      "energy": 0.418,
+      "danceability": 0.589,
+      "valence": 0.277,
+      "acousticness": 0.278,
+      "instrumentalness": 0.000361,
+      "speechiness": 0.0345,
+      "tempo": 137.87,
+      "liveness": 0.192,
+      "loudness": -7.456,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-25T23:06:37Z",
+    "track_id": "0j0Xae7CpwZHoC1QFhIpFb",
+    "name": "Bottle",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-25T23:40:38Z",
+    "track_id": "0Rxs96nQeboThWCNzP4H0c",
+    "name": "Champagne",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-25T23:42:17Z",
+    "track_id": "0Rxs96nQeboThWCNzP4H0c",
+    "name": "Champagne",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-25T23:45:47Z",
+    "track_id": "3h7YuJtnEZbI9WtUVgogAu",
+    "name": "Twiggy",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-25T23:52:07Z",
+    "track_id": "1BNeebWyMKE93hGYHPUGzo",
+    "name": "Burn Me Blue",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-25T23:57:13Z",
+    "track_id": "30LhXbIEA2tqqL0yHXIRu9",
+    "name": "Jamie",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]
