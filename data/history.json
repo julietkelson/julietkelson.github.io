@@ -2174,5 +2174,61 @@
       "retro soul"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:06:13Z",
+    "track_id": "2zSfeFl0jPKWi5DbiTY6xO",
+    "name": "I Feel Hope Coming",
+    "artists": [
+      "Alabama Shakes"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:11:53Z",
+    "track_id": "2zSfeFl0jPKWi5DbiTY6xO",
+    "name": "I Feel Hope Coming",
+    "artists": [
+      "Alabama Shakes"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:25:09Z",
+    "track_id": "2Vqk9HmieRuGHnU76ybp1m",
+    "name": "Situation",
+    "artists": [
+      "Johnny Blue Skies"
+    ],
+    "genres": [
+      "alt country"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:28:12Z",
+    "track_id": "7tHxwM0lDw0FwlCT4VAggT",
+    "name": "Sound & Color",
+    "artists": [
+      "Alabama Shakes"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:49:16Z",
+    "track_id": "4kJ0V9jYljXTK9sWcLFzYZ",
+    "name": "Trying to Love You",
+    "artists": [
+      "Sierra Ferrell"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country"
+    ],
+    "audio_features": null
   }
 ]
