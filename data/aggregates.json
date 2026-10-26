@@ -1,25 +1,33 @@
 {
-  "generated_at": "2026-10-26T16:53:38Z",
+  "generated_at": "2026-10-26T21:20:49Z",
   "window": {
-    "plays_used": 123,
-    "plays_with_features": 79
+    "plays_used": 140,
+    "plays_with_features": 86
   },
   "totals": {
-    "plays": 123,
-    "unique_artists": 67
+    "plays": 140,
+    "unique_artists": 77
   },
   "audio_features_mean": {
-    "energy": 0.5172,
-    "danceability": 0.5838,
+    "energy": 0.5255,
+    "danceability": 0.5847,
     "valence": 0.4612,
-    "acousticness": 0.4054,
-    "instrumentalness": 0.0491,
-    "speechiness": 0.1301
+    "acousticness": 0.3896,
+    "instrumentalness": 0.0452,
+    "speechiness": 0.1249
   },
-  "tempo_mean_bpm": 112.82,
+  "tempo_mean_bpm": 113.28,
   "top_genres": [
     {
+      "name": "alternative r&b",
+      "count": 9
+    },
+    {
       "name": "neo soul",
+      "count": 7
+    },
+    {
+      "name": "alt country",
       "count": 6
     },
     {
@@ -27,16 +35,8 @@
       "count": 6
     },
     {
-      "name": "alternative r&b",
-      "count": 5
-    },
-    {
-      "name": "alt country",
-      "count": 4
-    },
-    {
       "name": "americana",
-      "count": 3
+      "count": 5
     }
   ],
   "daily_series": [
@@ -96,9 +96,9 @@
     },
     {
       "date": "2026-10-26",
-      "energy": 0.6145,
-      "valence": 0.615,
-      "plays": 23
+      "energy": 0.6184,
+      "valence": 0.4952,
+      "plays": 40
     }
   ]
 }

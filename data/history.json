@@ -2230,5 +2230,276 @@
       "alt country"
     ],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:53:35Z",
+    "track_id": "0j0Xae7CpwZHoC1QFhIpFb",
+    "name": "Bottle",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T16:57:23Z",
+    "track_id": "2vbrrGQo4vIl2bTG4dDZ4i",
+    "name": "King of Having Fun",
+    "artists": [
+      "Medium Build"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T17:49:08Z",
+    "track_id": "2lWk9Ik4LSAYKNGwBn86yJ",
+    "name": "Ride Lonesome (feat. Sierra Ferrell)",
+    "artists": [
+      "Beck",
+      "Sierra Ferrell"
+    ],
+    "genres": [
+      "anti-folk",
+      "americana",
+      "bluegrass",
+      "alt country"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T17:51:05Z",
+    "track_id": "2lWk9Ik4LSAYKNGwBn86yJ",
+    "name": "Ride Lonesome (feat. Sierra Ferrell)",
+    "artists": [
+      "Beck",
+      "Sierra Ferrell"
+    ],
+    "genres": [
+      "anti-folk",
+      "americana",
+      "bluegrass",
+      "alt country"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T17:54:46Z",
+    "track_id": "1iIkP4FMKqOw5nqbrKUqEC",
+    "name": "Nasty",
+    "artists": [
+      "Tinashe"
+    ],
+    "genres": [
+      "alternative r&b"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T17:59:05Z",
+    "track_id": "4wH4dJgrsxONID6KS2tDQM",
+    "name": "Maneater",
+    "artists": [
+      "Nelly Furtado"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.778,
+      "danceability": 0.796,
+      "valence": 0.789,
+      "acousticness": 0.0258,
+      "instrumentalness": 0.000386,
+      "speechiness": 0.0397,
+      "tempo": 132.724,
+      "liveness": 0.121,
+      "loudness": -4.81,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T18:02:50Z",
+    "track_id": "5oO3drDxtziYU2H1X23ZIp",
+    "name": "Love On The Brain",
+    "artists": [
+      "Rihanna"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.637,
+      "danceability": 0.509,
+      "valence": 0.379,
+      "acousticness": 0.0717,
+      "instrumentalness": 1.08e-05,
+      "speechiness": 0.047,
+      "tempo": 172.007,
+      "liveness": 0.0789,
+      "loudness": -4.83,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T18:06:45Z",
+    "track_id": "2XbfY2O2v3xwedUJ0J2kkr",
+    "name": "Closer",
+    "artists": [
+      "Ne-Yo"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.754,
+      "danceability": 0.711,
+      "valence": 0.59,
+      "acousticness": 0.028,
+      "instrumentalness": 2.96e-05,
+      "speechiness": 0.0763,
+      "tempo": 126.05,
+      "liveness": 0.152,
+      "loudness": -6.461,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T18:09:39Z",
+    "track_id": "2drDZnirL0TSVp8pOA756W",
+    "name": "Softly",
+    "artists": [
+      "Amber Mark"
+    ],
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ],
+    "audio_features": {
+      "acousticness": 0.321,
+      "danceability": 0.662,
+      "energy": 0.61,
+      "instrumentalness": 1.71e-06,
+      "liveness": 0.169,
+      "loudness": -8.225,
+      "source": "reccobeats",
+      "speechiness": 0.0521,
+      "tempo": 89.997,
+      "valence": 0.536
+    }
+  },
+  {
+    "logged_at": "2026-10-26T18:13:32Z",
+    "track_id": "3nGhp4FuIaitNYn4s7XHaX",
+    "name": "In Too Deep (feat. Kiana Led\u00e9)",
+    "artists": [
+      "Jacob Collier",
+      "Kiana Led\u00e9"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.29,
+      "danceability": 0.661,
+      "valence": 0.13,
+      "acousticness": 0.605,
+      "instrumentalness": 0.0096,
+      "speechiness": 0.0453,
+      "tempo": 151.887,
+      "liveness": 0.0629,
+      "loudness": -14.568,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T19:26:46Z",
+    "track_id": "6nqpNchcQ6zgRR32JFPqkW",
+    "name": "Forever In A Song",
+    "artists": [
+      "rum.gold"
+    ],
+    "genres": [
+      "alternative r&b"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T19:27:13Z",
+    "track_id": "6nqpNchcQ6zgRR32JFPqkW",
+    "name": "Forever In A Song",
+    "artists": [
+      "rum.gold"
+    ],
+    "genres": [
+      "alternative r&b"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T19:33:39Z",
+    "track_id": "2voXNGgRrosxCJA6foTVau",
+    "name": "Cruisin'",
+    "artists": [
+      "D'Angelo"
+    ],
+    "genres": [
+      "neo soul"
+    ],
+    "audio_features": {
+      "acousticness": 0.38,
+      "danceability": 0.373,
+      "energy": 0.525,
+      "instrumentalness": 0.000454,
+      "liveness": 0.0816,
+      "loudness": -12.728,
+      "source": "reccobeats",
+      "speechiness": 0.169,
+      "tempo": 74.764,
+      "valence": 0.328
+    }
+  },
+  {
+    "logged_at": "2026-10-26T19:51:17Z",
+    "track_id": "7iIoMlJdUvPsnbuMdcQM12",
+    "name": "Gotta Find You - From \"Camp Rock\"/Soundtrack Version",
+    "artists": [
+      "Joe Jonas"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.743,
+      "danceability": 0.456,
+      "valence": 0.475,
+      "acousticness": 0.0491,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0313,
+      "tempo": 82.011,
+      "liveness": 0.0874,
+      "loudness": -5.139,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T19:55:29Z",
+    "track_id": "5UA49g3Va5ERaf2DHAY9Zu",
+    "name": "Tonight",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T20:42:26Z",
+    "track_id": "1ve4UbmAdG0FsCwXkcYIPl",
+    "name": "Year 3000",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T20:45:30Z",
+    "track_id": "6TQFXftq84XzUjLLSP7c8Z",
+    "name": "Pushin' Me Away",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
   }
 ]

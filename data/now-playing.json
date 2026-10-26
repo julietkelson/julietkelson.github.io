@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-26T16:53:38Z",
-  "played_at": "2026-10-26T16:49:16.947Z",
+  "fetched_at": "2026-10-26T21:20:49Z",
+  "played_at": "2026-10-26T20:45:30.036Z",
   "track": {
-    "id": "4kJ0V9jYljXTK9sWcLFzYZ",
-    "name": "Trying to Love You",
+    "id": "6TQFXftq84XzUjLLSP7c8Z",
+    "name": "Pushin' Me Away",
     "artists": [
       {
-        "id": "3oVcF3VdpMuvMvLLyHPT4t",
-        "name": "Sierra Ferrell"
+        "id": "7gOdHgIoIKoe4i9Tta6qdD",
+        "name": "Jonas Brothers"
       }
     ],
     "album": {
-      "name": "Trying to Love You",
-      "release_date": "2026-08-07",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731692d067d7bc1a6ef83a8100"
+      "name": "A Little Bit Longer",
+      "release_date": "2008-08-12",
+      "image": "https://i.scdn.co/image/ab67616d0000b27371251546f767faa2542e82ce"
     },
-    "duration_ms": 290141,
+    "duration_ms": 183120,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/4kJ0V9jYljXTK9sWcLFzYZ"
+      "spotify": "https://open.spotify.com/track/6TQFXftq84XzUjLLSP7c8Z"
     }
   }
 }
