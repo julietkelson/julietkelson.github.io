@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-25T23:58:18Z",
-  "played_at": "2026-10-25T23:57:13.854Z",
+  "fetched_at": "2026-10-26T04:29:58Z",
+  "played_at": "2026-10-26T01:36:31.475Z",
   "track": {
-    "id": "30LhXbIEA2tqqL0yHXIRu9",
-    "name": "Jamie",
+    "id": "4QtsEj52kEsbCn2SgyKzlK",
+    "name": "Dreams",
     "artists": [
       {
-        "id": "0NB5HROxc8dDBXpkIi1v3d",
-        "name": "Remi Wolf"
+        "id": "536osqBGKzeozje8BfcGsa",
+        "name": "Allen Stone"
       }
     ],
     "album": {
-      "name": "Mud",
+      "name": "Dreams",
       "release_date": "2026-10-09",
-      "image": "https://i.scdn.co/image/ab67616d0000b273fa3db827a24dd8dbaa1bf245"
+      "image": "https://i.scdn.co/image/ab67616d0000b273ed7d57743d9d7d6be78233c7"
     },
-    "duration_ms": 306397,
-    "explicit": true,
+    "duration_ms": 187794,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/30LhXbIEA2tqqL0yHXIRu9"
+      "spotify": "https://open.spotify.com/track/4QtsEj52kEsbCn2SgyKzlK"
     }
   }
 }

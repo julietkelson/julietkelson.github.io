@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-25T23:58:18Z",
+  "generated_at": "2026-10-26T04:29:58Z",
   "window": {
-    "plays_used": 100,
-    "plays_with_features": 77
+    "plays_used": 118,
+    "plays_with_features": 79
   },
   "totals": {
-    "plays": 100,
-    "unique_artists": 62
+    "plays": 118,
+    "unique_artists": 65
   },
   "audio_features_mean": {
-    "energy": 0.5147,
-    "danceability": 0.5837,
-    "valence": 0.4572,
-    "acousticness": 0.407,
-    "instrumentalness": 0.0504,
-    "speechiness": 0.1327
+    "energy": 0.5172,
+    "danceability": 0.5838,
+    "valence": 0.4612,
+    "acousticness": 0.4054,
+    "instrumentalness": 0.0491,
+    "speechiness": 0.1301
   },
-  "tempo_mean_bpm": 113.29,
+  "tempo_mean_bpm": 112.82,
   "top_genres": [
     {
       "name": "neo soul",
@@ -93,6 +93,12 @@
       "energy": 0.5715,
       "valence": 0.5142,
       "plays": 34
+    },
+    {
+      "date": "2026-10-26",
+      "energy": 0.6145,
+      "valence": 0.615,
+      "plays": 18
     }
   ]
 }

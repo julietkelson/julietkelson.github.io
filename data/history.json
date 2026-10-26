@@ -1963,5 +1963,216 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:01:05Z",
+    "track_id": "3dS2pJxdGvqTW4g5inn3JZ",
+    "name": "Covered In Mud",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:30:56Z",
+    "track_id": "0j0Xae7CpwZHoC1QFhIpFb",
+    "name": "Bottle",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:34:27Z",
+    "track_id": "0Rxs96nQeboThWCNzP4H0c",
+    "name": "Champagne",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:37:56Z",
+    "track_id": "3h7YuJtnEZbI9WtUVgogAu",
+    "name": "Twiggy",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:41:18Z",
+    "track_id": "1BNeebWyMKE93hGYHPUGzo",
+    "name": "Burn Me Blue",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:46:25Z",
+    "track_id": "30LhXbIEA2tqqL0yHXIRu9",
+    "name": "Jamie",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:50:16Z",
+    "track_id": "3dS2pJxdGvqTW4g5inn3JZ",
+    "name": "Covered In Mud",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:54:03Z",
+    "track_id": "2aST6n3igBIOhdoCZQcmmX",
+    "name": "Moon So High",
+    "artists": [
+      "Remi Wolf",
+      "John Mayer"
+    ],
+    "genres": [
+      "singer-songwriter"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T00:58:23Z",
+    "track_id": "6JtquM5z5dHAasE2FneWgP",
+    "name": "I Won\u2019t Cry",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:02:46Z",
+    "track_id": "5SXmG8hkBErXiKqALTPIwl",
+    "name": "Wine Drunk",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:06:23Z",
+    "track_id": "79N1to1hoaLfirS5M8H88A",
+    "name": "Guess",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:10:34Z",
+    "track_id": "0fGwmoGoREXHqwHvcqptno",
+    "name": "Yellow Rose",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:13:22Z",
+    "track_id": "0YntQrZnw7z8J5pbQc1s2f",
+    "name": "Motorcycle",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.485,
+      "danceability": 0.467,
+      "valence": 0.487,
+      "acousticness": 0.659,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0356,
+      "tempo": 93.118,
+      "liveness": 0.0899,
+      "loudness": -6.277,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T01:19:45Z",
+    "track_id": "6b9NhCPBxW5zLQqGD1eDMG",
+    "name": "You're Never Around",
+    "artists": [
+      "Lake Street Dive"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:23:57Z",
+    "track_id": "3sXYULhZaeZSjScbf2E0KJ",
+    "name": "Linger",
+    "artists": [
+      "Lake Street Dive"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.744,
+      "danceability": 0.709,
+      "valence": 0.743,
+      "acousticness": 0.0278,
+      "instrumentalness": 8.76e-06,
+      "speechiness": 0.0292,
+      "tempo": 96.012,
+      "liveness": 0.116,
+      "loudness": -6.845,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-26T01:28:28Z",
+    "track_id": "0SIaQRxv2uyjjeWP8PV7uj",
+    "name": "Pair of Dice",
+    "artists": [
+      "Sierra Ferrell"
+    ],
+    "genres": [
+      "americana",
+      "bluegrass",
+      "alt country"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:33:23Z",
+    "track_id": "1QIf2cf9Nn3u2Zn1NoYTky",
+    "name": "Fools for the Fleeting",
+    "artists": [
+      "Katie Pruitt"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-26T01:36:31Z",
+    "track_id": "4QtsEj52kEsbCn2SgyKzlK",
+    "name": "Dreams",
+    "artists": [
+      "Allen Stone"
+    ],
+    "genres": [
+      "retro soul"
+    ],
+    "audio_features": null
   }
 ]
