@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-26T21:20:49Z",
+  "generated_at": "2026-10-27T00:38:16Z",
   "window": {
-    "plays_used": 140,
-    "plays_with_features": 86
+    "plays_used": 145,
+    "plays_with_features": 88
   },
   "totals": {
-    "plays": 140,
+    "plays": 145,
     "unique_artists": 77
   },
   "audio_features_mean": {
-    "energy": 0.5255,
-    "danceability": 0.5847,
-    "valence": 0.4612,
-    "acousticness": 0.3896,
-    "instrumentalness": 0.0452,
-    "speechiness": 0.1249
+    "energy": 0.5337,
+    "danceability": 0.5842,
+    "valence": 0.464,
+    "acousticness": 0.3811,
+    "instrumentalness": 0.0442,
+    "speechiness": 0.1237
   },
-  "tempo_mean_bpm": 113.28,
+  "tempo_mean_bpm": 112.99,
   "top_genres": [
     {
       "name": "alternative r&b",
@@ -96,9 +96,15 @@
     },
     {
       "date": "2026-10-26",
-      "energy": 0.6184,
-      "valence": 0.4952,
-      "plays": 40
+      "energy": 0.6472,
+      "valence": 0.4903,
+      "plays": 44
+    },
+    {
+      "date": "2026-10-27",
+      "energy": 0.867,
+      "valence": 0.72,
+      "plays": 1
     }
   ]
 }
