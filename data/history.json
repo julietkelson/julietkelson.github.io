@@ -2574,5 +2574,99 @@
       "loudness": -3.722,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-27T02:24:19Z",
+    "track_id": "1FGCxUInYBX9ZQy8cf8Uxv",
+    "name": "Australia",
+    "artists": [
+      "Jonas Brothers"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:27:09Z",
+    "track_id": "0DmTPymFPVxzG4Ji2ivOJP",
+    "name": "If I Had The Hand Of God",
+    "artists": [
+      "Julia Jacklin"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:31:00Z",
+    "track_id": "3dS2pJxdGvqTW4g5inn3JZ",
+    "name": "Covered In Mud",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:33:44Z",
+    "track_id": "0jpPAD7KcGHztk7SbBGTDz",
+    "name": "Holy Hell",
+    "artists": [
+      "True Mountain Laurel"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:37:12Z",
+    "track_id": "0OxG3KJ1GtzohL9O7cOT8c",
+    "name": "Hey Sarah Is It Gonna Rain Forever",
+    "artists": [
+      "This Is Lorelei"
+    ],
+    "genres": [
+      "alt country"
+    ],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:40:28Z",
+    "track_id": "2gQfzD8hAtfcUQgFhQdihN",
+    "name": "Yellow and Green",
+    "artists": [
+      "Slow Pulp"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:44:47Z",
+    "track_id": "68Jue5HmmY7ZygpiPiEKkd",
+    "name": "Brand New",
+    "artists": [
+      "Julia Jacklin"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:48:10Z",
+    "track_id": "1BNeebWyMKE93hGYHPUGzo",
+    "name": "Burn Me Blue",
+    "artists": [
+      "Remi Wolf"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-27T02:51:28Z",
+    "track_id": "2504XYM0mWWPEVMD3XlLje",
+    "name": "Watching Heaven Fall",
+    "artists": [
+      "This Is Lorelei"
+    ],
+    "genres": [
+      "alt country"
+    ],
+    "audio_features": null
   }
 ]

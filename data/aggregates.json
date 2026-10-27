@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-27T00:38:16Z",
+  "generated_at": "2026-10-27T05:36:52Z",
   "window": {
-    "plays_used": 145,
+    "plays_used": 154,
     "plays_with_features": 88
   },
   "totals": {
-    "plays": 145,
-    "unique_artists": 77
+    "plays": 154,
+    "unique_artists": 81
   },
   "audio_features_mean": {
     "energy": 0.5337,
@@ -23,12 +23,12 @@
       "count": 9
     },
     {
-      "name": "neo soul",
-      "count": 7
+      "name": "alt country",
+      "count": 8
     },
     {
-      "name": "alt country",
-      "count": 6
+      "name": "neo soul",
+      "count": 7
     },
     {
       "name": "r&b",
@@ -104,7 +104,7 @@
       "date": "2026-10-27",
       "energy": 0.867,
       "valence": 0.72,
-      "plays": 1
+      "plays": 10
     }
   ]
 }
