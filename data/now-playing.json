@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-27T16:24:58Z",
-  "played_at": "2026-10-27T02:51:28.304Z",
+  "fetched_at": "2026-10-27T20:50:47Z",
+  "played_at": "2026-10-27T20:39:12.045Z",
   "track": {
-    "id": "2504XYM0mWWPEVMD3XlLje",
-    "name": "Watching Heaven Fall",
+    "id": "5UJbgR4XF4y1DvbkxEqe8S",
+    "name": "Sports car",
     "artists": [
       {
-        "id": "0GmYGGZZIU8vHbI0bAXZun",
-        "name": "This Is Lorelei"
+        "id": "45dkTj5sMRSjrmBSBeiHym",
+        "name": "Tate McRae"
       }
     ],
     "album": {
-      "name": "The Singer in My Band",
-      "release_date": "2026-09-11",
-      "image": "https://i.scdn.co/image/ab67616d0000b273c456875e0df6d8195f4b5545"
+      "name": "So Close To What",
+      "release_date": "2025-02-20",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736c691022744f42565f6b546e"
     },
-    "duration_ms": 192370,
+    "duration_ms": 165045,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/2504XYM0mWWPEVMD3XlLje"
+      "spotify": "https://open.spotify.com/track/5UJbgR4XF4y1DvbkxEqe8S"
     }
   }
 }
