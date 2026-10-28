@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-28T17:24:47Z",
-  "played_at": "2026-10-28T16:09:18.551Z",
+  "fetched_at": "2026-10-28T21:49:55Z",
+  "played_at": "2026-10-28T18:07:39.775Z",
   "track": {
-    "id": "6wYWROzWXN6EpYwBuPMk7K",
-    "name": "Journey to the Sun - From the Film \"Journey to the Sun\"",
+    "id": "57JTFo58tDp0o9Rb05h7xE",
+    "name": "What About Flamingos?",
     "artists": [
       {
-        "id": "0hEcdz5VtLuc8c1zOI89kW",
-        "name": "Abigayle Oakley"
+        "id": "3nuc29fYGlQbIrwh4yrNWd",
+        "name": "Lake Street Dive"
       }
     ],
     "album": {
-      "name": "This Side of the Sun (Deluxe)",
-      "release_date": "2026-07-10",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b6e131b6ec0c800172f3d9ea"
+      "name": "What About Flamingos?",
+      "release_date": "2026-10-21",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737eb6590550c4bf340ee4316c"
     },
-    "duration_ms": 286226,
+    "duration_ms": 265900,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/6wYWROzWXN6EpYwBuPMk7K"
+      "spotify": "https://open.spotify.com/track/57JTFo58tDp0o9Rb05h7xE"
     }
   }
 }
