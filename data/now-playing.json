@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-28T00:08:43Z",
-  "played_at": "2026-10-27T20:39:12.045Z",
+  "fetched_at": "2026-10-28T05:41:00Z",
+  "played_at": "2026-10-28T03:17:02.300Z",
   "track": {
-    "id": "5UJbgR4XF4y1DvbkxEqe8S",
-    "name": "Sports car",
+    "id": "75pQBGZxBe4bDm8spb2OG6",
+    "name": "Lost One",
     "artists": [
       {
-        "id": "45dkTj5sMRSjrmBSBeiHym",
-        "name": "Tate McRae"
+        "id": "7gSjFKpVmDgC2MMsnN8CYq",
+        "name": "Jazmine Sullivan"
       }
     ],
     "album": {
-      "name": "So Close To What",
-      "release_date": "2025-02-20",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736c691022744f42565f6b546e"
+      "name": "Heaux Tales",
+      "release_date": "2021-01-08",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ec72c21593b04013cb2b65ab"
     },
-    "duration_ms": 165045,
-    "explicit": false,
+    "duration_ms": 178974,
+    "explicit": true,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/5UJbgR4XF4y1DvbkxEqe8S"
+      "spotify": "https://open.spotify.com/track/75pQBGZxBe4bDm8spb2OG6"
     }
   }
 }

@@ -2981,5 +2981,102 @@
       "loudness": -3.672,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-28T03:04:19Z",
+    "track_id": "2M9ro2krNb7nr7HSprkEgo",
+    "name": "Fast Car",
+    "artists": [
+      "Tracy Chapman"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.292,
+      "danceability": 0.711,
+      "valence": 0.194,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "speechiness": 0.037,
+      "tempo": 103.951,
+      "liveness": 0.131,
+      "loudness": -15.523,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-28T03:05:27Z",
+    "track_id": "2M9ro2krNb7nr7HSprkEgo",
+    "name": "Fast Car",
+    "artists": [
+      "Tracy Chapman"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.292,
+      "danceability": 0.711,
+      "valence": 0.194,
+      "acousticness": 0.313,
+      "instrumentalness": 0.0,
+      "speechiness": 0.037,
+      "tempo": 103.951,
+      "liveness": 0.131,
+      "loudness": -15.523,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-28T03:10:10Z",
+    "track_id": "0nnwn7LWHCAu09jfuH1xTA",
+    "name": "Slide",
+    "artists": [
+      "The Goo Goo Dolls"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.843,
+      "danceability": 0.395,
+      "valence": 0.481,
+      "acousticness": 0.00483,
+      "instrumentalness": 0.0,
+      "speechiness": 0.0374,
+      "tempo": 112.423,
+      "liveness": 0.0404,
+      "loudness": -4.476,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-28T03:14:02Z",
+    "track_id": "669Zz4glMcFwFl1BRltkXP",
+    "name": "Hate That I Love You",
+    "artists": [
+      "Rihanna",
+      "Ne-Yo"
+    ],
+    "genres": [],
+    "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-28T03:17:02Z",
+    "track_id": "75pQBGZxBe4bDm8spb2OG6",
+    "name": "Lost One",
+    "artists": [
+      "Jazmine Sullivan"
+    ],
+    "genres": [
+      "r&b"
+    ],
+    "audio_features": {
+      "energy": 0.453,
+      "danceability": 0.481,
+      "valence": 0.274,
+      "acousticness": 0.859,
+      "instrumentalness": 7.58e-05,
+      "speechiness": 0.0489,
+      "tempo": 102.186,
+      "liveness": 0.093,
+      "loudness": -5.315,
+      "source": "reccobeats"
+    }
   }
 ]
