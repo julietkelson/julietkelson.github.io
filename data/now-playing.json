@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-28T05:41:00Z",
-  "played_at": "2026-10-28T03:17:02.300Z",
+  "fetched_at": "2026-10-28T11:39:58Z",
+  "played_at": "2026-10-28T05:43:32.759Z",
   "track": {
-    "id": "75pQBGZxBe4bDm8spb2OG6",
-    "name": "Lost One",
+    "id": "3fnpMcMbhrep8wMIjKsNVS",
+    "name": "Like the Sea",
     "artists": [
       {
-        "id": "7gSjFKpVmDgC2MMsnN8CYq",
-        "name": "Jazmine Sullivan"
+        "id": "3DiDSECUqqY1AuBP8qtaIa",
+        "name": "Alicia Keys"
       }
     ],
     "album": {
-      "name": "Heaux Tales",
-      "release_date": "2021-01-08",
-      "image": "https://i.scdn.co/image/ab67616d0000b273ec72c21593b04013cb2b65ab"
+      "name": "The Element Of Freedom",
+      "release_date": "2009-12-15",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fe6a98e875958c7d7080584e"
     },
-    "duration_ms": 178974,
-    "explicit": true,
+    "duration_ms": 253133,
+    "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/75pQBGZxBe4bDm8spb2OG6"
+      "spotify": "https://open.spotify.com/track/3fnpMcMbhrep8wMIjKsNVS"
     }
   }
 }
