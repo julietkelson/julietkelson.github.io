@@ -3347,5 +3347,26 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-10-28T18:08:24Z",
+    "track_id": "6xsJn5g4oc2GYax11iFwCS",
+    "name": "I Want You Back",
+    "artists": [
+      "Lake Street Dive"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.317,
+      "danceability": 0.754,
+      "valence": 0.53,
+      "acousticness": 0.11,
+      "instrumentalness": 1.7e-05,
+      "speechiness": 0.0684,
+      "tempo": 119.412,
+      "liveness": 0.0483,
+      "loudness": -8.931,
+      "source": "reccobeats"
+    }
   }
 ]

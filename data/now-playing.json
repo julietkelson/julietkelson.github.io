@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-29T01:20:12Z",
-  "played_at": "2026-10-28T18:07:39.775Z",
+  "fetched_at": "2026-10-29T07:18:50Z",
+  "played_at": "2026-10-28T18:08:24.491Z",
   "track": {
-    "id": "57JTFo58tDp0o9Rb05h7xE",
-    "name": "What About Flamingos?",
+    "id": "6xsJn5g4oc2GYax11iFwCS",
+    "name": "I Want You Back",
     "artists": [
       {
         "id": "3nuc29fYGlQbIrwh4yrNWd",
@@ -11,14 +11,14 @@
       }
     ],
     "album": {
-      "name": "What About Flamingos?",
-      "release_date": "2026-10-21",
-      "image": "https://i.scdn.co/image/ab67616d0000b2737eb6590550c4bf340ee4316c"
+      "name": "Fun Machine EP",
+      "release_date": "2012",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bae4025f4def60be016421aa"
     },
-    "duration_ms": 265900,
+    "duration_ms": 259265,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/57JTFo58tDp0o9Rb05h7xE"
+      "spotify": "https://open.spotify.com/track/6xsJn5g4oc2GYax11iFwCS"
     }
   }
 }
