@@ -3368,5 +3368,49 @@
       "loudness": -8.931,
       "source": "reccobeats"
     }
+  },
+  {
+    "logged_at": "2026-10-29T14:34:09Z",
+    "track_id": "6m3ZXs465Rt4Tc1iiLktXL",
+    "name": "Broad Shoulders (feat. Chance the Rapper)",
+    "artists": [
+      "Taylor Bennett",
+      "Ludlow",
+      "Chance the Rapper"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.524,
+      "danceability": 0.6,
+      "valence": 0.449,
+      "acousticness": 0.822,
+      "instrumentalness": 3.29e-05,
+      "speechiness": 0.146,
+      "tempo": 127.5,
+      "liveness": 0.104,
+      "loudness": -9.297,
+      "source": "reccobeats"
+    }
+  },
+  {
+    "logged_at": "2026-10-29T17:23:21Z",
+    "track_id": "7zpnpMyWvmuWziWVSyaenl",
+    "name": "Players Holiday",
+    "artists": [
+      "Donnie Trumpet"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.538,
+      "danceability": 0.485,
+      "valence": 0.532,
+      "acousticness": 0.23,
+      "instrumentalness": 0.000389,
+      "speechiness": 0.0282,
+      "tempo": 82.088,
+      "liveness": 0.156,
+      "loudness": -6.797,
+      "source": "reccobeats"
+    }
   }
 ]
