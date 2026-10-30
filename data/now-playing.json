@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-10-30T16:27:09Z",
-  "played_at": "2026-10-29T17:23:21.904Z",
+  "fetched_at": "2026-10-30T20:59:11Z",
+  "played_at": "2026-10-30T19:20:27.233Z",
   "track": {
-    "id": "7zpnpMyWvmuWziWVSyaenl",
-    "name": "Players Holiday",
+    "id": "3z3eW2j9DzndY32ph8clrg",
+    "name": "Didn't I",
     "artists": [
       {
-        "id": "7qbQOln6DZHcPm6l94PXU5",
-        "name": "Donnie Trumpet"
+        "id": "0wovYvR7eYIDf61MWmxjX9",
+        "name": "Liam Kazar"
       }
     ],
     "album": {
-      "name": "Donnie Trumpet & Emilio Chestevez",
-      "release_date": "2013-07-17",
-      "image": "https://i.scdn.co/image/ab67616d0000b2736e9b92014f6527222fb5b293"
+      "name": "Pilot Light",
+      "release_date": "2025-11-07",
+      "image": "https://i.scdn.co/image/ab67616d0000b27375cddf77145cb95e18a6d669"
     },
-    "duration_ms": 198170,
+    "duration_ms": 300898,
     "explicit": false,
     "external_urls": {
-      "spotify": "https://open.spotify.com/track/7zpnpMyWvmuWziWVSyaenl"
+      "spotify": "https://open.spotify.com/track/3z3eW2j9DzndY32ph8clrg"
     }
   }
 }
