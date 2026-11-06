@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-06T16:11:09Z",
+  "generated_at": "2026-11-06T21:30:45Z",
   "window": {
-    "plays_used": 190,
-    "plays_with_features": 105
+    "plays_used": 191,
+    "plays_with_features": 106
   },
   "totals": {
-    "plays": 190,
-    "unique_artists": 97
+    "plays": 191,
+    "unique_artists": 98
   },
   "audio_features_mean": {
-    "energy": 0.5485,
-    "danceability": 0.5728,
-    "valence": 0.4507,
-    "acousticness": 0.3617,
+    "energy": 0.5502,
+    "danceability": 0.5751,
+    "valence": 0.4522,
+    "acousticness": 0.3587,
     "instrumentalness": 0.0339,
-    "speechiness": 0.1123
+    "speechiness": 0.1117
   },
-  "tempo_mean_bpm": 114.67,
+  "tempo_mean_bpm": 114.72,
   "top_genres": [
     {
       "name": "r&b",
@@ -111,6 +111,12 @@
       "energy": 0.531,
       "valence": 0.4905,
       "plays": 2
+    },
+    {
+      "date": "2026-11-06",
+      "energy": 0.732,
+      "valence": 0.612,
+      "plays": 1
     }
   ]
 }

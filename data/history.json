@@ -3239,5 +3239,26 @@
     ],
     "genres": [],
     "audio_features": null
+  },
+  {
+    "logged_at": "2026-11-06T15:33:31Z",
+    "track_id": "67zyq8IksPvk60j5MeeuUV",
+    "name": "Came Out of a Lady",
+    "artists": [
+      "Rubblebucket"
+    ],
+    "genres": [],
+    "audio_features": {
+      "energy": 0.732,
+      "danceability": 0.814,
+      "valence": 0.612,
+      "acousticness": 0.0368,
+      "instrumentalness": 0.0379,
+      "speechiness": 0.0525,
+      "tempo": 119.972,
+      "liveness": 0.0809,
+      "loudness": -6.615,
+      "source": "reccobeats"
+    }
   }
 ]
