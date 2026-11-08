@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-08T14:50:58Z",
+  "generated_at": "2026-11-08T19:14:24Z",
   "window": {
-    "plays_used": 183,
-    "plays_with_features": 100
+    "plays_used": 179,
+    "plays_with_features": 99
   },
   "totals": {
-    "plays": 183,
-    "unique_artists": 92
+    "plays": 179,
+    "unique_artists": 89
   },
   "audio_features_mean": {
-    "energy": 0.5551,
-    "danceability": 0.5763,
-    "valence": 0.4533,
-    "acousticness": 0.3545,
-    "instrumentalness": 0.0356,
-    "speechiness": 0.1133
+    "energy": 0.5552,
+    "danceability": 0.5772,
+    "valence": 0.4522,
+    "acousticness": 0.3519,
+    "instrumentalness": 0.0359,
+    "speechiness": 0.1134
   },
-  "tempo_mean_bpm": 116.6,
+  "tempo_mean_bpm": 116.93,
   "top_genres": [
     {
       "name": "r&b",
@@ -35,16 +35,16 @@
       "count": 5
     },
     {
-      "name": "neo soul",
-      "count": 5
+      "name": "bedroom pop",
+      "count": 4
     }
   ],
   "daily_series": [
     {
       "date": "2026-10-09",
-      "energy": 0.5204,
-      "valence": 0.4705,
-      "plays": 13
+      "energy": 0.5166,
+      "valence": 0.458,
+      "plays": 9
     },
     {
       "date": "2026-10-10",
