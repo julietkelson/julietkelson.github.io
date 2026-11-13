@@ -1,24 +1,13 @@
 {
-  "fetched_at": "2026-11-13T10:04:29Z",
-  "played_at": "2026-11-06T15:33:31.537Z",
+  "fetched_at": "2026-11-13T17:41:03Z",
+  "played_at": "2026-11-06T15:33:31Z",
   "track": {
     "id": "67zyq8IksPvk60j5MeeuUV",
     "name": "Came Out of a Lady",
     "artists": [
       {
-        "id": "6xriZDSK3wPXhOoZXr9fzF",
         "name": "Rubblebucket"
       }
-    ],
-    "album": {
-      "name": "Triangular Daisies EP",
-      "release_date": "2010-10-19",
-      "image": "https://i.scdn.co/image/ab67616d0000b273f8765585367c6b489d2e0c3e"
-    },
-    "duration_ms": 260191,
-    "explicit": false,
-    "external_urls": {
-      "spotify": "https://open.spotify.com/track/67zyq8IksPvk60j5MeeuUV"
-    }
+    ]
   }
 }
