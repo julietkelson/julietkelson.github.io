@@ -1,50 +1,5 @@
 [
   {
-    "logged_at": "2026-10-16T17:01:38Z",
-    "track_id": "3w04cXVTLNvkl6foI4K1ze",
-    "name": "Pass the Vibes",
-    "artists": [
-      "Nico Segal"
-    ],
-    "genres": [],
-    "audio_features": {
-      "energy": 0.45,
-      "danceability": 0.802,
-      "valence": 0.305,
-      "acousticness": 0.734,
-      "instrumentalness": 0.544,
-      "speechiness": 0.064,
-      "tempo": 140.022,
-      "liveness": 0.0919,
-      "loudness": -9.741,
-      "source": "reccobeats"
-    }
-  },
-  {
-    "logged_at": "2026-10-16T19:28:52Z",
-    "track_id": "6jNrjFCd9h9jBdGomb7LRN",
-    "name": "Open Shut Them",
-    "artists": [
-      "Super Simple Songs"
-    ],
-    "genres": [
-      "children's music",
-      "lullaby"
-    ],
-    "audio_features": {
-      "energy": 0.19,
-      "danceability": 0.776,
-      "valence": 0.372,
-      "acousticness": 0.528,
-      "instrumentalness": 4.38e-05,
-      "speechiness": 0.0449,
-      "tempo": 109.807,
-      "liveness": 0.172,
-      "loudness": -12.174,
-      "source": "reccobeats"
-    }
-  },
-  {
     "logged_at": "2026-10-22T01:55:25Z",
     "track_id": "3clc4Zg6lRMkZBt1DZXiVv",
     "name": "Garganta Profunda",
