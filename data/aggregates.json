@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T05:28:24Z",
+  "generated_at": "2026-11-24T16:14:50Z",
   "window": {
-    "plays_used": 214,
+    "plays_used": 212,
     "plays_with_features": 60
   },
   "totals": {
-    "plays": 214,
+    "plays": 212,
     "unique_artists": 69
   },
   "audio_features_mean": {
@@ -44,7 +44,7 @@
       "date": "2026-10-25",
       "energy": 0.5715,
       "valence": 0.5142,
-      "plays": 34
+      "plays": 32
     },
     {
       "date": "2026-10-26",
