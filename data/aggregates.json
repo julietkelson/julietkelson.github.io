@@ -1,56 +1,50 @@
 {
-  "generated_at": "2026-11-24T16:14:50Z",
+  "generated_at": "2026-11-25T00:52:05Z",
   "window": {
-    "plays_used": 212,
-    "plays_with_features": 60
+    "plays_used": 173,
+    "plays_with_features": 38
   },
   "totals": {
-    "plays": 212,
-    "unique_artists": 69
+    "plays": 173,
+    "unique_artists": 60
   },
   "audio_features_mean": {
-    "energy": 0.5952,
-    "danceability": 0.5639,
-    "valence": 0.4829,
-    "acousticness": 0.2801,
-    "instrumentalness": 0.0044,
-    "speechiness": 0.0849
+    "energy": 0.6089,
+    "danceability": 0.5672,
+    "valence": 0.4647,
+    "acousticness": 0.273,
+    "instrumentalness": 0.0047,
+    "speechiness": 0.0691
   },
-  "tempo_mean_bpm": 116.97,
+  "tempo_mean_bpm": 114.66,
   "top_genres": [
     {
-      "name": "r&b",
-      "count": 9
-    },
-    {
       "name": "alt country",
-      "count": 8
+      "count": 7
     },
     {
       "name": "alternative r&b",
-      "count": 8
-    },
-    {
-      "name": "americana",
       "count": 5
     },
     {
-      "name": "bedroom pop",
+      "name": "r&b",
+      "count": 5
+    },
+    {
+      "name": "americana",
+      "count": 4
+    },
+    {
+      "name": "bluegrass",
       "count": 4
     }
   ],
   "daily_series": [
     {
-      "date": "2026-10-25",
-      "energy": 0.5715,
-      "valence": 0.5142,
-      "plays": 32
-    },
-    {
       "date": "2026-10-26",
       "energy": 0.6472,
       "valence": 0.4903,
-      "plays": 44
+      "plays": 37
     },
     {
       "date": "2026-10-27",
