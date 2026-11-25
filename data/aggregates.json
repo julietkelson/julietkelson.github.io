@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-25T00:52:05Z",
+  "generated_at": "2026-11-25T09:27:24Z",
   "window": {
-    "plays_used": 173,
-    "plays_with_features": 38
+    "plays_used": 162,
+    "plays_with_features": 36
   },
   "totals": {
-    "plays": 173,
-    "unique_artists": 60
+    "plays": 162,
+    "unique_artists": 58
   },
   "audio_features_mean": {
-    "energy": 0.6089,
-    "danceability": 0.5672,
-    "valence": 0.4647,
-    "acousticness": 0.273,
-    "instrumentalness": 0.0047,
-    "speechiness": 0.0691
+    "energy": 0.6086,
+    "danceability": 0.566,
+    "valence": 0.4564,
+    "acousticness": 0.2691,
+    "instrumentalness": 0.005,
+    "speechiness": 0.0711
   },
-  "tempo_mean_bpm": 114.66,
+  "tempo_mean_bpm": 115.77,
   "top_genres": [
     {
       "name": "alt country",
-      "count": 7
+      "count": 6
     },
     {
       "name": "alternative r&b",
@@ -32,19 +32,19 @@
     },
     {
       "name": "americana",
-      "count": 4
+      "count": 3
     },
     {
       "name": "bluegrass",
-      "count": 4
+      "count": 3
     }
   ],
   "daily_series": [
     {
       "date": "2026-10-26",
-      "energy": 0.6472,
-      "valence": 0.4903,
-      "plays": 37
+      "energy": 0.6554,
+      "valence": 0.4591,
+      "plays": 26
     },
     {
       "date": "2026-10-27",
