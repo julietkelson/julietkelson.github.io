@@ -1,27 +1,23 @@
 {
-  "generated_at": "2026-11-27T02:58:22Z",
+  "generated_at": "2026-11-27T11:59:40Z",
   "window": {
-    "plays_used": 110,
-    "plays_with_features": 15
+    "plays_used": 104,
+    "plays_with_features": 10
   },
   "totals": {
-    "plays": 110,
-    "unique_artists": 28
+    "plays": 104,
+    "unique_artists": 22
   },
   "audio_features_mean": {
-    "energy": 0.6029,
-    "danceability": 0.5803,
-    "valence": 0.4536,
-    "acousticness": 0.2569,
-    "instrumentalness": 0.0078,
-    "speechiness": 0.0677
+    "energy": 0.6534,
+    "danceability": 0.5664,
+    "valence": 0.5046,
+    "acousticness": 0.2067,
+    "instrumentalness": 0.0117,
+    "speechiness": 0.0594
   },
-  "tempo_mean_bpm": 124.48,
+  "tempo_mean_bpm": 131.26,
   "top_genres": [
-    {
-      "name": "r&b",
-      "count": 2
-    },
     {
       "name": "classic rock",
       "count": 1
@@ -31,20 +27,24 @@
       "count": 1
     },
     {
-      "name": "neo soul",
+      "name": "pop punk",
       "count": 1
     },
     {
-      "name": "pop punk",
+      "name": "soft rock",
+      "count": 1
+    },
+    {
+      "name": "yacht rock",
       "count": 1
     }
   ],
   "daily_series": [
     {
       "date": "2026-10-28",
-      "energy": 0.6041,
-      "valence": 0.4343,
-      "plays": 24
+      "energy": 0.6771,
+      "valence": 0.4933,
+      "plays": 18
     },
     {
       "date": "2026-10-29",
