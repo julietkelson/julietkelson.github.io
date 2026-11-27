@@ -1,51 +1,24 @@
 {
-  "generated_at": "2026-11-27T11:59:40Z",
+  "generated_at": "2026-11-27T21:03:28Z",
   "window": {
-    "plays_used": 104,
-    "plays_with_features": 10
+    "plays_used": 86,
+    "plays_with_features": 3
   },
   "totals": {
-    "plays": 104,
-    "unique_artists": 22
+    "plays": 86,
+    "unique_artists": 8
   },
   "audio_features_mean": {
-    "energy": 0.6534,
-    "danceability": 0.5664,
-    "valence": 0.5046,
-    "acousticness": 0.2067,
-    "instrumentalness": 0.0117,
-    "speechiness": 0.0594
+    "energy": 0.598,
+    "danceability": 0.633,
+    "valence": 0.531,
+    "acousticness": 0.3629,
+    "instrumentalness": 0.0128,
+    "speechiness": 0.0756
   },
-  "tempo_mean_bpm": 131.26,
-  "top_genres": [
-    {
-      "name": "classic rock",
-      "count": 1
-    },
-    {
-      "name": "emo",
-      "count": 1
-    },
-    {
-      "name": "pop punk",
-      "count": 1
-    },
-    {
-      "name": "soft rock",
-      "count": 1
-    },
-    {
-      "name": "yacht rock",
-      "count": 1
-    }
-  ],
+  "tempo_mean_bpm": 109.85,
+  "top_genres": [],
   "daily_series": [
-    {
-      "date": "2026-10-28",
-      "energy": 0.6771,
-      "valence": 0.4933,
-      "plays": 18
-    },
     {
       "date": "2026-10-29",
       "energy": 0.531,
